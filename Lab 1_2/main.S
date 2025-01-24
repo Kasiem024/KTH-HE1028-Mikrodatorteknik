@@ -123,15 +123,73 @@ main:   li a0, PBEN+PAEN    // Prepare to turn on GPIOB... Load into a0 the sum 
 
 # -------------------------------------------------------------
 
-1:      li a0, GPIOA        // Prepare to read GPIOA... Load the base address of GPIOA into a0. We're about to read the input values from the "kitchen" (GPIOA).
-        call gpiois         // ...and get the value! Call the gpiois subroutine to read the input status of GPIOA. The input values will be stored in a1.
-        srli a1,a1,5       // ...shift it down 5 steps... Shift the value in a1 (input status) right by 5 bits. This moves the input value of pin 5 to the least significant bit position. We are isolating the values read from pin 5, 6, and 7.
-        andi a1,a1,0x07     // ...mask out 3 lsb... Perform a bitwise AND between a1 and the value 7 (binary 0111). This keeps only the 3 least significant bits (representing the input values of pins 5, 6, and 7, which are now in the position of bits 0, 1 and 2).
+.equ DELAY_COUNT, 10000000
 
-        li a0, GPIOB        // Prepare to write GPIOB... Load the base address of GPIOB into a0. We're now going to write to the "living room" (GPIOB).
-        li a2, 0x07         // ...the 3 lsb... Load the value 7 (binary 0111) into a2. This will be used to target the 3 least significant bits (pins 0, 1, and 2) of GPIOB.
-        call gpiobo         // ...and write the new value! Call the gpiobo subroutine to write the value in a1 (which now contains the input values from GPIOA pins 5, 6, and 7) to the corresponding pins (0, 1, and 2) of GPIOB.
-         
-2:      j 1b                // Repeat forever Jump back to label '1b'. This creates an infinite loop where the program continuously reads the input from GPIOA pins 5, 6, and 7 and writes those values to GPIOB pins 0, 1, and 2.
+# Definiera mönster för varje sekvens
+.section .rodata
+sequences:
+    .byte 0b001, 0b010, 0b100, 0b000
+    .byte 0b100, 0b010, 0b001, 0b000
+    .byte 0b110, 0b011, 0b000, 0b111
+    .byte 0b101, 0b010, 0b111, 0b000
+    .byte 0b011, 0b110, 0b111, 0b000
+    .byte 0b111, 0b100, 0b001, 0b000
+    .byte 0b000, 0b111, 0b010, 0b001
+    .byte 0b100, 0b000, 0b111, 0b010
+
+.section .text
+
+main_loop:
+    # Läs av GPIOA för att få status på mikrobrytarna
+    li a0, GPIOA        // Prepare to read GPIOA...
+    call gpiois         // ...and get the value!
+    srli a1,a1,5        // ...shift it down 5 steps...
+    andi a1,a1,0x07     // ...mask out 3 lsb...
+    
+    # Läs av mikrobrytare 4 för att avgöra om sekvensen ska inverteras
+    srli t5, a1, 8        # Skifta a1 8 steg åt höger för att flytta bit 8 till bit 0
+    andi t5, t5, 0x1      # Maskera ut alla bitar förutom bit 0 - nu innehåller t5 0 om mikrobrytare 4 är av, 1 om den är på
+
+    # Beräkna adressen till den valda sekvensen i minnet
+    slli t0, t0, 2        # Multiplicera sekvensnumret (t0) med 4 (eftersom varje sekvens består av 4 bytes)
+    la t1, sequences      # Ladda basadressen för sekvens-tabellen (sequences) till t1
+    add t1, t1, t0        # Addera offseten (t0) till basadressen (t1) - nu innehåller t1 adressen till den valda sekvensens början
+
+    # Nollställ mönsterräknaren
+    li t2, 0              # Sätt t2 till 0 (t2 kommer att räkna vilket mönster i sekvensen som ska visas)
+
+display_pattern:
+    # Ladda ett mönster från minnet
+    lbu a1, (t1)          # Ladda en byte (ett mönster) från minnesadressen i t1 till a1 (osignerad laddning)
+
+    # Invertera mönstret om mikrobrytare 4 är på
+    beq t5, zero, normal_display # Om t5 är 0 (mikrobrytare 4 av), hoppa till normal_display
+
+    # Utför invertering om mikrobrytare 4 är på
+    li t6, 0b111          # Ladda 0b111 (binärt) till t6 - detta kommer att användas för att invertera mönstret
+    xor a1, a1, t6        # Utför XOR-operation mellan a1 (mönstret) och t6 (0b111) - detta inverterar mönstret (1 blir 0, 0 blir 1)
+
+normal_display:
+    # Skriv mönstret till GPIOB (lysdioderna)
+    li a0, GPIOB        // Prepare to write GPIOB...
+    li a2, 0x07         // ...the 3 lsb...
+    call gpiobo         // ...and write the new value!
+
+    # Fördröjningsloop (vänta ca 0.25 sekunder)
+    li t3, DELAY_COUNT    # Ladda det fördefinierade fördröjningsvärdet till t3
+delay:
+    addi t3, t3, -1        # Minska t3 med 1
+    bnez t3, delay        # Om t3 inte är noll, hoppa tillbaka till delay (fortsätt vänta)
+
+    # Förbered för nästa mönster
+    addi t1, t1, 1        # Öka minnesadressen i t1 med 1 (peka på nästa mönster i sekvensen)
+    addi t2, t2, 1        # Öka mönsterräknaren (t2) med 1
+
+    # Kontrollera om alla mönster i sekvensen har visats
+    li t4, 4              # Ladda värdet 4 till t4 (eftersom varje sekvens har 4 mönster)
+    blt t2, t4, display_pattern # Om t2 är mindre än t4 (inte alla mönster har visats), hoppa tillbaka till display_pattern
+
+    # Om alla mönster i sekvensen har visats, börja om från huvudloopen (main_loop)
+    j main_loop           # Hoppa tillbaka till main_loop
 
 .end
