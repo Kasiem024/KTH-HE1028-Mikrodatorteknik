@@ -454,7 +454,6 @@ start:
   la t0, state           # Ladda räknarens tillståndsadress.
   li t1, 1               # Sätt räknaren till aktiv (1).
   sw t1, 0(t0)           # Spara det nya tillståndet.
-
 1:
   ret
 
