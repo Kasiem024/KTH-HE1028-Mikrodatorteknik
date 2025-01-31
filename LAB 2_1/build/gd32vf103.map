@@ -1678,7 +1678,7 @@ END GROUP
 .ialign         0x0000000008000254        0x0
                 [!provide]                        PROVIDE (_ilm = .)
 
-.text           0x0000000008000280      0xab2
+.text           0x0000000008000280      0xa7e
  *(.rodata .rodata.*)
  .rodata._exit.str1.4
                 0x0000000008000280       0x1f build/_exit.o
@@ -1726,7 +1726,7 @@ END GROUP
  *fill*         0x0000000008000602        0x2 
  .text.irq      0x0000000008000604       0x72 build/entry.o
                 0x0000000008000604                irq_entry
- .text          0x0000000008000676      0x3d8 build/main.o
+ .text          0x0000000008000676      0x3a4 build/main.o
                 0x00000000080006e8                t5omsi
                 0x000000000800071a                t5expq
                 0x000000000800072a                colinit
@@ -1736,85 +1736,85 @@ END GROUP
                 0x000000000800080a                l88mem
                 0x000000000800081e                keyinit
                 0x0000000008000850                keyscan
-                0x000000000800095a                main
-                0x0000000008000a22                start
-                0x0000000008000a38                stop
- .text.atexit   0x0000000008000a4e       0x10 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atexit.o)
-                0x0000000008000a4e                atexit
- .text.exit     0x0000000008000a5e       0x36 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-exit.o)
-                0x0000000008000a5e                exit
+                0x0000000008000926                main
+                0x00000000080009ee                start
+                0x0000000008000a04                stop
+ .text.atexit   0x0000000008000a1a       0x10 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atexit.o)
+                0x0000000008000a1a                atexit
+ .text.exit     0x0000000008000a2a       0x36 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-exit.o)
+                0x0000000008000a2a                exit
  .text.__libc_fini_array
-                0x0000000008000a94       0x38 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-fini.o)
-                0x0000000008000a94                __libc_fini_array
+                0x0000000008000a60       0x38 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-fini.o)
+                0x0000000008000a60                __libc_fini_array
  .text.__libc_init_array
-                0x0000000008000acc       0x6a c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-init.o)
-                0x0000000008000acc                __libc_init_array
- .text          0x0000000008000b36       0x16 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcpy-asm.o)
-                0x0000000008000b36                memcpy
- .text.write    0x0000000008000b4c       0x18 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-syswrite.o)
-                0x0000000008000b4c                write
+                0x0000000008000a98       0x6a c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-init.o)
+                0x0000000008000a98                __libc_init_array
+ .text          0x0000000008000b02       0x16 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-memcpy-asm.o)
+                0x0000000008000b02                memcpy
+ .text.write    0x0000000008000b18       0x18 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-syswrite.o)
+                0x0000000008000b18                write
  .text._write_r
-                0x0000000008000b64       0x3a c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-writer.o)
-                0x0000000008000b64                _write_r
+                0x0000000008000b30       0x3a c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-writer.o)
+                0x0000000008000b30                _write_r
  .text.__register_exitproc
-                0x0000000008000b9e       0x8c c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__atexit.o)
-                0x0000000008000b9e                __register_exitproc
+                0x0000000008000b6a       0x8c c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__atexit.o)
+                0x0000000008000b6a                __register_exitproc
  .text.__call_exitprocs
-                0x0000000008000c2a       0xc8 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__call_atexit.o)
-                0x0000000008000c2a                __call_exitprocs
- .text._write   0x0000000008000cf2       0x34 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libgloss_nano.a(sys_write.o)
-                0x0000000008000cf2                _write
- .text.__errno  0x0000000008000d26        0xc c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-errno.o)
-                0x0000000008000d26                __errno
+                0x0000000008000bf6       0xc8 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__call_atexit.o)
+                0x0000000008000bf6                __call_exitprocs
+ .text._write   0x0000000008000cbe       0x34 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libgloss_nano.a(sys_write.o)
+                0x0000000008000cbe                _write
+ .text.__errno  0x0000000008000cf2        0xc c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-errno.o)
+                0x0000000008000cf2                __errno
  *(.gnu.linkonce.t.*)
 
 .sdata2._global_impure_ptr
-                0x0000000008000d34        0x4
+                0x0000000008000d00        0x4
  .sdata2._global_impure_ptr
-                0x0000000008000d34        0x4 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
-                0x0000000008000d34                _global_impure_ptr
+                0x0000000008000d00        0x4 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
+                0x0000000008000d00                _global_impure_ptr
 
-.rela.dyn       0x0000000008000d38        0x0
+.rela.dyn       0x0000000008000d04        0x0
  .rela.text.handle_trap
-                0x0000000008000d38        0x0 build/system_gd32vf103.o
- .rela.init     0x0000000008000d38        0x0 build/system_gd32vf103.o
+                0x0000000008000d04        0x0 build/system_gd32vf103.o
+ .rela.init     0x0000000008000d04        0x0 build/system_gd32vf103.o
  .rela.text.trap
-                0x0000000008000d38        0x0 build/system_gd32vf103.o
+                0x0000000008000d04        0x0 build/system_gd32vf103.o
  .rela.text.__libc_fini_array
-                0x0000000008000d38        0x0 build/system_gd32vf103.o
+                0x0000000008000d04        0x0 build/system_gd32vf103.o
  .rela.data.impure_data
-                0x0000000008000d38        0x0 build/system_gd32vf103.o
+                0x0000000008000d04        0x0 build/system_gd32vf103.o
  .rela.text.__libc_init_array
-                0x0000000008000d38        0x0 build/system_gd32vf103.o
+                0x0000000008000d04        0x0 build/system_gd32vf103.o
  .rela.text._write_r
-                0x0000000008000d38        0x0 build/system_gd32vf103.o
+                0x0000000008000d04        0x0 build/system_gd32vf103.o
  .rela.text.__register_exitproc
-                0x0000000008000d38        0x0 build/system_gd32vf103.o
+                0x0000000008000d04        0x0 build/system_gd32vf103.o
 
 .fini
  *(SORT_NONE(.fini))
-                0x0000000008000d38                . = ALIGN (0x4)
+                0x0000000008000d04                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__etext = .)
                 [!provide]                        PROVIDE (_etext = .)
                 [!provide]                        PROVIDE (etext = .)
                 [!provide]                        PROVIDE (_eilm = .)
 
-.preinit_array  0x0000000008000d38        0x0
-                0x0000000008000d38                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008000d04        0x0
+                0x0000000008000d04                PROVIDE (__preinit_array_start = .)
  *(.preinit_array)
-                0x0000000008000d38                PROVIDE (__preinit_array_end = .)
+                0x0000000008000d04                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000008000d38        0x0
-                0x0000000008000d38                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008000d04        0x0
+                0x0000000008000d04                PROVIDE (__init_array_start = .)
  *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
  *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
-                0x0000000008000d38                PROVIDE (__init_array_end = .)
+                0x0000000008000d04                PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000008000d38        0x0
-                0x0000000008000d38                PROVIDE (__fini_array_start = .)
+.fini_array     0x0000000008000d04        0x0
+                0x0000000008000d04                PROVIDE (__fini_array_start = .)
  *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
  *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
-                0x0000000008000d38                PROVIDE (__fini_array_end = .)
+                0x0000000008000d04                PROVIDE (__fini_array_end = .)
 
 .ctors
  *crtbegin.o(.ctors)
@@ -1829,66 +1829,66 @@ END GROUP
  *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x0000000008000d38                . = ALIGN (0x4)
+                0x0000000008000d04                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (_eilm = .)
 
-.lalign         0x0000000008000d38        0x0
-                0x0000000008000d38                . = ALIGN (0x4)
-                0x0000000008000d38                PROVIDE (_data_lma = .)
+.lalign         0x0000000008000d04        0x0
+                0x0000000008000d04                . = ALIGN (0x4)
+                0x0000000008000d04                PROVIDE (_data_lma = .)
 
-.dalign         0x0000000020000000        0x0 load address 0x0000000008000d38
+.dalign         0x0000000020000000        0x0 load address 0x0000000008000d04
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                PROVIDE (_data = .)
 
-.data           0x0000000020000000       0x90 load address 0x0000000008000d38
+.data           0x0000000020000000       0x88 load address 0x0000000008000d04
  *(.rdata)
  *(.gnu.linkonce.r.*)
  *(.data .data.*)
- .data          0x0000000020000000       0x23 build/main.o
- *fill*         0x0000000020000023        0x1 
+ .data          0x0000000020000000       0x1a build/main.o
+ *fill*         0x000000002000001a        0x2 
  .data.impure_data
-                0x0000000020000024       0x60 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
+                0x000000002000001c       0x60 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
  *(.gnu.linkonce.d.*)
-                0x0000000020000088                . = ALIGN (0x8)
- *fill*         0x0000000020000084        0x4 
-                0x0000000020000888                PROVIDE (__global_pointer$ = (. + 0x800))
+                0x0000000020000080                . = ALIGN (0x8)
+ *fill*         0x000000002000007c        0x4 
+                0x0000000020000880                PROVIDE (__global_pointer$ = (. + 0x800))
  *(.sdata .sdata.*)
  .sdata._impure_ptr
-                0x0000000020000088        0x4 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
-                0x0000000020000088                _impure_ptr
+                0x0000000020000080        0x4 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-impure.o)
+                0x0000000020000080                _impure_ptr
  *(.gnu.linkonce.s.*)
-                0x0000000020000090                . = ALIGN (0x8)
- *fill*         0x000000002000008c        0x4 
+                0x0000000020000088                . = ALIGN (0x8)
+ *fill*         0x0000000020000084        0x4 
  *(.srodata.cst16)
  *(.srodata.cst8)
  *(.srodata.cst4)
  *(.srodata.cst2)
  *(.srodata .srodata.*)
-                0x0000000020000090                . = ALIGN (0x4)
-                0x0000000020000090                PROVIDE (_edata = .)
+                0x0000000020000088                . = ALIGN (0x4)
+                0x0000000020000088                PROVIDE (_edata = .)
                 [!provide]                        PROVIDE (edata = .)
                 [!provide]                        PROVIDE (_fbss = .)
-                0x0000000020000090                PROVIDE (__bss_start = .)
+                0x0000000020000088                PROVIDE (__bss_start = .)
 
-.bss            0x0000000020000090       0x94
+.bss            0x0000000020000088       0x94
  *(.sbss*)
  .sbss._global_atexit
-                0x0000000020000090        0x4 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__call_atexit.o)
-                0x0000000020000090                _global_atexit
+                0x0000000020000088        0x4 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__call_atexit.o)
+                0x0000000020000088                _global_atexit
  *(.gnu.linkonce.sb.*)
  *(.bss .bss.*)
  .bss._global_atexit0
-                0x0000000020000094       0x8c c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__atexit.o)
+                0x000000002000008c       0x8c c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-__atexit.o)
  *(.gnu.linkonce.b.*)
  *(COMMON)
- COMMON         0x0000000020000120        0x4 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-reent.o)
-                0x0000000020000120                errno
-                0x0000000020000124                . = ALIGN (0x4)
-                0x0000000020000128                . = ALIGN (0x8)
-                0x0000000020000128                PROVIDE (_end = .)
+ COMMON         0x0000000020000118        0x4 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-reent.o)
+                0x0000000020000118                errno
+                0x000000002000011c                . = ALIGN (0x4)
+                0x0000000020000120                . = ALIGN (0x8)
+                0x0000000020000120                PROVIDE (_end = .)
                 [!provide]                        PROVIDE (end = .)
 
-.stack          0x0000000020007000     0x1000 load address 0x0000000020000124
+.stack          0x0000000020007000     0x1000 load address 0x000000002000011c
                 0x0000000020007000                PROVIDE (_heap_end = .)
                 0x0000000000001000                . = __stack_size
  *fill*         0x0000000020007000     0x1000 
@@ -1956,7 +1956,7 @@ OUTPUT(build/gd32vf103.elf elf32-littleriscv)
  .debug_ranges  0x00000000000002b0       0x18 build/init.o
  .debug_ranges  0x00000000000002c8       0x20 build/entry.o
 
-.debug_line     0x0000000000000000     0x2bf7
+.debug_line     0x0000000000000000     0x2baf
  .debug_line    0x0000000000000000      0x6dd build/system_gd32vf103.o
  .debug_line    0x00000000000006dd      0x15c build/_exit.o
  .debug_line    0x0000000000000839      0x265 build/write_hex.o
@@ -1965,7 +1965,7 @@ OUTPUT(build/gd32vf103.elf elf32-littleriscv)
  .debug_line    0x0000000000002058      0x2e8 build/init.o
  .debug_line    0x0000000000002340      0x189 build/start.o
  .debug_line    0x00000000000024c9       0xe5 build/entry.o
- .debug_line    0x00000000000025ae      0x649 build/main.o
+ .debug_line    0x00000000000025ae      0x601 build/main.o
 
 .debug_str      0x0000000000000000      0xf41
  .debug_str     0x0000000000000000      0x244 build/system_gd32vf103.o

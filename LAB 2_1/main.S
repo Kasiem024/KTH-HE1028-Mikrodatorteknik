@@ -194,9 +194,8 @@ colset: addi sp, sp, -4     // Make room on the stack...
 /////////////////////////////////////////////////////////////////////////////////////
 .section .data
 l88mmat: .word l88mmap
-l88mmap: .word 0x00000000 # Ändring: Alla LED:ar av från början.
-         .word 0x00000000 # Ändring: Alla LED:ar av från början.
-         .byte 0x00       # Ändring: Alla LED:ar av från början.
+l88mmap: .word 0x00000000
+         .word 0x00000000
 .section .text
 // l88init Initialize the 8*8LED matrix row hw driver ////////////////// 1.0 / AC ///
 // (The 8*8LED matrix column part is managed through the Column hw driver package)
@@ -362,110 +361,100 @@ bcd4dc_read:
          la t0,bcd4dc       // t0 points to counter...
          lhu a0, 0(t0)       // ...read counter...
          ret                 // ...and go home!
-/// END ///////////////////////////////////////////////////////////////////////////// 
-
+/// END /////////////////////////////////////////////////////////////////////////////
 .section .data
-fcounter:.word 0x00008F
-state: .word 0            # 0 = inaktiv, 1 = aktiv.
-.section .text
-flow:    la t0,fcounter     // Prepar to read the internal counter...
-         lw t1,0(t0)        // ...get the value...
-         addi t1,t1,-1      // ...count it down by one...
-         sw t1,0(t0)        // ...and store it back!
-         bgez t1,1f          // Done if not zero!
-         li t1, 0x00008F    // ...reload the counter...
-         sw t1,0(t0)        // ...and save the new value...
-         la t0,l88mmat      // ...time to shake up 8*8LED image...
-         lw t1,0(t0)        // ...load the memory map base adress...
-         xori t1,t1,0x1     // ...and toggle the least significant bit...
-         sw t1,0(t0)        // ...then store it back!
-1:       ret                 // and return to caller!
+state: .word 0            # 1 om räknare är aktiv, annars 0
 
-.section .data
-index:   .word 0x7
 .section .text
 .global main
 main:
-  call t5omsi             # Initiera timer 5 för att räkna millisekunder!
-  call colinit            # Initiera kolumndrivaren!
-  call l88init            # Initiera 8*8 LED-matrisdrivaren!
-  call keyinit            # Initiera 4*4-tangentbordsdrivaren!
-  call bcd4dc_reset       # Nollställ BCD-räknaren
+        call t5omsi
+        call colinit
+        call l88init
+        call keyinit
+        call bcd4dc_reset
 
-1:
-  nop                    # Main loop async tasks >-----------------------
+1:      nop
 
-  call t5expq            # Kolla om Timer 5 har räknat klart?
-  beqz a0, 1b            # Main loop sync tasks >------------------------
+        call t5expq         # Anropa 't5expq' för att kontrollera om Timer 5 har räknat klart (om en viss tid har förflutit).
+        beqz a0,1b          # Om 'a0' är 0 (Timer 5 har inte räknat klart), hoppa tillbaka till etiketten '1b' (början av loopen).
 
-  # Kolla om räknaren är aktiv
-  la t0, state           # Ladda adressen till state-variabeln.
-  lw t1, 0(t0)           # Läs in värdet av state i t1.
-  beqz t1, 2f            # Hoppa över bcd4dc_tick om inaktiv.
+        # Kontrollera om räknaren/skärmen är aktiv
+        la t0, state           # Ladda adressen till 'state'-variabeln i register t0.
+        lw t1, 0(t0)           # Läs in värdet av 'state' från minnesadressen i t0 till register t1.
+        beqz t1, 2f            # Om 'state' är 0 (inaktiv), hoppa till etiketten '2f' och hoppa över anropet till 'bcd4dc_tick'.
 
-  call bcd4dc_tick       # Öka BCD-räknaren
+        call bcd4dc_tick    # Anropa 'bcd4dc_tick' för att öka BCD-räknaren om 'state' är 1 (aktiv).
 
 2:
-  call bcd4dc_read       # Läs BCD-räknarvärdet
-  la t0, l88mmap         # Ladda adressen till LED-matrisens minnesmappning
+# Denna del av koden läser ut värdet från en BCD-räknare och sparar varje siffra i ett eget byte i minnesmappningen för LED-matrisen, 'l88mmap'.
+# Varje siffra representeras av 4 bitar (eftersom det är BCD), och de 4 minst signifikanta bitarna i 'a0' isoleras och sparas i tur och ordning.
 
-  # Visa varje siffra på LED-matrisen
-  andi t1, a0, 0xF
-  sb t1, 0(t0)           # Lagra den minsta signifikanta siffran
+        call bcd4dc_read    # Anropa 'bcd4dc_read' för att läsa det aktuella värdet av BCD-räknaren.
+        la t0, l88mmap         # Ladda adressen till 'l88mmap' (minnesmappning för LED-matrisen) i register t0.
 
-  srli a0, a0, 4
-  andi t1, a0, 0xF
-  sb t1, 1(t0)           # Lagra den andra siffran
+        # Visa varje siffra (från BCD-räknaren) på LED-matrisen
+        andi t1, a0, 0xF    # Isolera de 4 minst signifikanta bitarna i 'a0' (första siffran) och spara dem i 't1'.
+        sb t1, 0(t0)           # Spara värdet i 't1' till den första byten i 'l88mmap'.
+    
+        srli a0, a0, 4      # Skifta 'a0' 4 bitar åt höger (för att komma åt nästa siffra).
+        andi t1, a0, 0xF    # Isolera de 4 minst signifikanta bitarna i 'a0' (andra siffran) och spara dem i 't1'.
+        sb t1, 1(t0)           # Spara värdet i 't1' till den andra byten i 'l88mmap'.
 
-  srli a0, a0, 4
-  andi t1, a0, 0xF
-  sb t1, 2(t0)           # Lagra den tredje siffran
+        srli a0, a0, 4      # Skifta 'a0' 4 bitar åt höger (för att komma åt nästa siffra).
+        andi t1, a0, 0xF    # Isolera de 4 minst signifikanta bitarna i 'a0' (tredje siffran) och spara dem i 't1'.
+        sb t1, 2(t0)           # Spara värdet i 't1' till den tredje byten i 'l88mmap'.
 
-  srli a0, a0, 4
-  andi t1, a0, 0xF
-  sb t1, 3(t0)           # Lagra den mest signifikanta siffran
+        srli a0, a0, 4      # Skifta 'a0' 4 bitar åt höger (för att komma åt nästa siffra).
+        andi t1, a0, 0xF    # Isolera de 4 minst signifikanta bitarna i 'a0' (fjärde siffran) och spara dem i 't1'.
+        sb t1, 3(t0)           # Spara värdet i 't1' till den fjärde byten i 'l88mmap'.
 
-  call colset             # Aktivera "nästa" kolumn...
-  call l88row             # ...presentera relaterad rad-data...
-  call keyscan
+        call colset         # Anropa 'colset' för att välja nästa kolumn på LED-matrisen.
+        call l88row         # Anropa 'l88row' för att visa data på den valda kolumnen (innehållet i 'l88mmap' skrivs till matrisen).
+        call keyscan        # Anropa 'keyscan' för att läsa av tangentbordet och få information om nedtryckta knappar.
 
-  # Kolla efter knapptryckningar
+        bltz a0, 1b         # Om 'a0' är mindre än 0 har ingen knapp tryckts
 
-  bltz a0, 1b           # Om a0 är -1 (ingen knapp tryckt), loopa igen
-  
-  # Hantera knapptryckningar
-  call start             # Anropa start subrutinen (Starta räknaren).
-  call stop              # Anropa stop subrutinen (Pausa räknaren).
+        # Hantera knapptryckningar
+        call start
+        call stop
 
-  bnez a0, 1b
-  call bcd4dc_reset
-  
-  la t0, state           # Ladda räknarens tillståndsadress.
-  li t1, 0               # Sätt räknaren till inaktiv (0).
-  sw t1, 0(t0)           # Spara det nya tillståndet.
-
-  j 1b                   # ...igen, för alltid!
+        # Om 'a0' är lika med 0, indikerar det att knapp 1 har tryckts.
+        # I så fall nollställs BCD-räknaren och 'state' sätts till 0 (inaktiv).
+        # Programmet hoppar sedan tillbaka till början av loopen.
+        bne a0, zero, 1b     # Om 'a0' inte är lika med 0, hoppa tillbaka till etiketten '1b' (början av loopen).
+        call bcd4dc_reset    # Om 'a0' är lika med 0 har knapp 1 tryckts, anropa 'bcd4dc_reset' för att nollställa BCD-räknaren.
+        
+        la t0, state           # Ladda adressen till 'state'-variabeln i register t0.
+        li t1, 0               # Ladda värdet 0 i register t1.
+        sw t1, 0(t0)           # Spara värdet i t1 (0) till minnesadressen för 'state' (sätter 'state' till inaktiv).
+        
+        j 1b
 
 .global start
 start:
-  li t1, 4               # Ladda värdet 4 (knapp 2) i t1.
-  bne a0, t1, 1f         # Hoppa till 1f om a0 inte är 4 (knapp 2 inte tryckt).
-
-  la t0, state           # Ladda räknarens tillståndsadress.
-  li t1, 1               # Sätt räknaren till aktiv (1).
-  sw t1, 0(t0)           # Spara det nya tillståndet.
+# Denna funktion aktiverar skärmen/räknaren om knapp 2 trycks in.
+# Den sätter 'state'-variabeln till 1, vilket indikerar att skärmen/räknaren ska vara aktiv.
+        li t1, 4               # Ladda värdet 4 i register t1 (motsvarar knapp 2).
+        bne a0, t1, 1f         # Om 'a0' inte är lika med t1 (knapp 2 inte tryckt), hoppa till etiketten '1f'.
+        
+        la t0, state           # Ladda adressen till 'state'-variabeln i register t0.
+        li t1, 1               # Ladda värdet 1 i register t1 (för att indikera aktivt tillstånd).
+        sw t1, 0(t0)           # Spara värdet i t1 (1) till minnesadressen för 'state'.
 1:
-  ret
+        ret                    # Återgå från subrutinen 'start'.
 
 .global stop
 stop:
-  li t1, 8               # Ladda värdet 8 (knapp 3) i t1.
-  bne a0, t1, 1f         # Hoppa till 1f om a0 inte är 8 (knapp 3 inte tryckt).
-
-  la t0, state           # Ladda räknarens tillståndsadress.
-  li t1, 0               # Sätt räknaren till inaktiv (0).
-  sw t1, 0(t0)           # Spara det nya tillståndet.
+# Denna funktion inaktiverar skärmen/räknaren om knapp 3 trycks in.
+# Den sätter 'state'-variabeln till 0, vilket indikerar att skärmen/räknaren ska vara inaktiv.
+        li t1, 8               # Ladda värdet 8 i register t1 (motsvarar knapp 3).
+        bne a0, t1, 1f         # Om 'a0' inte är lika med t1 (knapp 3 inte tryckt), hoppa till etiketten '1f'.
+        
+        la t0, state           # Ladda adressen till 'state'-variabeln i register t0.
+        li t1, 0               # Ladda värdet 0 i register t1 (för att indikera inaktivt tillstånd).
+        sw t1, 0(t0)           # Spara värdet i t1 (0) till minnesadressen för 'state'.
 1:
-  ret
+        ret                    # Återgå från subrutinen 'stop'.
 
 .end

@@ -314,9 +314,11 @@ keyscan:addi sp, sp, -4     // Push: Make room on the stack...
 /// END ////////////////////////////////////////////////////////////////////
 
 .section .data
-fcounter: .word 0x0000FF # Deklarerar en variabel 'fcounter' och initierar den till 0x0000FF (255 decimalt). Används som en räknare i 'flow'-funktionen.
-l88mmat: .word l88mmap   # Deklarerar en variabel 'l88mmat' och initierar den med adressen till 'l88mmap'. Används för att lagra data som ska visas på LED-matrisen.
-l88mmap:                 # Deklarerar en variabel 'l88mmap' som är en array av 'word' (4 bytes). Används för att lagra bitmönster för LED-matrisen.
+fcounter: .word 0x0000FF  # Heltalsvariabel 'fcounter' initieras till 255 (0xFF hexadecimalt). Används som räknare i funktionen 'flow'.
+l88mmat: .word l88mmap   # 'l88mmat' är en adressvariabel som pekar på den första 'word' i 'l88mmap'.
+l88mmap:                # 'l88mmap' är en array av 'word' (4 bytes) som lagrar data för LED-matrisens pixlar.
+	.word 0x00000000
+	.word 0x00000000
         .word 0xBAC27C00 # 0
         .word 0x00007C86 # 0
         .word 0xA1C18200 # 2
@@ -329,53 +331,46 @@ l88mmap:                 # Deklarerar en variabel 'l88mmap' som är en array av 
         .word 0x000080FE # 1
         .word 0xA1C18200 # 2
         .word 0x00008E91 # 2
-        .word 0xBAC27C00 # 0
-        .word 0x00007C86 # 0
-        # Totalt 14 siffror lagras i 'l88mmap' med 2 ord per siffra.
+	.word 0x00000000
+	.word 0x00000000
+        # Totalt 16 ord (64 bytes) är allokerade för 'l88mmap', motsvarande 8x8 pixlar.
+        # Vart och ett av de 14 första orden innehåller ett bitmönster som representerar en siffra på LED-matrisen.
+        # Mönstret för varje siffra är uppdelat i två 'word'.
 
-state: .word 0              # Deklarerar en variabel 'state' och initierar den till 0 (inaktiv). Används för att kontrollera om flödet är aktivt eller inte.
+state: .word 0           # 1 om skärmen är aktiv, annars 0
 
 .section .text
-flow:   la t0,fcounter      # Ladda adressen till 'fcounter' i register t0.
-        lw t1,0(t0)         # Ladda värdet av 'fcounter' från minnet till register t1.
-        addi t1,t1,-1       # Minska värdet i t1 ('fcounter') med 1.
-        sw t1,0(t0)         # Spara tillbaka det nya värdet i t1 till minnesadressen för 'fcounter'.
-        bgez t1,1f          # Om t1 är större än eller lika med 0, hoppa till etiketten '1f'.
-        li t1, 0x0000FF     # Om fcounter är mindre än 0, ladda det initiala värdet 0x0000FF (255) i t1.
-        sw t1,0(t0)         # Spara tillbaka det initiala värdet till 'fcounter'.
-        la t0,l88mmat       # Ladda adressen till 'l88mmat' (LED-matrisens minnesmappning) i register t0.
-        lw t1,0(t0)         # Ladda det första ordet (4 bytes) från 'l88mmat' in i register t1.
-        addi t1,t1,0x1      # Öka värdet i t1 med 1.
-        la t2,l88mmap       # Ladda adressen till 'l88mmap' i t2.
-        addi t3,t2,48       # Addera 48 till adressen i t2 och spara resultatet i t3. (t3 pekar nu 48 bytes längre fram, efter de 12 words som utgör 'l88mmap').
-        blt t1,t3,2f        # Om t1 är mindre än t3, hoppa till etiketten '2f'.
-        mv t1,t2            # Om t1 inte är mindre än t3, kopiera adressen i t2 till t1.
-2:      sw t1,0(t0)         # Spara tillbaka det modifierade värdet i t1 till det första ordet i 'l88mmap'.
-1:      ret                 # Återgå från subrutinen 'flow'.
+flow:   la t0,fcounter      # Ladda minnesadressen för variabeln 'fcounter' i register t0.
+        lw t1,0(t0)         # Hämta det aktuella värdet av 'fcounter' från minnet och spara det i register t1.
+        addi t1,t1,-1       # Minska värdet i t1 (fcounter) med 1.
+        sw t1,0(t0)         # Spara det uppdaterade värdet i t1 tillbaka till minnesadressen för 'fcounter'.
+        bgez t1,1f          # Om värdet i t1 (fcounter) är större än eller lika med 0, hoppa till etiketten '1f' och fortsätt exekveringen där.
+        li t1, 0x0000FF     # Ladda det hexadecimala värdet 0x0000FF (255 decimalt) i register t1.
+        sw t1,0(t0)         # Spara värdet i t1 (0x0000FF) till minnesadressen för 'fcounter', återställer räknaren.
+        la t0,l88mmat       # Ladda minnesadressen för 'l88mmap' (LED-matrisens minnesmappning) i register t0.
+        lw t1,0(t0)         # Ladda det första ordet (4 bytes) från 'l88mmap' till register t1.
+        addi t1,t1,0x1      # * Öka värdet i t1 med 1.
+        la t2,l88mmap       # * Ladda minnesadressen för 'l88mmap' i register t2.
+        addi t3,t2,56       # * Addera 60 till adressen i t2 och spara resultatet i t3 (t3 pekar nu på slutet av 'l88mmap').
+        blt t1,t3,2f        # * Om värdet i t1 är mindre än värdet i t3, hoppa till etiketten '2f'.
+        mv t1,t2            # * Om värdet i t1 inte är mindre än värdet i t3, kopiera adressen i t2 (startadressen för 'l88mmap') till t1.
+2:      sw t1,0(t0)         # Spara det uppdaterade värdet i t1 till minnesadressen som t0 pekar på (det första ordet i 'l88mmap').
 
-# Kommentar för kodstycket ovan i 'flow':
-# Funktionen 'flow' verkar vara designad för att skapa någon form av visuell effekt på LED-matrisen.
-# Den använder 'fcounter' som en nedräknare.
-# När 'fcounter' når 0, återställs den till 0x0000FF (255).
-# Värdet i det första ordet i 'l88mmap' ökas med 1 vid varje anrop till 'flow' när 'fcounter' är noll,
-# och så länge det modifierade värdet är mindre än adressen till 'l88mmap' + 48.
-# Den exakta visuella effekten av detta beror på hur 'l88mmap' används för att styra LED-matrisen.
+1:      ret
+
+# Den använder 'fcounter' som en nedräknare. När 'fcounter' når 0, återställs den till 0x0000FF (255).
+# Funktionen ökar värdet som finns lagrat i det första ordet i 'l88mmap' med 1. Denna ökning fortsätter tills 
+# värdet når slutet av det definierade 'l88mmap'-området, då det återställs till början av 'l88mmap'.
+# Den exakta visuella effekten av detta beteende är beroende av hur 'l88mmap' används för att styra LED-matrisen.
 
 .section .text
 .global main
-main:   call t5omsi         # Anropa subrutinen 't5omsi' för att initiera Timer 5.
-        call colinit        # Anropa subrutinen 'colinit' för att initiera kolumndrivaren.
-        call l88init        # Anropa subrutinen 'l88init' för att initiera 8x8 LED-matrisdrivaren.
-        call keyinit        # Anropa subrutinen 'keyinit' för att initiera 4*4-tangentbordsdrivaren.
+main:   call t5omsi         # Anropa subrutinen 't5omsi' för att initiera Timer 5 (används för tidsfördröjning).
+        call colinit        # Anropa subrutinen 'colinit' för att initiera kolumndrivaren (styr LED-matrisens kolumner).
+        call l88init        # Anropa subrutinen 'l88init' för att initiera 8x8 LED-matrisdrivaren (styr LED-matrisens rader).
+        call keyinit        # Anropa subrutinen 'keyinit' för att initiera 4x4-tangentbordsdrivaren (läser av knapptryckningar).
 
-# Kommentar för kodstycket ovan i 'main':
-# Denna del av 'main'-funktionen anropar initieringsfunktioner för olika hårdvarukomponenter:
-# - Timer 5: Används troligen för tidtagning eller för att skapa fördröjningar.
-# - Kolumndrivaren: Styr vilken kolumn på LED-matrisen som är aktiv.
-# - 8x8 LED-matrisdrivaren: Styr raderna på LED-matrisen.
-# - 4x4-tangentbordsdrivaren: Läser av knapptryckningar från tangentbordet.
-
-1:      nop                 # Tom instruktion (No Operation) - gör ingenting. Används ofta som en placeholder.
+1:      nop                 # Tom instruktion (No Operation) - gör ingenting. Används som en placeholder.
 
         call t5expq         # Anropa subrutinen 't5expq' för att kolla om Timer 5 har räknat klart.
         beqz a0,1b          # Om a0 är 0 (Timer 5 har inte räknat klart), hoppa tillbaka till etiketten '1b' (början av loopen).
@@ -384,54 +379,53 @@ main:   call t5omsi         # Anropa subrutinen 't5omsi' för att initiera Timer
         lw t1, 0(t0)           # Läs in värdet av 'state' (från minnesadressen som t0 pekar på) in i register t1.
         beqz t1, 2f            # Om 'state' är 0 (inaktiv), hoppa till etiketten '2f' (hoppa över 'flow').
 
-        call flow           # Anropa 'flow'-funktionen.
+        call flow           # Anropa 'flow'-funktionen om 'state' är 1 (aktiv).
 
 2:
         call colset         # Anropa subrutinen 'colset' för att välja nästa kolumn på LED-matrisen.
         call l88row         # Anropa subrutinen 'l88row' för att visa data på den valda kolumnen.
         call keyscan        # Anropa subrutinen 'keyscan' för att läsa av tangentbordet.
 
-        bltz a0,1b          # Om a0 är mindre än 0 (ingen knapp tryckt), hoppa tillbaka till etiketten '1b'.
+        bltz a0, 1b         # Om 'a0' är mindre än 0 har ingen knapp tryckts
 
         # Hantera knapptryckningar
-        call start             # Anropa subrutinen 'start'.
-        call stop              # Anropa subrutinen 'stop'.
+        call start
+        call stop
         
-        j 1b                # Hoppa tillbaka till etiketten '1b' (början av loopen).
+        j 1b
 
 # Kommentar för kodstycket ovan i 'main':
 # Denna del av 'main'-funktionen utgör programmets huvudloop.
 # Den väntar på att Timer 5 ska räkna klart (vilket indikerar att en viss tid har passerat).
 # Om 'state' är 1, anropas 'flow'-funktionen.
 # LED-matrisen uppdateras och tangentbordet läses av.
-# Om en knapp har tryckts, anropas 'start' eller 'stop' beroende på vilken knapp som tryckts.
+# 'start' och 'stop' anropas
 # Programmet loopar sedan tillbaka till början.
 
 .global start
 start:
-        li t1, 0               # Ladda värdet 0 i register t1 (motsvarar knapp 1).
-        bne a0, t1, 1f         # Om a0 inte är lika med t1 (knapp 1 inte tryckt), hoppa till etiketten '1f'.
+# Denna funktion aktiverar skärmen/räknaren om knapp 2 trycks in.
+# Den sätter 'state'-variabeln till 1, vilket indikerar att skärmen/räknaren ska vara aktiv.
+        li t1, 4               # Ladda värdet 4 i register t1 (motsvarar knapp 2).
+        bne a0, t1, 1f         # Om 'a0' inte är lika med t1 (knapp 2 inte tryckt), hoppa till etiketten '1f'.
+        
         la t0, state           # Ladda adressen till 'state'-variabeln i register t0.
         li t1, 1               # Ladda värdet 1 i register t1 (för att indikera aktivt tillstånd).
         sw t1, 0(t0)           # Spara värdet i t1 (1) till minnesadressen för 'state'.
 1:
         ret                    # Återgå från subrutinen 'start'.
 
-# Kommentar för kodstycket ovan i 'start':
-# Denna funktion aktiverar skärmen om knapp 1 trycks in.
-# Den sätter 'state' variabeln till 1, vilket indikerar att skärmen ska vara aktiv.
-
 .global stop
 stop:
-        li t1, 4               # Ladda värdet 4 i register t1 (motsvarar knapp 2).
-        bne a0, t1, 1f         # Om a0 inte är lika med t1 (knapp 2 inte tryckt), hoppa till etiketten '1f'.
+# Denna funktion inaktiverar skärmen/räknaren om knapp 3 trycks in.
+# Den sätter 'state'-variabeln till 0, vilket indikerar att skärmen/räknaren ska vara inaktiv.
+        li t1, 8               # Ladda värdet 8 i register t1 (motsvarar knapp 3).
+        bne a0, t1, 1f         # Om 'a0' inte är lika med t1 (knapp 3 inte tryckt), hoppa till etiketten '1f'.
+        
         la t0, state           # Ladda adressen till 'state'-variabeln i register t0.
-        sw zero, 0(t0)         # Spara värdet 0 till minnesadressen för 'state' (inaktiverar skärmen).
+        li t1, 0               # Ladda värdet 0 i register t1 (för att indikera inaktivt tillstånd).
+        sw t1, 0(t0)           # Spara värdet i t1 (0) till minnesadressen för 'state'.
 1:
         ret                    # Återgå från subrutinen 'stop'.
-
-# Kommentar för kodstycket ovan i 'stop':
-# Denna funktion inaktiverar skärmen om knapp 2 trycks in.
-# Den sätter 'state' variabeln till 0, vilket indikerar att skärmen ska vara inaktiv.
 
 .end
