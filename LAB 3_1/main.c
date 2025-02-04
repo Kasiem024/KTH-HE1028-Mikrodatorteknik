@@ -6,18 +6,24 @@
 int main(void)
 {
   int ms = 0, s = 0, key, pKey = -1, c = 0, idle = 0, adcr, tmpr;
+  // int lookUpTbl[16] = {7, 0, 4, 8, 1, 5, 9, 2, 6, 10, 12, 13, 14, 15, 3, 11};
+  //                  {0, 1, 2, 3, 4, 5, 6, 7, 8,  9,   A, B,  C,  D, *,  #};
   int lookUpTbl[16] = {1, 4, 7, 14, 2, 5, 8, 0, 3, 6, 9, 15, 10, 11, 12, 13};
+  //                  {1, 1, 2, 3, 4, 5, 6, 7, 8,  9,   A, B,  C,  D, *,  #};
 
   t5omsi();           // Initialize timer5 1kHz
   colinit();          // Initialize column toolbox
   l88init();          // Initialize 8*8 led toolbox
   keyinit();          // Initialize keyboard toolbox
   ADC3powerUpInit(0); // Initialize ADC0, Ch3
-  // T1powerUpInitPWM(0x4);                      // Timer #1, Ch #2 PWM
-  // T1powerUpInitPWM(0xC);                      // Timer #1, Ch #2 & 3 PWM
+  T1powerUpInitPWM(0x2);
+
+  int tenNumber = -1, oneNumber = -1;
+  double finalDimStrength = 0;
 
   while (1)
   {
+    int continueLoop = 1;
     idle++; // Manage Async events
 
     if (adc_flag_get(ADC0, ADC_FLAG_EOC) == SET)
@@ -49,16 +55,69 @@ int main(void)
         ms = 0;
         l88mem(0, s++);
       }
+
       if ((key = keyscan()) >= 0)
       { // ...Any key pressed?
-        if (pKey == key)
-          c++;
-        else
+        while (continueLoop)
         {
-          c = 0;
-          pKey = key;
+          if (key == 12)
+          {
+            T1setPWMch2(16000);
+            continueLoop = 0;
+            break;
+          }
+          if (key == 14)
+          {
+            T1setPWMch2(1);
+            continueLoop = 0;
+            break;
+          }
+          if (key == 15 && tenNumber != -1)
+          {
+            finalDimStrength = (((tenNumber * 10) + oneNumber) / 100.0) * 16000;
+            T1setPWMch2(finalDimStrength);
+            tenNumber = -1;
+            oneNumber = -1;
+            continueLoop = 0;
+            break;
+          }
+          if (key == 11)
+          {
+            tenNumber = -1;
+            oneNumber = -1;
+            continueLoop = 0;
+            break;
+          }
+          if (key == 3 && tenNumber != -1 && oneNumber == -1)
+          {
+            tenNumber = -1;
+            continueLoop = 0;
+            break;
+          }
+          if (key == 3 && tenNumber != -1 && oneNumber != -1)
+          {
+            oneNumber = -1;
+            continueLoop = 0;
+            break;
+          }
+
+          for (int counter = 0; counter < 16; counter++)
+          {
+            if (counter == lookUpTbl[key])
+            {
+              if (tenNumber == -1)
+              {
+                tenNumber = counter;
+              }
+              else if (oneNumber == -1)
+              {
+                oneNumber = counter;
+              }
+            }
+          }
+
+          break;
         }
-        l88mem(1, lookUpTbl[key] + (c << 4));
       }
       l88mem(2, idle >> 8); // ...Performance monitor
       l88mem(3, idle);
@@ -68,3 +127,24 @@ int main(void)
     }
   }
 }
+
+/*
+
+Knapp 0 = 7
+Knapp 1 = 0
+Knapp 2 = 4
+Knapp 3 = 8
+Knapp 4 = 1
+Knapp 5 = 5
+Knapp 6 = 9
+Knapp 7 = 2
+Knapp 8 = 6
+Knapp 9 = 10
+Knapp A = 12
+Knapp B = 13
+Knapp C = 14
+Knapp D = 15
+Knapp * = 3
+Knapp # = 11
+
+*/
