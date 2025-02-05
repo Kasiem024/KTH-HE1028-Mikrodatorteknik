@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s 			page 1
 
 
    1              		.file	"gd32vf103_dbg.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s 			page 1
   41:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c ****     \param[out] none
   42:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c ****     \retval     DBG_ID code
   43:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c **** */
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s 			page 2
 
 
   44:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c **** uint32_t dbg_id_get(void)
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s 			page 1
   64:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c **** /*!
   65:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c ****     \brief      disable low power behavior when the mcu is in debug mode
   66:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c ****     \param[in]  dbg_low_power:
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s 			page 3
 
 
   67:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dbg.c ****                 one or more parameters can be selected which are shown as below:
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s 			page 1
   83              		.loc 1 93 13 is_stmt 0
   84 0000 372704E0 		li	a4,-536600576
   85 0004 5C43     		lw	a5,4(a4)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s 			page 4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s 			page 4
 
 
   86 0006 5D8D     		or	a0,a5,a0
@@ -235,126 +235,126 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s 			page 1
  122              		.file 3 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
  123              		.file 4 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_dbg.h"
  124              		.file 5 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s 			page 5
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gd32vf103_dbg.c
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:13     .text.dbg_id_get:0000000000000000 dbg_id_get
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:17     .text.dbg_id_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:18     .text.dbg_id_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:19     .text.dbg_id_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:20     .text.dbg_id_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:23     .text.dbg_id_get:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:24     .text.dbg_id_get:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:31     .text.dbg_low_power_enable:0000000000000000 dbg_low_power_enable
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:34     .text.dbg_low_power_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:36     .text.dbg_low_power_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:37     .text.dbg_low_power_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:38     .text.dbg_low_power_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:44     .text.dbg_low_power_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:45     .text.dbg_low_power_enable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:52     .text.dbg_low_power_disable:0000000000000000 dbg_low_power_disable
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:55     .text.dbg_low_power_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:57     .text.dbg_low_power_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:58     .text.dbg_low_power_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:59     .text.dbg_low_power_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:62     .text.dbg_low_power_disable:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:65     .text.dbg_low_power_disable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:69     .text.dbg_low_power_disable:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:70     .text.dbg_low_power_disable:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:77     .text.dbg_periph_enable:0000000000000000 dbg_periph_enable
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:80     .text.dbg_periph_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:82     .text.dbg_periph_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:83     .text.dbg_periph_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:84     .text.dbg_periph_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:90     .text.dbg_periph_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:91     .text.dbg_periph_enable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:98     .text.dbg_periph_disable:0000000000000000 dbg_periph_disable
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:101    .text.dbg_periph_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:103    .text.dbg_periph_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:104    .text.dbg_periph_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:105    .text.dbg_periph_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:108    .text.dbg_periph_disable:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:111    .text.dbg_periph_disable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:115    .text.dbg_periph_disable:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:116    .text.dbg_periph_disable:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:27     .text.dbg_id_get:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:48     .text.dbg_low_power_enable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:73     .text.dbg_low_power_disable:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:94     .text.dbg_periph_enable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:119    .text.dbg_periph_disable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:13     .text.dbg_id_get:0000000000000000 dbg_id_get
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:17     .text.dbg_id_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:18     .text.dbg_id_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:19     .text.dbg_id_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:20     .text.dbg_id_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:23     .text.dbg_id_get:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:24     .text.dbg_id_get:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:31     .text.dbg_low_power_enable:0000000000000000 dbg_low_power_enable
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:34     .text.dbg_low_power_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:36     .text.dbg_low_power_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:37     .text.dbg_low_power_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:38     .text.dbg_low_power_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:44     .text.dbg_low_power_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:45     .text.dbg_low_power_enable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:52     .text.dbg_low_power_disable:0000000000000000 dbg_low_power_disable
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:55     .text.dbg_low_power_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:57     .text.dbg_low_power_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:58     .text.dbg_low_power_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:59     .text.dbg_low_power_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:62     .text.dbg_low_power_disable:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:65     .text.dbg_low_power_disable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:69     .text.dbg_low_power_disable:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:70     .text.dbg_low_power_disable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:77     .text.dbg_periph_enable:0000000000000000 dbg_periph_enable
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:80     .text.dbg_periph_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:82     .text.dbg_periph_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:83     .text.dbg_periph_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:84     .text.dbg_periph_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:90     .text.dbg_periph_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:91     .text.dbg_periph_enable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:98     .text.dbg_periph_disable:0000000000000000 dbg_periph_disable
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:101    .text.dbg_periph_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:103    .text.dbg_periph_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:104    .text.dbg_periph_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:105    .text.dbg_periph_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:108    .text.dbg_periph_disable:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:111    .text.dbg_periph_disable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:115    .text.dbg_periph_disable:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:116    .text.dbg_periph_disable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:27     .text.dbg_id_get:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:48     .text.dbg_low_power_enable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:73     .text.dbg_low_power_disable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:94     .text.dbg_periph_enable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:119    .text.dbg_periph_disable:0000000000000010 .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:362    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:712    .debug_str:0000000000000198 .LASF32
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:724    .debug_str:0000000000000264 .LASF33
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:728    .debug_str:00000000000002ba .LASF34
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:642    .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:656    .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:696    .debug_str:000000000000011e .LASF0
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:720    .debug_str:0000000000000248 .LASF1
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:678    .debug_str:000000000000008f .LASF2
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:710    .debug_str:000000000000018e .LASF3
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s 			page 6
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:362    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:712    .debug_str:0000000000000198 .LASF32
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:724    .debug_str:0000000000000264 .LASF33
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:728    .debug_str:00000000000002ba .LASF34
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:642    .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:656    .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:696    .debug_str:000000000000011e .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:720    .debug_str:0000000000000248 .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:678    .debug_str:000000000000008f .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:710    .debug_str:000000000000018e .LASF3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s 			page 6
 
 
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:684    .debug_str:00000000000000bd .LASF4
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:666    .debug_str:0000000000000034 .LASF5
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:690    .debug_str:00000000000000f0 .LASF9
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:682    .debug_str:00000000000000ab .LASF6
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:706    .debug_str:0000000000000170 .LASF7
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:700    .debug_str:0000000000000139 .LASF8
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:714    .debug_str:0000000000000220 .LASF10
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:708    .debug_str:000000000000017e .LASF35
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:718    .debug_str:000000000000023c .LASF11
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:676    .debug_str:0000000000000080 .LASF12
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:668    .debug_str:000000000000003d .LASF13
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:722    .debug_str:0000000000000254 .LASF14
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:688    .debug_str:00000000000000e0 .LASF15
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:704    .debug_str:0000000000000160 .LASF16
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:660    .debug_str:000000000000000b .LASF17
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:664    .debug_str:0000000000000026 .LASF18
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:670    .debug_str:000000000000004c .LASF19
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:698    .debug_str:000000000000012b .LASF20
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:686    .debug_str:00000000000000d0 .LASF21
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:702    .debug_str:0000000000000150 .LASF22
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:726    .debug_str:00000000000002aa .LASF23
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:680    .debug_str:000000000000009d .LASF24
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:672    .debug_str:000000000000005a .LASF25
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:716    .debug_str:0000000000000229 .LASF26
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:99     .text.dbg_periph_disable:0000000000000000 .LFB6
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:117    .text.dbg_periph_disable:0000000000000010 .LFE6
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:658    .debug_str:0000000000000000 .LASF28
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:551    .debug_loc:0000000000000000 .LLST3
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:730    .debug_str:00000000000002ff .LASF27
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:78     .text.dbg_periph_enable:0000000000000000 .LFB5
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:92     .text.dbg_periph_enable:000000000000000c .LFE5
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:572    .debug_loc:000000000000002f .LLST2
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:674    .debug_str:000000000000006a .LASF29
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:53     .text.dbg_low_power_disable:0000000000000000 .LFB4
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:71     .text.dbg_low_power_disable:0000000000000010 .LFE4
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:694    .debug_str:0000000000000110 .LASF30
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:586    .debug_loc:0000000000000050 .LLST1
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:692    .debug_str:00000000000000fb .LASF31
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:32     .text.dbg_low_power_enable:0000000000000000 .LFB3
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:46     .text.dbg_low_power_enable:000000000000000c .LFE3
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:607    .debug_loc:000000000000007f .LLST0
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:662    .debug_str:000000000000001b .LASF36
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:14     .text.dbg_id_get:0000000000000000 .LFB2
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:25     .text.dbg_id_get:0000000000000008 .LFE2
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:102    .text.dbg_periph_disable:0000000000000000 .LVL7
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:109    .text.dbg_periph_disable:000000000000000a .LVL8
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:112    .text.dbg_periph_disable:000000000000000c .LVL9
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:81     .text.dbg_periph_enable:0000000000000000 .LVL5
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:87     .text.dbg_periph_enable:0000000000000008 .LVL6
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:56     .text.dbg_low_power_disable:0000000000000000 .LVL2
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:63     .text.dbg_low_power_disable:000000000000000a .LVL3
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:66     .text.dbg_low_power_disable:000000000000000c .LVL4
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:35     .text.dbg_low_power_enable:0000000000000000 .LVL0
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:41     .text.dbg_low_power_enable:0000000000000008 .LVL1
-C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s:126    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:684    .debug_str:00000000000000bd .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:666    .debug_str:0000000000000034 .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:690    .debug_str:00000000000000f0 .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:682    .debug_str:00000000000000ab .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:706    .debug_str:0000000000000170 .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:700    .debug_str:0000000000000139 .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:714    .debug_str:0000000000000220 .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:708    .debug_str:000000000000017e .LASF35
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:718    .debug_str:000000000000023c .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:676    .debug_str:0000000000000080 .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:668    .debug_str:000000000000003d .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:722    .debug_str:0000000000000254 .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:688    .debug_str:00000000000000e0 .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:704    .debug_str:0000000000000160 .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:660    .debug_str:000000000000000b .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:664    .debug_str:0000000000000026 .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:670    .debug_str:000000000000004c .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:698    .debug_str:000000000000012b .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:686    .debug_str:00000000000000d0 .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:702    .debug_str:0000000000000150 .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:726    .debug_str:00000000000002aa .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:680    .debug_str:000000000000009d .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:672    .debug_str:000000000000005a .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:716    .debug_str:0000000000000229 .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:99     .text.dbg_periph_disable:0000000000000000 .LFB6
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:117    .text.dbg_periph_disable:0000000000000010 .LFE6
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:658    .debug_str:0000000000000000 .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:551    .debug_loc:0000000000000000 .LLST3
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:730    .debug_str:00000000000002ff .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:78     .text.dbg_periph_enable:0000000000000000 .LFB5
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:92     .text.dbg_periph_enable:000000000000000c .LFE5
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:572    .debug_loc:000000000000002f .LLST2
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:674    .debug_str:000000000000006a .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:53     .text.dbg_low_power_disable:0000000000000000 .LFB4
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:71     .text.dbg_low_power_disable:0000000000000010 .LFE4
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:694    .debug_str:0000000000000110 .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:586    .debug_loc:0000000000000050 .LLST1
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:692    .debug_str:00000000000000fb .LASF31
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:32     .text.dbg_low_power_enable:0000000000000000 .LFB3
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:46     .text.dbg_low_power_enable:000000000000000c .LFE3
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:607    .debug_loc:000000000000007f .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:662    .debug_str:000000000000001b .LASF36
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:14     .text.dbg_id_get:0000000000000000 .LFB2
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:25     .text.dbg_id_get:0000000000000008 .LFE2
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:102    .text.dbg_periph_disable:0000000000000000 .LVL7
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:109    .text.dbg_periph_disable:000000000000000a .LVL8
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:112    .text.dbg_periph_disable:000000000000000c .LVL9
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:81     .text.dbg_periph_enable:0000000000000000 .LVL5
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:87     .text.dbg_periph_enable:0000000000000008 .LVL6
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:56     .text.dbg_low_power_disable:0000000000000000 .LVL2
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:63     .text.dbg_low_power_disable:000000000000000a .LVL3
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:66     .text.dbg_low_power_disable:000000000000000c .LVL4
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:35     .text.dbg_low_power_enable:0000000000000000 .LVL0
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:41     .text.dbg_low_power_enable:0000000000000008 .LVL1
+C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s:126    .debug_info:0000000000000000 .Ldebug_info0
 
 NO UNDEFINED SYMBOLS
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccYJQh8S.s 			page 7
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccJcLDoh.s 			page 7
 
 

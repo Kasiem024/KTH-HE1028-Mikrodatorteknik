@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s 			page 1
 
 
    1              		.file	"_exit.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s 			page 1
   41      E7800000 
   42              	.LVL2:
   11:./../../firmware/RISCV/stubs/_exit.c **** 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s 			page 2
 
 
   12:./../../firmware/RISCV/stubs/_exit.c ****   write(STDERR_FILENO, message, sizeof(message) - 1);
@@ -109,82 +109,82 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s 			page 1
   77              		.file 2 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
   78              		.file 3 "./../../firmware/RISCV/stubs/stub.h"
   79              		.file 4 "<built-in>"
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s 			page 3
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 _exit.c
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:13     .text._exit:0000000000000000 _exit
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:17     .text._exit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:19     .text._exit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:20     .text._exit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:21     .text._exit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:23     .text._exit:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:25     .text._exit:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:27     .text._exit:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:29     .text._exit:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:30     .text._exit:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:32     .text._exit:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:34     .text._exit:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:38     .text._exit:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:39     .text._exit:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:41     .text._exit:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:44     .text._exit:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:50     .text._exit:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:55     .text._exit:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:63     .text._exit:000000000000004a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:64     .text._exit:000000000000004a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:65     .text._exit:000000000000004c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:68     .text._exit:000000000000004c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:13     .text._exit:0000000000000000 _exit
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:17     .text._exit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:19     .text._exit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:20     .text._exit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:21     .text._exit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:23     .text._exit:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:25     .text._exit:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:27     .text._exit:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:29     .text._exit:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:30     .text._exit:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:32     .text._exit:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:34     .text._exit:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:38     .text._exit:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:39     .text._exit:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:41     .text._exit:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:44     .text._exit:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:50     .text._exit:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:55     .text._exit:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:63     .text._exit:000000000000004a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:64     .text._exit:000000000000004a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:65     .text._exit:000000000000004c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:68     .text._exit:000000000000004c .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:73     .rodata._exit.str1.4:0000000000000004 .LC0
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:70     .rodata._exit.str1.4:0000000000000000 .LC1
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:61     .text._exit:000000000000004a .L2
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:342    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:649    .debug_str:00000000000000f0 .LASF19
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:667    .debug_str:00000000000001ca .LASF20
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:625    .debug_str:000000000000003b .LASF21
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:607    .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:613    .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:653    .debug_str:000000000000018b .LASF0
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:639    .debug_str:00000000000000c6 .LASF1
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:661    .debug_str:00000000000001b3 .LASF2
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:651    .debug_str:0000000000000178 .LASF3
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:643    .debug_str:00000000000000d9 .LASF4
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:629    .debug_str:0000000000000087 .LASF5
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:615    .debug_str:0000000000000000 .LASF6
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:631    .debug_str:0000000000000099 .LASF7
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:619    .debug_str:000000000000001f .LASF8
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:641    .debug_str:00000000000000d4 .LASF9
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:657    .debug_str:00000000000001a0 .LASF10
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:663    .debug_str:00000000000001bd .LASF11
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:659    .debug_str:00000000000001ac .LASF12
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:623    .debug_str:0000000000000034 .LASF13
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:627    .debug_str:0000000000000080 .LASF14
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:645    .debug_str:00000000000000e2 .LASF15
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:655    .debug_str:0000000000000197 .LASF16
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:637    .debug_str:00000000000000c0 .LASF22
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:14     .text._exit:0000000000000000 .LFB1
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:66     .text._exit:000000000000004c .LFE1
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:570    .debug_loc:0000000000000000 .LLST0
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:665    .debug_str:00000000000001c5 .LASF23
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:583    .debug_loc:0000000000000020 .LLST1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s 			page 4
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:73     .rodata._exit.str1.4:0000000000000004 .LC0
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:70     .rodata._exit.str1.4:0000000000000000 .LC1
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:61     .text._exit:000000000000004a .L2
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:342    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:649    .debug_str:00000000000000f0 .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:667    .debug_str:00000000000001ca .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:625    .debug_str:000000000000003b .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:607    .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:613    .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:653    .debug_str:000000000000018b .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:639    .debug_str:00000000000000c6 .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:661    .debug_str:00000000000001b3 .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:651    .debug_str:0000000000000178 .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:643    .debug_str:00000000000000d9 .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:629    .debug_str:0000000000000087 .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:615    .debug_str:0000000000000000 .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:631    .debug_str:0000000000000099 .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:619    .debug_str:000000000000001f .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:641    .debug_str:00000000000000d4 .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:657    .debug_str:00000000000001a0 .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:663    .debug_str:00000000000001bd .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:659    .debug_str:00000000000001ac .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:623    .debug_str:0000000000000034 .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:627    .debug_str:0000000000000080 .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:645    .debug_str:00000000000000e2 .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:655    .debug_str:0000000000000197 .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:637    .debug_str:00000000000000c0 .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:14     .text._exit:0000000000000000 .LFB1
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:66     .text._exit:000000000000004c .LFE1
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:570    .debug_loc:0000000000000000 .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:665    .debug_str:00000000000001c5 .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:583    .debug_loc:0000000000000020 .LLST1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s 			page 4
 
 
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:621    .debug_str:000000000000002c .LASF24
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:42     .text._exit:000000000000001c .LVL2
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:48     .text._exit:000000000000002a .LVL3
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:53     .text._exit:0000000000000036 .LVL4
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:60     .text._exit:000000000000004a .LVL5
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:647    .debug_str:00000000000000e9 .LASF25
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:617    .debug_str:000000000000000e .LASF26
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:635    .debug_str:00000000000000ba .LASF17
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:633    .debug_str:00000000000000b0 .LASF18
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:22     .text._exit:0000000000000002 .LCFI0
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:18     .text._exit:0000000000000000 .LVL0
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:36     .text._exit:0000000000000012 .LVL1
-C:\Users\kasie\AppData\Local\Temp\ccXaEYnl.s:81     .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:621    .debug_str:000000000000002c .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:42     .text._exit:000000000000001c .LVL2
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:48     .text._exit:000000000000002a .LVL3
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:53     .text._exit:0000000000000036 .LVL4
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:60     .text._exit:000000000000004a .LVL5
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:647    .debug_str:00000000000000e9 .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:617    .debug_str:000000000000000e .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:635    .debug_str:00000000000000ba .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:633    .debug_str:00000000000000b0 .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:22     .text._exit:0000000000000002 .LCFI0
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:18     .text._exit:0000000000000000 .LVL0
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:36     .text._exit:0000000000000012 .LVL1
+C:\Users\kasie\AppData\Local\Temp\ccDBfLjV.s:81     .debug_info:0000000000000000 .Ldebug_info0
 
 UNDEFINED SYMBOLS
 memcpy

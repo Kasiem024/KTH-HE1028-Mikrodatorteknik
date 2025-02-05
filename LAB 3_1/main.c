@@ -58,18 +58,16 @@ int main(void)
 
       if ((key = keyscan()) >= 0)
       { // ...Any key pressed?
-        while (continueLoop)
+        while (1)
         {
           if (key == 12)
           {
             T1setPWMch2(16000);
-            continueLoop = 0;
             break;
           }
           if (key == 14)
           {
             T1setPWMch2(1);
-            continueLoop = 0;
             break;
           }
           if (key == 15 && tenNumber != -1)
@@ -78,26 +76,22 @@ int main(void)
             T1setPWMch2(finalDimStrength);
             tenNumber = -1;
             oneNumber = -1;
-            continueLoop = 0;
             break;
           }
           if (key == 11)
           {
             tenNumber = -1;
             oneNumber = -1;
-            continueLoop = 0;
             break;
           }
           if (key == 3 && tenNumber != -1 && oneNumber == -1)
           {
             tenNumber = -1;
-            continueLoop = 0;
             break;
           }
           if (key == 3 && tenNumber != -1 && oneNumber != -1)
           {
             oneNumber = -1;
-            continueLoop = 0;
             break;
           }
 

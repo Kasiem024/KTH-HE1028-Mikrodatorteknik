@@ -1798,7 +1798,6 @@ END GROUP
                 0x00000000080018ca                l88mem
                 0x00000000080018de                keyinit
                 0x0000000008001910                keyscan
-                0x0000000008001980                bcd4dc_reset
  .text          0x0000000008001a1a      0x546 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(divdf3.o)
                 0x0000000008001a1a                __divdf3
  .text          0x0000000008001f60      0x44c c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(muldf3.o)
@@ -1966,7 +1965,7 @@ END GROUP
                 [!provide]                        PROVIDE (_dbg_sp = .)
 OUTPUT(build/gd32vf103.elf elf32-littleriscv)
 
-.debug_info     0x0000000000000000     0xac0a
+.debug_info     0x0000000000000000     0xac07
  .debug_info    0x0000000000000000      0xb98 build/gd32vf103_adc.o
  .debug_info    0x0000000000000b98      0x6f6 build/gd32vf103_gpio.o
  .debug_info    0x000000000000128e      0xf51 build/gd32vf103_rcu.o
@@ -1978,19 +1977,19 @@ OUTPUT(build/gd32vf103.elf elf32-littleriscv)
  .debug_info    0x00000000000056fe      0xb4f build/handlers.o
  .debug_info    0x000000000000624d      0xcb0 build/init.o
  .debug_info    0x0000000000006efd      0x559 build/adc.o
- .debug_info    0x0000000000007456      0x4af build/main.o
- .debug_info    0x0000000000007905      0x7df build/pwm.o
- .debug_info    0x00000000000080e4       0x26 build/start.o
- .debug_info    0x000000000000810a       0x22 build/entry.o
- .debug_info    0x000000000000812c       0x26 build/drivers.o
- .debug_info    0x0000000000008152      0x734 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(divdf3.o)
- .debug_info    0x0000000000008886      0x76c c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(muldf3.o)
- .debug_info    0x0000000000008ff2      0x217 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(fixdfsi.o)
- .debug_info    0x0000000000009209      0x2c0 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
- .debug_info    0x00000000000094c9      0xbd7 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
- .debug_info    0x000000000000a0a0      0xb6a c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .debug_info    0x0000000000007456      0x4ac build/main.o
+ .debug_info    0x0000000000007902      0x7df build/pwm.o
+ .debug_info    0x00000000000080e1       0x26 build/start.o
+ .debug_info    0x0000000000008107       0x22 build/entry.o
+ .debug_info    0x0000000000008129       0x26 build/drivers.o
+ .debug_info    0x000000000000814f      0x734 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(divdf3.o)
+ .debug_info    0x0000000000008883      0x76c c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .debug_info    0x0000000000008fef      0x217 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(fixdfsi.o)
+ .debug_info    0x0000000000009206      0x2c0 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
+ .debug_info    0x00000000000094c6      0xbd7 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_info    0x000000000000a09d      0xb6a c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
 
-.debug_abbrev   0x0000000000000000     0x2403
+.debug_abbrev   0x0000000000000000     0x2414
  .debug_abbrev  0x0000000000000000      0x216 build/gd32vf103_adc.o
  .debug_abbrev  0x0000000000000216      0x228 build/gd32vf103_gpio.o
  .debug_abbrev  0x000000000000043e      0x259 build/gd32vf103_rcu.o
@@ -2002,19 +2001,19 @@ OUTPUT(build/gd32vf103.elf elf32-littleriscv)
  .debug_abbrev  0x00000000000010f9      0x234 build/handlers.o
  .debug_abbrev  0x000000000000132d      0x22b build/init.o
  .debug_abbrev  0x0000000000001558      0x10f build/adc.o
- .debug_abbrev  0x0000000000001667      0x179 build/main.o
- .debug_abbrev  0x00000000000017e0      0x196 build/pwm.o
- .debug_abbrev  0x0000000000001976       0x14 build/start.o
- .debug_abbrev  0x000000000000198a       0x12 build/entry.o
- .debug_abbrev  0x000000000000199c       0x14 build/drivers.o
- .debug_abbrev  0x00000000000019b0      0x187 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(divdf3.o)
- .debug_abbrev  0x0000000000001b37      0x197 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(muldf3.o)
- .debug_abbrev  0x0000000000001cce      0x18a c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(fixdfsi.o)
- .debug_abbrev  0x0000000000001e58      0x181 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
- .debug_abbrev  0x0000000000001fd9      0x242 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
- .debug_abbrev  0x000000000000221b      0x1e8 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .debug_abbrev  0x0000000000001667      0x18a build/main.o
+ .debug_abbrev  0x00000000000017f1      0x196 build/pwm.o
+ .debug_abbrev  0x0000000000001987       0x14 build/start.o
+ .debug_abbrev  0x000000000000199b       0x12 build/entry.o
+ .debug_abbrev  0x00000000000019ad       0x14 build/drivers.o
+ .debug_abbrev  0x00000000000019c1      0x187 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(divdf3.o)
+ .debug_abbrev  0x0000000000001b48      0x197 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .debug_abbrev  0x0000000000001cdf      0x18a c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(fixdfsi.o)
+ .debug_abbrev  0x0000000000001e69      0x181 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
+ .debug_abbrev  0x0000000000001fea      0x242 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x000000000000222c      0x1e8 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
 
-.debug_loc      0x0000000000000000     0x5cad
+.debug_loc      0x0000000000000000     0x5c81
  .debug_loc     0x0000000000000000      0x7d6 build/gd32vf103_adc.o
  .debug_loc     0x00000000000007d6      0x4ba build/gd32vf103_gpio.o
  .debug_loc     0x0000000000000c90      0xcf4 build/gd32vf103_rcu.o
@@ -2026,13 +2025,13 @@ OUTPUT(build/gd32vf103.elf elf32-littleriscv)
  .debug_loc     0x0000000000003547       0x7f build/handlers.o
  .debug_loc     0x00000000000035c6       0x2c build/init.o
  .debug_loc     0x00000000000035f2       0x58 build/adc.o
- .debug_loc     0x000000000000364a      0x240 build/main.o
- .debug_loc     0x000000000000388a       0xe9 build/pwm.o
- .debug_loc     0x0000000000003973     0x129b c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(divdf3.o)
- .debug_loc     0x0000000000004c0e      0xd6e c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(muldf3.o)
- .debug_loc     0x000000000000597c      0x16d c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(fixdfsi.o)
- .debug_loc     0x0000000000005ae9      0x159 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
- .debug_loc     0x0000000000005c42       0x6b c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_loc     0x000000000000364a      0x214 build/main.o
+ .debug_loc     0x000000000000385e       0xe9 build/pwm.o
+ .debug_loc     0x0000000000003947     0x129b c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(divdf3.o)
+ .debug_loc     0x0000000000004be2      0xd6e c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .debug_loc     0x0000000000005950      0x16d c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(fixdfsi.o)
+ .debug_loc     0x0000000000005abd      0x159 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
+ .debug_loc     0x0000000000005c16       0x6b c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
 
 .debug_aranges  0x0000000000000000      0x908
  .debug_aranges
@@ -2101,7 +2100,7 @@ OUTPUT(build/gd32vf103.elf elf32-littleriscv)
  .debug_ranges  0x0000000000000c38       0x50 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
  .debug_ranges  0x0000000000000c88       0x20 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
 
-.debug_line     0x0000000000000000     0xbd91
+.debug_line     0x0000000000000000     0xbd85
  .debug_line    0x0000000000000000     0x1495 build/gd32vf103_adc.o
  .debug_line    0x0000000000001495      0xb24 build/gd32vf103_gpio.o
  .debug_line    0x0000000000001fb9     0x1517 build/gd32vf103_rcu.o
@@ -2113,17 +2112,17 @@ OUTPUT(build/gd32vf103.elf elf32-littleriscv)
  .debug_line    0x0000000000007ce4      0x26f build/handlers.o
  .debug_line    0x0000000000007f53      0x2b2 build/init.o
  .debug_line    0x0000000000008205      0x2d1 build/adc.o
- .debug_line    0x00000000000084d6      0x53f build/main.o
- .debug_line    0x0000000000008a15      0x519 build/pwm.o
- .debug_line    0x0000000000008f2e      0x189 build/start.o
- .debug_line    0x00000000000090b7       0xe5 build/entry.o
- .debug_line    0x000000000000919c      0x526 build/drivers.o
- .debug_line    0x00000000000096c2      0xe35 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(divdf3.o)
- .debug_line    0x000000000000a4f7      0xbf8 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(muldf3.o)
- .debug_line    0x000000000000b0ef      0x221 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(fixdfsi.o)
- .debug_line    0x000000000000b310      0x21f c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
- .debug_line    0x000000000000b52f      0x472 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
- .debug_line    0x000000000000b9a1      0x3f0 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
+ .debug_line    0x00000000000084d6      0x533 build/main.o
+ .debug_line    0x0000000000008a09      0x519 build/pwm.o
+ .debug_line    0x0000000000008f22      0x189 build/start.o
+ .debug_line    0x00000000000090ab       0xe5 build/entry.o
+ .debug_line    0x0000000000009190      0x526 build/drivers.o
+ .debug_line    0x00000000000096b6      0xe35 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(divdf3.o)
+ .debug_line    0x000000000000a4eb      0xbf8 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .debug_line    0x000000000000b0e3      0x221 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(fixdfsi.o)
+ .debug_line    0x000000000000b304      0x21f c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(floatsidf.o)
+ .debug_line    0x000000000000b523      0x472 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clzsi2.o)
+ .debug_line    0x000000000000b995      0x3f0 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
 
 .debug_str      0x0000000000000000     0x3677
  .debug_str     0x0000000000000000      0x84d build/gd32vf103_adc.o
@@ -2523,7 +2522,6 @@ adc_watchdog_single_channel_enable                build/gd32vf103_adc.o
 adc_watchdog_threshold_config                     build/gd32vf103_adc.o
 atexit                                            c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32imac/ilp32\libc_nano.a(lib_a-atexit.o)
                                                   build/start.o
-bcd4dc_reset                                      build/drivers.o
 bkp_data_read                                     build/gd32vf103_bkp.o
 bkp_data_write                                    build/gd32vf103_bkp.o
 bkp_deinit                                        build/gd32vf103_bkp.o
