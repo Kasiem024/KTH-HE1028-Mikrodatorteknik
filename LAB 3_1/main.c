@@ -6,24 +6,22 @@
 int main(void)
 {
   int ms = 0, s = 0, key, pKey = -1, c = 0, idle = 0, adcr, tmpr;
-  // int lookUpTbl[16] = {7, 0, 4, 8, 1, 5, 9, 2, 6, 10, 12, 13, 14, 15, 3, 11};
-  //                  {0, 1, 2, 3, 4, 5, 6, 7, 8,  9,   A, B,  C,  D, *,  #};
-  int lookUpTbl[16] = {1, 4, 7, 14, 2, 5, 8, 0, 3, 6, 9, 15, 10, 11, 12, 13};
-  //                  {1, 1, 2, 3, 4, 5, 6, 7, 8,  9,   A, B,  C,  D, *,  #};
 
   t5omsi();           // Initialize timer5 1kHz
   colinit();          // Initialize column toolbox
   l88init();          // Initialize 8*8 led toolbox
   keyinit();          // Initialize keyboard toolbox
   ADC3powerUpInit(0); // Initialize ADC0, Ch3
-  T1powerUpInitPWM(0x2);
 
-  int tenNumber = -1, oneNumber = -1;
-  double finalDimStrength = 0;
+  T1powerUpInitPWM(0x2); // Sättter på lampan A0
+
+  int tenNumber = -1, oneNumber = -1; // Tiotal och ental
+
+  int lookUpTbl[16] = {1, 4, 7, 14, 2, 5, 8, 0, 3, 6, 9, 15, 10, 11, 12, 13};
+  //                  {0, 1, 2, 3, 4, 5, 6, 7, 8,  9,   A, B,  C,  D, *,  #};
 
   while (1)
   {
-    int continueLoop = 1;
     idle++; // Manage Async events
 
     if (adc_flag_get(ADC0, ADC_FLAG_EOC) == SET)
@@ -57,59 +55,66 @@ int main(void)
       }
 
       if ((key = keyscan()) >= 0)
-      { // ...Any key pressed?
+      {
+        // Om en knapp har tryckts
         while (1)
         {
-          if (key == 12)
+          if (key == 12) // Knapp A
           {
             T1setPWMch2(16000);
             break;
           }
-          if (key == 14)
+          else if (key == 14) // Knapp C
           {
-            T1setPWMch2(1);
+            T1setPWMch2(0);
             break;
           }
-          if (key == 15 && tenNumber != -1)
+          else if (key == 15 && tenNumber != -1) // Knapp D
           {
-            finalDimStrength = (((tenNumber * 10) + oneNumber) / 100.0) * 16000;
-            T1setPWMch2(finalDimStrength);
-            tenNumber = -1;
-            oneNumber = -1;
-            break;
-          }
-          if (key == 11)
-          {
-            tenNumber = -1;
-            oneNumber = -1;
-            break;
-          }
-          if (key == 3 && tenNumber != -1 && oneNumber == -1)
-          {
-            tenNumber = -1;
-            break;
-          }
-          if (key == 3 && tenNumber != -1 && oneNumber != -1)
-          {
-            oneNumber = -1;
-            break;
-          }
+            float dimStrength = (((tenNumber * 10) + oneNumber) / 100.0) * 16000; // Omvandla till procent och sedan räkna ut styrkan
 
-          for (int counter = 0; counter < 16; counter++)
+            T1setPWMch2(dimStrength);
+
+            // Resetar tiotal och ental
+            tenNumber = -1;
+            oneNumber = -1;
+            break;
+          }
+          else if (key == 11) // Knapp #
           {
-            if (counter == lookUpTbl[key])
+            // Resetar tiotal och ental
+            tenNumber = -1;
+            oneNumber = -1;
+            break;
+          }
+          else if (key == 3 && tenNumber != -1 && oneNumber == -1) // Knapp * och inget ental finns
+          {
+            tenNumber = -1;
+            break;
+          }
+          else if (key == 3 && tenNumber != -1 && oneNumber != -1) // Knapp * och entalet finns
+          {
+            oneNumber = -1;
+            break;
+          }
+          else // En siffer knapp
+          {
+            for (int counter = 0; counter < 16; counter++)
             {
-              if (tenNumber == -1)
+              // Hitta knappen som trycktes i lookUpTbl och sätt tiotal eller ental
+              if (counter == lookUpTbl[key])
               {
-                tenNumber = counter;
-              }
-              else if (oneNumber == -1)
-              {
-                oneNumber = counter;
+                if (tenNumber == -1)
+                {
+                  tenNumber = counter;
+                }
+                else if (oneNumber == -1)
+                {
+                  oneNumber = counter;
+                }
               }
             }
           }
-
           break;
         }
       }
