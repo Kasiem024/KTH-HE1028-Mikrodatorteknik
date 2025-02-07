@@ -1,0 +1,638 @@
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s 			page 1
+
+
+   1              		.file	"main.c"
+   2              		.option nopic
+   3              		.attribute arch, "rv32i2p0_m2p0_a2p0_c2p0"
+   4              		.attribute unaligned_access, 0
+   5              		.attribute stack_align, 16
+   6              		.text
+   7              	.Ltext0:
+   8              		.cfi_sections	.debug_frame
+   9              		.globl	__floatsidf
+  10              		.globl	__divdf3
+  11              		.globl	__truncdfsf2
+  12              		.globl	__fixsfsi
+  13              		.section	.text.startup.main,"ax",@progbits
+  14              		.align	1
+  15              		.globl	main
+  17              	main:
+  18              	.LFB2:
+  19              		.file 1 "main.c"
+   1:main.c        **** #include "gd32vf103.h"
+   2:main.c        **** #include "drivers.h"
+   3:main.c        **** #include "adc.h"
+   4:main.c        **** #include "pwm.h"
+   5:main.c        **** 
+   6:main.c        **** int main(void)
+   7:main.c        **** {
+  20              		.loc 1 7 1
+  21              		.cfi_startproc
+   8:main.c        ****   int ms = 0, s = 0, key, pKey = -1, c = 0, idle = 0, adcr, tmpr;
+  22              		.loc 1 8 3
+  23              	.LVL0:
+   9:main.c        **** 
+  10:main.c        ****   t5omsi();           // Initialize timer5 1kHz
+  24              		.loc 1 10 3
+   7:main.c        ****   int ms = 0, s = 0, key, pKey = -1, c = 0, idle = 0, adcr, tmpr;
+  25              		.loc 1 7 1 is_stmt 0
+  26 0000 7971     		addi	sp,sp,-48
+  27              	.LCFI0:
+  28              		.cfi_def_cfa_offset 48
+  29 0002 06D6     		sw	ra,44(sp)
+  30 0004 22D4     		sw	s0,40(sp)
+  31 0006 26D2     		sw	s1,36(sp)
+  32 0008 4AD0     		sw	s2,32(sp)
+  33 000a 4ECE     		sw	s3,28(sp)
+  34 000c 5AC8     		sw	s6,16(sp)
+  35 000e 5EC6     		sw	s7,12(sp)
+  36 0010 62C4     		sw	s8,8(sp)
+  37 0012 52CC     		sw	s4,24(sp)
+  38 0014 56CA     		sw	s5,20(sp)
+  39              		.cfi_offset 1, -4
+  40              		.cfi_offset 8, -8
+  41              		.cfi_offset 9, -12
+  42              		.cfi_offset 18, -16
+  43              		.cfi_offset 19, -20
+  44              		.cfi_offset 22, -32
+  45              		.cfi_offset 23, -36
+  46              		.cfi_offset 24, -40
+  47              		.cfi_offset 20, -24
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s 			page 2
+
+
+  48              		.cfi_offset 21, -28
+  49              		.loc 1 10 3
+  50 0016 97000000 		call	t5omsi
+  50      E7800000 
+  51              	.LVL1:
+  11:main.c        ****   colinit();          // Initialize column toolbox
+  52              		.loc 1 11 3 is_stmt 1
+  53 001e 97000000 		call	colinit
+  53      E7800000 
+  54              	.LVL2:
+  12:main.c        ****   l88init();          // Initialize 8*8 led toolbox
+  55              		.loc 1 12 3
+  56 0026 97000000 		call	l88init
+  56      E7800000 
+  57              	.LVL3:
+  13:main.c        ****   keyinit();          // Initialize keyboard toolbox
+  58              		.loc 1 13 3
+  59 002e 97000000 		call	keyinit
+  59      E7800000 
+  60              	.LVL4:
+  14:main.c        ****   ADC3powerUpInit(0); // Initialize ADC0, Ch3
+  61              		.loc 1 14 3
+  62 0036 0145     		li	a0,0
+  63 0038 97000000 		call	ADC3powerUpInit
+  63      E7800000 
+  64              	.LVL5:
+  15:main.c        **** 
+  16:main.c        ****   T1powerUpInitPWM(0x2); // Sättter på lampan A0
+  65              		.loc 1 16 3
+  66 0040 0945     		li	a0,2
+  67 0042 97000000 		call	T1powerUpInitPWM
+  67      E7800000 
+  68              	.LVL6:
+  17:main.c        **** 
+  18:main.c        ****   int tenNumber = -1, oneNumber = -1; // Tiotal och ental
+  69              		.loc 1 18 3
+  19:main.c        **** 
+  20:main.c        ****   int lookUpTbl[16] = {1, 4, 7, 14, 2, 5, 8, 0, 3, 6, 9, 15, 10, 11, 12, 13};
+  70              		.loc 1 20 3
+  71              	.LBB2:
+  21:main.c        ****   //                  {0, 1, 2, 3, 4, 5, 6, 7, 8,  9,   A, B,  C,  D, *,  #};
+  22:main.c        **** 
+  23:main.c        ****   while (1)
+  24:main.c        ****   {
+  25:main.c        ****     idle++; // Manage Async events
+  26:main.c        **** 
+  27:main.c        ****     if (adc_flag_get(ADC0, ADC_FLAG_EOC) == SET)
+  28:main.c        ****     { // ...ADC done?
+  29:main.c        ****       if (adc_flag_get(ADC0, ADC_FLAG_EOIC) == SET)
+  30:main.c        ****       { //...ch3 or ch16?
+  31:main.c        ****         tmpr = adc_inserted_data_read(ADC0, ADC_INSERTED_CHANNEL_0);
+  32:main.c        ****         // l88mem(6,((0x680-tmpr)/5)+25);
+  33:main.c        ****         // l88mem(6,tmpr>>8);                  // ......move data
+  34:main.c        ****         // l88mem(7,tmpr);                     // ......(view each ms)
+  35:main.c        ****         adc_flag_clear(ADC0, ADC_FLAG_EOC);
+  36:main.c        ****         adc_flag_clear(ADC0, ADC_FLAG_EOIC);
+  37:main.c        ****       }
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s 			page 3
+
+
+  38:main.c        ****       else
+  39:main.c        ****       {
+  40:main.c        ****         adcr = adc_regular_data_read(ADC0); // ......get data
+  41:main.c        ****         l88mem(4, adcr & 0xFF);             // ......move data
+  42:main.c        ****         l88mem(5, adcr >> 8);               // ......(view each ms)
+  43:main.c        ****         adc_flag_clear(ADC0, ADC_FLAG_EOC); // ......clear IF
+  44:main.c        ****       }
+  45:main.c        ****     }
+  46:main.c        **** 
+  47:main.c        ****     if (t5expq())
+  48:main.c        ****     {                   // Manage periodic tasks
+  49:main.c        ****       l88row(colset()); // ...8*8LED and Keyboard
+  50:main.c        ****       ms++;             // ...One second heart beat
+  51:main.c        ****       if (ms == 1000)
+  52:main.c        ****       {
+  53:main.c        ****         ms = 0;
+  54:main.c        ****         l88mem(0, s++);
+  55:main.c        ****       }
+  56:main.c        **** 
+  57:main.c        ****       if ((key = keyscan()) >= 0)
+  58:main.c        ****       {
+  59:main.c        ****         float test = tmpr / 100.0;
+  72              		.loc 1 59 27 is_stmt 0
+  73 004a B7070000 		lui	a5,%hi(.LC1)
+  74 004e 03AB0700 		lw	s6,%lo(.LC1)(a5)
+  75 0052 83AB4700 		lw	s7,%lo(.LC1+4)(a5)
+  76              	.LBE2:
+  27:main.c        ****     { // ...ADC done?
+  77              		.loc 1 27 9
+  78 0056 37240140 		li	s0,1073815552
+   8:main.c        **** 
+  79              		.loc 1 8 15
+  80 005a 0149     		li	s2,0
+   8:main.c        **** 
+  81              		.loc 1 8 7
+  82 005c 8144     		li	s1,0
+  27:main.c        ****     { // ...ADC done?
+  83              		.loc 1 27 9
+  84 005e 13040440 		addi	s0,s0,1024
+  27:main.c        ****     { // ...ADC done?
+  85              		.loc 1 27 8
+  86 0062 8549     		li	s3,1
+  51:main.c        ****       {
+  87              		.loc 1 51 10
+  88 0064 130C803E 		li	s8,1000
+  89              	.LVL7:
+  90              	.L6:
+  23:main.c        ****   {
+  91              		.loc 1 23 3 is_stmt 1
+  25:main.c        **** 
+  92              		.loc 1 25 5
+  27:main.c        ****     { // ...ADC done?
+  93              		.loc 1 27 5
+  27:main.c        ****     { // ...ADC done?
+  94              		.loc 1 27 9 is_stmt 0
+  95 0068 8945     		li	a1,2
+  96 006a 2285     		mv	a0,s0
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s 			page 4
+
+
+  97 006c 97000000 		call	adc_flag_get
+  97      E7800000 
+  98              	.LVL8:
+  27:main.c        ****     { // ...ADC done?
+  99              		.loc 1 27 8
+ 100 0074 631D3503 		bne	a0,s3,.L2
+  29:main.c        ****       { //...ch3 or ch16?
+ 101              		.loc 1 29 7 is_stmt 1
+  29:main.c        ****       { //...ch3 or ch16?
+ 102              		.loc 1 29 11 is_stmt 0
+ 103 0078 9145     		li	a1,4
+ 104 007a 2285     		mv	a0,s0
+ 105 007c 97000000 		call	adc_flag_get
+ 105      E7800000 
+ 106              	.LVL9:
+  29:main.c        ****       { //...ch3 or ch16?
+ 107              		.loc 1 29 10
+ 108 0084 631F350B 		bne	a0,s3,.L3
+  31:main.c        ****         // l88mem(6,((0x680-tmpr)/5)+25);
+ 109              		.loc 1 31 9 is_stmt 1
+  31:main.c        ****         // l88mem(6,((0x680-tmpr)/5)+25);
+ 110              		.loc 1 31 16 is_stmt 0
+ 111 0088 8145     		li	a1,0
+ 112 008a 2285     		mv	a0,s0
+ 113 008c 97000000 		call	adc_inserted_data_read
+ 113      E7800000 
+ 114              	.LVL10:
+  35:main.c        ****         adc_flag_clear(ADC0, ADC_FLAG_EOIC);
+ 115              		.loc 1 35 9
+ 116 0094 8945     		li	a1,2
+  31:main.c        ****         // l88mem(6,((0x680-tmpr)/5)+25);
+ 117              		.loc 1 31 16
+ 118 0096 AA8A     		mv	s5,a0
+ 119              	.LVL11:
+  35:main.c        ****         adc_flag_clear(ADC0, ADC_FLAG_EOIC);
+ 120              		.loc 1 35 9 is_stmt 1
+ 121 0098 2285     		mv	a0,s0
+ 122              	.LVL12:
+ 123 009a 97000000 		call	adc_flag_clear
+ 123      E7800000 
+ 124              	.LVL13:
+  36:main.c        ****       }
+ 125              		.loc 1 36 9
+ 126 00a2 9145     		li	a1,4
+ 127              	.LVL14:
+ 128              	.L11:
+  43:main.c        ****       }
+ 129              		.loc 1 43 9 is_stmt 0
+ 130 00a4 2285     		mv	a0,s0
+ 131 00a6 97000000 		call	adc_flag_clear
+ 131      E7800000 
+ 132              	.LVL15:
+ 133              	.L2:
+  47:main.c        ****     {                   // Manage periodic tasks
+ 134              		.loc 1 47 5 is_stmt 1
+  47:main.c        ****     {                   // Manage periodic tasks
+ 135              		.loc 1 47 9 is_stmt 0
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s 			page 5
+
+
+ 136 00ae 97000000 		call	t5expq
+ 136      E7800000 
+ 137              	.LVL16:
+  47:main.c        ****     {                   // Manage periodic tasks
+ 138              		.loc 1 47 8
+ 139 00b6 3DC1     		beq	a0,zero,.L4
+ 140 00b8 8504     		addi	s1,s1,1
+ 141              	.LVL17:
+  49:main.c        ****       ms++;             // ...One second heart beat
+ 142              		.loc 1 49 7 is_stmt 1
+ 143 00ba 97000000 		call	colset
+ 143      E7800000 
+ 144              	.LVL18:
+ 145 00c2 97000000 		call	l88row
+ 145      E7800000 
+ 146              	.LVL19:
+  50:main.c        ****       if (ms == 1000)
+ 147              		.loc 1 50 7
+  51:main.c        ****       {
+ 148              		.loc 1 51 7
+  51:main.c        ****       {
+ 149              		.loc 1 51 10 is_stmt 0
+ 150 00ca 639C8401 		bne	s1,s8,.L5
+  53:main.c        ****         l88mem(0, s++);
+ 151              		.loc 1 53 9 is_stmt 1
+ 152              	.LVL20:
+  54:main.c        ****       }
+ 153              		.loc 1 54 9
+ 154 00ce 93041900 		addi	s1,s2,1
+ 155              	.LVL21:
+ 156 00d2 CA85     		mv	a1,s2
+ 157 00d4 0145     		li	a0,0
+ 158 00d6 2689     		mv	s2,s1
+ 159 00d8 97000000 		call	l88mem
+ 159      E7800000 
+ 160              	.LVL22:
+  53:main.c        ****         l88mem(0, s++);
+ 161              		.loc 1 53 12 is_stmt 0
+ 162 00e0 8144     		li	s1,0
+ 163              	.LVL23:
+ 164              	.L5:
+  57:main.c        ****       {
+ 165              		.loc 1 57 7 is_stmt 1
+  57:main.c        ****       {
+ 166              		.loc 1 57 18 is_stmt 0
+ 167 00e2 97000000 		call	keyscan
+ 167      E7800000 
+ 168              	.LVL24:
+  57:main.c        ****       {
+ 169              		.loc 1 57 10
+ 170 00ea 63490502 		blt	a0,zero,.L4
+ 171              	.LBB3:
+ 172              		.loc 1 59 9 is_stmt 1
+ 173              	.LVL25:
+  60:main.c        ****         T1setPWMch2(test);
+ 174              		.loc 1 60 9
+  59:main.c        ****         T1setPWMch2(test);
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s 			page 6
+
+
+ 175              		.loc 1 59 27 is_stmt 0
+ 176 00ee 5685     		mv	a0,s5
+ 177              	.LVL26:
+ 178 00f0 97000000 		call	__floatsidf
+ 178      E7800000 
+ 179              	.LVL27:
+ 180 00f8 5A86     		mv	a2,s6
+ 181 00fa DE86     		mv	a3,s7
+ 182 00fc 97000000 		call	__divdf3
+ 182      E7800000 
+ 183              	.LVL28:
+  59:main.c        ****         T1setPWMch2(test);
+ 184              		.loc 1 59 15
+ 185 0104 97000000 		call	__truncdfsf2
+ 185      E7800000 
+ 186              	.LVL29:
+ 187              		.loc 1 60 9
+ 188 010c 97000000 		call	__fixsfsi
+ 188      E7800000 
+ 189              	.LVL30:
+ 190 0114 97000000 		call	T1setPWMch2
+ 190      E7800000 
+ 191              	.LVL31:
+ 192              	.L4:
+ 193              	.LBE3:
+  61:main.c        ****       }
+  62:main.c        ****     }
+  63:main.c        ****     l88mem(2, idle >> 8); // ...Performance monitor
+ 194              		.loc 1 63 5 is_stmt 1
+ 195 011c 8145     		li	a1,0
+ 196 011e 0945     		li	a0,2
+ 197 0120 97000000 		call	l88mem
+ 197      E7800000 
+ 198              	.LVL32:
+  64:main.c        ****     l88mem(3, idle);
+ 199              		.loc 1 64 5
+ 200 0128 8545     		li	a1,1
+ 201 012a 0D45     		li	a0,3
+ 202 012c 97000000 		call	l88mem
+ 202      E7800000 
+ 203              	.LVL33:
+  65:main.c        ****     idle = 0;
+ 204              		.loc 1 65 5
+  66:main.c        ****     adc_software_trigger_enable(ADC0, // Trigger another ADC conversion!
+ 205              		.loc 1 66 5
+ 206 0134 8545     		li	a1,1
+ 207 0136 2285     		mv	a0,s0
+ 208 0138 97000000 		call	adc_software_trigger_enable
+ 208      E7800000 
+ 209              	.LVL34:
+  25:main.c        **** 
+ 210              		.loc 1 25 9 is_stmt 0
+ 211 0140 25B7     		j	.L6
+ 212              	.LVL35:
+ 213              	.L3:
+  40:main.c        ****         l88mem(4, adcr & 0xFF);             // ......move data
+ 214              		.loc 1 40 9 is_stmt 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s 			page 7
+
+
+  40:main.c        ****         l88mem(4, adcr & 0xFF);             // ......move data
+ 215              		.loc 1 40 16 is_stmt 0
+ 216 0142 2285     		mv	a0,s0
+ 217 0144 97000000 		call	adc_regular_data_read
+ 217      E7800000 
+ 218              	.LVL36:
+  41:main.c        ****         l88mem(5, adcr >> 8);               // ......(view each ms)
+ 219              		.loc 1 41 9
+ 220 014c 9375F50F 		andi	a1,a0,0xff
+  40:main.c        ****         l88mem(4, adcr & 0xFF);             // ......move data
+ 221              		.loc 1 40 16
+ 222 0150 2A8A     		mv	s4,a0
+ 223              	.LVL37:
+  41:main.c        ****         l88mem(5, adcr >> 8);               // ......(view each ms)
+ 224              		.loc 1 41 9 is_stmt 1
+ 225 0152 1145     		li	a0,4
+ 226              	.LVL38:
+ 227 0154 97000000 		call	l88mem
+ 227      E7800000 
+ 228              	.LVL39:
+  42:main.c        ****         adc_flag_clear(ADC0, ADC_FLAG_EOC); // ......clear IF
+ 229              		.loc 1 42 9
+ 230 015c 93558A40 		srai	a1,s4,8
+ 231 0160 1545     		li	a0,5
+ 232 0162 97000000 		call	l88mem
+ 232      E7800000 
+ 233              	.LVL40:
+  43:main.c        ****       }
+ 234              		.loc 1 43 9
+ 235 016a 8945     		li	a1,2
+ 236 016c 25BF     		j	.L11
+ 237              		.cfi_endproc
+ 238              	.LFE2:
+ 240              		.section	.rodata.main.cst8,"aM",@progbits,8
+ 241              		.align	3
+ 242              	.LC1:
+ 243 0000 00000000 		.word	0
+ 244 0004 00005940 		.word	1079574528
+ 245              		.text
+ 246              	.Letext0:
+ 247              		.file 2 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
+ 248              		.file 3 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
+ 249              		.file 4 "pwm.h"
+ 250              		.file 5 "drivers.h"
+ 251              		.file 6 "adc.h"
+ 252              		.file 7 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_adc.h"
+ 253              		.file 8 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
+ 254              		.file 9 "./../../firmware/GD32VF103_standard_peripheral/gd32vf103.h"
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s 			page 8
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 main.c
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:17     .text.startup.main:0000000000000000 main
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:21     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:22     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:24     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:25     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:26     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:28     .text.startup.main:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:39     .text.startup.main:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:40     .text.startup.main:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:41     .text.startup.main:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:42     .text.startup.main:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:43     .text.startup.main:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:44     .text.startup.main:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:45     .text.startup.main:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:46     .text.startup.main:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:47     .text.startup.main:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:48     .text.startup.main:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:50     .text.startup.main:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:53     .text.startup.main:000000000000001e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:56     .text.startup.main:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:59     .text.startup.main:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:62     .text.startup.main:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:66     .text.startup.main:0000000000000040 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:70     .text.startup.main:000000000000004a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:72     .text.startup.main:000000000000004a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:73     .text.startup.main:000000000000004a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:78     .text.startup.main:0000000000000056 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:80     .text.startup.main:000000000000005a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:82     .text.startup.main:000000000000005c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:84     .text.startup.main:000000000000005e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:86     .text.startup.main:0000000000000062 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:88     .text.startup.main:0000000000000064 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:92     .text.startup.main:0000000000000068 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:93     .text.startup.main:0000000000000068 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:94     .text.startup.main:0000000000000068 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:95     .text.startup.main:0000000000000068 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:100    .text.startup.main:0000000000000074 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:102    .text.startup.main:0000000000000078 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:103    .text.startup.main:0000000000000078 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:108    .text.startup.main:0000000000000084 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:110    .text.startup.main:0000000000000088 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:111    .text.startup.main:0000000000000088 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:116    .text.startup.main:0000000000000094 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:118    .text.startup.main:0000000000000096 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:121    .text.startup.main:0000000000000098 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:126    .text.startup.main:00000000000000a2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:130    .text.startup.main:00000000000000a4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:135    .text.startup.main:00000000000000ae .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:136    .text.startup.main:00000000000000ae .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:139    .text.startup.main:00000000000000b6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:143    .text.startup.main:00000000000000ba .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:148    .text.startup.main:00000000000000ca .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:149    .text.startup.main:00000000000000ca .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:150    .text.startup.main:00000000000000ca .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:153    .text.startup.main:00000000000000ce .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s 			page 9
+
+
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:154    .text.startup.main:00000000000000ce .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:162    .text.startup.main:00000000000000e0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:166    .text.startup.main:00000000000000e2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:167    .text.startup.main:00000000000000e2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:170    .text.startup.main:00000000000000ea .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:174    .text.startup.main:00000000000000ee .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:175    .text.startup.main:00000000000000ee .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:176    .text.startup.main:00000000000000ee .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:185    .text.startup.main:0000000000000104 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:188    .text.startup.main:000000000000010c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:195    .text.startup.main:000000000000011c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:200    .text.startup.main:0000000000000128 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:205    .text.startup.main:0000000000000134 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:206    .text.startup.main:0000000000000134 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:211    .text.startup.main:0000000000000140 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:215    .text.startup.main:0000000000000142 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:216    .text.startup.main:0000000000000142 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:220    .text.startup.main:000000000000014c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:222    .text.startup.main:0000000000000150 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:225    .text.startup.main:0000000000000152 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:230    .text.startup.main:000000000000015c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:235    .text.startup.main:000000000000016a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:237    .text.startup.main:000000000000016e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:240    .text.startup.main:000000000000016e .L0 
+                     .debug_frame:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:242    .rodata.main.cst8:0000000000000000 .LC1
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:133    .text.startup.main:00000000000000ae .L2
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:213    .text.startup.main:0000000000000142 .L3
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:192    .text.startup.main:000000000000011c .L4
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:164    .text.startup.main:00000000000000e2 .L5
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:90     .text.startup.main:0000000000000068 .L6
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:128    .text.startup.main:00000000000000a4 .L11
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:842    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1424   .debug_str:0000000000000196 .LASF41
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1406   .debug_str:0000000000000139 .LASF42
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1442   .debug_str:0000000000000279 .LASF43
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1336   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1348   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1360   .debug_str:0000000000000047 .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1362   .debug_str:000000000000004e .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1388   .debug_str:00000000000000c7 .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1432   .debug_str:0000000000000238 .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1350   .debug_str:0000000000000000 .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1366   .debug_str:000000000000005c .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1416   .debug_str:0000000000000168 .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1358   .debug_str:0000000000000034 .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1356   .debug_str:000000000000002b .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1380   .debug_str:00000000000000ab .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1368   .debug_str:000000000000006a .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1404   .debug_str:000000000000012b .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1438   .debug_str:0000000000000253 .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1396   .debug_str:00000000000000f9 .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1426   .debug_str:000000000000021e .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1408   .debug_str:0000000000000140 .LASF44
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1370   .debug_str:000000000000007c .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1430   .debug_str:000000000000022c .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1384   .debug_str:00000000000000bd .LASF45
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s 			page 10
+
+
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:18     .text.startup.main:0000000000000000 .LFB2
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:238    .text.startup.main:000000000000016e .LFE2
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1175   .debug_loc:0000000000000000 .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1188   .debug_loc:0000000000000020 .LLST1
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1221   .debug_loc:0000000000000070 .LLST2
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1241   .debug_loc:00000000000000a5 .LLST3
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1378   .debug_str:00000000000000a6 .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1354   .debug_str:0000000000000026 .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1248   .debug_loc:00000000000000b8 .LLST4
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1422   .debug_str:0000000000000191 .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1271   .debug_loc:00000000000000f0 .LLST5
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1428   .debug_str:0000000000000227 .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1283   .debug_loc:0000000000000109 .LLST6
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1414   .debug_str:000000000000015e .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1376   .debug_str:000000000000009c .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1374   .debug_str:0000000000000092 .LASF46
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1386   .debug_str:00000000000000c2 .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1302   .debug_loc:000000000000013d .LLST7
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:191    .text.startup.main:000000000000011c .LVL31
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:51     .text.startup.main:000000000000001e .LVL1
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:54     .text.startup.main:0000000000000026 .LVL2
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:57     .text.startup.main:000000000000002e .LVL3
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:60     .text.startup.main:0000000000000036 .LVL4
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:64     .text.startup.main:0000000000000040 .LVL5
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:68     .text.startup.main:000000000000004a .LVL6
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:98     .text.startup.main:0000000000000074 .LVL8
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:106    .text.startup.main:0000000000000084 .LVL9
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:114    .text.startup.main:0000000000000094 .LVL10
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:124    .text.startup.main:00000000000000a2 .LVL13
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:132    .text.startup.main:00000000000000ae .LVL15
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:137    .text.startup.main:00000000000000b6 .LVL16
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:144    .text.startup.main:00000000000000c2 .LVL18
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:146    .text.startup.main:00000000000000ca .LVL19
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:160    .text.startup.main:00000000000000e0 .LVL22
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:168    .text.startup.main:00000000000000ea .LVL24
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:198    .text.startup.main:0000000000000128 .LVL32
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:203    .text.startup.main:0000000000000134 .LVL33
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:209    .text.startup.main:0000000000000140 .LVL34
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:218    .text.startup.main:000000000000014c .LVL36
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:228    .text.startup.main:000000000000015c .LVL39
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:233    .text.startup.main:000000000000016a .LVL40
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1402   .debug_str:000000000000011f .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1394   .debug_str:00000000000000f2 .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1398   .debug_str:0000000000000101 .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1436   .debug_str:000000000000024b .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1420   .debug_str:0000000000000189 .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1372   .debug_str:0000000000000082 .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1390   .debug_str:00000000000000d4 .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1392   .debug_str:00000000000000e5 .LASF31
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1418   .debug_str:0000000000000172 .LASF32
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1440   .debug_str:000000000000026a .LASF33
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1410   .debug_str:0000000000000150 .LASF34
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1382   .debug_str:00000000000000b6 .LASF35
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1412   .debug_str:0000000000000157 .LASF36
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1434   .debug_str:0000000000000244 .LASF37
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1364   .debug_str:0000000000000054 .LASF38
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1352   .debug_str:000000000000000a .LASF39
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s 			page 11
+
+
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:1400   .debug_str:0000000000000109 .LASF40
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:27     .text.startup.main:0000000000000002 .LCFI0
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:23     .text.startup.main:0000000000000000 .LVL0
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:89     .text.startup.main:0000000000000068 .LVL7
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:141    .text.startup.main:00000000000000ba .LVL17
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:152    .text.startup.main:00000000000000ce .LVL20
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:163    .text.startup.main:00000000000000e2 .LVL23
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:155    .text.startup.main:00000000000000d2 .LVL21
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:177    .text.startup.main:00000000000000f0 .LVL26
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:212    .text.startup.main:0000000000000142 .LVL35
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:223    .text.startup.main:0000000000000152 .LVL37
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:226    .text.startup.main:0000000000000154 .LVL38
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:119    .text.startup.main:0000000000000098 .LVL11
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:122    .text.startup.main:000000000000009a .LVL12
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:127    .text.startup.main:00000000000000a4 .LVL14
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:173    .text.startup.main:00000000000000ee .LVL25
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:256    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:71     .text.startup.main:000000000000004a .LBB2
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:76     .text.startup.main:0000000000000056 .LBE2
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:171    .text.startup.main:00000000000000ee .LBB3
+C:\Users\kasie\AppData\Local\Temp\ccw4XHQ3.s:193    .text.startup.main:000000000000011c .LBE3
+
+UNDEFINED SYMBOLS
+__floatsidf
+__divdf3
+__truncdfsf2
+__fixsfsi
+t5omsi
+colinit
+l88init
+keyinit
+ADC3powerUpInit
+T1powerUpInitPWM
+adc_flag_get
+adc_inserted_data_read
+adc_flag_clear
+t5expq
+colset
+l88row
+l88mem
+keyscan
+T1setPWMch2
+adc_software_trigger_enable
+adc_regular_data_read
