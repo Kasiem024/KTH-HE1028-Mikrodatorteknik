@@ -5,8 +5,8 @@
 
 int main(void)
 {
-  int ms = 0, s = 0, key, pKey = -1, c = 0, idle = 0, adcr, tmpr;
-  int vehicles[49] = {0, 192, 192, 193, 192, 4, 4, 4, 4, 4, 4, 17, 21, 17, 31, 8, 194, 194, 192, 192, 3, 3, 35, 35, 8, 8, 1, 1, 248, 136, 168, 136, 248, 64, 3, 19, 19, 3, 70, 70, 6, 38, 32};
+  int alive = 1, playerPosition = 0, currentObstacle = 0, points = 0, ms = 0, potentiometerValue;
+  int obstacles[50] = {192, 192, 193, 192, 4, 4, 0, 128, 159, 17, 21, 17, 31, 0, 8, 0, 194, 194, 192, 192, 0, 3, 3, 35, 35, 8, 8, 1, 1, 248, 136, 168, 136, 248, 64, 64, 0, 4, 19, 19, 3, 0, 0, 192, 192, 193, 192, 4, 4};
 
   t5omsi();           // Initialize timer5 1kHz
   colinit();          // Initialize column toolbox
@@ -14,71 +14,55 @@ int main(void)
   keyinit();          // Initialize keyboard toolbox
   ADC3powerUpInit(0); // Initialize ADC0, Ch3
 
-  int death = 0, pixelToControl = 0, score = 0;
-
-  while (1)
+  while (1) // Infinite loop
   {
-    idle++; // Manage Async events
-
-    if (adc_flag_get(ADC0, ADC_FLAG_EOC) == SET)
-    { // ...ADC done?
-      if (adc_flag_get(ADC0, ADC_FLAG_EOIC) == SET)
-      { //...ch3 or ch16?
-        tmpr = adc_inserted_data_read(ADC0, ADC_INSERTED_CHANNEL_0);
-
-        l88mem(6, ((0x680 - tmpr) / 5) + 25);
-        l88mem(6, tmpr >> 8); // ......move data
-        l88mem(7, tmpr);      // ......(view each ms)
-
-        adc_flag_clear(ADC0, ADC_FLAG_EOC);
-        adc_flag_clear(ADC0, ADC_FLAG_EOIC);
-      }
-      else
-      {
-        adcr = adc_regular_data_read(ADC0); // ......get data
-        adc_flag_clear(ADC0, ADC_FLAG_EOC); // ......clear IF
-      }
+    if (adc_flag_get(ADC0, ADC_FLAG_EOC) == SET) // If ADC is done
+    {
+      potentiometerValue = adc_regular_data_read(ADC0); // Get value of potentiometer
+      adc_flag_clear(ADC0, ADC_FLAG_EOC);               // ......clear IF
     }
 
     if (t5expq())
     {                   // Manage periodic tasks
       l88row(colset()); // ...8*8LED and Keyboard
-      ms++;             // ...One second heart beat
-      if (ms == 300)
+      ms++;             // One millisecond
+
+      playerPosition = 7 - ((potentiometerValue * 8) / 4096); // Update the position of the player based on the potentiometer value
+      l88mem(7, 1 << playerPosition);                         // Display the position of the player
+
+      if (ms == (500 - (points * 2))) // If half a second has passed minus the score of the player, gets faster as the player gets more points
       {
-        ms = 0;
-        pixelToControl = 7 - ((adcr * 8) / 4096); // johan = imponerad
+        ms = 0; // Reset timer
 
-        l88mem(7, 1 << pixelToControl);
-
-        if (!death)
+        if (alive) // If the player is alive
         {
           for (int counter = 0; counter < 7; counter++)
           {
-            l88mem(counter, vehicles[s + 7 - counter]);
+            l88mem(counter, obstacles[currentObstacle + 7 - counter]); // Go through each row of the display and update it with the next obstacle
           }
 
-          s++;
-          score++;
+          currentObstacle++; // Move to the next obstacle
+          points++;          // Increase player points
         }
 
-        if ((vehicles[s] & (2 ^ (1 << (pixelToControl)))) > 0)
+        if ((obstacles[currentObstacle] & (1 << (playerPosition))) > 0) // If the position of the player overlaps with an obstacle
         {
-          death = 1;
+          alive = 0; // Set the player to dead
 
           for (int counter = 0; counter < 7; counter++)
           {
-            l88mem(counter, 0);
+            l88mem(counter, 0); // Go through each row of the display and clear it
           }
 
-          l88mem(3, score);
+          l88mem(3, points); // Display the player's score
         }
 
-        if (s == 49)
+        if (currentObstacle == 43) // If the last obstacle has been displayed
         {
-          s = 0;
+          currentObstacle = 0; // Reset the obstacles
         }
       }
+
       adc_software_trigger_enable(ADC0, // Trigger another ADC conversion!
                                   ADC_REGULAR_CHANNEL);
     }

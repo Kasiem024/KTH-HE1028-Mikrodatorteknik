@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s 			page 1
 
 
    1              		.file	"adc.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 1
   44 0024 97000000 		call	rcu_adc_clock_config
   44      E7800000 
   45              	.LVL4:
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s 			page 2
 
 
    9:adc.c         **** 
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 1
   85 0096 97000000 		call	adc_data_alignment_config
   85      E7800000 
   86              	.LVL11:
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s 			page 3
 
 
   18:adc.c         ****     adc_channel_length_config(ADC0, ADC_REGULAR_CHANNEL, 1);         // Convert one channel
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 1
  124 00fa 13050440 		addi	a0,s0,1024
  125 00fe 97000000 		call	adc_channel_length_config
  125      E7800000 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s 			page 4
 
 
  126              	.LVL17:
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 1
   43:adc.c         ****     adc_software_trigger_enable(ADC0, ADC_REGULAR_CHANNEL); // ...trigger 1:st conv!
  161              		.loc 1 43 5
  162 0146 8545     		li	a1,1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 5
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s 			page 5
 
 
  163              		.loc 1 44 1
@@ -261,175 +261,175 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 1
  179              		.file 6 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_gpio.h"
  180              		.file 7 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_adc.h"
  181              		.file 8 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 6
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s 			page 6
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 adc.c
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:13     .text.ADC3powerUpInit:0000000000000000 ADC3powerUpInit
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:17     .text.ADC3powerUpInit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:19     .text.ADC3powerUpInit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:20     .text.ADC3powerUpInit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:21     .text.ADC3powerUpInit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:23     .text.ADC3powerUpInit:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:25     .text.ADC3powerUpInit:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:28     .text.ADC3powerUpInit:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:31     .text.ADC3powerUpInit:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:33     .text.ADC3powerUpInit:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:34     .text.ADC3powerUpInit:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:36     .text.ADC3powerUpInit:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:39     .text.ADC3powerUpInit:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:43     .text.ADC3powerUpInit:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:47     .text.ADC3powerUpInit:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:55     .text.ADC3powerUpInit:0000000000000042 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:62     .text.ADC3powerUpInit:0000000000000054 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:67     .text.ADC3powerUpInit:0000000000000064 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:71     .text.ADC3powerUpInit:000000000000006e .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:77     .text.ADC3powerUpInit:000000000000007e .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:83     .text.ADC3powerUpInit:0000000000000090 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:88     .text.ADC3powerUpInit:000000000000009e .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:94     .text.ADC3powerUpInit:00000000000000ae .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:101    .text.ADC3powerUpInit:00000000000000c0 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:107    .text.ADC3powerUpInit:00000000000000d2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:113    .text.ADC3powerUpInit:00000000000000e2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:114    .text.ADC3powerUpInit:00000000000000e2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:116    .text.ADC3powerUpInit:00000000000000e4 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:122    .text.ADC3powerUpInit:00000000000000f6 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:128    .text.ADC3powerUpInit:0000000000000106 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:131    .text.ADC3powerUpInit:000000000000010e .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:139    .text.ADC3powerUpInit:0000000000000120 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:144    .text.ADC3powerUpInit:0000000000000130 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:145    .text.ADC3powerUpInit:0000000000000130 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:146    .text.ADC3powerUpInit:0000000000000130 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:150    .text.ADC3powerUpInit:000000000000013c .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:151    .text.ADC3powerUpInit:000000000000013c .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:152    .text.ADC3powerUpInit:000000000000013c .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:154    .text.ADC3powerUpInit:0000000000000140 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:155    .text.ADC3powerUpInit:0000000000000142 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:157    .text.ADC3powerUpInit:0000000000000144 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:159    .text.ADC3powerUpInit:0000000000000146 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:162    .text.ADC3powerUpInit:0000000000000146 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:164    .text.ADC3powerUpInit:0000000000000148 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:166    .text.ADC3powerUpInit:000000000000014a .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:168    .text.ADC3powerUpInit:000000000000014a .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:170    .text.ADC3powerUpInit:0000000000000152 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:173    .text.ADC3powerUpInit:0000000000000152 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:13     .text.ADC3powerUpInit:0000000000000000 ADC3powerUpInit
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:17     .text.ADC3powerUpInit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:19     .text.ADC3powerUpInit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:20     .text.ADC3powerUpInit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:21     .text.ADC3powerUpInit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:23     .text.ADC3powerUpInit:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:25     .text.ADC3powerUpInit:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:28     .text.ADC3powerUpInit:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:31     .text.ADC3powerUpInit:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:33     .text.ADC3powerUpInit:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:34     .text.ADC3powerUpInit:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:36     .text.ADC3powerUpInit:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:39     .text.ADC3powerUpInit:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:43     .text.ADC3powerUpInit:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:47     .text.ADC3powerUpInit:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:55     .text.ADC3powerUpInit:0000000000000042 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:62     .text.ADC3powerUpInit:0000000000000054 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:67     .text.ADC3powerUpInit:0000000000000064 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:71     .text.ADC3powerUpInit:000000000000006e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:77     .text.ADC3powerUpInit:000000000000007e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:83     .text.ADC3powerUpInit:0000000000000090 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:88     .text.ADC3powerUpInit:000000000000009e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:94     .text.ADC3powerUpInit:00000000000000ae .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:101    .text.ADC3powerUpInit:00000000000000c0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:107    .text.ADC3powerUpInit:00000000000000d2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:113    .text.ADC3powerUpInit:00000000000000e2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:114    .text.ADC3powerUpInit:00000000000000e2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:116    .text.ADC3powerUpInit:00000000000000e4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:122    .text.ADC3powerUpInit:00000000000000f6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:128    .text.ADC3powerUpInit:0000000000000106 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:131    .text.ADC3powerUpInit:000000000000010e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:139    .text.ADC3powerUpInit:0000000000000120 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:144    .text.ADC3powerUpInit:0000000000000130 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:145    .text.ADC3powerUpInit:0000000000000130 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:146    .text.ADC3powerUpInit:0000000000000130 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:150    .text.ADC3powerUpInit:000000000000013c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:151    .text.ADC3powerUpInit:000000000000013c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:152    .text.ADC3powerUpInit:000000000000013c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:154    .text.ADC3powerUpInit:0000000000000140 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:155    .text.ADC3powerUpInit:0000000000000142 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:157    .text.ADC3powerUpInit:0000000000000144 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:159    .text.ADC3powerUpInit:0000000000000146 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:162    .text.ADC3powerUpInit:0000000000000146 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:164    .text.ADC3powerUpInit:0000000000000148 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:166    .text.ADC3powerUpInit:000000000000014a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:168    .text.ADC3powerUpInit:000000000000014a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:170    .text.ADC3powerUpInit:0000000000000152 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:173    .text.ADC3powerUpInit:0000000000000152 .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:137    .text.ADC3powerUpInit:0000000000000120 .L2
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:941    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1260   .debug_str:0000000000000000 .LASF69
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1290   .debug_str:0000000000000143 .LASF70
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1376   .debug_str:0000000000000376 .LASF71
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1252   .debug_ranges:0000000000000000 .Ldebug_ranges0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 7
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:137    .text.ADC3powerUpInit:0000000000000120 .L2
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:941    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1260   .debug_str:0000000000000000 .LASF69
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1290   .debug_str:0000000000000143 .LASF70
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1376   .debug_str:0000000000000376 .LASF71
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1252   .debug_ranges:0000000000000000 .Ldebug_ranges0
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s 			page 7
 
 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1258   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1350   .debug_str:000000000000029e .LASF0
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1344   .debug_str:0000000000000272 .LASF1
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1404   .debug_str:000000000000046a .LASF6
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1334   .debug_str:0000000000000231 .LASF2
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1292   .debug_str:0000000000000149 .LASF3
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1356   .debug_str:00000000000002cd .LASF4
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1310   .debug_str:00000000000001b4 .LASF5
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1286   .debug_str:0000000000000130 .LASF7
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1372   .debug_str:0000000000000359 .LASF8
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1284   .debug_str:0000000000000122 .LASF9
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1346   .debug_str:000000000000027e .LASF10
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1294   .debug_str:0000000000000153 .LASF11
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1348   .debug_str:0000000000000295 .LASF12
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1262   .debug_str:0000000000000088 .LASF72
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1298   .debug_str:0000000000000164 .LASF13
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1402   .debug_str:0000000000000463 .LASF14
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1296   .debug_str:000000000000015b .LASF15
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1364   .debug_str:000000000000030e .LASF16
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1400   .debug_str:000000000000045b .LASF17
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1398   .debug_str:0000000000000452 .LASF18
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1388   .debug_str:0000000000000401 .LASF19
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1320   .debug_str:00000000000001e3 .LASF20
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1322   .debug_str:00000000000001ee .LASF21
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1324   .debug_str:00000000000001f9 .LASF22
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1326   .debug_str:0000000000000204 .LASF23
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1328   .debug_str:000000000000020f .LASF24
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1330   .debug_str:000000000000021a .LASF25
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1308   .debug_str:00000000000001aa .LASF26
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1314   .debug_str:00000000000001c6 .LASF27
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1316   .debug_str:00000000000001cf .LASF28
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1384   .debug_str:00000000000003eb .LASF29
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1386   .debug_str:00000000000003f6 .LASF30
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1390   .debug_str:000000000000040b .LASF31
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1392   .debug_str:0000000000000415 .LASF32
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1358   .debug_str:00000000000002e0 .LASF33
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1360   .debug_str:00000000000002e9 .LASF34
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1300   .debug_str:000000000000016c .LASF35
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1302   .debug_str:0000000000000175 .LASF36
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1342   .debug_str:0000000000000269 .LASF37
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1354   .debug_str:00000000000002c5 .LASF38
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1368   .debug_str:000000000000032e .LASF39
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1288   .debug_str:000000000000013b .LASF40
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1264   .debug_str:0000000000000098 .LASF41
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1270   .debug_str:00000000000000ba .LASF42
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1272   .debug_str:00000000000000c4 .LASF43
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1274   .debug_str:00000000000000ce .LASF44
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1276   .debug_str:00000000000000d8 .LASF45
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1278   .debug_str:00000000000000e2 .LASF46
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1338   .debug_str:0000000000000257 .LASF47
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1340   .debug_str:0000000000000260 .LASF48
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1318   .debug_str:00000000000001d8 .LASF49
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1312   .debug_str:00000000000001bd .LASF50
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1382   .debug_str:00000000000003e0 .LASF51
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1332   .debug_str:0000000000000225 .LASF52
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1268   .debug_str:00000000000000aa .LASF73
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:14     .text.ADC3powerUpInit:0000000000000000 .LFB2
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 8
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1258   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1350   .debug_str:000000000000029e .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1344   .debug_str:0000000000000272 .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1404   .debug_str:000000000000046a .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1334   .debug_str:0000000000000231 .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1292   .debug_str:0000000000000149 .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1356   .debug_str:00000000000002cd .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1310   .debug_str:00000000000001b4 .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1286   .debug_str:0000000000000130 .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1372   .debug_str:0000000000000359 .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1284   .debug_str:0000000000000122 .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1346   .debug_str:000000000000027e .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1294   .debug_str:0000000000000153 .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1348   .debug_str:0000000000000295 .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1262   .debug_str:0000000000000088 .LASF72
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1298   .debug_str:0000000000000164 .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1402   .debug_str:0000000000000463 .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1296   .debug_str:000000000000015b .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1364   .debug_str:000000000000030e .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1400   .debug_str:000000000000045b .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1398   .debug_str:0000000000000452 .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1388   .debug_str:0000000000000401 .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1320   .debug_str:00000000000001e3 .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1322   .debug_str:00000000000001ee .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1324   .debug_str:00000000000001f9 .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1326   .debug_str:0000000000000204 .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1328   .debug_str:000000000000020f .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1330   .debug_str:000000000000021a .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1308   .debug_str:00000000000001aa .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1314   .debug_str:00000000000001c6 .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1316   .debug_str:00000000000001cf .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1384   .debug_str:00000000000003eb .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1386   .debug_str:00000000000003f6 .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1390   .debug_str:000000000000040b .LASF31
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1392   .debug_str:0000000000000415 .LASF32
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1358   .debug_str:00000000000002e0 .LASF33
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1360   .debug_str:00000000000002e9 .LASF34
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1300   .debug_str:000000000000016c .LASF35
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1302   .debug_str:0000000000000175 .LASF36
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1342   .debug_str:0000000000000269 .LASF37
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1354   .debug_str:00000000000002c5 .LASF38
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1368   .debug_str:000000000000032e .LASF39
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1288   .debug_str:000000000000013b .LASF40
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1264   .debug_str:0000000000000098 .LASF41
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1270   .debug_str:00000000000000ba .LASF42
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1272   .debug_str:00000000000000c4 .LASF43
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1274   .debug_str:00000000000000ce .LASF44
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1276   .debug_str:00000000000000d8 .LASF45
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1278   .debug_str:00000000000000e2 .LASF46
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1338   .debug_str:0000000000000257 .LASF47
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1340   .debug_str:0000000000000260 .LASF48
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1318   .debug_str:00000000000001d8 .LASF49
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1312   .debug_str:00000000000001bd .LASF50
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1382   .debug_str:00000000000003e0 .LASF51
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1332   .debug_str:0000000000000225 .LASF52
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1268   .debug_str:00000000000000aa .LASF73
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:14     .text.ADC3powerUpInit:0000000000000000 .LFB2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s 			page 8
 
 
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:171    .text.ADC3powerUpInit:0000000000000152 .LFE2
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1203   .debug_loc:0000000000000000 .LLST0
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1221   .debug_loc:000000000000002c .LLST1
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:37     .text.ADC3powerUpInit:0000000000000016 .LVL2
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:41     .text.ADC3powerUpInit:0000000000000022 .LVL3
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:45     .text.ADC3powerUpInit:000000000000002c .LVL4
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:53     .text.ADC3powerUpInit:0000000000000042 .LVL5
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:60     .text.ADC3powerUpInit:0000000000000054 .LVL6
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:65     .text.ADC3powerUpInit:0000000000000064 .LVL7
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:69     .text.ADC3powerUpInit:000000000000006e .LVL8
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:75     .text.ADC3powerUpInit:000000000000007e .LVL9
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:81     .text.ADC3powerUpInit:0000000000000090 .LVL10
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:86     .text.ADC3powerUpInit:000000000000009e .LVL11
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:92     .text.ADC3powerUpInit:00000000000000ae .LVL12
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:99     .text.ADC3powerUpInit:00000000000000c0 .LVL13
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:105    .text.ADC3powerUpInit:00000000000000d2 .LVL14
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:111    .text.ADC3powerUpInit:00000000000000e2 .LVL15
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:120    .text.ADC3powerUpInit:00000000000000f6 .LVL16
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:126    .text.ADC3powerUpInit:0000000000000106 .LVL17
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:129    .text.ADC3powerUpInit:000000000000010e .LVL18
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:136    .text.ADC3powerUpInit:0000000000000120 .LVL19
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:142    .text.ADC3powerUpInit:0000000000000130 .LVL20
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:148    .text.ADC3powerUpInit:000000000000013c .LVL21
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:169    .text.ADC3powerUpInit:0000000000000152 .LVL23
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1336   .debug_str:000000000000023f .LASF53
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1396   .debug_str:000000000000043d .LASF54
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1380   .debug_str:00000000000003d6 .LASF55
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1266   .debug_str:000000000000009f .LASF56
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1304   .debug_str:000000000000017e .LASF57
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1282   .debug_str:0000000000000106 .LASF58
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1352   .debug_str:00000000000002ab .LASF59
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1280   .debug_str:00000000000000ec .LASF60
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1378   .debug_str:00000000000003bb .LASF61
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1370   .debug_str:0000000000000336 .LASF62
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1306   .debug_str:000000000000018e .LASF63
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1394   .debug_str:000000000000041f .LASF64
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1406   .debug_str:0000000000000474 .LASF65
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1374   .debug_str:000000000000036b .LASF66
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1366   .debug_str:0000000000000317 .LASF67
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:1362   .debug_str:00000000000002f2 .LASF68
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:22     .text.ADC3powerUpInit:0000000000000002 .LCFI0
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:165    .text.ADC3powerUpInit:000000000000014a .LCFI1
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:18     .text.ADC3powerUpInit:0000000000000000 .LVL0
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:29     .text.ADC3powerUpInit:000000000000000a .LVL1
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:160    .text.ADC3powerUpInit:0000000000000146 .LVL22
-C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s:183    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:171    .text.ADC3powerUpInit:0000000000000152 .LFE2
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1203   .debug_loc:0000000000000000 .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1221   .debug_loc:000000000000002c .LLST1
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:37     .text.ADC3powerUpInit:0000000000000016 .LVL2
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:41     .text.ADC3powerUpInit:0000000000000022 .LVL3
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:45     .text.ADC3powerUpInit:000000000000002c .LVL4
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:53     .text.ADC3powerUpInit:0000000000000042 .LVL5
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:60     .text.ADC3powerUpInit:0000000000000054 .LVL6
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:65     .text.ADC3powerUpInit:0000000000000064 .LVL7
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:69     .text.ADC3powerUpInit:000000000000006e .LVL8
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:75     .text.ADC3powerUpInit:000000000000007e .LVL9
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:81     .text.ADC3powerUpInit:0000000000000090 .LVL10
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:86     .text.ADC3powerUpInit:000000000000009e .LVL11
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:92     .text.ADC3powerUpInit:00000000000000ae .LVL12
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:99     .text.ADC3powerUpInit:00000000000000c0 .LVL13
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:105    .text.ADC3powerUpInit:00000000000000d2 .LVL14
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:111    .text.ADC3powerUpInit:00000000000000e2 .LVL15
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:120    .text.ADC3powerUpInit:00000000000000f6 .LVL16
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:126    .text.ADC3powerUpInit:0000000000000106 .LVL17
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:129    .text.ADC3powerUpInit:000000000000010e .LVL18
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:136    .text.ADC3powerUpInit:0000000000000120 .LVL19
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:142    .text.ADC3powerUpInit:0000000000000130 .LVL20
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:148    .text.ADC3powerUpInit:000000000000013c .LVL21
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:169    .text.ADC3powerUpInit:0000000000000152 .LVL23
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1336   .debug_str:000000000000023f .LASF53
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1396   .debug_str:000000000000043d .LASF54
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1380   .debug_str:00000000000003d6 .LASF55
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1266   .debug_str:000000000000009f .LASF56
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1304   .debug_str:000000000000017e .LASF57
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1282   .debug_str:0000000000000106 .LASF58
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1352   .debug_str:00000000000002ab .LASF59
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1280   .debug_str:00000000000000ec .LASF60
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1378   .debug_str:00000000000003bb .LASF61
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1370   .debug_str:0000000000000336 .LASF62
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1306   .debug_str:000000000000018e .LASF63
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1394   .debug_str:000000000000041f .LASF64
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1406   .debug_str:0000000000000474 .LASF65
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1374   .debug_str:000000000000036b .LASF66
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1366   .debug_str:0000000000000317 .LASF67
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:1362   .debug_str:00000000000002f2 .LASF68
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:22     .text.ADC3powerUpInit:0000000000000002 .LCFI0
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:165    .text.ADC3powerUpInit:000000000000014a .LCFI1
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:18     .text.ADC3powerUpInit:0000000000000000 .LVL0
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:29     .text.ADC3powerUpInit:000000000000000a .LVL1
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:160    .text.ADC3powerUpInit:0000000000000146 .LVL22
+C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s:183    .debug_info:0000000000000000 .Ldebug_info0
 
 UNDEFINED SYMBOLS
 rcu_periph_clock_enable
@@ -441,7 +441,7 @@ adc_special_function_config
 adc_data_alignment_config
 adc_channel_length_config
 adc_regular_channel_config
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cczgjtHK.s 			page 9
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccyd2D41.s 			page 9
 
 
 adc_external_trigger_source_config
