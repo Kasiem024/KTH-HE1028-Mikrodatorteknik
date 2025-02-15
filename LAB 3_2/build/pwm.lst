@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 1
 
 
    1              		.file	"pwm.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 1
   45 001a 13050060 		li	a0,1536
   46 001e 93791400 		andi	s3,s0,1
   47 0022 97000000 		call	rcu_periph_clock_enable
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 2
 
 
   47      E7800000 
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 1
   16:pwm.c         ****         gpio_init(GPIOA, GPIO_MODE_AF_PP, GPIO_OSPEED_50MHZ, GPIO_PIN_3);
   91              		.loc 1 16 9 is_stmt 1
   92 0082 37150140 		li	a0,1073811456
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 3
 
 
   93 0086 A146     		li	a3,8
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 1
  128              		.loc 1 24 5 is_stmt 1
   25:pwm.c         ****     timer_initpara.clockdivision = TIMER_CKDIV_DIV1;
  129              		.loc 1 25 5
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 4
 
 
   25:pwm.c         ****     timer_initpara.clockdivision = TIMER_CKDIV_DIV1;
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 1
   38:pwm.c         ****     if (ch & 0x2)
  165              		.loc 1 38 5
  166              		.loc 1 38 8 is_stmt 0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 5
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 5
 
 
  167 0108 630A0900 		beq	s2,zero,.L7
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 1
  207 015c 8145     		li	a1,0
  208 015e 37050040 		li	a0,1073741824
  209 0162 97000000 		call	timer_channel_output_mode_config
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 6
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 6
 
 
  209      E7800000 
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 1
  248 01be 37050040 		li	a0,1073741824
  249 01c2 97000000 		call	timer_channel_output_pulse_value_config
  249      E7800000 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 7
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 7
 
 
  250              	.LVL23:
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 1
  288 0224 37050040 		li	a0,1073741824
  289 0228 97000000 		call	timer_auto_reload_shadow_enable
  289      E7800000 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 8
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 8
 
 
  290              	.LVL29:
@@ -478,7 +478,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 1
  340              	T1setPWMmotorB:
  341              	.LFB4:
   77:pwm.c         **** }
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 9
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 9
 
 
   78:pwm.c         **** 
@@ -538,7 +538,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 1
  383              		.loc 1 84 9 is_stmt 1
  384 0056 0146     		li	a2,0
  385              	.L55:
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 10
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 10
 
 
   85:pwm.c         ****     }
@@ -598,7 +598,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 1
  423      E7800000 
  424              	.LVL43:
  425 008e 03A60400 		lw	a2,%lo(.LC0)(s1)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 11
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 11
 
 
  426 0092 83A64400 		lw	a3,%lo(.LC0+4)(s1)
@@ -637,335 +637,335 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 1
  455              		.file 5 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_rcu.h"
  456              		.file 6 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_gpio.h"
  457              		.file 7 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 12
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 12
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 pwm.c
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:13     .text.T1powerUpInitPWM:0000000000000000 T1powerUpInitPWM
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:17     .text.T1powerUpInitPWM:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:19     .text.T1powerUpInitPWM:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:20     .text.T1powerUpInitPWM:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:21     .text.T1powerUpInitPWM:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:22     .text.T1powerUpInitPWM:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:23     .text.T1powerUpInitPWM:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:25     .text.T1powerUpInitPWM:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:27     .text.T1powerUpInitPWM:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:30     .text.T1powerUpInitPWM:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:33     .text.T1powerUpInitPWM:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:37     .text.T1powerUpInitPWM:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:38     .text.T1powerUpInitPWM:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:39     .text.T1powerUpInitPWM:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:40     .text.T1powerUpInitPWM:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:42     .text.T1powerUpInitPWM:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:45     .text.T1powerUpInitPWM:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:50     .text.T1powerUpInitPWM:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:51     .text.T1powerUpInitPWM:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:53     .text.T1powerUpInitPWM:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:62     .text.T1powerUpInitPWM:0000000000000044 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:64     .text.T1powerUpInitPWM:0000000000000048 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:66     .text.T1powerUpInitPWM:000000000000004c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:75     .text.T1powerUpInitPWM:0000000000000062 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:77     .text.T1powerUpInitPWM:0000000000000066 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:79     .text.T1powerUpInitPWM:0000000000000068 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:88     .text.T1powerUpInitPWM:000000000000007e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:90     .text.T1powerUpInitPWM:0000000000000080 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:92     .text.T1powerUpInitPWM:0000000000000082 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:101    .text.T1powerUpInitPWM:0000000000000098 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:105    .text.T1powerUpInitPWM:00000000000000a4 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:109    .text.T1powerUpInitPWM:00000000000000b0 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:113    .text.T1powerUpInitPWM:00000000000000ba .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:114    .text.T1powerUpInitPWM:00000000000000ba .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:115    .text.T1powerUpInitPWM:00000000000000ba .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:116    .text.T1powerUpInitPWM:00000000000000ba .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:119    .text.T1powerUpInitPWM:00000000000000c0 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:122    .text.T1powerUpInitPWM:00000000000000c6 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:125    .text.T1powerUpInitPWM:00000000000000cc .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:127    .text.T1powerUpInitPWM:00000000000000ce .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:129    .text.T1powerUpInitPWM:00000000000000d2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:130    .text.T1powerUpInitPWM:00000000000000d2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:131    .text.T1powerUpInitPWM:00000000000000d2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:133    .text.T1powerUpInitPWM:00000000000000d6 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:134    .text.T1powerUpInitPWM:00000000000000d6 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:136    .text.T1powerUpInitPWM:00000000000000da .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:139    .text.T1powerUpInitPWM:00000000000000e2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:143    .text.T1powerUpInitPWM:00000000000000ec .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:144    .text.T1powerUpInitPWM:00000000000000ec .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:145    .text.T1powerUpInitPWM:00000000000000ec .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:146    .text.T1powerUpInitPWM:00000000000000ec .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:147    .text.T1powerUpInitPWM:00000000000000ec .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:148    .text.T1powerUpInitPWM:00000000000000ec .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:149    .text.T1powerUpInitPWM:00000000000000ec .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:152    .text.T1powerUpInitPWM:00000000000000f0 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 13
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:13     .text.T1powerUpInitPWM:0000000000000000 T1powerUpInitPWM
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:17     .text.T1powerUpInitPWM:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:19     .text.T1powerUpInitPWM:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:20     .text.T1powerUpInitPWM:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:21     .text.T1powerUpInitPWM:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:22     .text.T1powerUpInitPWM:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:23     .text.T1powerUpInitPWM:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:25     .text.T1powerUpInitPWM:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:27     .text.T1powerUpInitPWM:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:30     .text.T1powerUpInitPWM:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:33     .text.T1powerUpInitPWM:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:37     .text.T1powerUpInitPWM:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:38     .text.T1powerUpInitPWM:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:39     .text.T1powerUpInitPWM:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:40     .text.T1powerUpInitPWM:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:42     .text.T1powerUpInitPWM:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:45     .text.T1powerUpInitPWM:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:50     .text.T1powerUpInitPWM:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:51     .text.T1powerUpInitPWM:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:53     .text.T1powerUpInitPWM:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:62     .text.T1powerUpInitPWM:0000000000000044 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:64     .text.T1powerUpInitPWM:0000000000000048 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:66     .text.T1powerUpInitPWM:000000000000004c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:75     .text.T1powerUpInitPWM:0000000000000062 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:77     .text.T1powerUpInitPWM:0000000000000066 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:79     .text.T1powerUpInitPWM:0000000000000068 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:88     .text.T1powerUpInitPWM:000000000000007e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:90     .text.T1powerUpInitPWM:0000000000000080 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:92     .text.T1powerUpInitPWM:0000000000000082 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:101    .text.T1powerUpInitPWM:0000000000000098 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:105    .text.T1powerUpInitPWM:00000000000000a4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:109    .text.T1powerUpInitPWM:00000000000000b0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:113    .text.T1powerUpInitPWM:00000000000000ba .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:114    .text.T1powerUpInitPWM:00000000000000ba .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:115    .text.T1powerUpInitPWM:00000000000000ba .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:116    .text.T1powerUpInitPWM:00000000000000ba .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:119    .text.T1powerUpInitPWM:00000000000000c0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:122    .text.T1powerUpInitPWM:00000000000000c6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:125    .text.T1powerUpInitPWM:00000000000000cc .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:127    .text.T1powerUpInitPWM:00000000000000ce .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:129    .text.T1powerUpInitPWM:00000000000000d2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:130    .text.T1powerUpInitPWM:00000000000000d2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:131    .text.T1powerUpInitPWM:00000000000000d2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:133    .text.T1powerUpInitPWM:00000000000000d6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:134    .text.T1powerUpInitPWM:00000000000000d6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:136    .text.T1powerUpInitPWM:00000000000000da .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:139    .text.T1powerUpInitPWM:00000000000000e2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:143    .text.T1powerUpInitPWM:00000000000000ec .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:144    .text.T1powerUpInitPWM:00000000000000ec .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:145    .text.T1powerUpInitPWM:00000000000000ec .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:146    .text.T1powerUpInitPWM:00000000000000ec .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:147    .text.T1powerUpInitPWM:00000000000000ec .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:148    .text.T1powerUpInitPWM:00000000000000ec .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:149    .text.T1powerUpInitPWM:00000000000000ec .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:152    .text.T1powerUpInitPWM:00000000000000f0 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 13
 
 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:154    .text.T1powerUpInitPWM:00000000000000f2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:156    .text.T1powerUpInitPWM:00000000000000f4 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:157    .text.T1powerUpInitPWM:00000000000000f4 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:159    .text.T1powerUpInitPWM:00000000000000f8 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:166    .text.T1powerUpInitPWM:0000000000000108 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:167    .text.T1powerUpInitPWM:0000000000000108 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:169    .text.T1powerUpInitPWM:000000000000010c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:176    .text.T1powerUpInitPWM:000000000000011c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:177    .text.T1powerUpInitPWM:000000000000011c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:179    .text.T1powerUpInitPWM:000000000000011e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:186    .text.T1powerUpInitPWM:000000000000012e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:187    .text.T1powerUpInitPWM:000000000000012e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:189    .text.T1powerUpInitPWM:0000000000000130 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:196    .text.T1powerUpInitPWM:0000000000000140 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:197    .text.T1powerUpInitPWM:0000000000000140 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:199    .text.T1powerUpInitPWM:0000000000000144 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:206    .text.T1powerUpInitPWM:0000000000000158 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:212    .text.T1powerUpInitPWM:000000000000016a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:219    .text.T1powerUpInitPWM:000000000000017a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:220    .text.T1powerUpInitPWM:000000000000017a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:222    .text.T1powerUpInitPWM:000000000000017e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:229    .text.T1powerUpInitPWM:0000000000000192 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:235    .text.T1powerUpInitPWM:00000000000001a4 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:242    .text.T1powerUpInitPWM:00000000000001b4 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:243    .text.T1powerUpInitPWM:00000000000001b4 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:245    .text.T1powerUpInitPWM:00000000000001b6 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:252    .text.T1powerUpInitPWM:00000000000001ca .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:258    .text.T1powerUpInitPWM:00000000000001dc .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:265    .text.T1powerUpInitPWM:00000000000001ec .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:266    .text.T1powerUpInitPWM:00000000000001ec .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:268    .text.T1powerUpInitPWM:00000000000001ee .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:275    .text.T1powerUpInitPWM:0000000000000202 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:281    .text.T1powerUpInitPWM:0000000000000214 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:288    .text.T1powerUpInitPWM:0000000000000224 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:292    .text.T1powerUpInitPWM:0000000000000230 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:296    .text.T1powerUpInitPWM:000000000000023c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:297    .text.T1powerUpInitPWM:000000000000023e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:299    .text.T1powerUpInitPWM:0000000000000240 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:301    .text.T1powerUpInitPWM:0000000000000242 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:303    .text.T1powerUpInitPWM:0000000000000244 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:305    .text.T1powerUpInitPWM:0000000000000246 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:308    .text.T1powerUpInitPWM:0000000000000248 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:310    .text.T1powerUpInitPWM:000000000000024a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:317    .text.T1setPWMch2:0000000000000000 T1setPWMch2
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:320    .text.T1setPWMch2:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:322    .text.T1setPWMch2:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:323    .text.T1setPWMch2:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:329    .text.T1setPWMch2:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:340    .text.T1setPWMmotorB:0000000000000000 T1setPWMmotorB
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:343    .text.T1setPWMmotorB:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:345    .text.T1setPWMmotorB:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:346    .text.T1setPWMmotorB:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:347    .text.T1setPWMmotorB:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:349    .text.T1setPWMmotorB:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:354    .text.T1setPWMmotorB:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:355    .text.T1setPWMmotorB:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:356    .text.T1setPWMmotorB:000000000000000a .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 14
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:154    .text.T1powerUpInitPWM:00000000000000f2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:156    .text.T1powerUpInitPWM:00000000000000f4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:157    .text.T1powerUpInitPWM:00000000000000f4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:159    .text.T1powerUpInitPWM:00000000000000f8 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:166    .text.T1powerUpInitPWM:0000000000000108 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:167    .text.T1powerUpInitPWM:0000000000000108 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:169    .text.T1powerUpInitPWM:000000000000010c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:176    .text.T1powerUpInitPWM:000000000000011c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:177    .text.T1powerUpInitPWM:000000000000011c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:179    .text.T1powerUpInitPWM:000000000000011e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:186    .text.T1powerUpInitPWM:000000000000012e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:187    .text.T1powerUpInitPWM:000000000000012e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:189    .text.T1powerUpInitPWM:0000000000000130 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:196    .text.T1powerUpInitPWM:0000000000000140 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:197    .text.T1powerUpInitPWM:0000000000000140 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:199    .text.T1powerUpInitPWM:0000000000000144 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:206    .text.T1powerUpInitPWM:0000000000000158 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:212    .text.T1powerUpInitPWM:000000000000016a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:219    .text.T1powerUpInitPWM:000000000000017a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:220    .text.T1powerUpInitPWM:000000000000017a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:222    .text.T1powerUpInitPWM:000000000000017e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:229    .text.T1powerUpInitPWM:0000000000000192 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:235    .text.T1powerUpInitPWM:00000000000001a4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:242    .text.T1powerUpInitPWM:00000000000001b4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:243    .text.T1powerUpInitPWM:00000000000001b4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:245    .text.T1powerUpInitPWM:00000000000001b6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:252    .text.T1powerUpInitPWM:00000000000001ca .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:258    .text.T1powerUpInitPWM:00000000000001dc .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:265    .text.T1powerUpInitPWM:00000000000001ec .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:266    .text.T1powerUpInitPWM:00000000000001ec .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:268    .text.T1powerUpInitPWM:00000000000001ee .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:275    .text.T1powerUpInitPWM:0000000000000202 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:281    .text.T1powerUpInitPWM:0000000000000214 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:288    .text.T1powerUpInitPWM:0000000000000224 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:292    .text.T1powerUpInitPWM:0000000000000230 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:296    .text.T1powerUpInitPWM:000000000000023c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:297    .text.T1powerUpInitPWM:000000000000023e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:299    .text.T1powerUpInitPWM:0000000000000240 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:301    .text.T1powerUpInitPWM:0000000000000242 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:303    .text.T1powerUpInitPWM:0000000000000244 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:305    .text.T1powerUpInitPWM:0000000000000246 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:308    .text.T1powerUpInitPWM:0000000000000248 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:310    .text.T1powerUpInitPWM:000000000000024a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:317    .text.T1setPWMch2:0000000000000000 T1setPWMch2
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:320    .text.T1setPWMch2:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:322    .text.T1setPWMch2:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:323    .text.T1setPWMch2:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:329    .text.T1setPWMch2:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:340    .text.T1setPWMmotorB:0000000000000000 T1setPWMmotorB
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:343    .text.T1setPWMmotorB:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:345    .text.T1setPWMmotorB:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:346    .text.T1setPWMmotorB:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:347    .text.T1setPWMmotorB:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:349    .text.T1setPWMmotorB:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:354    .text.T1setPWMmotorB:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:355    .text.T1setPWMmotorB:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:356    .text.T1setPWMmotorB:000000000000000a .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 14
 
 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:357    .text.T1setPWMmotorB:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:361    .text.T1setPWMmotorB:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:363    .text.T1setPWMmotorB:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:364    .text.T1setPWMmotorB:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:371    .text.T1setPWMmotorB:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:376    .text.T1setPWMmotorB:000000000000003e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:384    .text.T1setPWMmotorB:0000000000000056 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:387    .text.T1setPWMmotorB:0000000000000058 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:388    .text.T1setPWMmotorB:000000000000005a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:389    .text.T1setPWMmotorB:000000000000005a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:391    .text.T1setPWMmotorB:000000000000005c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:393    .text.T1setPWMmotorB:000000000000005e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:395    .text.T1setPWMmotorB:0000000000000060 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:397    .text.T1setPWMmotorB:0000000000000060 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:399    .text.T1setPWMmotorB:0000000000000062 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:400    .text.T1setPWMmotorB:0000000000000062 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:402    .text.T1setPWMmotorB:0000000000000066 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:404    .text.T1setPWMmotorB:0000000000000068 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:406    .text.T1setPWMmotorB:0000000000000068 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:410    .text.T1setPWMmotorB:0000000000000070 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:412    .text.T1setPWMmotorB:0000000000000070 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:415    .text.T1setPWMmotorB:0000000000000074 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:421    .text.T1setPWMmotorB:0000000000000082 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:422    .text.T1setPWMmotorB:0000000000000082 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:430    .text.T1setPWMmotorB:000000000000009e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:435    .text.T1setPWMmotorB:00000000000000ae .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:439    .text.T1setPWMmotorB:00000000000000ba .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:313    .text.T1powerUpInitPWM:000000000000024a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:336    .text.T1setPWMch2:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:442    .text.T1setPWMmotorB:00000000000000ba .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:357    .text.T1setPWMmotorB:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:361    .text.T1setPWMmotorB:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:363    .text.T1setPWMmotorB:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:364    .text.T1setPWMmotorB:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:371    .text.T1setPWMmotorB:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:376    .text.T1setPWMmotorB:000000000000003e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:384    .text.T1setPWMmotorB:0000000000000056 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:387    .text.T1setPWMmotorB:0000000000000058 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:388    .text.T1setPWMmotorB:000000000000005a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:389    .text.T1setPWMmotorB:000000000000005a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:391    .text.T1setPWMmotorB:000000000000005c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:393    .text.T1setPWMmotorB:000000000000005e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:395    .text.T1setPWMmotorB:0000000000000060 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:397    .text.T1setPWMmotorB:0000000000000060 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:399    .text.T1setPWMmotorB:0000000000000062 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:400    .text.T1setPWMmotorB:0000000000000062 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:402    .text.T1setPWMmotorB:0000000000000066 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:404    .text.T1setPWMmotorB:0000000000000068 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:406    .text.T1setPWMmotorB:0000000000000068 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:410    .text.T1setPWMmotorB:0000000000000070 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:412    .text.T1setPWMmotorB:0000000000000070 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:415    .text.T1setPWMmotorB:0000000000000074 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:421    .text.T1setPWMmotorB:0000000000000082 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:422    .text.T1setPWMmotorB:0000000000000082 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:430    .text.T1setPWMmotorB:000000000000009e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:435    .text.T1setPWMmotorB:00000000000000ae .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:439    .text.T1setPWMmotorB:00000000000000ba .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:313    .text.T1powerUpInitPWM:000000000000024a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:336    .text.T1setPWMch2:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:442    .text.T1setPWMmotorB:00000000000000ba .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:60     .text.T1powerUpInitPWM:0000000000000044 .L2
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:73     .text.T1powerUpInitPWM:0000000000000062 .L3
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:86     .text.T1powerUpInitPWM:000000000000007e .L4
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:99     .text.T1powerUpInitPWM:0000000000000098 .L5
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:164    .text.T1powerUpInitPWM:0000000000000108 .L6
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:174    .text.T1powerUpInitPWM:000000000000011c .L7
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:184    .text.T1powerUpInitPWM:000000000000012e .L8
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:194    .text.T1powerUpInitPWM:0000000000000140 .L9
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:217    .text.T1powerUpInitPWM:000000000000017a .L10
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:240    .text.T1powerUpInitPWM:00000000000001b4 .L11
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:263    .text.T1powerUpInitPWM:00000000000001ec .L12
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:286    .text.T1powerUpInitPWM:0000000000000224 .L13
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:444    .rodata.T1setPWMmotorB.cst8:0000000000000000 .LC0
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:447    .rodata.T1setPWMmotorB.cst8:0000000000000008 .LC1
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:408    .text.T1setPWMmotorB:0000000000000070 .L53
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:385    .text.T1setPWMmotorB:0000000000000058 .L55
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:1649   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2165   .debug_str:0000000000000000 .LASF86
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2193   .debug_str:0000000000000137 .LASF87
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2301   .debug_str:00000000000003fa .LASF88
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2153   .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2163   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2265   .debug_str:0000000000000302 .LASF0
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2259   .debug_str:00000000000002d6 .LASF1
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2341   .debug_str:000000000000054d .LASF4
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2249   .debug_str:0000000000000296 .LASF2
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 15
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:60     .text.T1powerUpInitPWM:0000000000000044 .L2
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:73     .text.T1powerUpInitPWM:0000000000000062 .L3
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:86     .text.T1powerUpInitPWM:000000000000007e .L4
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:99     .text.T1powerUpInitPWM:0000000000000098 .L5
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:164    .text.T1powerUpInitPWM:0000000000000108 .L6
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:174    .text.T1powerUpInitPWM:000000000000011c .L7
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:184    .text.T1powerUpInitPWM:000000000000012e .L8
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:194    .text.T1powerUpInitPWM:0000000000000140 .L9
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:217    .text.T1powerUpInitPWM:000000000000017a .L10
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:240    .text.T1powerUpInitPWM:00000000000001b4 .L11
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:263    .text.T1powerUpInitPWM:00000000000001ec .L12
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:286    .text.T1powerUpInitPWM:0000000000000224 .L13
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:444    .rodata.T1setPWMmotorB.cst8:0000000000000000 .LC0
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:447    .rodata.T1setPWMmotorB.cst8:0000000000000008 .LC1
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:408    .text.T1setPWMmotorB:0000000000000070 .L53
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:385    .text.T1setPWMmotorB:0000000000000058 .L55
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:1649   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2165   .debug_str:0000000000000000 .LASF86
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2193   .debug_str:0000000000000137 .LASF87
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2301   .debug_str:00000000000003fa .LASF88
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2153   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2163   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2265   .debug_str:0000000000000302 .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2259   .debug_str:00000000000002d6 .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2341   .debug_str:000000000000054d .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2249   .debug_str:0000000000000296 .LASF2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 15
 
 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2227   .debug_str:00000000000001e8 .LASF3
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2183   .debug_str:00000000000000db .LASF5
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2275   .debug_str:0000000000000344 .LASF6
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2215   .debug_str:00000000000001ab .LASF7
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2179   .debug_str:00000000000000c8 .LASF8
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2297   .debug_str:00000000000003db .LASF9
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2177   .debug_str:00000000000000ba .LASF10
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2261   .debug_str:00000000000002e2 .LASF11
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2197   .debug_str:000000000000014c .LASF12
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2267   .debug_str:000000000000030f .LASF13
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2263   .debug_str:00000000000002f9 .LASF14
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2289   .debug_str:00000000000003b4 .LASF89
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2199   .debug_str:0000000000000154 .LASF15
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2291   .debug_str:00000000000003c4 .LASF16
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2335   .debug_str:000000000000051c .LASF17
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2331   .debug_str:0000000000000507 .LASF18
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2313   .debug_str:0000000000000477 .LASF19
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2233   .debug_str:0000000000000225 .LASF20
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2235   .debug_str:0000000000000230 .LASF21
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2237   .debug_str:000000000000023b .LASF22
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2239   .debug_str:0000000000000246 .LASF23
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2241   .debug_str:0000000000000251 .LASF24
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2243   .debug_str:000000000000025c .LASF25
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2209   .debug_str:0000000000000187 .LASF26
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2219   .debug_str:00000000000001bd .LASF27
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2221   .debug_str:00000000000001c6 .LASF28
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2309   .debug_str:0000000000000461 .LASF29
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2311   .debug_str:000000000000046c .LASF30
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2315   .debug_str:0000000000000481 .LASF31
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2317   .debug_str:000000000000048b .LASF32
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2281   .debug_str:0000000000000388 .LASF33
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2283   .debug_str:0000000000000391 .LASF34
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2205   .debug_str:0000000000000175 .LASF35
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2207   .debug_str:000000000000017e .LASF36
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2257   .debug_str:00000000000002cd .LASF37
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2255   .debug_str:00000000000002c5 .LASF38
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2337   .debug_str:0000000000000524 .LASF39
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2181   .debug_str:00000000000000d3 .LASF40
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2295   .debug_str:00000000000003d4 .LASF41
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2167   .debug_str:0000000000000088 .LASF42
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2169   .debug_str:0000000000000092 .LASF43
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2171   .debug_str:000000000000009c .LASF44
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2173   .debug_str:00000000000000a6 .LASF45
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2175   .debug_str:00000000000000b0 .LASF46
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2253   .debug_str:00000000000002bc .LASF47
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2287   .debug_str:00000000000003ab .LASF48
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2231   .debug_str:000000000000021a .LASF49
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2217   .debug_str:00000000000001b4 .LASF50
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2307   .debug_str:0000000000000456 .LASF51
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2271   .debug_str:0000000000000329 .LASF52
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2223   .debug_str:00000000000001cf .LASF53
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2285   .debug_str:000000000000039a .LASF54
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2293   .debug_str:00000000000003cd .LASF55
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2189   .debug_str:0000000000000123 .LASF56
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2319   .debug_str:0000000000000495 .LASF57
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2187   .debug_str:000000000000010c .LASF58
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2203   .debug_str:0000000000000169 .LASF59
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 16
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2227   .debug_str:00000000000001e8 .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2183   .debug_str:00000000000000db .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2275   .debug_str:0000000000000344 .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2215   .debug_str:00000000000001ab .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2179   .debug_str:00000000000000c8 .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2297   .debug_str:00000000000003db .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2177   .debug_str:00000000000000ba .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2261   .debug_str:00000000000002e2 .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2197   .debug_str:000000000000014c .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2267   .debug_str:000000000000030f .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2263   .debug_str:00000000000002f9 .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2289   .debug_str:00000000000003b4 .LASF89
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2199   .debug_str:0000000000000154 .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2291   .debug_str:00000000000003c4 .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2335   .debug_str:000000000000051c .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2331   .debug_str:0000000000000507 .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2313   .debug_str:0000000000000477 .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2233   .debug_str:0000000000000225 .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2235   .debug_str:0000000000000230 .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2237   .debug_str:000000000000023b .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2239   .debug_str:0000000000000246 .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2241   .debug_str:0000000000000251 .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2243   .debug_str:000000000000025c .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2209   .debug_str:0000000000000187 .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2219   .debug_str:00000000000001bd .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2221   .debug_str:00000000000001c6 .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2309   .debug_str:0000000000000461 .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2311   .debug_str:000000000000046c .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2315   .debug_str:0000000000000481 .LASF31
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2317   .debug_str:000000000000048b .LASF32
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2281   .debug_str:0000000000000388 .LASF33
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2283   .debug_str:0000000000000391 .LASF34
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2205   .debug_str:0000000000000175 .LASF35
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2207   .debug_str:000000000000017e .LASF36
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2257   .debug_str:00000000000002cd .LASF37
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2255   .debug_str:00000000000002c5 .LASF38
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2337   .debug_str:0000000000000524 .LASF39
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2181   .debug_str:00000000000000d3 .LASF40
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2295   .debug_str:00000000000003d4 .LASF41
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2167   .debug_str:0000000000000088 .LASF42
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2169   .debug_str:0000000000000092 .LASF43
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2171   .debug_str:000000000000009c .LASF44
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2173   .debug_str:00000000000000a6 .LASF45
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2175   .debug_str:00000000000000b0 .LASF46
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2253   .debug_str:00000000000002bc .LASF47
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2287   .debug_str:00000000000003ab .LASF48
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2231   .debug_str:000000000000021a .LASF49
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2217   .debug_str:00000000000001b4 .LASF50
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2307   .debug_str:0000000000000456 .LASF51
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2271   .debug_str:0000000000000329 .LASF52
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2223   .debug_str:00000000000001cf .LASF53
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2285   .debug_str:000000000000039a .LASF54
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2293   .debug_str:00000000000003cd .LASF55
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2189   .debug_str:0000000000000123 .LASF56
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2319   .debug_str:0000000000000495 .LASF57
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2187   .debug_str:000000000000010c .LASF58
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2203   .debug_str:0000000000000169 .LASF59
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 16
 
 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2305   .debug_str:0000000000000449 .LASF60
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2323   .debug_str:00000000000004c7 .LASF61
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2333   .debug_str:0000000000000510 .LASF62
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2201   .debug_str:000000000000015d .LASF63
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2299   .debug_str:00000000000003ed .LASF64
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2279   .debug_str:000000000000036e .LASF65
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2245   .debug_str:0000000000000267 .LASF66
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2211   .debug_str:0000000000000191 .LASF67
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:341    .text.T1setPWMmotorB:0000000000000000 .LFB4
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:440    .text.T1setPWMmotorB:00000000000000ba .LFE4
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2041   .debug_loc:0000000000000000 .LLST3
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2343   .debug_str:0000000000000557 .LASF69
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2064   .debug_loc:0000000000000038 .LLST4
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:382    .text.T1setPWMmotorB:0000000000000056 .LVL39
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:407    .text.T1setPWMmotorB:0000000000000070 .LVL40
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:419    .text.T1setPWMmotorB:0000000000000082 .LVL42
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2327   .debug_str:00000000000004ee .LASF68
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:318    .text.T1setPWMch2:0000000000000000 .LFB3
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:330    .text.T1setPWMch2:0000000000000010 .LFE3
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2191   .debug_str:0000000000000131 .LASF70
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2086   .debug_loc:000000000000006f .LLST2
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:328    .text.T1setPWMch2:0000000000000010 .LVL33
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2273   .debug_str:0000000000000333 .LASF71
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:14     .text.T1powerUpInitPWM:0000000000000000 .LFB2
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:311    .text.T1powerUpInitPWM:000000000000024a .LFE2
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2104   .debug_loc:000000000000009b .LLST0
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2122   .debug_loc:00000000000000c8 .LLST1
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2269   .debug_str:0000000000000318 .LASF72
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2195   .debug_str:000000000000013d .LASF73
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:43     .text.T1powerUpInitPWM:000000000000001a .LVL2
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:48     .text.T1powerUpInitPWM:000000000000002a .LVL3
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:59     .text.T1powerUpInitPWM:0000000000000044 .LVL4
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:72     .text.T1powerUpInitPWM:0000000000000062 .LVL5
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:85     .text.T1powerUpInitPWM:000000000000007e .LVL6
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:98     .text.T1powerUpInitPWM:0000000000000098 .LVL7
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:103    .text.T1powerUpInitPWM:00000000000000a4 .LVL8
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:107    .text.T1powerUpInitPWM:00000000000000b0 .LVL9
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:111    .text.T1powerUpInitPWM:00000000000000ba .LVL10
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:137    .text.T1powerUpInitPWM:00000000000000e2 .LVL11
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:141    .text.T1powerUpInitPWM:00000000000000ec .LVL12
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:163    .text.T1powerUpInitPWM:0000000000000108 .LVL13
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:173    .text.T1powerUpInitPWM:000000000000011c .LVL14
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:183    .text.T1powerUpInitPWM:000000000000012e .LVL15
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:193    .text.T1powerUpInitPWM:0000000000000140 .LVL16
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:204    .text.T1powerUpInitPWM:0000000000000158 .LVL17
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:210    .text.T1powerUpInitPWM:000000000000016a .LVL18
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:216    .text.T1powerUpInitPWM:000000000000017a .LVL19
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:227    .text.T1powerUpInitPWM:0000000000000192 .LVL20
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:233    .text.T1powerUpInitPWM:00000000000001a4 .LVL21
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:239    .text.T1powerUpInitPWM:00000000000001b4 .LVL22
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:250    .text.T1powerUpInitPWM:00000000000001ca .LVL23
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:256    .text.T1powerUpInitPWM:00000000000001dc .LVL24
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:262    .text.T1powerUpInitPWM:00000000000001ec .LVL25
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:273    .text.T1powerUpInitPWM:0000000000000202 .LVL26
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:279    .text.T1powerUpInitPWM:0000000000000214 .LVL27
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:285    .text.T1powerUpInitPWM:0000000000000224 .LVL28
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:290    .text.T1powerUpInitPWM:0000000000000230 .LVL29
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s 			page 17
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2305   .debug_str:0000000000000449 .LASF60
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2323   .debug_str:00000000000004c7 .LASF61
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2333   .debug_str:0000000000000510 .LASF62
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2201   .debug_str:000000000000015d .LASF63
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2299   .debug_str:00000000000003ed .LASF64
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2279   .debug_str:000000000000036e .LASF65
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2245   .debug_str:0000000000000267 .LASF66
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2211   .debug_str:0000000000000191 .LASF67
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:341    .text.T1setPWMmotorB:0000000000000000 .LFB4
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:440    .text.T1setPWMmotorB:00000000000000ba .LFE4
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2041   .debug_loc:0000000000000000 .LLST3
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2343   .debug_str:0000000000000557 .LASF69
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2064   .debug_loc:0000000000000038 .LLST4
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:382    .text.T1setPWMmotorB:0000000000000056 .LVL39
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:407    .text.T1setPWMmotorB:0000000000000070 .LVL40
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:419    .text.T1setPWMmotorB:0000000000000082 .LVL42
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2327   .debug_str:00000000000004ee .LASF68
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:318    .text.T1setPWMch2:0000000000000000 .LFB3
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:330    .text.T1setPWMch2:0000000000000010 .LFE3
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2191   .debug_str:0000000000000131 .LASF70
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2086   .debug_loc:000000000000006f .LLST2
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:328    .text.T1setPWMch2:0000000000000010 .LVL33
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2273   .debug_str:0000000000000333 .LASF71
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:14     .text.T1powerUpInitPWM:0000000000000000 .LFB2
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:311    .text.T1powerUpInitPWM:000000000000024a .LFE2
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2104   .debug_loc:000000000000009b .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2122   .debug_loc:00000000000000c8 .LLST1
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2269   .debug_str:0000000000000318 .LASF72
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2195   .debug_str:000000000000013d .LASF73
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:43     .text.T1powerUpInitPWM:000000000000001a .LVL2
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:48     .text.T1powerUpInitPWM:000000000000002a .LVL3
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:59     .text.T1powerUpInitPWM:0000000000000044 .LVL4
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:72     .text.T1powerUpInitPWM:0000000000000062 .LVL5
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:85     .text.T1powerUpInitPWM:000000000000007e .LVL6
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:98     .text.T1powerUpInitPWM:0000000000000098 .LVL7
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:103    .text.T1powerUpInitPWM:00000000000000a4 .LVL8
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:107    .text.T1powerUpInitPWM:00000000000000b0 .LVL9
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:111    .text.T1powerUpInitPWM:00000000000000ba .LVL10
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:137    .text.T1powerUpInitPWM:00000000000000e2 .LVL11
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:141    .text.T1powerUpInitPWM:00000000000000ec .LVL12
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:163    .text.T1powerUpInitPWM:0000000000000108 .LVL13
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:173    .text.T1powerUpInitPWM:000000000000011c .LVL14
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:183    .text.T1powerUpInitPWM:000000000000012e .LVL15
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:193    .text.T1powerUpInitPWM:0000000000000140 .LVL16
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:204    .text.T1powerUpInitPWM:0000000000000158 .LVL17
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:210    .text.T1powerUpInitPWM:000000000000016a .LVL18
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:216    .text.T1powerUpInitPWM:000000000000017a .LVL19
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:227    .text.T1powerUpInitPWM:0000000000000192 .LVL20
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:233    .text.T1powerUpInitPWM:00000000000001a4 .LVL21
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:239    .text.T1powerUpInitPWM:00000000000001b4 .LVL22
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:250    .text.T1powerUpInitPWM:00000000000001ca .LVL23
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:256    .text.T1powerUpInitPWM:00000000000001dc .LVL24
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:262    .text.T1powerUpInitPWM:00000000000001ec .LVL25
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:273    .text.T1powerUpInitPWM:0000000000000202 .LVL26
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:279    .text.T1powerUpInitPWM:0000000000000214 .LVL27
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:285    .text.T1powerUpInitPWM:0000000000000224 .LVL28
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:290    .text.T1powerUpInitPWM:0000000000000230 .LVL29
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s 			page 17
 
 
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:294    .text.T1powerUpInitPWM:000000000000023c .LVL30
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2229   .debug_str:00000000000001f2 .LASF74
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2251   .debug_str:00000000000002a4 .LASF75
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2303   .debug_str:000000000000043f .LASF76
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2329   .debug_str:00000000000004fa .LASF77
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2277   .debug_str:0000000000000357 .LASF78
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2213   .debug_str:00000000000001a0 .LASF79
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2185   .debug_str:00000000000000e6 .LASF80
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2325   .debug_str:00000000000004d2 .LASF81
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2339   .debug_str:000000000000052c .LASF82
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2247   .debug_str:0000000000000273 .LASF83
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2321   .debug_str:00000000000004a7 .LASF84
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:2225   .debug_str:00000000000001db .LASF85
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:348    .text.T1setPWMmotorB:0000000000000002 .LCFI2
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:403    .text.T1setPWMmotorB:0000000000000068 .LCFI3
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:409    .text.T1setPWMmotorB:0000000000000070 .LCFI4
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:344    .text.T1setPWMmotorB:0000000000000000 .LVL34
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:365    .text.T1setPWMmotorB:000000000000001e .LVL35
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:417    .text.T1setPWMmotorB:000000000000007a .LVL41
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:321    .text.T1setPWMch2:0000000000000000 .LVL31
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:326    .text.T1setPWMch2:0000000000000008 .LVL32
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:24     .text.T1powerUpInitPWM:0000000000000002 .LCFI0
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:307    .text.T1powerUpInitPWM:0000000000000248 .LCFI1
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:18     .text.T1powerUpInitPWM:0000000000000000 .LVL0
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:31     .text.T1powerUpInitPWM:000000000000000a .LVL1
-C:\Users\kasie\AppData\Local\Temp\cc0j9QLw.s:459    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:294    .text.T1powerUpInitPWM:000000000000023c .LVL30
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2229   .debug_str:00000000000001f2 .LASF74
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2251   .debug_str:00000000000002a4 .LASF75
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2303   .debug_str:000000000000043f .LASF76
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2329   .debug_str:00000000000004fa .LASF77
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2277   .debug_str:0000000000000357 .LASF78
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2213   .debug_str:00000000000001a0 .LASF79
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2185   .debug_str:00000000000000e6 .LASF80
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2325   .debug_str:00000000000004d2 .LASF81
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2339   .debug_str:000000000000052c .LASF82
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2247   .debug_str:0000000000000273 .LASF83
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2321   .debug_str:00000000000004a7 .LASF84
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:2225   .debug_str:00000000000001db .LASF85
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:348    .text.T1setPWMmotorB:0000000000000002 .LCFI2
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:403    .text.T1setPWMmotorB:0000000000000068 .LCFI3
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:409    .text.T1setPWMmotorB:0000000000000070 .LCFI4
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:344    .text.T1setPWMmotorB:0000000000000000 .LVL34
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:365    .text.T1setPWMmotorB:000000000000001e .LVL35
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:417    .text.T1setPWMmotorB:000000000000007a .LVL41
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:321    .text.T1setPWMch2:0000000000000000 .LVL31
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:326    .text.T1setPWMch2:0000000000000008 .LVL32
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:24     .text.T1powerUpInitPWM:0000000000000002 .LCFI0
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:307    .text.T1powerUpInitPWM:0000000000000248 .LCFI1
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:18     .text.T1powerUpInitPWM:0000000000000000 .LVL0
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:31     .text.T1powerUpInitPWM:000000000000000a .LVL1
+C:\Users\kasie\AppData\Local\Temp\ccfvmq50.s:459    .debug_info:0000000000000000 .Ldebug_info0
 
 UNDEFINED SYMBOLS
 rcu_periph_clock_enable

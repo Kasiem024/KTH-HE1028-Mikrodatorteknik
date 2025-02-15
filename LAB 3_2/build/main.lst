@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s 			page 1
 
 
    1              		.file	"main.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 1
   45              		.cfi_offset 9, -12
   46              		.cfi_offset 18, -16
   47              		.cfi_offset 19, -20
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s 			page 2
 
 
   48              		.cfi_offset 20, -24
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 1
  101 009c B6CE     		sw	a3,92(sp)
  102 009e B6D0     		sw	a3,96(sp)
  103 00a0 2AC1     		sw	a0,128(sp)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s 			page 3
 
 
  104 00a2 42C3     		sw	a6,132(sp)
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 1
  140              		.loc 1 8 59
  141 00f0 8149     		li	s3,0
    8:main.c        ****   int obstacles[50] = {192, 192, 193, 192, 4, 4, 0, 128, 159, 17, 21, 17, 31, 0, 8, 0, 194, 194, 19
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s 			page 4
 
 
  142              		.loc 1 8 38
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 1
  154              		.loc 1 60 12
  155 0104 930CB002 		li	s9,43
  156              	.LVL7:
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 5
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s 			page 5
 
 
  157              	.L2:
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 1
  193 014a B3457B03 		div	a1,s6,s7
   31:main.c        **** 
  194              		.loc 1 31 7
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 6
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s 			page 6
 
 
  195 014e 1D45     		li	a0,7
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 1
  233 0182 850D     		addi	s11,s11,1
  234              	.LVL20:
   41:main.c        ****           }
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 7
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s 			page 7
 
 
  235              		.loc 1 41 13 discriminator 3
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 1
   54:main.c        ****           }
  275              		.loc 1 54 13 discriminator 3
  276 01b6 97000000 		call	l88mem
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 8
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s 			page 8
 
 
  276      E7800000 
@@ -474,212 +474,212 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 1
  315              		.file 7 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
  316              		.file 8 "./../../firmware/GD32VF103_standard_peripheral/gd32vf103.h"
  317              		.file 9 "<built-in>"
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 9
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 main.c
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:13     .text.startup.main:0000000000000000 main
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:17     .text.startup.main:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:18     .text.startup.main:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:20     .text.startup.main:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:21     .text.startup.main:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:22     .text.startup.main:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:24     .text.startup.main:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:26     .text.startup.main:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:30     .text.startup.main:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:43     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:44     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:45     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:46     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:47     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:48     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:49     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:50     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:51     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:52     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:53     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:54     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:55     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:57     .text.startup.main:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:120    .text.startup.main:00000000000000c0 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:123    .text.startup.main:00000000000000c8 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:126    .text.startup.main:00000000000000d0 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:129    .text.startup.main:00000000000000d8 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:132    .text.startup.main:00000000000000e0 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:134    .text.startup.main:00000000000000e2 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:136    .text.startup.main:00000000000000e6 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:139    .text.startup.main:00000000000000ee .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:141    .text.startup.main:00000000000000f0 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:143    .text.startup.main:00000000000000f2 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:145    .text.startup.main:00000000000000f4 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:147    .text.startup.main:00000000000000f6 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:149    .text.startup.main:00000000000000fa .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:151    .text.startup.main:00000000000000fc .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:153    .text.startup.main:0000000000000100 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:155    .text.startup.main:0000000000000104 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:159    .text.startup.main:0000000000000108 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:160    .text.startup.main:0000000000000108 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:161    .text.startup.main:0000000000000108 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:166    .text.startup.main:0000000000000114 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:168    .text.startup.main:0000000000000118 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:169    .text.startup.main:0000000000000118 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:175    .text.startup.main:0000000000000124 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:182    .text.startup.main:0000000000000130 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:183    .text.startup.main:0000000000000130 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:186    .text.startup.main:0000000000000138 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:188    .text.startup.main:000000000000013a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:193    .text.startup.main:000000000000014a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:195    .text.startup.main:000000000000014e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:199    .text.startup.main:0000000000000152 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:200    .text.startup.main:0000000000000152 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:201    .text.startup.main:0000000000000152 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 10
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:13     .text.startup.main:0000000000000000 main
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:17     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:18     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:20     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:21     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:22     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:24     .text.startup.main:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:26     .text.startup.main:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:30     .text.startup.main:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:43     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:44     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:45     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:46     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:47     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:48     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:49     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:50     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:51     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:52     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:53     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:54     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:55     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:57     .text.startup.main:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:120    .text.startup.main:00000000000000c0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:123    .text.startup.main:00000000000000c8 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:126    .text.startup.main:00000000000000d0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:129    .text.startup.main:00000000000000d8 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:132    .text.startup.main:00000000000000e0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:134    .text.startup.main:00000000000000e2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:136    .text.startup.main:00000000000000e6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:139    .text.startup.main:00000000000000ee .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:141    .text.startup.main:00000000000000f0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:143    .text.startup.main:00000000000000f2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:145    .text.startup.main:00000000000000f4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:147    .text.startup.main:00000000000000f6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:149    .text.startup.main:00000000000000fa .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:151    .text.startup.main:00000000000000fc .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:153    .text.startup.main:0000000000000100 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:155    .text.startup.main:0000000000000104 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:159    .text.startup.main:0000000000000108 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:160    .text.startup.main:0000000000000108 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:161    .text.startup.main:0000000000000108 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:166    .text.startup.main:0000000000000114 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:168    .text.startup.main:0000000000000118 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:169    .text.startup.main:0000000000000118 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:175    .text.startup.main:0000000000000124 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:182    .text.startup.main:0000000000000130 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:183    .text.startup.main:0000000000000130 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:186    .text.startup.main:0000000000000138 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:188    .text.startup.main:000000000000013a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:193    .text.startup.main:000000000000014a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:195    .text.startup.main:000000000000014e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:199    .text.startup.main:0000000000000152 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:200    .text.startup.main:0000000000000152 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:201    .text.startup.main:0000000000000152 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s 			page 10
 
 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:202    .text.startup.main:0000000000000152 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:203    .text.startup.main:0000000000000152 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:205    .text.startup.main:0000000000000156 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:207    .text.startup.main:0000000000000158 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:212    .text.startup.main:0000000000000166 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:213    .text.startup.main:0000000000000166 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:218    .text.startup.main:0000000000000170 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:219    .text.startup.main:0000000000000170 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:220    .text.startup.main:0000000000000170 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:226    .text.startup.main:000000000000017c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:230    .text.startup.main:000000000000017e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:233    .text.startup.main:0000000000000182 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:236    .text.startup.main:0000000000000184 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:239    .text.startup.main:000000000000018c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:244    .text.startup.main:0000000000000194 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:245    .text.startup.main:0000000000000194 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:248    .text.startup.main:0000000000000196 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:249    .text.startup.main:0000000000000196 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:253    .text.startup.main:0000000000000198 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:254    .text.startup.main:0000000000000198 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:258    .text.startup.main:00000000000001a0 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:261    .text.startup.main:00000000000001a8 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:264    .text.startup.main:00000000000001ac .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:266    .text.startup.main:00000000000001ae .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:270    .text.startup.main:00000000000001b0 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:273    .text.startup.main:00000000000001b4 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:276    .text.startup.main:00000000000001b6 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:279    .text.startup.main:00000000000001be .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:282    .text.startup.main:00000000000001c2 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:287    .text.startup.main:00000000000001ce .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:291    .text.startup.main:00000000000001d0 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:292    .text.startup.main:00000000000001d0 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:294    .text.startup.main:00000000000001d2 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:296    .text.startup.main:00000000000001d6 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:300    .text.startup.main:00000000000001d8 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:305    .text.startup.main:00000000000001e6 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:308    .text.startup.main:00000000000001e6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:202    .text.startup.main:0000000000000152 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:203    .text.startup.main:0000000000000152 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:205    .text.startup.main:0000000000000156 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:207    .text.startup.main:0000000000000158 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:212    .text.startup.main:0000000000000166 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:213    .text.startup.main:0000000000000166 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:218    .text.startup.main:0000000000000170 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:219    .text.startup.main:0000000000000170 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:220    .text.startup.main:0000000000000170 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:226    .text.startup.main:000000000000017c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:230    .text.startup.main:000000000000017e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:233    .text.startup.main:0000000000000182 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:236    .text.startup.main:0000000000000184 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:239    .text.startup.main:000000000000018c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:244    .text.startup.main:0000000000000194 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:245    .text.startup.main:0000000000000194 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:248    .text.startup.main:0000000000000196 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:249    .text.startup.main:0000000000000196 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:253    .text.startup.main:0000000000000198 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:254    .text.startup.main:0000000000000198 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:258    .text.startup.main:00000000000001a0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:261    .text.startup.main:00000000000001a8 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:264    .text.startup.main:00000000000001ac .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:266    .text.startup.main:00000000000001ae .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:270    .text.startup.main:00000000000001b0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:273    .text.startup.main:00000000000001b4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:276    .text.startup.main:00000000000001b6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:279    .text.startup.main:00000000000001be .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:282    .text.startup.main:00000000000001c2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:287    .text.startup.main:00000000000001ce .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:291    .text.startup.main:00000000000001d0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:292    .text.startup.main:00000000000001d0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:294    .text.startup.main:00000000000001d2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:296    .text.startup.main:00000000000001d6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:300    .text.startup.main:00000000000001d8 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:305    .text.startup.main:00000000000001e6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:308    .text.startup.main:00000000000001e6 .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:180    .text.startup.main:0000000000000130 .L3
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:157    .text.startup.main:0000000000000108 .L2
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:298    .text.startup.main:00000000000001d8 .L5
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:251    .text.startup.main:0000000000000198 .L6
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:227    .text.startup.main:000000000000017e .L7
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:289    .text.startup.main:00000000000001d0 .L8
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:268    .text.startup.main:00000000000001b0 .L9
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:802    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1367   .debug_str:000000000000019c .LASF35
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1355   .debug_str:0000000000000165 .LASF36
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1381   .debug_str:0000000000000262 .LASF37
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1291   .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1297   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1339   .debug_str:0000000000000110 .LASF0
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1375   .debug_str:0000000000000241 .LASF1
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1299   .debug_str:0000000000000000 .LASF6
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1317   .debug_str:0000000000000087 .LASF2
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1363   .debug_str:000000000000018a .LASF3
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1309   .debug_str:0000000000000046 .LASF4
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 11
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:180    .text.startup.main:0000000000000130 .L3
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:157    .text.startup.main:0000000000000108 .L2
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:298    .text.startup.main:00000000000001d8 .L5
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:251    .text.startup.main:0000000000000198 .L6
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:227    .text.startup.main:000000000000017e .L7
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:289    .text.startup.main:00000000000001d0 .L8
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:268    .text.startup.main:00000000000001b0 .L9
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:802    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1367   .debug_str:000000000000019c .LASF35
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1355   .debug_str:0000000000000165 .LASF36
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1381   .debug_str:0000000000000262 .LASF37
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1291   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1297   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1339   .debug_str:0000000000000110 .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1375   .debug_str:0000000000000241 .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1299   .debug_str:0000000000000000 .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1317   .debug_str:0000000000000087 .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1363   .debug_str:000000000000018a .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1309   .debug_str:0000000000000046 .LASF4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s 			page 11
 
 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1305   .debug_str:0000000000000036 .LASF5
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1331   .debug_str:00000000000000ec .LASF7
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1321   .debug_str:00000000000000a6 .LASF8
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1353   .debug_str:0000000000000157 .LASF9
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1315   .debug_str:0000000000000070 .LASF10
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1345   .debug_str:000000000000012a .LASF11
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1369   .debug_str:0000000000000224 .LASF12
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1357   .debug_str:000000000000016c .LASF38
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1341   .debug_str:000000000000011d .LASF13
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1373   .debug_str:0000000000000235 .LASF14
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1335   .debug_str:00000000000000fe .LASF39
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:14     .text.startup.main:0000000000000000 .LFB2
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:306    .text.startup.main:00000000000001e6 .LFE2
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1122   .debug_loc:0000000000000000 .LLST0
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1377   .debug_str:000000000000024d .LASF15
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1135   .debug_loc:0000000000000021 .LLST1
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1311   .debug_str:0000000000000059 .LASF16
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1151   .debug_loc:000000000000004b .LLST2
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1301   .debug_str:000000000000000a .LASF17
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1170   .debug_loc:0000000000000072 .LLST3
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1307   .debug_str:000000000000003f .LASF18
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1182   .debug_loc:0000000000000091 .LLST4
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1194   .debug_loc:00000000000000b0 .LLST5
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1329   .debug_str:00000000000000d9 .LASF19
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1221   .debug_loc:00000000000000f3 .LLST6
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1323   .debug_str:00000000000000b8 .LASF20
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:224    .text.startup.main:000000000000017c .LBB2
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:242    .text.startup.main:0000000000000194 .LBE2
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1313   .debug_str:0000000000000068 .LASF21
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1236   .debug_loc:000000000000011c .LLST7
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:237    .text.startup.main:000000000000018c .LVL21
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:262    .text.startup.main:00000000000001ac .LBB3
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:280    .text.startup.main:00000000000001c2 .LBE3
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1257   .debug_loc:0000000000000152 .LLST8
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:277    .text.startup.main:00000000000001be .LVL26
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:58     .text.startup.main:0000000000000034 .LVL1
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:121    .text.startup.main:00000000000000c8 .LVL2
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:124    .text.startup.main:00000000000000d0 .LVL3
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:127    .text.startup.main:00000000000000d8 .LVL4
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:130    .text.startup.main:00000000000000e0 .LVL5
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:137    .text.startup.main:00000000000000ee .LVL6
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:164    .text.startup.main:0000000000000114 .LVL8
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:171    .text.startup.main:0000000000000122 .LVL9
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:179    .text.startup.main:0000000000000130 .LVL12
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:184    .text.startup.main:0000000000000138 .LVL13
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:189    .text.startup.main:0000000000000142 .LVL14
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:191    .text.startup.main:000000000000014a .LVL15
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:210    .text.startup.main:0000000000000166 .LVL17
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:285    .text.startup.main:00000000000001ce .LVL27
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:303    .text.startup.main:00000000000001e4 .LVL30
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1351   .debug_str:0000000000000150 .LASF22
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1327   .debug_str:00000000000000d2 .LASF40
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1319   .debug_str:0000000000000095 .LASF41
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1343   .debug_str:0000000000000123 .LASF23
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1347   .debug_str:0000000000000132 .LASF24
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1371   .debug_str:000000000000022d .LASF25
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1365   .debug_str:0000000000000194 .LASF26
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s 			page 12
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1305   .debug_str:0000000000000036 .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1331   .debug_str:00000000000000ec .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1321   .debug_str:00000000000000a6 .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1353   .debug_str:0000000000000157 .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1315   .debug_str:0000000000000070 .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1345   .debug_str:000000000000012a .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1369   .debug_str:0000000000000224 .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1357   .debug_str:000000000000016c .LASF38
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1341   .debug_str:000000000000011d .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1373   .debug_str:0000000000000235 .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1335   .debug_str:00000000000000fe .LASF39
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:14     .text.startup.main:0000000000000000 .LFB2
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:306    .text.startup.main:00000000000001e6 .LFE2
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1122   .debug_loc:0000000000000000 .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1377   .debug_str:000000000000024d .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1135   .debug_loc:0000000000000021 .LLST1
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1311   .debug_str:0000000000000059 .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1151   .debug_loc:000000000000004b .LLST2
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1301   .debug_str:000000000000000a .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1170   .debug_loc:0000000000000072 .LLST3
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1307   .debug_str:000000000000003f .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1182   .debug_loc:0000000000000091 .LLST4
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1194   .debug_loc:00000000000000b0 .LLST5
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1329   .debug_str:00000000000000d9 .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1221   .debug_loc:00000000000000f3 .LLST6
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1323   .debug_str:00000000000000b8 .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:224    .text.startup.main:000000000000017c .LBB2
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:242    .text.startup.main:0000000000000194 .LBE2
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1313   .debug_str:0000000000000068 .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1236   .debug_loc:000000000000011c .LLST7
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:237    .text.startup.main:000000000000018c .LVL21
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:262    .text.startup.main:00000000000001ac .LBB3
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:280    .text.startup.main:00000000000001c2 .LBE3
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1257   .debug_loc:0000000000000152 .LLST8
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:277    .text.startup.main:00000000000001be .LVL26
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:58     .text.startup.main:0000000000000034 .LVL1
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:121    .text.startup.main:00000000000000c8 .LVL2
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:124    .text.startup.main:00000000000000d0 .LVL3
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:127    .text.startup.main:00000000000000d8 .LVL4
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:130    .text.startup.main:00000000000000e0 .LVL5
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:137    .text.startup.main:00000000000000ee .LVL6
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:164    .text.startup.main:0000000000000114 .LVL8
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:171    .text.startup.main:0000000000000122 .LVL9
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:179    .text.startup.main:0000000000000130 .LVL12
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:184    .text.startup.main:0000000000000138 .LVL13
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:189    .text.startup.main:0000000000000142 .LVL14
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:191    .text.startup.main:000000000000014a .LVL15
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:210    .text.startup.main:0000000000000166 .LVL17
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:285    .text.startup.main:00000000000001ce .LVL27
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:303    .text.startup.main:00000000000001e4 .LVL30
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1351   .debug_str:0000000000000150 .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1327   .debug_str:00000000000000d2 .LASF40
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1319   .debug_str:0000000000000095 .LASF41
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1343   .debug_str:0000000000000123 .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1347   .debug_str:0000000000000132 .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1371   .debug_str:000000000000022d .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1365   .debug_str:0000000000000194 .LASF26
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s 			page 12
 
 
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1325   .debug_str:00000000000000c2 .LASF27
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1337   .debug_str:0000000000000103 .LASF28
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1349   .debug_str:000000000000013a .LASF29
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1379   .debug_str:0000000000000253 .LASF30
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1359   .debug_str:000000000000017c .LASF31
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1333   .debug_str:00000000000000f7 .LASF32
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1361   .debug_str:0000000000000183 .LASF33
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:1303   .debug_str:000000000000001a .LASF34
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:23     .text.startup.main:0000000000000002 .LCFI0
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:19     .text.startup.main:0000000000000000 .LVL0
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:156    .text.startup.main:0000000000000108 .LVL7
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:267    .text.startup.main:00000000000001b0 .LVL24
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:288    .text.startup.main:00000000000001d0 .LVL28
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:197    .text.startup.main:0000000000000152 .LVL16
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:217    .text.startup.main:0000000000000170 .LVL18
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:297    .text.startup.main:00000000000001d8 .LVL29
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:173    .text.startup.main:0000000000000124 .LVL10
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:177    .text.startup.main:0000000000000128 .LVL11
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:228    .text.startup.main:000000000000017e .LVL19
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:234    .text.startup.main:0000000000000184 .LVL20
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:250    .text.startup.main:0000000000000198 .LVL23
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:274    .text.startup.main:00000000000001b6 .LVL25
-C:\Users\kasie\AppData\Local\Temp\ccE4WGal.s:319    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1325   .debug_str:00000000000000c2 .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1337   .debug_str:0000000000000103 .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1349   .debug_str:000000000000013a .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1379   .debug_str:0000000000000253 .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1359   .debug_str:000000000000017c .LASF31
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1333   .debug_str:00000000000000f7 .LASF32
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1361   .debug_str:0000000000000183 .LASF33
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:1303   .debug_str:000000000000001a .LASF34
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:23     .text.startup.main:0000000000000002 .LCFI0
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:19     .text.startup.main:0000000000000000 .LVL0
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:156    .text.startup.main:0000000000000108 .LVL7
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:267    .text.startup.main:00000000000001b0 .LVL24
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:288    .text.startup.main:00000000000001d0 .LVL28
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:197    .text.startup.main:0000000000000152 .LVL16
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:217    .text.startup.main:0000000000000170 .LVL18
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:297    .text.startup.main:00000000000001d8 .LVL29
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:173    .text.startup.main:0000000000000124 .LVL10
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:177    .text.startup.main:0000000000000128 .LVL11
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:228    .text.startup.main:000000000000017e .LVL19
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:234    .text.startup.main:0000000000000184 .LVL20
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:250    .text.startup.main:0000000000000198 .LVL23
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:274    .text.startup.main:00000000000001b6 .LVL25
+C:\Users\kasie\AppData\Local\Temp\ccpUDJzP.s:319    .debug_info:0000000000000000 .Ldebug_info0
 
 UNDEFINED SYMBOLS
 memset

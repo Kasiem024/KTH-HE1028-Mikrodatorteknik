@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s 			page 1
 
 
    1              		.file	"gd32vf103_wwdgt.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 1
   41:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_wwdgt.c **** #define CFG_WIN(regval)             (BITS(0,6) & ((uint32_t)(regval) << 0))
   42:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_wwdgt.c **** 
   43:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_wwdgt.c **** /*!
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s 			page 2
 
 
   44:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_wwdgt.c ****     \brief      reset the window watchdog timer configuration
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 1
   57:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_wwdgt.c ****     \param[in]  none
   58:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_wwdgt.c ****     \param[out] none
   59:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_wwdgt.c ****     \retval     none
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s 			page 3
 
 
   60:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_wwdgt.c **** */
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 1
   78:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_wwdgt.c ****     
   79:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_wwdgt.c ****     WWDGT_CTL = reg;
   90              		.loc 1 79 5 is_stmt 1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s 			page 4
 
 
   91              		.loc 1 79 15 is_stmt 0
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 1
  119              		.loc 1 100 13
  120 0010 93F707E0 		andi	a5,a5,-512
  121              	.LVL9:
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 5
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s 			page 5
 
 
  101:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_wwdgt.c ****     reg_ctl = (WWDGT_CTL &(~WWDGT_CTL_CNT));
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 1
  159 0004 832747C0 		lw	a5,-1020(a4)
  160 0008 93E70720 		ori	a5,a5,512
  161 000c 2322F7C0 		sw	a5,-1020(a4)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 6
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s 			page 6
 
 
  121:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_wwdgt.c **** }
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 1
  194              		.loc 1 146 16 is_stmt 0
  195 0000 37370040 		li	a4,1073754112
  196 0004 832787C0 		lw	a5,-1016(a4)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 7
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s 			page 7
 
 
  197 0008 F99B     		andi	a5,a5,-2
@@ -375,218 +375,218 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 1
  208              		.file 4 "./../../firmware/GD32VF103_standard_peripheral/gd32vf103.h"
  209              		.file 5 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_rcu.h"
  210              		.file 6 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 8
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s 			page 8
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gd32vf103_wwdgt.c
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:13     .text.wwdgt_deinit:0000000000000000 wwdgt_deinit
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:17     .text.wwdgt_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:18     .text.wwdgt_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:19     .text.wwdgt_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:20     .text.wwdgt_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:22     .text.wwdgt_deinit:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:24     .text.wwdgt_deinit:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:26     .text.wwdgt_deinit:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:27     .text.wwdgt_deinit:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:29     .text.wwdgt_deinit:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:32     .text.wwdgt_deinit:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:33     .text.wwdgt_deinit:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:34     .text.wwdgt_deinit:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:36     .text.wwdgt_deinit:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:38     .text.wwdgt_deinit:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:40     .text.wwdgt_deinit:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:42     .text.wwdgt_deinit:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:44     .text.wwdgt_deinit:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:51     .text.wwdgt_enable:0000000000000000 wwdgt_enable
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:54     .text.wwdgt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:55     .text.wwdgt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:56     .text.wwdgt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:57     .text.wwdgt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:62     .text.wwdgt_enable:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:63     .text.wwdgt_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:70     .text.wwdgt_counter_update:0000000000000000 wwdgt_counter_update
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:73     .text.wwdgt_counter_update:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:75     .text.wwdgt_counter_update:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:76     .text.wwdgt_counter_update:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:77     .text.wwdgt_counter_update:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:78     .text.wwdgt_counter_update:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:81     .text.wwdgt_counter_update:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:84     .text.wwdgt_counter_update:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:87     .text.wwdgt_counter_update:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:88     .text.wwdgt_counter_update:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:91     .text.wwdgt_counter_update:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:92     .text.wwdgt_counter_update:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:94     .text.wwdgt_counter_update:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:95     .text.wwdgt_counter_update:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:102    .text.wwdgt_config:0000000000000000 wwdgt_config
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:105    .text.wwdgt_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:107    .text.wwdgt_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:108    .text.wwdgt_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:109    .text.wwdgt_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:110    .text.wwdgt_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:114    .text.wwdgt_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:115    .text.wwdgt_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:117    .text.wwdgt_config:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:120    .text.wwdgt_config:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:123    .text.wwdgt_config:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:126    .text.wwdgt_config:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:129    .text.wwdgt_config:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:130    .text.wwdgt_config:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:132    .text.wwdgt_config:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:134    .text.wwdgt_config:0000000000000020 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 9
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:13     .text.wwdgt_deinit:0000000000000000 wwdgt_deinit
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:17     .text.wwdgt_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:18     .text.wwdgt_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:19     .text.wwdgt_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:20     .text.wwdgt_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:22     .text.wwdgt_deinit:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:24     .text.wwdgt_deinit:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:26     .text.wwdgt_deinit:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:27     .text.wwdgt_deinit:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:29     .text.wwdgt_deinit:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:32     .text.wwdgt_deinit:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:33     .text.wwdgt_deinit:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:34     .text.wwdgt_deinit:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:36     .text.wwdgt_deinit:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:38     .text.wwdgt_deinit:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:40     .text.wwdgt_deinit:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:42     .text.wwdgt_deinit:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:44     .text.wwdgt_deinit:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:51     .text.wwdgt_enable:0000000000000000 wwdgt_enable
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:54     .text.wwdgt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:55     .text.wwdgt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:56     .text.wwdgt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:57     .text.wwdgt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:62     .text.wwdgt_enable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:63     .text.wwdgt_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:70     .text.wwdgt_counter_update:0000000000000000 wwdgt_counter_update
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:73     .text.wwdgt_counter_update:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:75     .text.wwdgt_counter_update:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:76     .text.wwdgt_counter_update:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:77     .text.wwdgt_counter_update:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:78     .text.wwdgt_counter_update:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:81     .text.wwdgt_counter_update:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:84     .text.wwdgt_counter_update:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:87     .text.wwdgt_counter_update:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:88     .text.wwdgt_counter_update:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:91     .text.wwdgt_counter_update:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:92     .text.wwdgt_counter_update:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:94     .text.wwdgt_counter_update:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:95     .text.wwdgt_counter_update:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:102    .text.wwdgt_config:0000000000000000 wwdgt_config
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:105    .text.wwdgt_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:107    .text.wwdgt_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:108    .text.wwdgt_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:109    .text.wwdgt_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:110    .text.wwdgt_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:114    .text.wwdgt_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:115    .text.wwdgt_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:117    .text.wwdgt_config:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:120    .text.wwdgt_config:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:123    .text.wwdgt_config:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:126    .text.wwdgt_config:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:129    .text.wwdgt_config:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:130    .text.wwdgt_config:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:132    .text.wwdgt_config:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:134    .text.wwdgt_config:0000000000000020 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s 			page 9
 
 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:137    .text.wwdgt_config:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:138    .text.wwdgt_config:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:139    .text.wwdgt_config:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:141    .text.wwdgt_config:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:142    .text.wwdgt_config:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:144    .text.wwdgt_config:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:145    .text.wwdgt_config:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:152    .text.wwdgt_interrupt_enable:0000000000000000 wwdgt_interrupt_enable
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:155    .text.wwdgt_interrupt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:156    .text.wwdgt_interrupt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:157    .text.wwdgt_interrupt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:158    .text.wwdgt_interrupt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:163    .text.wwdgt_interrupt_enable:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:164    .text.wwdgt_interrupt_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:171    .text.wwdgt_flag_get:0000000000000000 wwdgt_flag_get
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:174    .text.wwdgt_flag_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:175    .text.wwdgt_flag_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:176    .text.wwdgt_flag_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:177    .text.wwdgt_flag_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:180    .text.wwdgt_flag_get:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:182    .text.wwdgt_flag_get:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:189    .text.wwdgt_flag_clear:0000000000000000 wwdgt_flag_clear
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:192    .text.wwdgt_flag_clear:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:193    .text.wwdgt_flag_clear:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:194    .text.wwdgt_flag_clear:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:195    .text.wwdgt_flag_clear:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:200    .text.wwdgt_flag_clear:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:201    .text.wwdgt_flag_clear:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:47     .text.wwdgt_deinit:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:66     .text.wwdgt_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:98     .text.wwdgt_counter_update:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:148    .text.wwdgt_config:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:167    .text.wwdgt_interrupt_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:185    .text.wwdgt_flag_get:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:204    .text.wwdgt_flag_clear:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:137    .text.wwdgt_config:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:138    .text.wwdgt_config:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:139    .text.wwdgt_config:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:141    .text.wwdgt_config:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:142    .text.wwdgt_config:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:144    .text.wwdgt_config:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:145    .text.wwdgt_config:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:152    .text.wwdgt_interrupt_enable:0000000000000000 wwdgt_interrupt_enable
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:155    .text.wwdgt_interrupt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:156    .text.wwdgt_interrupt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:157    .text.wwdgt_interrupt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:158    .text.wwdgt_interrupt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:163    .text.wwdgt_interrupt_enable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:164    .text.wwdgt_interrupt_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:171    .text.wwdgt_flag_get:0000000000000000 wwdgt_flag_get
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:174    .text.wwdgt_flag_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:175    .text.wwdgt_flag_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:176    .text.wwdgt_flag_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:177    .text.wwdgt_flag_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:180    .text.wwdgt_flag_get:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:182    .text.wwdgt_flag_get:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:189    .text.wwdgt_flag_clear:0000000000000000 wwdgt_flag_clear
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:192    .text.wwdgt_flag_clear:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:193    .text.wwdgt_flag_clear:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:194    .text.wwdgt_flag_clear:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:195    .text.wwdgt_flag_clear:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:200    .text.wwdgt_flag_clear:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:201    .text.wwdgt_flag_clear:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:47     .text.wwdgt_deinit:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:66     .text.wwdgt_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:98     .text.wwdgt_counter_update:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:148    .text.wwdgt_config:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:167    .text.wwdgt_interrupt_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:185    .text.wwdgt_flag_get:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:204    .text.wwdgt_flag_clear:0000000000000010 .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:614    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1148   .debug_str:000000000000000e .LASF62
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1264   .debug_str:00000000000003b4 .LASF63
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1240   .debug_str:00000000000002f6 .LASF64
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1126   .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1144   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1214   .debug_str:000000000000023e .LASF0
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1204   .debug_str:00000000000001fa .LASF1
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1198   .debug_str:00000000000001da .LASF2
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1176   .debug_str:000000000000014a .LASF3
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1172   .debug_str:0000000000000128 .LASF6
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1224   .debug_str:0000000000000277 .LASF4
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1188   .debug_str:000000000000019d .LASF5
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1168   .debug_str:000000000000010f .LASF7
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1238   .debug_str:00000000000002e4 .LASF8
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1186   .debug_str:000000000000018f .LASF9
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1208   .debug_str:0000000000000211 .LASF10
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1216   .debug_str:000000000000024b .LASF11
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1212   .debug_str:0000000000000235 .LASF12
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1232   .debug_str:00000000000002b7 .LASF65
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1250   .debug_str:000000000000036c .LASF13
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 10
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:614    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1148   .debug_str:000000000000000e .LASF62
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1264   .debug_str:00000000000003b4 .LASF63
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1240   .debug_str:00000000000002f6 .LASF64
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1126   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1144   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1214   .debug_str:000000000000023e .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1204   .debug_str:00000000000001fa .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1198   .debug_str:00000000000001da .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1176   .debug_str:000000000000014a .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1172   .debug_str:0000000000000128 .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1224   .debug_str:0000000000000277 .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1188   .debug_str:000000000000019d .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1168   .debug_str:000000000000010f .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1238   .debug_str:00000000000002e4 .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1186   .debug_str:000000000000018f .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1208   .debug_str:0000000000000211 .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1216   .debug_str:000000000000024b .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1212   .debug_str:0000000000000235 .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1232   .debug_str:00000000000002b7 .LASF65
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1250   .debug_str:000000000000036c .LASF13
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s 			page 10
 
 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1272   .debug_str:0000000000000430 .LASF14
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1150   .debug_str:0000000000000096 .LASF15
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1228   .debug_str:000000000000029b .LASF16
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1262   .debug_str:00000000000003a6 .LASF17
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1170   .debug_str:000000000000011a .LASF18
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1192   .debug_str:00000000000001b2 .LASF19
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1230   .debug_str:00000000000002a9 .LASF20
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1268   .debug_str:0000000000000414 .LASF21
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1278   .debug_str:0000000000000455 .LASF22
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1164   .debug_str:00000000000000ea .LASF23
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1190   .debug_str:00000000000001a6 .LASF24
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1236   .debug_str:00000000000002d6 .LASF25
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1276   .debug_str:0000000000000447 .LASF26
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1242   .debug_str:000000000000033b .LASF27
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1152   .debug_str:00000000000000a3 .LASF28
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1274   .debug_str:000000000000043b .LASF29
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1246   .debug_str:0000000000000355 .LASF30
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1158   .debug_str:00000000000000ca .LASF31
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1184   .debug_str:0000000000000183 .LASF32
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1162   .debug_str:00000000000000de .LASF33
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1248   .debug_str:0000000000000361 .LASF34
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1206   .debug_str:0000000000000206 .LASF35
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1200   .debug_str:00000000000001e8 .LASF36
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1210   .debug_str:0000000000000228 .LASF37
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1244   .debug_str:0000000000000348 .LASF38
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1156   .debug_str:00000000000000bd .LASF39
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1182   .debug_str:0000000000000176 .LASF40
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1218   .debug_str:0000000000000254 .LASF41
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1220   .debug_str:0000000000000261 .LASF42
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1254   .debug_str:000000000000037f .LASF43
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1146   .debug_str:0000000000000000 .LASF44
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1260   .debug_str:000000000000039a .LASF45
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1194   .debug_str:00000000000001c0 .LASF46
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1196   .debug_str:00000000000001ce .LASF47
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1226   .debug_str:000000000000028a .LASF48
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:190    .text.wwdgt_flag_clear:0000000000000000 .LFB8
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:202    .text.wwdgt_flag_clear:0000000000000010 .LFE8
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1234   .debug_str:00000000000002c7 .LASF66
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:172    .text.wwdgt_flag_get:0000000000000000 .LFB7
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:183    .text.wwdgt_flag_get:000000000000000c .LFE7
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1174   .debug_str:0000000000000133 .LASF49
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:153    .text.wwdgt_interrupt_enable:0000000000000000 .LFB6
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:165    .text.wwdgt_interrupt_enable:0000000000000012 .LFE6
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1180   .debug_str:0000000000000169 .LASF55
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:103    .text.wwdgt_config:0000000000000000 .LFB5
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:146    .text.wwdgt_config:000000000000002c .LFE5
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1202   .debug_str:00000000000001f2 .LASF50
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:984    .debug_loc:0000000000000000 .LLST3
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1258   .debug_str:0000000000000393 .LASF51
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1222   .debug_str:000000000000026d .LASF52
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:998    .debug_loc:0000000000000021 .LLST4
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1160   .debug_str:00000000000000d6 .LASF53
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1012   .debug_loc:0000000000000042 .LLST5
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1256   .debug_str:000000000000038b .LASF54
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1037   .debug_loc:000000000000007d .LLST6
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1178   .debug_str:0000000000000154 .LASF56
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:71     .text.wwdgt_counter_update:0000000000000000 .LFB4
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s 			page 11
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1272   .debug_str:0000000000000430 .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1150   .debug_str:0000000000000096 .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1228   .debug_str:000000000000029b .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1262   .debug_str:00000000000003a6 .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1170   .debug_str:000000000000011a .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1192   .debug_str:00000000000001b2 .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1230   .debug_str:00000000000002a9 .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1268   .debug_str:0000000000000414 .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1278   .debug_str:0000000000000455 .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1164   .debug_str:00000000000000ea .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1190   .debug_str:00000000000001a6 .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1236   .debug_str:00000000000002d6 .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1276   .debug_str:0000000000000447 .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1242   .debug_str:000000000000033b .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1152   .debug_str:00000000000000a3 .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1274   .debug_str:000000000000043b .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1246   .debug_str:0000000000000355 .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1158   .debug_str:00000000000000ca .LASF31
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1184   .debug_str:0000000000000183 .LASF32
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1162   .debug_str:00000000000000de .LASF33
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1248   .debug_str:0000000000000361 .LASF34
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1206   .debug_str:0000000000000206 .LASF35
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1200   .debug_str:00000000000001e8 .LASF36
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1210   .debug_str:0000000000000228 .LASF37
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1244   .debug_str:0000000000000348 .LASF38
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1156   .debug_str:00000000000000bd .LASF39
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1182   .debug_str:0000000000000176 .LASF40
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1218   .debug_str:0000000000000254 .LASF41
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1220   .debug_str:0000000000000261 .LASF42
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1254   .debug_str:000000000000037f .LASF43
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1146   .debug_str:0000000000000000 .LASF44
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1260   .debug_str:000000000000039a .LASF45
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1194   .debug_str:00000000000001c0 .LASF46
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1196   .debug_str:00000000000001ce .LASF47
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1226   .debug_str:000000000000028a .LASF48
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:190    .text.wwdgt_flag_clear:0000000000000000 .LFB8
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:202    .text.wwdgt_flag_clear:0000000000000010 .LFE8
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1234   .debug_str:00000000000002c7 .LASF66
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:172    .text.wwdgt_flag_get:0000000000000000 .LFB7
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:183    .text.wwdgt_flag_get:000000000000000c .LFE7
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1174   .debug_str:0000000000000133 .LASF49
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:153    .text.wwdgt_interrupt_enable:0000000000000000 .LFB6
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:165    .text.wwdgt_interrupt_enable:0000000000000012 .LFE6
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1180   .debug_str:0000000000000169 .LASF55
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:103    .text.wwdgt_config:0000000000000000 .LFB5
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:146    .text.wwdgt_config:000000000000002c .LFE5
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1202   .debug_str:00000000000001f2 .LASF50
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:984    .debug_loc:0000000000000000 .LLST3
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1258   .debug_str:0000000000000393 .LASF51
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1222   .debug_str:000000000000026d .LASF52
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:998    .debug_loc:0000000000000021 .LLST4
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1160   .debug_str:00000000000000d6 .LASF53
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1012   .debug_loc:0000000000000042 .LLST5
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1256   .debug_str:000000000000038b .LASF54
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1037   .debug_loc:000000000000007d .LLST6
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1178   .debug_str:0000000000000154 .LASF56
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:71     .text.wwdgt_counter_update:0000000000000000 .LFB4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s 			page 11
 
 
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:96     .text.wwdgt_counter_update:0000000000000018 .LFE4
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1270   .debug_str:0000000000000422 .LASF57
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1053   .debug_loc:00000000000000a7 .LLST1
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1067   .debug_loc:00000000000000c8 .LLST2
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1154   .debug_str:00000000000000b0 .LASF58
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:52     .text.wwdgt_enable:0000000000000000 .LFB3
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:64     .text.wwdgt_enable:0000000000000012 .LFE3
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1252   .debug_str:0000000000000372 .LASF59
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:14     .text.wwdgt_deinit:0000000000000000 .LFB2
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:45     .text.wwdgt_deinit:0000000000000020 .LFE2
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1083   .debug_loc:00000000000000f2 .LLST0
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:30     .text.wwdgt_deinit:0000000000000010 .LVL0
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:43     .text.wwdgt_deinit:0000000000000020 .LVL1
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1266   .debug_str:00000000000003fc .LASF60
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:1166   .debug_str:00000000000000f6 .LASF61
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:106    .text.wwdgt_config:0000000000000000 .LVL6
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:118    .text.wwdgt_config:0000000000000010 .LVL8
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:127    .text.wwdgt_config:000000000000001a .LVL11
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:112    .text.wwdgt_config:0000000000000008 .LVL7
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:121    .text.wwdgt_config:0000000000000014 .LVL9
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:135    .text.wwdgt_config:0000000000000022 .LVL12
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:124    .text.wwdgt_config:0000000000000018 .LVL10
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:74     .text.wwdgt_counter_update:0000000000000000 .LVL2
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:82     .text.wwdgt_counter_update:000000000000000c .LVL3
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:85     .text.wwdgt_counter_update:0000000000000010 .LVL4
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:89     .text.wwdgt_counter_update:0000000000000012 .LVL5
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:21     .text.wwdgt_deinit:0000000000000002 .LCFI0
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:39     .text.wwdgt_deinit:0000000000000018 .LCFI1
-C:\Users\kasie\AppData\Local\Temp\ccBel7Ab.s:212    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:96     .text.wwdgt_counter_update:0000000000000018 .LFE4
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1270   .debug_str:0000000000000422 .LASF57
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1053   .debug_loc:00000000000000a7 .LLST1
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1067   .debug_loc:00000000000000c8 .LLST2
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1154   .debug_str:00000000000000b0 .LASF58
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:52     .text.wwdgt_enable:0000000000000000 .LFB3
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:64     .text.wwdgt_enable:0000000000000012 .LFE3
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1252   .debug_str:0000000000000372 .LASF59
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:14     .text.wwdgt_deinit:0000000000000000 .LFB2
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:45     .text.wwdgt_deinit:0000000000000020 .LFE2
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1083   .debug_loc:00000000000000f2 .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:30     .text.wwdgt_deinit:0000000000000010 .LVL0
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:43     .text.wwdgt_deinit:0000000000000020 .LVL1
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1266   .debug_str:00000000000003fc .LASF60
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:1166   .debug_str:00000000000000f6 .LASF61
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:106    .text.wwdgt_config:0000000000000000 .LVL6
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:118    .text.wwdgt_config:0000000000000010 .LVL8
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:127    .text.wwdgt_config:000000000000001a .LVL11
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:112    .text.wwdgt_config:0000000000000008 .LVL7
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:121    .text.wwdgt_config:0000000000000014 .LVL9
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:135    .text.wwdgt_config:0000000000000022 .LVL12
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:124    .text.wwdgt_config:0000000000000018 .LVL10
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:74     .text.wwdgt_counter_update:0000000000000000 .LVL2
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:82     .text.wwdgt_counter_update:000000000000000c .LVL3
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:85     .text.wwdgt_counter_update:0000000000000010 .LVL4
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:89     .text.wwdgt_counter_update:0000000000000012 .LVL5
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:21     .text.wwdgt_deinit:0000000000000002 .LCFI0
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:39     .text.wwdgt_deinit:0000000000000018 .LCFI1
+C:\Users\kasie\AppData\Local\Temp\ccDcSclw.s:212    .debug_info:0000000000000000 .Ldebug_info0
 
 UNDEFINED SYMBOLS
 rcu_periph_reset_enable
