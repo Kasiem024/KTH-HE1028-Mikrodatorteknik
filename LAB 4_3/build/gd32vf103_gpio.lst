@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 1
 
 
    1              		.file	"gd32vf103_gpio.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
   41:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** #define PCF_POSITION_MASK                  ((uint32_t)0x000F0000U)  /*!< AFIO_PCF register position
   42:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** #define PCF_SWJCFG_MASK                    ((uint32_t)0xF0FFFFFFU)  /*!< AFIO_PCF register SWJCFG m
   43:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** #define PCF_LOCATION1_MASK                 ((uint32_t)0x00200000U)  /*!< AFIO_PCF register location
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 2
 
 
   44:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** #define PCF_LOCATION2_MASK                 ((uint32_t)0x00100000U)  /*!< AFIO_PCF register location
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
   78:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         /* reset GPIOE */
   79:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         rcu_periph_reset_enable(RCU_GPIOERST);
   80:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         rcu_periph_reset_disable(RCU_GPIOERST);
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 3
 
 
   81:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         break;
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
   80:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         break;
   77              		.loc 1 80 9
   78 0060 17030000 		tail	rcu_periph_reset_disable
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 4
 
 
   78      67000300 
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
   91:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     \retval     none
   92:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** */
   93:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** void gpio_afio_deinit(void)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 5
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 5
 
 
   94:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** {
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  107:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_MODE_IPU: pull-up input mode
  108:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_MODE_OUT_OD: GPIO output with open-drain
  109:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_MODE_OUT_PP: GPIO output with push-pull
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 6
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 6
 
 
  110:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_MODE_AF_OD: AFIO output with open-drain
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  126:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     uint16_t i;
  178              		.loc 1 126 1 is_stmt 0
  179 000e 8147     		li	a5,0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 7
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 7
 
 
  142:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         if ((1U << i) & pin) {
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  146:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****             /* set the specified pin mode bits */
  209              		.loc 1 146 17
  210 0036 33785800 		and	a6,a6,t0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 8
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 8
 
 
  211              	.LVL22:
@@ -478,7 +478,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  238              		.loc 1 175 16
  239 0054 130F8002 		li	t5,40
  176:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****                 /* reset the corresponding OCTL bit */
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 9
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 9
 
 
  177:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****                 GPIO_BC(gpio_periph) = (uint32_t) ((1U << i) & pin);
@@ -538,7 +538,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  274              		.loc 1 175 13 is_stmt 1
  175:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****                 /* reset the corresponding OCTL bit */
  275              		.loc 1 175 16 is_stmt 0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 10
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 10
 
 
  276 0084 639CE501 		bne	a1,t5,.L20
@@ -598,7 +598,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  312              		.section	.text.gpio_bit_set,"ax",@progbits
  313              		.align	1
  314              		.globl	gpio_bit_set
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 11
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 11
 
 
  316              	gpio_bit_set:
@@ -658,7 +658,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  344              	.LFE6:
  346              		.section	.text.gpio_bit_write,"ax",@progbits
  347              		.align	1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 12
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 12
 
 
  348              		.globl	gpio_bit_write
@@ -718,7 +718,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  245:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     \retval     none
  246:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** */
  247:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** void gpio_port_write(uint32_t gpio_periph, uint16_t data)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 13
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 13
 
 
  248:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** {
@@ -778,7 +778,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  414              	.LFB10:
  269:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** 
  270:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** /*!
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 14
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 14
 
 
  271:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     \brief      get GPIO port input status
@@ -838,7 +838,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  444              		.loc 1 297 1
  445 0004 3335A000 		snez	a0,a0
  446 0008 8280     		ret
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 15
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 15
 
 
  447              		.cfi_endproc
@@ -898,7 +898,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  327:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_TIMER3_REMAP: TIMER3 remapping
  328:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_CAN0_PARTIAL_REMAP: CAN0 partial remapping
  329:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_CAN0_FULL_REMAP: CAN0 full remapping
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 16
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 16
 
 
  330:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****       \arg        GPIO_PD01_REMAP: PD01 remapping
@@ -958,7 +958,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  355:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     remap1 = remap & LSB_16BIT_MASK;
  498              		.loc 1 355 12
  499 0016 4183     		srli	a4,a4,16
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 17
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 17
 
 
  500              	.LVL47:
@@ -1018,7 +1018,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  376:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     if (AFIO_PCF1_FIELDS == (remap & AFIO_PCF1_FIELDS)) {
  535              		.loc 1 376 5 is_stmt 1
  377:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         /* set AFIO_PCF1 regiter value */
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 18
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 18
 
 
  378:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****         AFIO_PCF1 = temp_reg;
@@ -1078,7 +1078,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  575              		.loc 1 368 18 is_stmt 0
  576 006e B706000F 		li	a3,251658240
  577 0072 D58F     		or	a5,a5,a3
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 19
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 19
 
 
  578              	.LVL58:
@@ -1138,7 +1138,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  400:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     uint32_t source = 0U;
  609              		.loc 1 400 5
  401:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c ****     source = ((uint32_t) 0x0FU)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 20
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 20
 
 
  610              		.loc 1 401 5
@@ -1198,7 +1198,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  650              		.loc 1 414 9 is_stmt 1
  651              		.loc 1 414 22 is_stmt 0
  652 003c D847     		lw	a4,12(a5)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 21
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 21
 
 
  653 003e 598D     		or	a0,a4,a0
@@ -1258,7 +1258,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  692              		.globl	gpio_event_output_config
  694              	gpio_event_output_config:
  695              	.LFB15:
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 22
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 22
 
 
  431:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** 
@@ -1318,7 +1318,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  720              		.loc 1 458 13 is_stmt 0
  721 0010 0CC3     		sw	a1,0(a4)
  459:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** }
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 23
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 23
 
 
  722              		.loc 1 459 1
@@ -1378,7 +1378,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  759 000a 1CC3     		sw	a5,0(a4)
  481:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** }
  760              		.loc 1 481 1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 24
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 24
 
 
  761 000c 8280     		ret
@@ -1438,7 +1438,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  503:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_gpio.c **** }
  796              		.loc 1 503 1
  797 000e 8280     		ret
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 25
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 25
 
 
  798              		.cfi_endproc
@@ -1451,637 +1451,637 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 1
  806              		.file 5 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_rcu.h"
  807              		.file 6 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_gpio.h"
  808              		.file 7 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 26
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 26
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gd32vf103_gpio.c
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:13     .text.gpio_deinit:0000000000000000 gpio_deinit
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:17     .text.gpio_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:19     .text.gpio_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:20     .text.gpio_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:21     .text.gpio_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:23     .text.gpio_deinit:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:25     .text.gpio_deinit:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:27     .text.gpio_deinit:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:36     .text.gpio_deinit:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:37     .text.gpio_deinit:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:38     .text.gpio_deinit:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:41     .text.gpio_deinit:0000000000000024 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:45     .text.gpio_deinit:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:47     .text.gpio_deinit:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:53     .text.gpio_deinit:000000000000003a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:58     .text.gpio_deinit:0000000000000046 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:63     .text.gpio_deinit:000000000000004c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:68     .text.gpio_deinit:0000000000000058 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:71     .text.gpio_deinit:000000000000005c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:72     .text.gpio_deinit:000000000000005e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:73     .text.gpio_deinit:000000000000005e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:76     .text.gpio_deinit:0000000000000060 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:78     .text.gpio_deinit:0000000000000060 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:82     .text.gpio_deinit:0000000000000068 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:84     .text.gpio_deinit:0000000000000068 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:89     .text.gpio_deinit:0000000000000074 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:94     .text.gpio_deinit:000000000000007a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:99     .text.gpio_deinit:0000000000000086 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:104    .text.gpio_deinit:000000000000008c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:109    .text.gpio_deinit:0000000000000098 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:111    .text.gpio_deinit:000000000000009e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:118    .text.gpio_afio_deinit:0000000000000000 gpio_afio_deinit
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:121    .text.gpio_afio_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:122    .text.gpio_afio_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:123    .text.gpio_afio_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:124    .text.gpio_afio_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:126    .text.gpio_afio_deinit:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:128    .text.gpio_afio_deinit:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:130    .text.gpio_afio_deinit:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:131    .text.gpio_afio_deinit:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:133    .text.gpio_afio_deinit:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:136    .text.gpio_afio_deinit:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:137    .text.gpio_afio_deinit:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:138    .text.gpio_afio_deinit:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:140    .text.gpio_afio_deinit:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:142    .text.gpio_afio_deinit:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:144    .text.gpio_afio_deinit:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:146    .text.gpio_afio_deinit:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:148    .text.gpio_afio_deinit:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:155    .text.gpio_init:0000000000000000 gpio_init
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:158    .text.gpio_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:160    .text.gpio_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:161    .text.gpio_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:162    .text.gpio_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:163    .text.gpio_init:0000000000000000 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 27
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:13     .text.gpio_deinit:0000000000000000 gpio_deinit
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:17     .text.gpio_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:19     .text.gpio_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:20     .text.gpio_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:21     .text.gpio_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:23     .text.gpio_deinit:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:25     .text.gpio_deinit:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:27     .text.gpio_deinit:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:36     .text.gpio_deinit:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:37     .text.gpio_deinit:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:38     .text.gpio_deinit:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:41     .text.gpio_deinit:0000000000000024 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:45     .text.gpio_deinit:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:47     .text.gpio_deinit:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:53     .text.gpio_deinit:000000000000003a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:58     .text.gpio_deinit:0000000000000046 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:63     .text.gpio_deinit:000000000000004c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:68     .text.gpio_deinit:0000000000000058 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:71     .text.gpio_deinit:000000000000005c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:72     .text.gpio_deinit:000000000000005e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:73     .text.gpio_deinit:000000000000005e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:76     .text.gpio_deinit:0000000000000060 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:78     .text.gpio_deinit:0000000000000060 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:82     .text.gpio_deinit:0000000000000068 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:84     .text.gpio_deinit:0000000000000068 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:89     .text.gpio_deinit:0000000000000074 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:94     .text.gpio_deinit:000000000000007a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:99     .text.gpio_deinit:0000000000000086 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:104    .text.gpio_deinit:000000000000008c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:109    .text.gpio_deinit:0000000000000098 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:111    .text.gpio_deinit:000000000000009e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:118    .text.gpio_afio_deinit:0000000000000000 gpio_afio_deinit
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:121    .text.gpio_afio_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:122    .text.gpio_afio_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:123    .text.gpio_afio_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:124    .text.gpio_afio_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:126    .text.gpio_afio_deinit:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:128    .text.gpio_afio_deinit:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:130    .text.gpio_afio_deinit:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:131    .text.gpio_afio_deinit:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:133    .text.gpio_afio_deinit:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:136    .text.gpio_afio_deinit:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:137    .text.gpio_afio_deinit:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:138    .text.gpio_afio_deinit:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:140    .text.gpio_afio_deinit:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:142    .text.gpio_afio_deinit:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:144    .text.gpio_afio_deinit:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:146    .text.gpio_afio_deinit:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:148    .text.gpio_afio_deinit:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:155    .text.gpio_init:0000000000000000 gpio_init
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:158    .text.gpio_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:160    .text.gpio_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:161    .text.gpio_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:162    .text.gpio_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:163    .text.gpio_init:0000000000000000 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 27
 
 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:164    .text.gpio_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:165    .text.gpio_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:167    .text.gpio_init:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:170    .text.gpio_init:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:171    .text.gpio_init:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:173    .text.gpio_init:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:174    .text.gpio_init:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:178    .text.gpio_init:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:179    .text.gpio_init:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:181    .text.gpio_init:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:183    .text.gpio_init:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:185    .text.gpio_init:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:187    .text.gpio_init:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:189    .text.gpio_init:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:193    .text.gpio_init:000000000000001e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:194    .text.gpio_init:000000000000001e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:196    .text.gpio_init:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:198    .text.gpio_init:0000000000000024 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:200    .text.gpio_init:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:202    .text.gpio_init:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:205    .text.gpio_init:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:206    .text.gpio_init:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:208    .text.gpio_init:0000000000000032 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:210    .text.gpio_init:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:213    .text.gpio_init:000000000000003a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:214    .text.gpio_init:000000000000003a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:216    .text.gpio_init:000000000000003e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:219    .text.gpio_init:0000000000000042 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:220    .text.gpio_init:0000000000000042 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:222    .text.gpio_init:0000000000000046 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:223    .text.gpio_init:0000000000000046 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:226    .text.gpio_init:0000000000000048 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:227    .text.gpio_init:0000000000000048 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:233    .text.gpio_init:000000000000004c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:235    .text.gpio_init:0000000000000050 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:237    .text.gpio_init:0000000000000052 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:239    .text.gpio_init:0000000000000054 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:241    .text.gpio_init:0000000000000058 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:243    .text.gpio_init:000000000000005c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:247    .text.gpio_init:000000000000005e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:248    .text.gpio_init:000000000000005e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:250    .text.gpio_init:0000000000000062 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:252    .text.gpio_init:0000000000000064 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:254    .text.gpio_init:0000000000000066 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:255    .text.gpio_init:0000000000000066 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:258    .text.gpio_init:000000000000006c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:261    .text.gpio_init:0000000000000070 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:262    .text.gpio_init:0000000000000070 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:264    .text.gpio_init:0000000000000074 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:266    .text.gpio_init:0000000000000078 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:269    .text.gpio_init:000000000000007c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:270    .text.gpio_init:000000000000007c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:272    .text.gpio_init:0000000000000080 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:275    .text.gpio_init:0000000000000084 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:276    .text.gpio_init:0000000000000084 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:278    .text.gpio_init:0000000000000088 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:279    .text.gpio_init:0000000000000088 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 28
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:164    .text.gpio_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:165    .text.gpio_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:167    .text.gpio_init:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:170    .text.gpio_init:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:171    .text.gpio_init:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:173    .text.gpio_init:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:174    .text.gpio_init:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:178    .text.gpio_init:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:179    .text.gpio_init:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:181    .text.gpio_init:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:183    .text.gpio_init:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:185    .text.gpio_init:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:187    .text.gpio_init:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:189    .text.gpio_init:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:193    .text.gpio_init:000000000000001e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:194    .text.gpio_init:000000000000001e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:196    .text.gpio_init:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:198    .text.gpio_init:0000000000000024 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:200    .text.gpio_init:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:202    .text.gpio_init:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:205    .text.gpio_init:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:206    .text.gpio_init:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:208    .text.gpio_init:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:210    .text.gpio_init:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:213    .text.gpio_init:000000000000003a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:214    .text.gpio_init:000000000000003a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:216    .text.gpio_init:000000000000003e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:219    .text.gpio_init:0000000000000042 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:220    .text.gpio_init:0000000000000042 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:222    .text.gpio_init:0000000000000046 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:223    .text.gpio_init:0000000000000046 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:226    .text.gpio_init:0000000000000048 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:227    .text.gpio_init:0000000000000048 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:233    .text.gpio_init:000000000000004c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:235    .text.gpio_init:0000000000000050 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:237    .text.gpio_init:0000000000000052 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:239    .text.gpio_init:0000000000000054 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:241    .text.gpio_init:0000000000000058 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:243    .text.gpio_init:000000000000005c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:247    .text.gpio_init:000000000000005e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:248    .text.gpio_init:000000000000005e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:250    .text.gpio_init:0000000000000062 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:252    .text.gpio_init:0000000000000064 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:254    .text.gpio_init:0000000000000066 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:255    .text.gpio_init:0000000000000066 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:258    .text.gpio_init:000000000000006c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:261    .text.gpio_init:0000000000000070 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:262    .text.gpio_init:0000000000000070 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:264    .text.gpio_init:0000000000000074 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:266    .text.gpio_init:0000000000000078 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:269    .text.gpio_init:000000000000007c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:270    .text.gpio_init:000000000000007c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:272    .text.gpio_init:0000000000000080 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:275    .text.gpio_init:0000000000000084 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:276    .text.gpio_init:0000000000000084 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:278    .text.gpio_init:0000000000000088 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:279    .text.gpio_init:0000000000000088 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 28
 
 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:282    .text.gpio_init:000000000000008a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:283    .text.gpio_init:000000000000008a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:289    .text.gpio_init:000000000000008e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:291    .text.gpio_init:0000000000000092 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:295    .text.gpio_init:0000000000000094 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:296    .text.gpio_init:0000000000000094 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:298    .text.gpio_init:0000000000000098 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:299    .text.gpio_init:0000000000000098 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:303    .text.gpio_init:000000000000009c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:304    .text.gpio_init:000000000000009c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:306    .text.gpio_init:00000000000000a0 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:307    .text.gpio_init:00000000000000a0 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:309    .text.gpio_init:00000000000000a4 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:316    .text.gpio_bit_set:0000000000000000 gpio_bit_set
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:319    .text.gpio_bit_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:321    .text.gpio_bit_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:322    .text.gpio_bit_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:323    .text.gpio_bit_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:325    .text.gpio_bit_set:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:326    .text.gpio_bit_set:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:333    .text.gpio_bit_reset:0000000000000000 gpio_bit_reset
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:336    .text.gpio_bit_reset:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:338    .text.gpio_bit_reset:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:339    .text.gpio_bit_reset:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:340    .text.gpio_bit_reset:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:342    .text.gpio_bit_reset:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:343    .text.gpio_bit_reset:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:350    .text.gpio_bit_write:0000000000000000 gpio_bit_write
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:353    .text.gpio_bit_write:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:355    .text.gpio_bit_write:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:356    .text.gpio_bit_write:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:357    .text.gpio_bit_write:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:359    .text.gpio_bit_write:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:360    .text.gpio_bit_write:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:364    .text.gpio_bit_write:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:365    .text.gpio_bit_write:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:367    .text.gpio_bit_write:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:368    .text.gpio_bit_write:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:375    .text.gpio_port_write:0000000000000000 gpio_port_write
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:378    .text.gpio_port_write:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:380    .text.gpio_port_write:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:381    .text.gpio_port_write:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:382    .text.gpio_port_write:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:384    .text.gpio_port_write:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:385    .text.gpio_port_write:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:392    .text.gpio_input_bit_get:0000000000000000 gpio_input_bit_get
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:395    .text.gpio_input_bit_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:397    .text.gpio_input_bit_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:398    .text.gpio_input_bit_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:399    .text.gpio_input_bit_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:402    .text.gpio_input_bit_get:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:404    .text.gpio_input_bit_get:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:406    .text.gpio_input_bit_get:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:413    .text.gpio_input_port_get:0000000000000000 gpio_input_port_get
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:416    .text.gpio_input_port_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:418    .text.gpio_input_port_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:419    .text.gpio_input_port_get:0000000000000000 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 29
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:282    .text.gpio_init:000000000000008a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:283    .text.gpio_init:000000000000008a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:289    .text.gpio_init:000000000000008e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:291    .text.gpio_init:0000000000000092 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:295    .text.gpio_init:0000000000000094 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:296    .text.gpio_init:0000000000000094 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:298    .text.gpio_init:0000000000000098 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:299    .text.gpio_init:0000000000000098 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:303    .text.gpio_init:000000000000009c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:304    .text.gpio_init:000000000000009c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:306    .text.gpio_init:00000000000000a0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:307    .text.gpio_init:00000000000000a0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:309    .text.gpio_init:00000000000000a4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:316    .text.gpio_bit_set:0000000000000000 gpio_bit_set
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:319    .text.gpio_bit_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:321    .text.gpio_bit_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:322    .text.gpio_bit_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:323    .text.gpio_bit_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:325    .text.gpio_bit_set:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:326    .text.gpio_bit_set:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:333    .text.gpio_bit_reset:0000000000000000 gpio_bit_reset
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:336    .text.gpio_bit_reset:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:338    .text.gpio_bit_reset:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:339    .text.gpio_bit_reset:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:340    .text.gpio_bit_reset:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:342    .text.gpio_bit_reset:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:343    .text.gpio_bit_reset:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:350    .text.gpio_bit_write:0000000000000000 gpio_bit_write
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:353    .text.gpio_bit_write:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:355    .text.gpio_bit_write:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:356    .text.gpio_bit_write:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:357    .text.gpio_bit_write:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:359    .text.gpio_bit_write:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:360    .text.gpio_bit_write:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:364    .text.gpio_bit_write:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:365    .text.gpio_bit_write:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:367    .text.gpio_bit_write:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:368    .text.gpio_bit_write:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:375    .text.gpio_port_write:0000000000000000 gpio_port_write
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:378    .text.gpio_port_write:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:380    .text.gpio_port_write:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:381    .text.gpio_port_write:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:382    .text.gpio_port_write:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:384    .text.gpio_port_write:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:385    .text.gpio_port_write:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:392    .text.gpio_input_bit_get:0000000000000000 gpio_input_bit_get
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:395    .text.gpio_input_bit_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:397    .text.gpio_input_bit_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:398    .text.gpio_input_bit_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:399    .text.gpio_input_bit_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:402    .text.gpio_input_bit_get:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:404    .text.gpio_input_bit_get:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:406    .text.gpio_input_bit_get:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:413    .text.gpio_input_port_get:0000000000000000 gpio_input_port_get
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:416    .text.gpio_input_port_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:418    .text.gpio_input_port_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:419    .text.gpio_input_port_get:0000000000000000 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 29
 
 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:420    .text.gpio_input_port_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:423    .text.gpio_input_port_get:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:426    .text.gpio_input_port_get:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:433    .text.gpio_output_bit_get:0000000000000000 gpio_output_bit_get
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:436    .text.gpio_output_bit_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:438    .text.gpio_output_bit_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:439    .text.gpio_output_bit_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:440    .text.gpio_output_bit_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:443    .text.gpio_output_bit_get:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:445    .text.gpio_output_bit_get:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:447    .text.gpio_output_bit_get:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:454    .text.gpio_output_port_get:0000000000000000 gpio_output_port_get
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:457    .text.gpio_output_port_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:459    .text.gpio_output_port_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:460    .text.gpio_output_port_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:461    .text.gpio_output_port_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:464    .text.gpio_output_port_get:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:467    .text.gpio_output_port_get:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:474    .text.gpio_pin_remap_config:0000000000000000 gpio_pin_remap_config
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:477    .text.gpio_pin_remap_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:479    .text.gpio_pin_remap_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:480    .text.gpio_pin_remap_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:481    .text.gpio_pin_remap_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:482    .text.gpio_pin_remap_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:484    .text.gpio_pin_remap_config:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:486    .text.gpio_pin_remap_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:487    .text.gpio_pin_remap_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:491    .text.gpio_pin_remap_config:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:492    .text.gpio_pin_remap_config:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:493    .text.gpio_pin_remap_config:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:495    .text.gpio_pin_remap_config:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:497    .text.gpio_pin_remap_config:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:499    .text.gpio_pin_remap_config:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:502    .text.gpio_pin_remap_config:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:503    .text.gpio_pin_remap_config:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:505    .text.gpio_pin_remap_config:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:506    .text.gpio_pin_remap_config:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:509    .text.gpio_pin_remap_config:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:511    .text.gpio_pin_remap_config:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:514    .text.gpio_pin_remap_config:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:515    .text.gpio_pin_remap_config:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:521    .text.gpio_pin_remap_config:0000000000000034 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:522    .text.gpio_pin_remap_config:0000000000000034 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:524    .text.gpio_pin_remap_config:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:525    .text.gpio_pin_remap_config:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:527    .text.gpio_pin_remap_config:000000000000003a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:529    .text.gpio_pin_remap_config:000000000000003c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:532    .text.gpio_pin_remap_config:0000000000000040 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:536    .text.gpio_pin_remap_config:0000000000000042 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:537    .text.gpio_pin_remap_config:0000000000000042 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:539    .text.gpio_pin_remap_config:0000000000000046 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:541    .text.gpio_pin_remap_config:000000000000004a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:542    .text.gpio_pin_remap_config:000000000000004a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:547    .text.gpio_pin_remap_config:000000000000004e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:548    .text.gpio_pin_remap_config:000000000000004e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:554    .text.gpio_pin_remap_config:0000000000000052 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:555    .text.gpio_pin_remap_config:0000000000000052 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 30
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:420    .text.gpio_input_port_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:423    .text.gpio_input_port_get:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:426    .text.gpio_input_port_get:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:433    .text.gpio_output_bit_get:0000000000000000 gpio_output_bit_get
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:436    .text.gpio_output_bit_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:438    .text.gpio_output_bit_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:439    .text.gpio_output_bit_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:440    .text.gpio_output_bit_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:443    .text.gpio_output_bit_get:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:445    .text.gpio_output_bit_get:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:447    .text.gpio_output_bit_get:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:454    .text.gpio_output_port_get:0000000000000000 gpio_output_port_get
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:457    .text.gpio_output_port_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:459    .text.gpio_output_port_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:460    .text.gpio_output_port_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:461    .text.gpio_output_port_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:464    .text.gpio_output_port_get:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:467    .text.gpio_output_port_get:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:474    .text.gpio_pin_remap_config:0000000000000000 gpio_pin_remap_config
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:477    .text.gpio_pin_remap_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:479    .text.gpio_pin_remap_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:480    .text.gpio_pin_remap_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:481    .text.gpio_pin_remap_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:482    .text.gpio_pin_remap_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:484    .text.gpio_pin_remap_config:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:486    .text.gpio_pin_remap_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:487    .text.gpio_pin_remap_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:491    .text.gpio_pin_remap_config:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:492    .text.gpio_pin_remap_config:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:493    .text.gpio_pin_remap_config:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:495    .text.gpio_pin_remap_config:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:497    .text.gpio_pin_remap_config:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:499    .text.gpio_pin_remap_config:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:502    .text.gpio_pin_remap_config:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:503    .text.gpio_pin_remap_config:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:505    .text.gpio_pin_remap_config:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:506    .text.gpio_pin_remap_config:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:509    .text.gpio_pin_remap_config:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:511    .text.gpio_pin_remap_config:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:514    .text.gpio_pin_remap_config:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:515    .text.gpio_pin_remap_config:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:521    .text.gpio_pin_remap_config:0000000000000034 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:522    .text.gpio_pin_remap_config:0000000000000034 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:524    .text.gpio_pin_remap_config:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:525    .text.gpio_pin_remap_config:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:527    .text.gpio_pin_remap_config:000000000000003a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:529    .text.gpio_pin_remap_config:000000000000003c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:532    .text.gpio_pin_remap_config:0000000000000040 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:536    .text.gpio_pin_remap_config:0000000000000042 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:537    .text.gpio_pin_remap_config:0000000000000042 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:539    .text.gpio_pin_remap_config:0000000000000046 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:541    .text.gpio_pin_remap_config:000000000000004a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:542    .text.gpio_pin_remap_config:000000000000004a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:547    .text.gpio_pin_remap_config:000000000000004e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:548    .text.gpio_pin_remap_config:000000000000004e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:554    .text.gpio_pin_remap_config:0000000000000052 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:555    .text.gpio_pin_remap_config:0000000000000052 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 30
 
 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:559    .text.gpio_pin_remap_config:000000000000005a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:560    .text.gpio_pin_remap_config:000000000000005a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:561    .text.gpio_pin_remap_config:000000000000005a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:563    .text.gpio_pin_remap_config:000000000000005e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:565    .text.gpio_pin_remap_config:0000000000000062 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:570    .text.gpio_pin_remap_config:0000000000000068 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:572    .text.gpio_pin_remap_config:000000000000006c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:575    .text.gpio_pin_remap_config:000000000000006e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:576    .text.gpio_pin_remap_config:000000000000006e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:583    .text.gpio_pin_remap_config:0000000000000076 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:584    .text.gpio_pin_remap_config:0000000000000076 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:586    .text.gpio_pin_remap_config:000000000000007a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:588    .text.gpio_pin_remap_config:000000000000007c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:593    .text.gpio_pin_remap_config:0000000000000082 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:594    .text.gpio_pin_remap_config:0000000000000082 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:596    .text.gpio_pin_remap_config:0000000000000084 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:597    .text.gpio_pin_remap_config:0000000000000086 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:604    .text.gpio_exti_source_select:0000000000000000 gpio_exti_source_select
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:607    .text.gpio_exti_source_select:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:609    .text.gpio_exti_source_select:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:610    .text.gpio_exti_source_select:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:611    .text.gpio_exti_source_select:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:612    .text.gpio_exti_source_select:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:614    .text.gpio_exti_source_select:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:617    .text.gpio_exti_source_select:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:618    .text.gpio_exti_source_select:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:623    .text.gpio_exti_source_select:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:628    .text.gpio_exti_source_select:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:629    .text.gpio_exti_source_select:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:634    .text.gpio_exti_source_select:0000000000000024 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:635    .text.gpio_exti_source_select:0000000000000024 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:641    .text.gpio_exti_source_select:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:642    .text.gpio_exti_source_select:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:645    .text.gpio_exti_source_select:0000000000000032 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:646    .text.gpio_exti_source_select:0000000000000032 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:651    .text.gpio_exti_source_select:000000000000003c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:652    .text.gpio_exti_source_select:000000000000003c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:658    .text.gpio_exti_source_select:0000000000000044 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:659    .text.gpio_exti_source_select:0000000000000044 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:662    .text.gpio_exti_source_select:000000000000004a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:663    .text.gpio_exti_source_select:000000000000004a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:668    .text.gpio_exti_source_select:0000000000000054 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:669    .text.gpio_exti_source_select:0000000000000054 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:675    .text.gpio_exti_source_select:000000000000005c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:676    .text.gpio_exti_source_select:000000000000005c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:681    .text.gpio_exti_source_select:0000000000000066 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:682    .text.gpio_exti_source_select:0000000000000066 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:686    .text.gpio_exti_source_select:000000000000006c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:687    .text.gpio_exti_source_select:000000000000006e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:694    .text.gpio_event_output_config:0000000000000000 gpio_event_output_config
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:697    .text.gpio_event_output_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:699    .text.gpio_event_output_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:700    .text.gpio_event_output_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:701    .text.gpio_event_output_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:702    .text.gpio_event_output_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:706    .text.gpio_event_output_config:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:707    .text.gpio_event_output_config:0000000000000006 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 31
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:559    .text.gpio_pin_remap_config:000000000000005a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:560    .text.gpio_pin_remap_config:000000000000005a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:561    .text.gpio_pin_remap_config:000000000000005a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:563    .text.gpio_pin_remap_config:000000000000005e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:565    .text.gpio_pin_remap_config:0000000000000062 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:570    .text.gpio_pin_remap_config:0000000000000068 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:572    .text.gpio_pin_remap_config:000000000000006c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:575    .text.gpio_pin_remap_config:000000000000006e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:576    .text.gpio_pin_remap_config:000000000000006e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:583    .text.gpio_pin_remap_config:0000000000000076 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:584    .text.gpio_pin_remap_config:0000000000000076 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:586    .text.gpio_pin_remap_config:000000000000007a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:588    .text.gpio_pin_remap_config:000000000000007c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:593    .text.gpio_pin_remap_config:0000000000000082 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:594    .text.gpio_pin_remap_config:0000000000000082 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:596    .text.gpio_pin_remap_config:0000000000000084 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:597    .text.gpio_pin_remap_config:0000000000000086 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:604    .text.gpio_exti_source_select:0000000000000000 gpio_exti_source_select
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:607    .text.gpio_exti_source_select:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:609    .text.gpio_exti_source_select:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:610    .text.gpio_exti_source_select:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:611    .text.gpio_exti_source_select:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:612    .text.gpio_exti_source_select:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:614    .text.gpio_exti_source_select:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:617    .text.gpio_exti_source_select:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:618    .text.gpio_exti_source_select:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:623    .text.gpio_exti_source_select:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:628    .text.gpio_exti_source_select:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:629    .text.gpio_exti_source_select:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:634    .text.gpio_exti_source_select:0000000000000024 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:635    .text.gpio_exti_source_select:0000000000000024 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:641    .text.gpio_exti_source_select:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:642    .text.gpio_exti_source_select:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:645    .text.gpio_exti_source_select:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:646    .text.gpio_exti_source_select:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:651    .text.gpio_exti_source_select:000000000000003c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:652    .text.gpio_exti_source_select:000000000000003c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:658    .text.gpio_exti_source_select:0000000000000044 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:659    .text.gpio_exti_source_select:0000000000000044 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:662    .text.gpio_exti_source_select:000000000000004a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:663    .text.gpio_exti_source_select:000000000000004a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:668    .text.gpio_exti_source_select:0000000000000054 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:669    .text.gpio_exti_source_select:0000000000000054 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:675    .text.gpio_exti_source_select:000000000000005c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:676    .text.gpio_exti_source_select:000000000000005c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:681    .text.gpio_exti_source_select:0000000000000066 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:682    .text.gpio_exti_source_select:0000000000000066 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:686    .text.gpio_exti_source_select:000000000000006c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:687    .text.gpio_exti_source_select:000000000000006e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:694    .text.gpio_event_output_config:0000000000000000 gpio_event_output_config
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:697    .text.gpio_event_output_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:699    .text.gpio_event_output_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:700    .text.gpio_event_output_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:701    .text.gpio_event_output_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:702    .text.gpio_event_output_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:706    .text.gpio_event_output_config:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:707    .text.gpio_event_output_config:0000000000000006 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 31
 
 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:708    .text.gpio_event_output_config:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:709    .text.gpio_event_output_config:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:712    .text.gpio_event_output_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:717    .text.gpio_event_output_config:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:720    .text.gpio_event_output_config:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:721    .text.gpio_event_output_config:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:723    .text.gpio_event_output_config:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:724    .text.gpio_event_output_config:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:731    .text.gpio_event_output_enable:0000000000000000 gpio_event_output_enable
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:734    .text.gpio_event_output_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:735    .text.gpio_event_output_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:736    .text.gpio_event_output_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:737    .text.gpio_event_output_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:742    .text.gpio_event_output_enable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:743    .text.gpio_event_output_enable:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:750    .text.gpio_event_output_disable:0000000000000000 gpio_event_output_disable
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:753    .text.gpio_event_output_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:754    .text.gpio_event_output_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:755    .text.gpio_event_output_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:756    .text.gpio_event_output_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:761    .text.gpio_event_output_disable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:762    .text.gpio_event_output_disable:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:769    .text.gpio_pin_lock:0000000000000000 gpio_pin_lock
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:772    .text.gpio_pin_lock:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:774    .text.gpio_pin_lock:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:775    .text.gpio_pin_lock:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:776    .text.gpio_pin_lock:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:777    .text.gpio_pin_lock:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:781    .text.gpio_pin_lock:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:782    .text.gpio_pin_lock:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:784    .text.gpio_pin_lock:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:785    .text.gpio_pin_lock:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:787    .text.gpio_pin_lock:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:788    .text.gpio_pin_lock:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:790    .text.gpio_pin_lock:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:791    .text.gpio_pin_lock:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:794    .text.gpio_pin_lock:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:795    .text.gpio_pin_lock:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:797    .text.gpio_pin_lock:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:798    .text.gpio_pin_lock:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:114    .text.gpio_deinit:000000000000009e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:151    .text.gpio_afio_deinit:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:312    .text.gpio_init:00000000000000a4 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:329    .text.gpio_bit_set:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:346    .text.gpio_bit_reset:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:371    .text.gpio_bit_write:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:388    .text.gpio_port_write:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:409    .text.gpio_input_bit_get:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:429    .text.gpio_input_port_get:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:450    .text.gpio_output_bit_get:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:470    .text.gpio_output_port_get:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:600    .text.gpio_pin_remap_config:0000000000000086 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:690    .text.gpio_exti_source_select:000000000000006e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:727    .text.gpio_event_output_config:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:746    .text.gpio_event_output_enable:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:765    .text.gpio_event_output_disable:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:801    .text.gpio_pin_lock:0000000000000010 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 32
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:708    .text.gpio_event_output_config:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:709    .text.gpio_event_output_config:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:712    .text.gpio_event_output_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:717    .text.gpio_event_output_config:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:720    .text.gpio_event_output_config:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:721    .text.gpio_event_output_config:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:723    .text.gpio_event_output_config:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:724    .text.gpio_event_output_config:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:731    .text.gpio_event_output_enable:0000000000000000 gpio_event_output_enable
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:734    .text.gpio_event_output_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:735    .text.gpio_event_output_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:736    .text.gpio_event_output_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:737    .text.gpio_event_output_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:742    .text.gpio_event_output_enable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:743    .text.gpio_event_output_enable:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:750    .text.gpio_event_output_disable:0000000000000000 gpio_event_output_disable
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:753    .text.gpio_event_output_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:754    .text.gpio_event_output_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:755    .text.gpio_event_output_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:756    .text.gpio_event_output_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:761    .text.gpio_event_output_disable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:762    .text.gpio_event_output_disable:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:769    .text.gpio_pin_lock:0000000000000000 gpio_pin_lock
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:772    .text.gpio_pin_lock:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:774    .text.gpio_pin_lock:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:775    .text.gpio_pin_lock:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:776    .text.gpio_pin_lock:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:777    .text.gpio_pin_lock:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:781    .text.gpio_pin_lock:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:782    .text.gpio_pin_lock:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:784    .text.gpio_pin_lock:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:785    .text.gpio_pin_lock:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:787    .text.gpio_pin_lock:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:788    .text.gpio_pin_lock:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:790    .text.gpio_pin_lock:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:791    .text.gpio_pin_lock:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:794    .text.gpio_pin_lock:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:795    .text.gpio_pin_lock:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:797    .text.gpio_pin_lock:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:798    .text.gpio_pin_lock:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:114    .text.gpio_deinit:000000000000009e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:151    .text.gpio_afio_deinit:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:312    .text.gpio_init:00000000000000a4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:329    .text.gpio_bit_set:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:346    .text.gpio_bit_reset:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:371    .text.gpio_bit_write:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:388    .text.gpio_port_write:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:409    .text.gpio_input_bit_get:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:429    .text.gpio_input_port_get:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:450    .text.gpio_output_bit_get:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:470    .text.gpio_output_port_get:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:600    .text.gpio_pin_remap_config:0000000000000086 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:690    .text.gpio_exti_source_select:000000000000006e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:727    .text.gpio_event_output_config:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:746    .text.gpio_event_output_enable:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:765    .text.gpio_event_output_disable:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:801    .text.gpio_pin_lock:0000000000000010 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 32
 
 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:92     .text.gpio_deinit:000000000000007a .L2
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:43     .text.gpio_deinit:0000000000000026 .L3
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:61     .text.gpio_deinit:000000000000004c .L4
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:80     .text.gpio_deinit:0000000000000068 .L5
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:102    .text.gpio_deinit:000000000000008c .L7
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:34     .text.gpio_deinit:0000000000000020 .L1
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:69     .text.gpio_deinit:000000000000005c .L10
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:176    .text.gpio_init:000000000000000e .L14
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:229    .text.gpio_init:000000000000004a .L15
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:293    .text.gpio_init:0000000000000094 .L16
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:191    .text.gpio_init:000000000000001e .L18
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:285    .text.gpio_init:000000000000008c .L19
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:301    .text.gpio_init:000000000000009c .L20
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:244    .text.gpio_init:000000000000005e .L22
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:224    .text.gpio_init:0000000000000048 .L17
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:280    .text.gpio_init:000000000000008a .L21
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:362    .text.gpio_bit_write:0000000000000006 .L37
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:545    .text.gpio_pin_remap_config:000000000000004e .L45
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:552    .text.gpio_pin_remap_config:0000000000000052 .L47
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:534    .text.gpio_pin_remap_config:0000000000000042 .L50
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:591    .text.gpio_pin_remap_config:0000000000000082 .L51
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:489    .text.gpio_pin_remap_config:000000000000000a .L46
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:581    .text.gpio_pin_remap_config:0000000000000076 .L49
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:519    .text.gpio_pin_remap_config:0000000000000034 .L48
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:568    .text.gpio_pin_remap_config:0000000000000068 .L56
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:639    .text.gpio_exti_source_select:000000000000002c .L58
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:656    .text.gpio_exti_source_select:0000000000000044 .L60
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:673    .text.gpio_exti_source_select:000000000000005c .L61
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:1699   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2855   .debug_str:0000000000000021 .LASF89
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3019   .debug_str:0000000000000501 .LASF90
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2857   .debug_str:00000000000000a9 .LASF91
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2811   .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2849   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2949   .debug_str:000000000000033d .LASF0
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2937   .debug_str:00000000000002e3 .LASF1
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2913   .debug_str:000000000000024a .LASF4
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2929   .debug_str:00000000000002a7 .LASF2
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2891   .debug_str:00000000000001cc .LASF3
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2885   .debug_str:000000000000019d .LASF5
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2963   .debug_str:000000000000038e .LASF6
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2907   .debug_str:0000000000000229 .LASF7
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2877   .debug_str:0000000000000176 .LASF8
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2993   .debug_str:0000000000000460 .LASF9
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2905   .debug_str:000000000000021b .LASF10
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2941   .debug_str:00000000000002fa .LASF11
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2893   .debug_str:00000000000001d6 .LASF12
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2951   .debug_str:000000000000034a .LASF13
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2945   .debug_str:000000000000031e .LASF14
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2983   .debug_str:000000000000041a .LASF92
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2895   .debug_str:00000000000001de .LASF15
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3031   .debug_str:000000000000058c .LASF16
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2969   .debug_str:00000000000003c3 .LASF17
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3009   .debug_str:00000000000004c8 .LASF18
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3027   .debug_str:0000000000000575 .LASF19
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2859   .debug_str:00000000000000ee .LASF20
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 33
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:92     .text.gpio_deinit:000000000000007a .L2
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:43     .text.gpio_deinit:0000000000000026 .L3
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:61     .text.gpio_deinit:000000000000004c .L4
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:80     .text.gpio_deinit:0000000000000068 .L5
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:102    .text.gpio_deinit:000000000000008c .L7
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:34     .text.gpio_deinit:0000000000000020 .L1
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:69     .text.gpio_deinit:000000000000005c .L10
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:176    .text.gpio_init:000000000000000e .L14
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:229    .text.gpio_init:000000000000004a .L15
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:293    .text.gpio_init:0000000000000094 .L16
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:191    .text.gpio_init:000000000000001e .L18
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:285    .text.gpio_init:000000000000008c .L19
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:301    .text.gpio_init:000000000000009c .L20
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:244    .text.gpio_init:000000000000005e .L22
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:224    .text.gpio_init:0000000000000048 .L17
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:280    .text.gpio_init:000000000000008a .L21
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:362    .text.gpio_bit_write:0000000000000006 .L37
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:545    .text.gpio_pin_remap_config:000000000000004e .L45
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:552    .text.gpio_pin_remap_config:0000000000000052 .L47
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:534    .text.gpio_pin_remap_config:0000000000000042 .L50
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:591    .text.gpio_pin_remap_config:0000000000000082 .L51
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:489    .text.gpio_pin_remap_config:000000000000000a .L46
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:581    .text.gpio_pin_remap_config:0000000000000076 .L49
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:519    .text.gpio_pin_remap_config:0000000000000034 .L48
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:568    .text.gpio_pin_remap_config:0000000000000068 .L56
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:639    .text.gpio_exti_source_select:000000000000002c .L58
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:656    .text.gpio_exti_source_select:0000000000000044 .L60
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:673    .text.gpio_exti_source_select:000000000000005c .L61
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:1699   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2855   .debug_str:0000000000000021 .LASF89
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3019   .debug_str:0000000000000501 .LASF90
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2857   .debug_str:00000000000000a9 .LASF91
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2811   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2849   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2949   .debug_str:000000000000033d .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2937   .debug_str:00000000000002e3 .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2913   .debug_str:000000000000024a .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2929   .debug_str:00000000000002a7 .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2891   .debug_str:00000000000001cc .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2885   .debug_str:000000000000019d .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2963   .debug_str:000000000000038e .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2907   .debug_str:0000000000000229 .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2877   .debug_str:0000000000000176 .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2993   .debug_str:0000000000000460 .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2905   .debug_str:000000000000021b .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2941   .debug_str:00000000000002fa .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2893   .debug_str:00000000000001d6 .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2951   .debug_str:000000000000034a .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2945   .debug_str:000000000000031e .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2983   .debug_str:000000000000041a .LASF92
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2895   .debug_str:00000000000001de .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3031   .debug_str:000000000000058c .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2969   .debug_str:00000000000003c3 .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3009   .debug_str:00000000000004c8 .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3027   .debug_str:0000000000000575 .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2859   .debug_str:00000000000000ee .LASF20
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 33
 
 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2971   .debug_str:00000000000003d1 .LASF21
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2897   .debug_str:00000000000001e6 .LASF22
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2921   .debug_str:000000000000026f .LASF23
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2917   .debug_str:000000000000025b .LASF24
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2981   .debug_str:000000000000040c .LASF25
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3025   .debug_str:0000000000000567 .LASF26
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3035   .debug_str:00000000000005a1 .LASF27
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2871   .debug_str:0000000000000138 .LASF28
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2911   .debug_str:000000000000023e .LASF29
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2989   .debug_str:000000000000043e .LASF30
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3033   .debug_str:0000000000000593 .LASF31
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2995   .debug_str:0000000000000472 .LASF32
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2861   .debug_str:00000000000000fb .LASF33
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3029   .debug_str:0000000000000580 .LASF34
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3003   .debug_str:00000000000004a7 .LASF35
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2865   .debug_str:0000000000000115 .LASF36
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2901   .debug_str:0000000000000201 .LASF37
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2869   .debug_str:000000000000012c .LASF38
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3005   .debug_str:00000000000004b3 .LASF39
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2939   .debug_str:00000000000002ef .LASF40
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2931   .debug_str:00000000000002b5 .LASF41
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2943   .debug_str:0000000000000311 .LASF42
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2999   .debug_str:0000000000000490 .LASF43
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2863   .debug_str:0000000000000108 .LASF44
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2899   .debug_str:00000000000001f4 .LASF45
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2953   .debug_str:0000000000000353 .LASF46
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2959   .debug_str:000000000000036d .LASF47
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3011   .debug_str:00000000000004ce .LASF48
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2853   .debug_str:0000000000000013 .LASF49
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3015   .debug_str:00000000000004e6 .LASF50
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2925   .debug_str:000000000000028d .LASF51
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2927   .debug_str:000000000000029b .LASF52
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2867   .debug_str:0000000000000121 .LASF53
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2903   .debug_str:000000000000020d .LASF57
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:770    .text.gpio_pin_lock:0000000000000000 .LFB18
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:799    .text.gpio_pin_lock:0000000000000010 .LFE18
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2933   .debug_str:00000000000002bf .LASF54
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2979   .debug_str:0000000000000407 .LASF61
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2235   .debug_loc:0000000000000000 .LLST20
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2889   .debug_str:00000000000001b2 .LASF55
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:751    .text.gpio_event_output_disable:0000000000000000 .LFB17
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:763    .text.gpio_event_output_disable:000000000000000e .LFE17
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2875   .debug_str:000000000000015d .LASF56
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:732    .text.gpio_event_output_enable:0000000000000000 .LFB16
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:744    .text.gpio_event_output_enable:000000000000000e .LFE16
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2967   .debug_str:00000000000003aa .LASF58
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:695    .text.gpio_event_output_config:0000000000000000 .LFB15
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:725    .text.gpio_event_output_config:0000000000000014 .LFE15
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2909   .debug_str:0000000000000232 .LASF59
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2249   .debug_loc:0000000000000021 .LLST17
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2973   .debug_str:00000000000003df .LASF60
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2263   .debug_loc:0000000000000042 .LLST18
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2277   .debug_loc:0000000000000063 .LLST19
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2935   .debug_str:00000000000002cb .LASF62
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:605    .text.gpio_exti_source_select:0000000000000000 .LFB14
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:688    .text.gpio_exti_source_select:000000000000006e .LFE14
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2324   .debug_loc:00000000000000b3 .LLST15
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 34
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2971   .debug_str:00000000000003d1 .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2897   .debug_str:00000000000001e6 .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2921   .debug_str:000000000000026f .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2917   .debug_str:000000000000025b .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2981   .debug_str:000000000000040c .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3025   .debug_str:0000000000000567 .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3035   .debug_str:00000000000005a1 .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2871   .debug_str:0000000000000138 .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2911   .debug_str:000000000000023e .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2989   .debug_str:000000000000043e .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3033   .debug_str:0000000000000593 .LASF31
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2995   .debug_str:0000000000000472 .LASF32
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2861   .debug_str:00000000000000fb .LASF33
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3029   .debug_str:0000000000000580 .LASF34
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3003   .debug_str:00000000000004a7 .LASF35
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2865   .debug_str:0000000000000115 .LASF36
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2901   .debug_str:0000000000000201 .LASF37
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2869   .debug_str:000000000000012c .LASF38
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3005   .debug_str:00000000000004b3 .LASF39
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2939   .debug_str:00000000000002ef .LASF40
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2931   .debug_str:00000000000002b5 .LASF41
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2943   .debug_str:0000000000000311 .LASF42
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2999   .debug_str:0000000000000490 .LASF43
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2863   .debug_str:0000000000000108 .LASF44
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2899   .debug_str:00000000000001f4 .LASF45
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2953   .debug_str:0000000000000353 .LASF46
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2959   .debug_str:000000000000036d .LASF47
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3011   .debug_str:00000000000004ce .LASF48
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2853   .debug_str:0000000000000013 .LASF49
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3015   .debug_str:00000000000004e6 .LASF50
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2925   .debug_str:000000000000028d .LASF51
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2927   .debug_str:000000000000029b .LASF52
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2867   .debug_str:0000000000000121 .LASF53
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2903   .debug_str:000000000000020d .LASF57
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:770    .text.gpio_pin_lock:0000000000000000 .LFB18
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:799    .text.gpio_pin_lock:0000000000000010 .LFE18
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2933   .debug_str:00000000000002bf .LASF54
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2979   .debug_str:0000000000000407 .LASF61
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2235   .debug_loc:0000000000000000 .LLST20
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2889   .debug_str:00000000000001b2 .LASF55
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:751    .text.gpio_event_output_disable:0000000000000000 .LFB17
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:763    .text.gpio_event_output_disable:000000000000000e .LFE17
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2875   .debug_str:000000000000015d .LASF56
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:732    .text.gpio_event_output_enable:0000000000000000 .LFB16
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:744    .text.gpio_event_output_enable:000000000000000e .LFE16
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2967   .debug_str:00000000000003aa .LASF58
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:695    .text.gpio_event_output_config:0000000000000000 .LFB15
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:725    .text.gpio_event_output_config:0000000000000014 .LFE15
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2909   .debug_str:0000000000000232 .LASF59
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2249   .debug_loc:0000000000000021 .LLST17
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2973   .debug_str:00000000000003df .LASF60
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2263   .debug_loc:0000000000000042 .LLST18
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2277   .debug_loc:0000000000000063 .LLST19
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2935   .debug_str:00000000000002cb .LASF62
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:605    .text.gpio_exti_source_select:0000000000000000 .LFB14
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:688    .text.gpio_exti_source_select:000000000000006e .LFE14
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2324   .debug_loc:00000000000000b3 .LLST15
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 34
 
 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2915   .debug_str:0000000000000254 .LASF63
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2338   .debug_loc:00000000000000d4 .LLST16
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2947   .debug_str:0000000000000327 .LASF64
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:475    .text.gpio_pin_remap_config:0000000000000000 .LFB13
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:598    .text.gpio_pin_remap_config:0000000000000086 .LFE13
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2919   .debug_str:0000000000000269 .LASF65
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2965   .debug_str:00000000000003a1 .LASF66
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3021   .debug_str:0000000000000548 .LASF67
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2366   .debug_loc:000000000000010a .LLST11
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2957   .debug_str:0000000000000366 .LASF68
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2407   .debug_loc:0000000000000162 .LLST12
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2975   .debug_str:00000000000003ea .LASF69
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2437   .debug_loc:00000000000001a1 .LLST13
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3007   .debug_str:00000000000004be .LASF70
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2474   .debug_loc:0000000000000203 .LLST14
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2961   .debug_str:0000000000000379 .LASF71
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:455    .text.gpio_output_port_get:0000000000000000 .LFB12
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:468    .text.gpio_output_port_get:0000000000000008 .LFE12
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2507   .debug_loc:0000000000000245 .LLST10
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2977   .debug_str:00000000000003f3 .LASF72
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:434    .text.gpio_output_bit_get:0000000000000000 .LFB11
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:448    .text.gpio_output_bit_get:000000000000000a .LFE11
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2521   .debug_loc:0000000000000266 .LLST9
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2991   .debug_str:000000000000044c .LASF73
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:414    .text.gpio_input_port_get:0000000000000000 .LFB10
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:427    .text.gpio_input_port_get:0000000000000008 .LFE10
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2535   .debug_loc:0000000000000287 .LLST8
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2851   .debug_str:0000000000000000 .LASF74
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:393    .text.gpio_input_bit_get:0000000000000000 .LFB9
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:407    .text.gpio_input_bit_get:000000000000000a .LFE9
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2549   .debug_loc:00000000000002a8 .LLST7
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2923   .debug_str:000000000000027d .LASF75
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:376    .text.gpio_port_write:0000000000000000 .LFB8
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:386    .text.gpio_port_write:0000000000000004 .LFE8
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2987   .debug_str:0000000000000439 .LASF76
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3017   .debug_str:00000000000004f2 .LASF77
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:351    .text.gpio_bit_write:0000000000000000 .LFB7
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:369    .text.gpio_bit_write:000000000000000a .LFE7
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2887   .debug_str:00000000000001a8 .LASF78
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2985   .debug_str:000000000000042a .LASF79
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:334    .text.gpio_bit_reset:0000000000000000 .LFB6
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:344    .text.gpio_bit_reset:0000000000000004 .LFE6
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2879   .debug_str:0000000000000181 .LASF80
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:317    .text.gpio_bit_set:0000000000000000 .LFB5
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:327    .text.gpio_bit_set:0000000000000004 .LFE5
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3001   .debug_str:000000000000049d .LASF81
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:156    .text.gpio_init:0000000000000000 .LFB4
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:310    .text.gpio_init:00000000000000a4 .LFE4
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2881   .debug_str:000000000000018e .LASF82
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2955   .debug_str:0000000000000360 .LASF83
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2563   .debug_loc:00000000000002c9 .LLST3
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2577   .debug_loc:00000000000002ea .LLST4
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2883   .debug_str:0000000000000193 .LASF84
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2609   .debug_loc:0000000000000339 .LLST5
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2621   .debug_loc:0000000000000358 .LLST6
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2997   .debug_str:000000000000047f .LASF85
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:119    .text.gpio_afio_deinit:0000000000000000 .LFB3
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 35
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2915   .debug_str:0000000000000254 .LASF63
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2338   .debug_loc:00000000000000d4 .LLST16
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2947   .debug_str:0000000000000327 .LASF64
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:475    .text.gpio_pin_remap_config:0000000000000000 .LFB13
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:598    .text.gpio_pin_remap_config:0000000000000086 .LFE13
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2919   .debug_str:0000000000000269 .LASF65
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2965   .debug_str:00000000000003a1 .LASF66
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3021   .debug_str:0000000000000548 .LASF67
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2366   .debug_loc:000000000000010a .LLST11
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2957   .debug_str:0000000000000366 .LASF68
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2407   .debug_loc:0000000000000162 .LLST12
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2975   .debug_str:00000000000003ea .LASF69
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2437   .debug_loc:00000000000001a1 .LLST13
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3007   .debug_str:00000000000004be .LASF70
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2474   .debug_loc:0000000000000203 .LLST14
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2961   .debug_str:0000000000000379 .LASF71
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:455    .text.gpio_output_port_get:0000000000000000 .LFB12
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:468    .text.gpio_output_port_get:0000000000000008 .LFE12
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2507   .debug_loc:0000000000000245 .LLST10
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2977   .debug_str:00000000000003f3 .LASF72
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:434    .text.gpio_output_bit_get:0000000000000000 .LFB11
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:448    .text.gpio_output_bit_get:000000000000000a .LFE11
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2521   .debug_loc:0000000000000266 .LLST9
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2991   .debug_str:000000000000044c .LASF73
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:414    .text.gpio_input_port_get:0000000000000000 .LFB10
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:427    .text.gpio_input_port_get:0000000000000008 .LFE10
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2535   .debug_loc:0000000000000287 .LLST8
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2851   .debug_str:0000000000000000 .LASF74
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:393    .text.gpio_input_bit_get:0000000000000000 .LFB9
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:407    .text.gpio_input_bit_get:000000000000000a .LFE9
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2549   .debug_loc:00000000000002a8 .LLST7
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2923   .debug_str:000000000000027d .LASF75
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:376    .text.gpio_port_write:0000000000000000 .LFB8
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:386    .text.gpio_port_write:0000000000000004 .LFE8
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2987   .debug_str:0000000000000439 .LASF76
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3017   .debug_str:00000000000004f2 .LASF77
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:351    .text.gpio_bit_write:0000000000000000 .LFB7
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:369    .text.gpio_bit_write:000000000000000a .LFE7
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2887   .debug_str:00000000000001a8 .LASF78
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2985   .debug_str:000000000000042a .LASF79
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:334    .text.gpio_bit_reset:0000000000000000 .LFB6
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:344    .text.gpio_bit_reset:0000000000000004 .LFE6
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2879   .debug_str:0000000000000181 .LASF80
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:317    .text.gpio_bit_set:0000000000000000 .LFB5
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:327    .text.gpio_bit_set:0000000000000004 .LFE5
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3001   .debug_str:000000000000049d .LASF81
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:156    .text.gpio_init:0000000000000000 .LFB4
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:310    .text.gpio_init:00000000000000a4 .LFE4
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2881   .debug_str:000000000000018e .LASF82
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2955   .debug_str:0000000000000360 .LASF83
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2563   .debug_loc:00000000000002c9 .LLST3
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2577   .debug_loc:00000000000002ea .LLST4
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2883   .debug_str:0000000000000193 .LASF84
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2609   .debug_loc:0000000000000339 .LLST5
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2621   .debug_loc:0000000000000358 .LLST6
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2997   .debug_str:000000000000047f .LASF85
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:119    .text.gpio_afio_deinit:0000000000000000 .LFB3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 35
 
 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:149    .text.gpio_afio_deinit:0000000000000020 .LFE3
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2657   .debug_loc:00000000000003b9 .LLST2
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:134    .text.gpio_afio_deinit:0000000000000010 .LVL15
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:147    .text.gpio_afio_deinit:0000000000000020 .LVL16
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3013   .debug_str:00000000000004da .LASF86
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:14     .text.gpio_deinit:0000000000000000 .LFB2
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:112    .text.gpio_deinit:000000000000009e .LFE2
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2675   .debug_loc:00000000000003e5 .LLST0
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2708   .debug_loc:0000000000000435 .LLST1
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:56     .text.gpio_deinit:0000000000000046 .LVL2
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:66     .text.gpio_deinit:0000000000000058 .LVL5
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:79     .text.gpio_deinit:0000000000000068 .LVL6
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:87     .text.gpio_deinit:0000000000000074 .LVL8
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:97     .text.gpio_deinit:0000000000000086 .LVL11
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:107    .text.gpio_deinit:0000000000000098 .LVL14
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:3023   .debug_str:000000000000054f .LASF87
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:2873   .debug_str:0000000000000144 .LASF88
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:773    .text.gpio_pin_lock:0000000000000000 .LVL71
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:779    .text.gpio_pin_lock:0000000000000004 .LVL72
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:792    .text.gpio_pin_lock:000000000000000c .LVL73
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:698    .text.gpio_event_output_config:0000000000000000 .LVL65
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:710    .text.gpio_event_output_config:0000000000000008 .LVL67
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:715    .text.gpio_event_output_config:000000000000000e .LVL69
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:704    .text.gpio_event_output_config:0000000000000006 .LVL66
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:713    .text.gpio_event_output_config:000000000000000c .LVL68
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:718    .text.gpio_event_output_config:0000000000000010 .LVL70
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:608    .text.gpio_exti_source_select:0000000000000000 .LVL61
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:621    .text.gpio_exti_source_select:0000000000000010 .LVL63
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:615    .text.gpio_exti_source_select:0000000000000006 .LVL62
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:624    .text.gpio_exti_source_select:0000000000000012 .LVL64
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:478    .text.gpio_pin_remap_config:0000000000000000 .LVL45
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:500    .text.gpio_pin_remap_config:0000000000000018 .LVL47
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:530    .text.gpio_pin_remap_config:0000000000000040 .LVL50
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:544    .text.gpio_pin_remap_config:000000000000004e .LVL52
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:551    .text.gpio_pin_remap_config:0000000000000052 .LVL54
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:590    .text.gpio_pin_remap_config:0000000000000082 .LVL60
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:518    .text.gpio_pin_remap_config:0000000000000034 .LVL49
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:558    .text.gpio_pin_remap_config:000000000000005a .LVL55
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:567    .text.gpio_pin_remap_config:0000000000000068 .LVL56
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:580    .text.gpio_pin_remap_config:0000000000000076 .LVL59
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:488    .text.gpio_pin_remap_config:000000000000000a .LVL46
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:512    .text.gpio_pin_remap_config:000000000000002a .LVL48
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:549    .text.gpio_pin_remap_config:0000000000000050 .LVL53
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:573    .text.gpio_pin_remap_config:000000000000006e .LVL57
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:458    .text.gpio_output_port_get:0000000000000000 .LVL43
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:462    .text.gpio_output_port_get:0000000000000002 .LVL44
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:437    .text.gpio_output_bit_get:0000000000000000 .LVL41
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:441    .text.gpio_output_bit_get:0000000000000002 .LVL42
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:417    .text.gpio_input_port_get:0000000000000000 .LVL39
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:421    .text.gpio_input_port_get:0000000000000002 .LVL40
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:396    .text.gpio_input_bit_get:0000000000000000 .LVL37
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:400    .text.gpio_input_bit_get:0000000000000002 .LVL38
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:159    .text.gpio_init:0000000000000000 .LVL17
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:190    .text.gpio_init:000000000000001e .LVL20
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:175    .text.gpio_init:000000000000000e .LVL19
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:228    .text.gpio_init:000000000000004a .LVL24
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:231    .text.gpio_init:000000000000004c .LVL25
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s 			page 36
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:149    .text.gpio_afio_deinit:0000000000000020 .LFE3
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2657   .debug_loc:00000000000003b9 .LLST2
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:134    .text.gpio_afio_deinit:0000000000000010 .LVL15
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:147    .text.gpio_afio_deinit:0000000000000020 .LVL16
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3013   .debug_str:00000000000004da .LASF86
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:14     .text.gpio_deinit:0000000000000000 .LFB2
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:112    .text.gpio_deinit:000000000000009e .LFE2
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2675   .debug_loc:00000000000003e5 .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2708   .debug_loc:0000000000000435 .LLST1
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:56     .text.gpio_deinit:0000000000000046 .LVL2
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:66     .text.gpio_deinit:0000000000000058 .LVL5
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:79     .text.gpio_deinit:0000000000000068 .LVL6
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:87     .text.gpio_deinit:0000000000000074 .LVL8
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:97     .text.gpio_deinit:0000000000000086 .LVL11
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:107    .text.gpio_deinit:0000000000000098 .LVL14
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:3023   .debug_str:000000000000054f .LASF87
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:2873   .debug_str:0000000000000144 .LASF88
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:773    .text.gpio_pin_lock:0000000000000000 .LVL71
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:779    .text.gpio_pin_lock:0000000000000004 .LVL72
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:792    .text.gpio_pin_lock:000000000000000c .LVL73
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:698    .text.gpio_event_output_config:0000000000000000 .LVL65
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:710    .text.gpio_event_output_config:0000000000000008 .LVL67
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:715    .text.gpio_event_output_config:000000000000000e .LVL69
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:704    .text.gpio_event_output_config:0000000000000006 .LVL66
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:713    .text.gpio_event_output_config:000000000000000c .LVL68
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:718    .text.gpio_event_output_config:0000000000000010 .LVL70
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:608    .text.gpio_exti_source_select:0000000000000000 .LVL61
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:621    .text.gpio_exti_source_select:0000000000000010 .LVL63
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:615    .text.gpio_exti_source_select:0000000000000006 .LVL62
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:624    .text.gpio_exti_source_select:0000000000000012 .LVL64
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:478    .text.gpio_pin_remap_config:0000000000000000 .LVL45
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:500    .text.gpio_pin_remap_config:0000000000000018 .LVL47
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:530    .text.gpio_pin_remap_config:0000000000000040 .LVL50
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:544    .text.gpio_pin_remap_config:000000000000004e .LVL52
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:551    .text.gpio_pin_remap_config:0000000000000052 .LVL54
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:590    .text.gpio_pin_remap_config:0000000000000082 .LVL60
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:518    .text.gpio_pin_remap_config:0000000000000034 .LVL49
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:558    .text.gpio_pin_remap_config:000000000000005a .LVL55
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:567    .text.gpio_pin_remap_config:0000000000000068 .LVL56
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:580    .text.gpio_pin_remap_config:0000000000000076 .LVL59
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:488    .text.gpio_pin_remap_config:000000000000000a .LVL46
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:512    .text.gpio_pin_remap_config:000000000000002a .LVL48
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:549    .text.gpio_pin_remap_config:0000000000000050 .LVL53
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:573    .text.gpio_pin_remap_config:000000000000006e .LVL57
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:458    .text.gpio_output_port_get:0000000000000000 .LVL43
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:462    .text.gpio_output_port_get:0000000000000002 .LVL44
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:437    .text.gpio_output_bit_get:0000000000000000 .LVL41
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:441    .text.gpio_output_bit_get:0000000000000002 .LVL42
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:417    .text.gpio_input_port_get:0000000000000000 .LVL39
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:421    .text.gpio_input_port_get:0000000000000002 .LVL40
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:396    .text.gpio_input_bit_get:0000000000000000 .LVL37
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:400    .text.gpio_input_bit_get:0000000000000002 .LVL38
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:159    .text.gpio_init:0000000000000000 .LVL17
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:190    .text.gpio_init:000000000000001e .LVL20
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:175    .text.gpio_init:000000000000000e .LVL19
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:228    .text.gpio_init:000000000000004a .LVL24
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:231    .text.gpio_init:000000000000004c .LVL25
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s 			page 36
 
 
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:245    .text.gpio_init:000000000000005e .LVL26
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:284    .text.gpio_init:000000000000008c .LVL30
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:287    .text.gpio_init:000000000000008e .LVL31
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:292    .text.gpio_init:0000000000000094 .LVL32
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:168    .text.gpio_init:0000000000000008 .LVL18
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:203    .text.gpio_init:000000000000002e .LVL21
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:211    .text.gpio_init:000000000000003a .LVL22
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:217    .text.gpio_init:0000000000000042 .LVL23
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:259    .text.gpio_init:0000000000000070 .LVL27
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:267    .text.gpio_init:000000000000007c .LVL28
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:273    .text.gpio_init:0000000000000084 .LVL29
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:125    .text.gpio_afio_deinit:0000000000000002 .LCFI5
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:143    .text.gpio_afio_deinit:0000000000000018 .LCFI6
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:22     .text.gpio_deinit:0000000000000002 .LCFI0
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:40     .text.gpio_deinit:0000000000000024 .LCFI1
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:44     .text.gpio_deinit:0000000000000026 .LCFI2
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:75     .text.gpio_deinit:0000000000000060 .LCFI3
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:81     .text.gpio_deinit:0000000000000068 .LCFI4
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:18     .text.gpio_deinit:0000000000000000 .LVL0
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:54     .text.gpio_deinit:000000000000003e .LVL1
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:60     .text.gpio_deinit:000000000000004c .LVL3
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:64     .text.gpio_deinit:0000000000000050 .LVL4
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:85     .text.gpio_deinit:000000000000006c .LVL7
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:91     .text.gpio_deinit:000000000000007a .LVL9
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:95     .text.gpio_deinit:000000000000007e .LVL10
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:101    .text.gpio_deinit:000000000000008c .LVL12
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:105    .text.gpio_deinit:0000000000000090 .LVL13
-C:\Users\kasie\AppData\Local\Temp\cc6K4vZY.s:810    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:245    .text.gpio_init:000000000000005e .LVL26
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:284    .text.gpio_init:000000000000008c .LVL30
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:287    .text.gpio_init:000000000000008e .LVL31
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:292    .text.gpio_init:0000000000000094 .LVL32
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:168    .text.gpio_init:0000000000000008 .LVL18
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:203    .text.gpio_init:000000000000002e .LVL21
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:211    .text.gpio_init:000000000000003a .LVL22
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:217    .text.gpio_init:0000000000000042 .LVL23
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:259    .text.gpio_init:0000000000000070 .LVL27
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:267    .text.gpio_init:000000000000007c .LVL28
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:273    .text.gpio_init:0000000000000084 .LVL29
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:125    .text.gpio_afio_deinit:0000000000000002 .LCFI5
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:143    .text.gpio_afio_deinit:0000000000000018 .LCFI6
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:22     .text.gpio_deinit:0000000000000002 .LCFI0
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:40     .text.gpio_deinit:0000000000000024 .LCFI1
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:44     .text.gpio_deinit:0000000000000026 .LCFI2
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:75     .text.gpio_deinit:0000000000000060 .LCFI3
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:81     .text.gpio_deinit:0000000000000068 .LCFI4
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:18     .text.gpio_deinit:0000000000000000 .LVL0
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:54     .text.gpio_deinit:000000000000003e .LVL1
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:60     .text.gpio_deinit:000000000000004c .LVL3
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:64     .text.gpio_deinit:0000000000000050 .LVL4
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:85     .text.gpio_deinit:000000000000006c .LVL7
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:91     .text.gpio_deinit:000000000000007a .LVL9
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:95     .text.gpio_deinit:000000000000007e .LVL10
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:101    .text.gpio_deinit:000000000000008c .LVL12
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:105    .text.gpio_deinit:0000000000000090 .LVL13
+C:\Users\kasie\AppData\Local\Temp\ccUs8ege.s:810    .debug_info:0000000000000000 .Ldebug_info0
 
 UNDEFINED SYMBOLS
 rcu_periph_reset_enable

@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 1
 
 
    1              		.file	"gd32vf103_dac.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
   41:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** #define DH_8BIT_OFFSET            ((uint32_t)8U)
   42:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** 
   43:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** /*!
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 2
 
 
   44:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     \brief      deinitialize DAC
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
   57:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     \param[in]  dac_periph: DACx(x = 0,1)
   58:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     \param[out] none
   59:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     \retval     none
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 3
 
 
   60:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** */
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
   78:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     if(DAC0 == dac_periph){
   88              		.loc 1 78 5
   89              		.loc 1 78 7 is_stmt 0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 4
 
 
   90 0000 09E9     		bne	a0,zero,.L8
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
   96:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****         DAC_CTL |= DAC_CTL_DDMAEN1;
  128              		.loc 1 96 9 is_stmt 1
  129              		.loc 1 96 17 is_stmt 0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 5
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 5
 
 
  130 000c B7060010 		li	a3,268435456
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  169              		.globl	dac_output_buffer_enable
  171              	dac_output_buffer_enable:
  172              	.LFB7:
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 6
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 6
 
 
  114:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** 
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  137:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** {
  206              		.loc 1 137 1 is_stmt 1
  207              		.cfi_startproc
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 7
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 7
 
 
  208              	.LVL7:
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  156:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****         data = (uint16_t)DAC0_DO;
  243              		.loc 1 156 26 is_stmt 0
  244 0000 B7770040 		li	a5,1073770496
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 8
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 8
 
 
  154:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     if(DAC0 == dac_periph){
@@ -478,7 +478,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  277              	.LVL13:
  178:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     if(DAC0 == dac_periph){
  278              		.loc 1 178 5
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 9
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 9
 
 
  179:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****         switch(dac_align){
@@ -538,7 +538,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  314 0036 8947     		li	a5,2
  315 0038 638DF500 		beq	a1,a5,.L37
  316 003c 8280     		ret
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 10
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 10
 
 
  317              	.L36:
@@ -598,7 +598,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  222:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** {
  348              		.loc 1 222 1 is_stmt 1
  349              		.cfi_startproc
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 11
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 11
 
 
  350              	.LVL14:
@@ -658,7 +658,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  386              		.loc 1 239 9 is_stmt 1
  387              		.loc 1 239 17 is_stmt 0
  388 0002 37770040 		li	a4,1073770496
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 12
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 12
 
 
  389 0006 83270740 		lw	a5,1024(a4)
@@ -718,7 +718,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  419 0004 03A70740 		lw	a4,1024(a5)
  263:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     if(DAC0 == dac_periph){
  420              		.loc 1 263 7
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 13
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 13
 
 
  421 0008 19E9     		bne	a0,zero,.L46
@@ -778,7 +778,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  278:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** */
  279:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** void dac_software_trigger_enable(uint32_t dac_periph)
  280:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** {
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 14
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 14
 
 
  460              		.loc 1 280 1 is_stmt 1
@@ -838,7 +838,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  496 0000 37770040 		li	a4,1073770496
  497 0004 83274740 		lw	a5,1028(a4)
  296:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     if(DAC0 == dac_periph){
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 15
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 15
 
 
  498              		.loc 1 296 7
@@ -898,7 +898,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  530 0008 19E9     		bne	a0,zero,.L58
  531              		.loc 1 318 9 is_stmt 1
  532              		.loc 1 318 17 is_stmt 0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 16
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 16
 
 
  533 000a 1377F7F3 		andi	a4,a4,-193
@@ -958,7 +958,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  334:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****       \arg        DAC_WAVE_BIT_WIDTH_3: bit width of the wave signal is 3
  335:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****       \arg        DAC_WAVE_BIT_WIDTH_4: bit width of the wave signal is 4
  336:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****       \arg        DAC_WAVE_BIT_WIDTH_5: bit width of the wave signal is 5
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 17
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 17
 
 
  337:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****       \arg        DAC_WAVE_BIT_WIDTH_6: bit width of the wave signal is 6
@@ -1018,7 +1018,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  598 0022 B70600F1 		li	a3,-251658240
  599 0026 FD16     		addi	a3,a3,-1
  600 0028 758F     		and	a4,a4,a3
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 18
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 18
 
 
  601 002a 23A0E740 		sw	a4,1024(a5)
@@ -1078,7 +1078,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  375:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****       \arg        DAC_LFSR_BITS10_0: unmask the LFSR bits[10:0]
  376:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****       \arg        DAC_LFSR_BITS11_0: unmask the LFSR bits[11:0]
  377:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     \param[out] none
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 19
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 19
 
 
  378:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     \retval     none
@@ -1138,7 +1138,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  432:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** void dac_concurrent_enable(void)
  433:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** {
  640              		.loc 1 433 1 is_stmt 1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 20
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 20
 
 
  641              		.cfi_startproc
@@ -1198,7 +1198,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  680              	.LFE21:
  682              		.section	.text.dac_concurrent_software_trigger_enable,"ax",@progbits
  683              		.align	1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 21
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 21
 
 
  684              		.globl	dac_concurrent_software_trigger_enable
@@ -1258,7 +1258,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  716              		.loc 1 475 13 is_stmt 0
  717 0000 37770040 		li	a4,1073770496
  718 0004 83274740 		lw	a5,1028(a4)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 22
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 22
 
 
  719 0008 F19B     		andi	a5,a5,-4
@@ -1318,7 +1318,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  497:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** void dac_concurrent_output_buffer_disable(void)
  498:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** {
  756              		.loc 1 498 1 is_stmt 1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 23
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 23
 
 
  757              		.cfi_startproc
@@ -1378,7 +1378,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  520:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     /* data right 12b alignment */
  521:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     case DAC_ALIGN_12B_R:
  522:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****         data = ((uint32_t)data1 << DH_12BIT_OFFSET) | data0;
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 24
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 24
 
 
  792              		.loc 1 522 9
@@ -1438,7 +1438,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  535:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     default:
  536:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****         break;
  537:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c ****     }
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 25
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 25
 
 
  538:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_dac.c **** }
@@ -1452,588 +1452,588 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 1
  842              		.file 3 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
  843              		.file 4 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_rcu.h"
  844              		.file 5 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 26
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 26
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gd32vf103_dac.c
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:13     .text.dac_deinit:0000000000000000 dac_deinit
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:17     .text.dac_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:18     .text.dac_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:19     .text.dac_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:20     .text.dac_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:22     .text.dac_deinit:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:24     .text.dac_deinit:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:26     .text.dac_deinit:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:27     .text.dac_deinit:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:29     .text.dac_deinit:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:32     .text.dac_deinit:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:33     .text.dac_deinit:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:34     .text.dac_deinit:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:36     .text.dac_deinit:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:38     .text.dac_deinit:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:40     .text.dac_deinit:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:42     .text.dac_deinit:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:44     .text.dac_deinit:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:51     .text.dac_enable:0000000000000000 dac_enable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:54     .text.dac_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:56     .text.dac_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:57     .text.dac_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:58     .text.dac_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:61     .text.dac_enable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:63     .text.dac_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:64     .text.dac_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:67     .text.dac_enable:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:69     .text.dac_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:72     .text.dac_enable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:73     .text.dac_enable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:76     .text.dac_enable:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:83     .text.dac_disable:0000000000000000 dac_disable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:86     .text.dac_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:88     .text.dac_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:89     .text.dac_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:90     .text.dac_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:92     .text.dac_disable:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:93     .text.dac_disable:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:100    .text.dac_disable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:101    .text.dac_disable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:108    .text.dac_disable:0000000000000024 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:109    .text.dac_disable:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:116    .text.dac_dma_enable:0000000000000000 dac_dma_enable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:119    .text.dac_dma_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:121    .text.dac_dma_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:122    .text.dac_dma_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:123    .text.dac_dma_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:127    .text.dac_dma_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:129    .text.dac_dma_enable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:130    .text.dac_dma_enable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:135    .text.dac_dma_enable:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:136    .text.dac_dma_enable:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:143    .text.dac_dma_disable:0000000000000000 dac_dma_disable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:146    .text.dac_dma_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:148    .text.dac_dma_disable:0000000000000000 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 27
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:13     .text.dac_deinit:0000000000000000 dac_deinit
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:17     .text.dac_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:18     .text.dac_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:19     .text.dac_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:20     .text.dac_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:22     .text.dac_deinit:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:24     .text.dac_deinit:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:26     .text.dac_deinit:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:27     .text.dac_deinit:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:29     .text.dac_deinit:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:32     .text.dac_deinit:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:33     .text.dac_deinit:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:34     .text.dac_deinit:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:36     .text.dac_deinit:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:38     .text.dac_deinit:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:40     .text.dac_deinit:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:42     .text.dac_deinit:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:44     .text.dac_deinit:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:51     .text.dac_enable:0000000000000000 dac_enable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:54     .text.dac_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:56     .text.dac_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:57     .text.dac_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:58     .text.dac_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:61     .text.dac_enable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:63     .text.dac_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:64     .text.dac_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:67     .text.dac_enable:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:69     .text.dac_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:72     .text.dac_enable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:73     .text.dac_enable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:76     .text.dac_enable:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:83     .text.dac_disable:0000000000000000 dac_disable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:86     .text.dac_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:88     .text.dac_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:89     .text.dac_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:90     .text.dac_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:92     .text.dac_disable:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:93     .text.dac_disable:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:100    .text.dac_disable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:101    .text.dac_disable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:108    .text.dac_disable:0000000000000024 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:109    .text.dac_disable:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:116    .text.dac_dma_enable:0000000000000000 dac_dma_enable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:119    .text.dac_dma_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:121    .text.dac_dma_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:122    .text.dac_dma_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:123    .text.dac_dma_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:127    .text.dac_dma_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:129    .text.dac_dma_enable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:130    .text.dac_dma_enable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:135    .text.dac_dma_enable:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:136    .text.dac_dma_enable:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:143    .text.dac_dma_disable:0000000000000000 dac_dma_disable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:146    .text.dac_dma_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:148    .text.dac_dma_disable:0000000000000000 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 27
 
 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:149    .text.dac_dma_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:150    .text.dac_dma_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:154    .text.dac_dma_disable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:156    .text.dac_dma_disable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:157    .text.dac_dma_disable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:163    .text.dac_dma_disable:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:164    .text.dac_dma_disable:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:171    .text.dac_output_buffer_enable:0000000000000000 dac_output_buffer_enable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:174    .text.dac_output_buffer_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:176    .text.dac_output_buffer_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:177    .text.dac_output_buffer_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:178    .text.dac_output_buffer_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:180    .text.dac_output_buffer_enable:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:181    .text.dac_output_buffer_enable:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:188    .text.dac_output_buffer_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:189    .text.dac_output_buffer_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:196    .text.dac_output_buffer_enable:0000000000000024 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:197    .text.dac_output_buffer_enable:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:204    .text.dac_output_buffer_disable:0000000000000000 dac_output_buffer_disable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:207    .text.dac_output_buffer_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:209    .text.dac_output_buffer_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:210    .text.dac_output_buffer_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:211    .text.dac_output_buffer_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:214    .text.dac_output_buffer_disable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:216    .text.dac_output_buffer_disable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:217    .text.dac_output_buffer_disable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:220    .text.dac_output_buffer_disable:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:222    .text.dac_output_buffer_disable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:225    .text.dac_output_buffer_disable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:226    .text.dac_output_buffer_disable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:229    .text.dac_output_buffer_disable:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:236    .text.dac_output_value_get:0000000000000000 dac_output_value_get
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:239    .text.dac_output_value_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:241    .text.dac_output_value_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:242    .text.dac_output_value_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:243    .text.dac_output_value_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:244    .text.dac_output_value_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:246    .text.dac_output_value_get:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:248    .text.dac_output_value_get:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:249    .text.dac_output_value_get:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:253    .text.dac_output_value_get:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:257    .text.dac_output_value_get:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:258    .text.dac_output_value_get:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:262    .text.dac_output_value_get:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:263    .text.dac_output_value_get:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:266    .text.dac_output_value_get:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:273    .text.dac_data_set:0000000000000000 dac_data_set
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:276    .text.dac_data_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:278    .text.dac_data_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:279    .text.dac_data_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:280    .text.dac_data_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:282    .text.dac_data_set:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:284    .text.dac_data_set:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:291    .text.dac_data_set:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:292    .text.dac_data_set:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:295    .text.dac_data_set:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:298    .text.dac_data_set:000000000000001c .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 28
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:149    .text.dac_dma_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:150    .text.dac_dma_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:154    .text.dac_dma_disable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:156    .text.dac_dma_disable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:157    .text.dac_dma_disable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:163    .text.dac_dma_disable:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:164    .text.dac_dma_disable:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:171    .text.dac_output_buffer_enable:0000000000000000 dac_output_buffer_enable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:174    .text.dac_output_buffer_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:176    .text.dac_output_buffer_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:177    .text.dac_output_buffer_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:178    .text.dac_output_buffer_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:180    .text.dac_output_buffer_enable:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:181    .text.dac_output_buffer_enable:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:188    .text.dac_output_buffer_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:189    .text.dac_output_buffer_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:196    .text.dac_output_buffer_enable:0000000000000024 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:197    .text.dac_output_buffer_enable:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:204    .text.dac_output_buffer_disable:0000000000000000 dac_output_buffer_disable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:207    .text.dac_output_buffer_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:209    .text.dac_output_buffer_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:210    .text.dac_output_buffer_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:211    .text.dac_output_buffer_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:214    .text.dac_output_buffer_disable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:216    .text.dac_output_buffer_disable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:217    .text.dac_output_buffer_disable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:220    .text.dac_output_buffer_disable:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:222    .text.dac_output_buffer_disable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:225    .text.dac_output_buffer_disable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:226    .text.dac_output_buffer_disable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:229    .text.dac_output_buffer_disable:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:236    .text.dac_output_value_get:0000000000000000 dac_output_value_get
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:239    .text.dac_output_value_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:241    .text.dac_output_value_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:242    .text.dac_output_value_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:243    .text.dac_output_value_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:244    .text.dac_output_value_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:246    .text.dac_output_value_get:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:248    .text.dac_output_value_get:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:249    .text.dac_output_value_get:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:253    .text.dac_output_value_get:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:257    .text.dac_output_value_get:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:258    .text.dac_output_value_get:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:262    .text.dac_output_value_get:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:263    .text.dac_output_value_get:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:266    .text.dac_output_value_get:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:273    .text.dac_data_set:0000000000000000 dac_data_set
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:276    .text.dac_data_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:278    .text.dac_data_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:279    .text.dac_data_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:280    .text.dac_data_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:282    .text.dac_data_set:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:284    .text.dac_data_set:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:291    .text.dac_data_set:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:292    .text.dac_data_set:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:295    .text.dac_data_set:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:298    .text.dac_data_set:000000000000001c .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 28
 
 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:299    .text.dac_data_set:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:302    .text.dac_data_set:0000000000000024 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:305    .text.dac_data_set:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:306    .text.dac_data_set:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:309    .text.dac_data_set:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:312    .text.dac_data_set:0000000000000030 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:319    .text.dac_data_set:000000000000003e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:320    .text.dac_data_set:000000000000003e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:323    .text.dac_data_set:0000000000000046 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:326    .text.dac_data_set:0000000000000048 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:327    .text.dac_data_set:0000000000000048 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:330    .text.dac_data_set:0000000000000050 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:333    .text.dac_data_set:0000000000000052 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:334    .text.dac_data_set:0000000000000052 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:337    .text.dac_data_set:000000000000005a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:338    .text.dac_data_set:000000000000005a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:339    .text.dac_data_set:000000000000005c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:346    .text.dac_trigger_enable:0000000000000000 dac_trigger_enable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:349    .text.dac_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:351    .text.dac_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:352    .text.dac_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:353    .text.dac_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:356    .text.dac_trigger_enable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:358    .text.dac_trigger_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:359    .text.dac_trigger_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:362    .text.dac_trigger_enable:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:364    .text.dac_trigger_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:367    .text.dac_trigger_enable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:368    .text.dac_trigger_enable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:371    .text.dac_trigger_enable:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:378    .text.dac_trigger_disable:0000000000000000 dac_trigger_disable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:381    .text.dac_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:383    .text.dac_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:384    .text.dac_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:385    .text.dac_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:387    .text.dac_trigger_disable:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:388    .text.dac_trigger_disable:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:395    .text.dac_trigger_disable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:396    .text.dac_trigger_disable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:403    .text.dac_trigger_disable:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:404    .text.dac_trigger_disable:0000000000000028 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:411    .text.dac_trigger_source_config:0000000000000000 dac_trigger_source_config
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:414    .text.dac_trigger_source_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:416    .text.dac_trigger_source_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:417    .text.dac_trigger_source_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:418    .text.dac_trigger_source_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:421    .text.dac_trigger_source_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:423    .text.dac_trigger_source_config:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:424    .text.dac_trigger_source_config:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:427    .text.dac_trigger_source_config:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:428    .text.dac_trigger_source_config:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:432    .text.dac_trigger_source_config:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:435    .text.dac_trigger_source_config:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:439    .text.dac_trigger_source_config:000000000000001e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:440    .text.dac_trigger_source_config:000000000000001e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:445    .text.dac_trigger_source_config:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:446    .text.dac_trigger_source_config:000000000000002a .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 29
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:299    .text.dac_data_set:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:302    .text.dac_data_set:0000000000000024 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:305    .text.dac_data_set:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:306    .text.dac_data_set:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:309    .text.dac_data_set:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:312    .text.dac_data_set:0000000000000030 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:319    .text.dac_data_set:000000000000003e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:320    .text.dac_data_set:000000000000003e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:323    .text.dac_data_set:0000000000000046 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:326    .text.dac_data_set:0000000000000048 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:327    .text.dac_data_set:0000000000000048 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:330    .text.dac_data_set:0000000000000050 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:333    .text.dac_data_set:0000000000000052 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:334    .text.dac_data_set:0000000000000052 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:337    .text.dac_data_set:000000000000005a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:338    .text.dac_data_set:000000000000005a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:339    .text.dac_data_set:000000000000005c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:346    .text.dac_trigger_enable:0000000000000000 dac_trigger_enable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:349    .text.dac_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:351    .text.dac_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:352    .text.dac_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:353    .text.dac_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:356    .text.dac_trigger_enable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:358    .text.dac_trigger_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:359    .text.dac_trigger_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:362    .text.dac_trigger_enable:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:364    .text.dac_trigger_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:367    .text.dac_trigger_enable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:368    .text.dac_trigger_enable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:371    .text.dac_trigger_enable:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:378    .text.dac_trigger_disable:0000000000000000 dac_trigger_disable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:381    .text.dac_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:383    .text.dac_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:384    .text.dac_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:385    .text.dac_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:387    .text.dac_trigger_disable:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:388    .text.dac_trigger_disable:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:395    .text.dac_trigger_disable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:396    .text.dac_trigger_disable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:403    .text.dac_trigger_disable:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:404    .text.dac_trigger_disable:0000000000000028 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:411    .text.dac_trigger_source_config:0000000000000000 dac_trigger_source_config
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:414    .text.dac_trigger_source_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:416    .text.dac_trigger_source_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:417    .text.dac_trigger_source_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:418    .text.dac_trigger_source_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:421    .text.dac_trigger_source_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:423    .text.dac_trigger_source_config:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:424    .text.dac_trigger_source_config:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:427    .text.dac_trigger_source_config:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:428    .text.dac_trigger_source_config:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:432    .text.dac_trigger_source_config:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:435    .text.dac_trigger_source_config:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:439    .text.dac_trigger_source_config:000000000000001e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:440    .text.dac_trigger_source_config:000000000000001e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:445    .text.dac_trigger_source_config:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:446    .text.dac_trigger_source_config:000000000000002a .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 29
 
 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:448    .text.dac_trigger_source_config:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:451    .text.dac_trigger_source_config:0000000000000032 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:458    .text.dac_software_trigger_enable:0000000000000000 dac_software_trigger_enable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:461    .text.dac_software_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:463    .text.dac_software_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:464    .text.dac_software_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:465    .text.dac_software_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:468    .text.dac_software_trigger_enable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:470    .text.dac_software_trigger_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:471    .text.dac_software_trigger_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:474    .text.dac_software_trigger_enable:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:476    .text.dac_software_trigger_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:479    .text.dac_software_trigger_enable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:480    .text.dac_software_trigger_enable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:482    .text.dac_software_trigger_enable:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:489    .text.dac_software_trigger_disable:0000000000000000 dac_software_trigger_disable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:492    .text.dac_software_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:494    .text.dac_software_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:495    .text.dac_software_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:496    .text.dac_software_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:499    .text.dac_software_trigger_disable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:501    .text.dac_software_trigger_disable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:502    .text.dac_software_trigger_disable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:505    .text.dac_software_trigger_disable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:507    .text.dac_software_trigger_disable:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:510    .text.dac_software_trigger_disable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:511    .text.dac_software_trigger_disable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:513    .text.dac_software_trigger_disable:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:520    .text.dac_wave_mode_config:0000000000000000 dac_wave_mode_config
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:523    .text.dac_wave_mode_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:525    .text.dac_wave_mode_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:526    .text.dac_wave_mode_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:527    .text.dac_wave_mode_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:530    .text.dac_wave_mode_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:532    .text.dac_wave_mode_config:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:533    .text.dac_wave_mode_config:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:536    .text.dac_wave_mode_config:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:537    .text.dac_wave_mode_config:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:541    .text.dac_wave_mode_config:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:544    .text.dac_wave_mode_config:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:548    .text.dac_wave_mode_config:000000000000001e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:549    .text.dac_wave_mode_config:000000000000001e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:554    .text.dac_wave_mode_config:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:555    .text.dac_wave_mode_config:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:557    .text.dac_wave_mode_config:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:560    .text.dac_wave_mode_config:0000000000000032 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:567    .text.dac_wave_bit_width_config:0000000000000000 dac_wave_bit_width_config
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:570    .text.dac_wave_bit_width_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:572    .text.dac_wave_bit_width_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:573    .text.dac_wave_bit_width_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:574    .text.dac_wave_bit_width_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:577    .text.dac_wave_bit_width_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:579    .text.dac_wave_bit_width_config:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:580    .text.dac_wave_bit_width_config:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:585    .text.dac_wave_bit_width_config:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:586    .text.dac_wave_bit_width_config:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:590    .text.dac_wave_bit_width_config:000000000000001a .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 30
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:448    .text.dac_trigger_source_config:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:451    .text.dac_trigger_source_config:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:458    .text.dac_software_trigger_enable:0000000000000000 dac_software_trigger_enable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:461    .text.dac_software_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:463    .text.dac_software_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:464    .text.dac_software_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:465    .text.dac_software_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:468    .text.dac_software_trigger_enable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:470    .text.dac_software_trigger_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:471    .text.dac_software_trigger_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:474    .text.dac_software_trigger_enable:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:476    .text.dac_software_trigger_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:479    .text.dac_software_trigger_enable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:480    .text.dac_software_trigger_enable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:482    .text.dac_software_trigger_enable:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:489    .text.dac_software_trigger_disable:0000000000000000 dac_software_trigger_disable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:492    .text.dac_software_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:494    .text.dac_software_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:495    .text.dac_software_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:496    .text.dac_software_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:499    .text.dac_software_trigger_disable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:501    .text.dac_software_trigger_disable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:502    .text.dac_software_trigger_disable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:505    .text.dac_software_trigger_disable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:507    .text.dac_software_trigger_disable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:510    .text.dac_software_trigger_disable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:511    .text.dac_software_trigger_disable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:513    .text.dac_software_trigger_disable:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:520    .text.dac_wave_mode_config:0000000000000000 dac_wave_mode_config
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:523    .text.dac_wave_mode_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:525    .text.dac_wave_mode_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:526    .text.dac_wave_mode_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:527    .text.dac_wave_mode_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:530    .text.dac_wave_mode_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:532    .text.dac_wave_mode_config:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:533    .text.dac_wave_mode_config:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:536    .text.dac_wave_mode_config:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:537    .text.dac_wave_mode_config:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:541    .text.dac_wave_mode_config:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:544    .text.dac_wave_mode_config:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:548    .text.dac_wave_mode_config:000000000000001e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:549    .text.dac_wave_mode_config:000000000000001e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:554    .text.dac_wave_mode_config:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:555    .text.dac_wave_mode_config:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:557    .text.dac_wave_mode_config:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:560    .text.dac_wave_mode_config:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:567    .text.dac_wave_bit_width_config:0000000000000000 dac_wave_bit_width_config
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:570    .text.dac_wave_bit_width_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:572    .text.dac_wave_bit_width_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:573    .text.dac_wave_bit_width_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:574    .text.dac_wave_bit_width_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:577    .text.dac_wave_bit_width_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:579    .text.dac_wave_bit_width_config:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:580    .text.dac_wave_bit_width_config:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:585    .text.dac_wave_bit_width_config:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:586    .text.dac_wave_bit_width_config:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:590    .text.dac_wave_bit_width_config:000000000000001a .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 30
 
 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:593    .text.dac_wave_bit_width_config:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:597    .text.dac_wave_bit_width_config:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:598    .text.dac_wave_bit_width_config:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:603    .text.dac_wave_bit_width_config:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:604    .text.dac_wave_bit_width_config:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:606    .text.dac_wave_bit_width_config:0000000000000032 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:609    .text.dac_wave_bit_width_config:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:616    .text.dac_lfsr_noise_config:0000000000000000 dac_lfsr_noise_config
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:618    .text.dac_lfsr_noise_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:620    .text.dac_lfsr_noise_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:627    .text.dac_triangle_noise_config:0000000000000000 dac_triangle_noise_config
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:629    .text.dac_triangle_noise_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:631    .text.dac_triangle_noise_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:638    .text.dac_concurrent_enable:0000000000000000 dac_concurrent_enable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:641    .text.dac_concurrent_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:642    .text.dac_concurrent_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:644    .text.dac_concurrent_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:645    .text.dac_concurrent_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:646    .text.dac_concurrent_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:647    .text.dac_concurrent_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:654    .text.dac_concurrent_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:655    .text.dac_concurrent_enable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:662    .text.dac_concurrent_disable:0000000000000000 dac_concurrent_disable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:665    .text.dac_concurrent_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:666    .text.dac_concurrent_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:668    .text.dac_concurrent_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:669    .text.dac_concurrent_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:670    .text.dac_concurrent_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:671    .text.dac_concurrent_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:678    .text.dac_concurrent_disable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:679    .text.dac_concurrent_disable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:686    .text.dac_concurrent_software_trigger_enable:0000000000000000 dac_concurrent_software_trigger_enable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:689    .text.dac_concurrent_software_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:690    .text.dac_concurrent_software_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:692    .text.dac_concurrent_software_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:693    .text.dac_concurrent_software_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:694    .text.dac_concurrent_software_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:695    .text.dac_concurrent_software_trigger_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:700    .text.dac_concurrent_software_trigger_enable:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:701    .text.dac_concurrent_software_trigger_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:708    .text.dac_concurrent_software_trigger_disable:0000000000000000 dac_concurrent_software_trigger_disable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:711    .text.dac_concurrent_software_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:712    .text.dac_concurrent_software_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:714    .text.dac_concurrent_software_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:715    .text.dac_concurrent_software_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:716    .text.dac_concurrent_software_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:717    .text.dac_concurrent_software_trigger_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:722    .text.dac_concurrent_software_trigger_disable:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:723    .text.dac_concurrent_software_trigger_disable:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:730    .text.dac_concurrent_output_buffer_enable:0000000000000000 dac_concurrent_output_buffer_enable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:733    .text.dac_concurrent_output_buffer_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:734    .text.dac_concurrent_output_buffer_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:736    .text.dac_concurrent_output_buffer_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:737    .text.dac_concurrent_output_buffer_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:738    .text.dac_concurrent_output_buffer_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:739    .text.dac_concurrent_output_buffer_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:746    .text.dac_concurrent_output_buffer_enable:0000000000000012 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 31
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:593    .text.dac_wave_bit_width_config:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:597    .text.dac_wave_bit_width_config:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:598    .text.dac_wave_bit_width_config:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:603    .text.dac_wave_bit_width_config:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:604    .text.dac_wave_bit_width_config:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:606    .text.dac_wave_bit_width_config:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:609    .text.dac_wave_bit_width_config:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:616    .text.dac_lfsr_noise_config:0000000000000000 dac_lfsr_noise_config
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:618    .text.dac_lfsr_noise_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:620    .text.dac_lfsr_noise_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:627    .text.dac_triangle_noise_config:0000000000000000 dac_triangle_noise_config
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:629    .text.dac_triangle_noise_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:631    .text.dac_triangle_noise_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:638    .text.dac_concurrent_enable:0000000000000000 dac_concurrent_enable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:641    .text.dac_concurrent_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:642    .text.dac_concurrent_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:644    .text.dac_concurrent_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:645    .text.dac_concurrent_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:646    .text.dac_concurrent_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:647    .text.dac_concurrent_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:654    .text.dac_concurrent_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:655    .text.dac_concurrent_enable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:662    .text.dac_concurrent_disable:0000000000000000 dac_concurrent_disable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:665    .text.dac_concurrent_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:666    .text.dac_concurrent_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:668    .text.dac_concurrent_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:669    .text.dac_concurrent_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:670    .text.dac_concurrent_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:671    .text.dac_concurrent_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:678    .text.dac_concurrent_disable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:679    .text.dac_concurrent_disable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:686    .text.dac_concurrent_software_trigger_enable:0000000000000000 dac_concurrent_software_trigger_enable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:689    .text.dac_concurrent_software_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:690    .text.dac_concurrent_software_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:692    .text.dac_concurrent_software_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:693    .text.dac_concurrent_software_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:694    .text.dac_concurrent_software_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:695    .text.dac_concurrent_software_trigger_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:700    .text.dac_concurrent_software_trigger_enable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:701    .text.dac_concurrent_software_trigger_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:708    .text.dac_concurrent_software_trigger_disable:0000000000000000 dac_concurrent_software_trigger_disable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:711    .text.dac_concurrent_software_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:712    .text.dac_concurrent_software_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:714    .text.dac_concurrent_software_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:715    .text.dac_concurrent_software_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:716    .text.dac_concurrent_software_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:717    .text.dac_concurrent_software_trigger_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:722    .text.dac_concurrent_software_trigger_disable:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:723    .text.dac_concurrent_software_trigger_disable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:730    .text.dac_concurrent_output_buffer_enable:0000000000000000 dac_concurrent_output_buffer_enable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:733    .text.dac_concurrent_output_buffer_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:734    .text.dac_concurrent_output_buffer_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:736    .text.dac_concurrent_output_buffer_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:737    .text.dac_concurrent_output_buffer_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:738    .text.dac_concurrent_output_buffer_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:739    .text.dac_concurrent_output_buffer_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:746    .text.dac_concurrent_output_buffer_enable:0000000000000012 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 31
 
 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:747    .text.dac_concurrent_output_buffer_enable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:754    .text.dac_concurrent_output_buffer_disable:0000000000000000 dac_concurrent_output_buffer_disable
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:757    .text.dac_concurrent_output_buffer_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:758    .text.dac_concurrent_output_buffer_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:760    .text.dac_concurrent_output_buffer_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:761    .text.dac_concurrent_output_buffer_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:762    .text.dac_concurrent_output_buffer_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:763    .text.dac_concurrent_output_buffer_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:770    .text.dac_concurrent_output_buffer_disable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:771    .text.dac_concurrent_output_buffer_disable:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:778    .text.dac_concurrent_data_set:0000000000000000 dac_concurrent_data_set
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:781    .text.dac_concurrent_data_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:783    .text.dac_concurrent_data_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:784    .text.dac_concurrent_data_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:785    .text.dac_concurrent_data_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:793    .text.dac_concurrent_data_set:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:794    .text.dac_concurrent_data_set:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:797    .text.dac_concurrent_data_set:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:800    .text.dac_concurrent_data_set:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:801    .text.dac_concurrent_data_set:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:804    .text.dac_concurrent_data_set:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:808    .text.dac_concurrent_data_set:000000000000001e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:809    .text.dac_concurrent_data_set:000000000000001e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:812    .text.dac_concurrent_data_set:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:815    .text.dac_concurrent_data_set:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:816    .text.dac_concurrent_data_set:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:819    .text.dac_concurrent_data_set:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:823    .text.dac_concurrent_data_set:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:824    .text.dac_concurrent_data_set:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:827    .text.dac_concurrent_data_set:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:830    .text.dac_concurrent_data_set:0000000000000030 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:831    .text.dac_concurrent_data_set:0000000000000030 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:834    .text.dac_concurrent_data_set:0000000000000038 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:835    .text.dac_concurrent_data_set:0000000000000038 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:836    .text.dac_concurrent_data_set:000000000000003a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:47     .text.dac_deinit:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:79     .text.dac_enable:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:112    .text.dac_disable:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:139    .text.dac_dma_enable:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:167    .text.dac_dma_disable:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:200    .text.dac_output_buffer_enable:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:232    .text.dac_output_buffer_disable:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:269    .text.dac_output_value_get:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:342    .text.dac_data_set:000000000000005c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:374    .text.dac_trigger_enable:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:407    .text.dac_trigger_disable:0000000000000028 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:454    .text.dac_trigger_source_config:0000000000000032 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:485    .text.dac_software_trigger_enable:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:516    .text.dac_software_trigger_disable:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:563    .text.dac_wave_mode_config:0000000000000032 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:612    .text.dac_wave_bit_width_config:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:658    .text.dac_concurrent_enable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:682    .text.dac_concurrent_disable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:704    .text.dac_concurrent_software_trigger_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:726    .text.dac_concurrent_software_trigger_disable:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:750    .text.dac_concurrent_output_buffer_enable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:774    .text.dac_concurrent_output_buffer_disable:0000000000000016 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 32
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:747    .text.dac_concurrent_output_buffer_enable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:754    .text.dac_concurrent_output_buffer_disable:0000000000000000 dac_concurrent_output_buffer_disable
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:757    .text.dac_concurrent_output_buffer_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:758    .text.dac_concurrent_output_buffer_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:760    .text.dac_concurrent_output_buffer_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:761    .text.dac_concurrent_output_buffer_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:762    .text.dac_concurrent_output_buffer_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:763    .text.dac_concurrent_output_buffer_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:770    .text.dac_concurrent_output_buffer_disable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:771    .text.dac_concurrent_output_buffer_disable:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:778    .text.dac_concurrent_data_set:0000000000000000 dac_concurrent_data_set
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:781    .text.dac_concurrent_data_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:783    .text.dac_concurrent_data_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:784    .text.dac_concurrent_data_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:785    .text.dac_concurrent_data_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:793    .text.dac_concurrent_data_set:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:794    .text.dac_concurrent_data_set:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:797    .text.dac_concurrent_data_set:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:800    .text.dac_concurrent_data_set:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:801    .text.dac_concurrent_data_set:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:804    .text.dac_concurrent_data_set:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:808    .text.dac_concurrent_data_set:000000000000001e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:809    .text.dac_concurrent_data_set:000000000000001e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:812    .text.dac_concurrent_data_set:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:815    .text.dac_concurrent_data_set:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:816    .text.dac_concurrent_data_set:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:819    .text.dac_concurrent_data_set:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:823    .text.dac_concurrent_data_set:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:824    .text.dac_concurrent_data_set:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:827    .text.dac_concurrent_data_set:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:830    .text.dac_concurrent_data_set:0000000000000030 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:831    .text.dac_concurrent_data_set:0000000000000030 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:834    .text.dac_concurrent_data_set:0000000000000038 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:835    .text.dac_concurrent_data_set:0000000000000038 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:836    .text.dac_concurrent_data_set:000000000000003a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:47     .text.dac_deinit:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:79     .text.dac_enable:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:112    .text.dac_disable:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:139    .text.dac_dma_enable:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:167    .text.dac_dma_disable:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:200    .text.dac_output_buffer_enable:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:232    .text.dac_output_buffer_disable:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:269    .text.dac_output_value_get:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:342    .text.dac_data_set:000000000000005c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:374    .text.dac_trigger_enable:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:407    .text.dac_trigger_disable:0000000000000028 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:454    .text.dac_trigger_source_config:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:485    .text.dac_software_trigger_enable:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:516    .text.dac_software_trigger_disable:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:563    .text.dac_wave_mode_config:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:612    .text.dac_wave_bit_width_config:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:658    .text.dac_concurrent_enable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:682    .text.dac_concurrent_disable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:704    .text.dac_concurrent_software_trigger_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:726    .text.dac_concurrent_software_trigger_disable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:750    .text.dac_concurrent_output_buffer_enable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:774    .text.dac_concurrent_output_buffer_disable:0000000000000016 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 32
 
 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:839    .text.dac_concurrent_data_set:000000000000003a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:839    .text.dac_concurrent_data_set:000000000000003a .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:70     .text.dac_enable:0000000000000014 .L4
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:65     .text.dac_enable:000000000000000e .L6
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:98     .text.dac_disable:0000000000000012 .L8
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:131    .text.dac_dma_enable:0000000000000010 .L13
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:158    .text.dac_dma_disable:0000000000000010 .L17
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:186    .text.dac_output_buffer_enable:0000000000000012 .L19
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:223    .text.dac_output_buffer_disable:0000000000000014 .L22
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:218    .text.dac_output_buffer_disable:000000000000000e .L24
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:260    .text.dac_output_value_get:0000000000000010 .L26
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:251    .text.dac_output_value_get:000000000000000a .L28
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:310    .text.dac_data_set:0000000000000030 .L30
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:296    .text.dac_data_set:000000000000001c .L31
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:289    .text.dac_data_set:0000000000000012 .L32
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:303    .text.dac_data_set:0000000000000026 .L33
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:324    .text.dac_data_set:0000000000000048 .L35
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:317    .text.dac_data_set:000000000000003e .L36
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:331    .text.dac_data_set:0000000000000052 .L37
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:365    .text.dac_trigger_enable:0000000000000014 .L39
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:360    .text.dac_trigger_enable:000000000000000e .L41
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:393    .text.dac_trigger_disable:0000000000000012 .L43
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:437    .text.dac_trigger_source_config:000000000000001e .L46
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:430    .text.dac_trigger_source_config:0000000000000016 .L48
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:477    .text.dac_software_trigger_enable:0000000000000014 .L50
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:472    .text.dac_software_trigger_enable:000000000000000e .L52
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:508    .text.dac_software_trigger_disable:0000000000000012 .L54
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:503    .text.dac_software_trigger_disable:000000000000000c .L56
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:546    .text.dac_wave_mode_config:000000000000001e .L58
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:539    .text.dac_wave_mode_config:0000000000000016 .L60
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:595    .text.dac_wave_bit_width_config:0000000000000022 .L62
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:588    .text.dac_wave_bit_width_config:000000000000001a .L64
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:806    .text.dac_concurrent_data_set:000000000000001e .L74
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:791    .text.dac_concurrent_data_set:0000000000000010 .L75
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:821    .text.dac_concurrent_data_set:000000000000002c .L76
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:1702   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2453   .debug_str:000000000000000e .LASF82
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2493   .debug_str:00000000000001d4 .LASF83
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2557   .debug_str:00000000000003ef .LASF84
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2399   .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2449   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2539   .debug_str:0000000000000352 .LASF0
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2527   .debug_str:0000000000000302 .LASF1
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2513   .debug_str:0000000000000291 .LASF2
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2467   .debug_str:00000000000000e2 .LASF3
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2483   .debug_str:0000000000000175 .LASF6
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2547   .debug_str:0000000000000381 .LASF4
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2501   .debug_str:0000000000000241 .LASF5
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2463   .debug_str:00000000000000c9 .LASF7
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2571   .debug_str:0000000000000491 .LASF8
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2499   .debug_str:0000000000000233 .LASF9
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2531   .debug_str:0000000000000319 .LASF10
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2541   .debug_str:000000000000035f .LASF11
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2535   .debug_str:000000000000033d .LASF12
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2563   .debug_str:0000000000000458 .LASF85
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2455   .debug_str:0000000000000096 .LASF13
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2555   .debug_str:00000000000003e1 .LASF14
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 33
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:70     .text.dac_enable:0000000000000014 .L4
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:65     .text.dac_enable:000000000000000e .L6
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:98     .text.dac_disable:0000000000000012 .L8
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:131    .text.dac_dma_enable:0000000000000010 .L13
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:158    .text.dac_dma_disable:0000000000000010 .L17
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:186    .text.dac_output_buffer_enable:0000000000000012 .L19
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:223    .text.dac_output_buffer_disable:0000000000000014 .L22
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:218    .text.dac_output_buffer_disable:000000000000000e .L24
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:260    .text.dac_output_value_get:0000000000000010 .L26
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:251    .text.dac_output_value_get:000000000000000a .L28
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:310    .text.dac_data_set:0000000000000030 .L30
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:296    .text.dac_data_set:000000000000001c .L31
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:289    .text.dac_data_set:0000000000000012 .L32
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:303    .text.dac_data_set:0000000000000026 .L33
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:324    .text.dac_data_set:0000000000000048 .L35
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:317    .text.dac_data_set:000000000000003e .L36
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:331    .text.dac_data_set:0000000000000052 .L37
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:365    .text.dac_trigger_enable:0000000000000014 .L39
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:360    .text.dac_trigger_enable:000000000000000e .L41
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:393    .text.dac_trigger_disable:0000000000000012 .L43
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:437    .text.dac_trigger_source_config:000000000000001e .L46
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:430    .text.dac_trigger_source_config:0000000000000016 .L48
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:477    .text.dac_software_trigger_enable:0000000000000014 .L50
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:472    .text.dac_software_trigger_enable:000000000000000e .L52
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:508    .text.dac_software_trigger_disable:0000000000000012 .L54
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:503    .text.dac_software_trigger_disable:000000000000000c .L56
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:546    .text.dac_wave_mode_config:000000000000001e .L58
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:539    .text.dac_wave_mode_config:0000000000000016 .L60
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:595    .text.dac_wave_bit_width_config:0000000000000022 .L62
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:588    .text.dac_wave_bit_width_config:000000000000001a .L64
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:806    .text.dac_concurrent_data_set:000000000000001e .L74
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:791    .text.dac_concurrent_data_set:0000000000000010 .L75
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:821    .text.dac_concurrent_data_set:000000000000002c .L76
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:1702   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2453   .debug_str:000000000000000e .LASF82
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2493   .debug_str:00000000000001d4 .LASF83
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2557   .debug_str:00000000000003ef .LASF84
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2399   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2449   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2539   .debug_str:0000000000000352 .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2527   .debug_str:0000000000000302 .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2513   .debug_str:0000000000000291 .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2467   .debug_str:00000000000000e2 .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2483   .debug_str:0000000000000175 .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2547   .debug_str:0000000000000381 .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2501   .debug_str:0000000000000241 .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2463   .debug_str:00000000000000c9 .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2571   .debug_str:0000000000000491 .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2499   .debug_str:0000000000000233 .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2531   .debug_str:0000000000000319 .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2541   .debug_str:000000000000035f .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2535   .debug_str:000000000000033d .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2563   .debug_str:0000000000000458 .LASF85
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2455   .debug_str:0000000000000096 .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2555   .debug_str:00000000000003e1 .LASF14
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 33
 
 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2599   .debug_str:000000000000056b .LASF15
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2481   .debug_str:0000000000000167 .LASF16
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2509   .debug_str:000000000000026a .LASF17
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2561   .debug_str:000000000000044a .LASF18
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2609   .debug_str:00000000000005a9 .LASF19
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2623   .debug_str:0000000000000642 .LASF20
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2475   .debug_str:0000000000000137 .LASF21
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2503   .debug_str:000000000000024a .LASF22
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2567   .debug_str:000000000000046d .LASF23
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2621   .debug_str:0000000000000634 .LASF24
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2579   .debug_str:00000000000004df .LASF25
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2457   .debug_str:00000000000000a3 .LASF26
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2585   .debug_str:0000000000000503 .LASF27
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2581   .debug_str:00000000000004ec .LASF28
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2461   .debug_str:00000000000000bd .LASF29
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2497   .debug_str:0000000000000227 .LASF30
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2471   .debug_str:0000000000000106 .LASF31
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2583   .debug_str:00000000000004f8 .LASF32
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2529   .debug_str:000000000000030e .LASF33
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2521   .debug_str:00000000000002cc .LASF34
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2533   .debug_str:0000000000000330 .LASF35
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2575   .debug_str:00000000000004bd .LASF36
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2459   .debug_str:00000000000000b0 .LASF37
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2495   .debug_str:000000000000021a .LASF38
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2543   .debug_str:0000000000000368 .LASF39
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2545   .debug_str:0000000000000375 .LASF40
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2589   .debug_str:0000000000000529 .LASF41
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2451   .debug_str:0000000000000000 .LASF42
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2595   .debug_str:000000000000054a .LASF43
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2515   .debug_str:000000000000029f .LASF44
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2517   .debug_str:00000000000002ad .LASF45
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2487   .debug_str:00000000000001a7 .LASF49
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:779    .text.dac_concurrent_data_set:0000000000000000 .LFB26
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:837    .text.dac_concurrent_data_set:000000000000003a .LFE26
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2505   .debug_str:0000000000000256 .LASF46
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2601   .debug_str:0000000000000579 .LASF47
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2603   .debug_str:000000000000057f .LASF48
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2141   .debug_loc:0000000000000000 .LLST6
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2565   .debug_str:0000000000000468 .LASF51
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2177   .debug_loc:0000000000000053 .LLST7
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2473   .debug_str:0000000000000112 .LASF50
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:755    .text.dac_concurrent_output_buffer_disable:0000000000000000 .LFB25
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:772    .text.dac_concurrent_output_buffer_disable:0000000000000016 .LFE25
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2611   .debug_str:00000000000005b7 .LASF52
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:731    .text.dac_concurrent_output_buffer_enable:0000000000000000 .LFB24
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:748    .text.dac_concurrent_output_buffer_enable:0000000000000014 .LFE24
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2615   .debug_str:00000000000005eb .LASF53
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:709    .text.dac_concurrent_software_trigger_disable:0000000000000000 .LFB23
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:724    .text.dac_concurrent_software_trigger_disable:0000000000000010 .LFE23
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2485   .debug_str:0000000000000180 .LASF54
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:687    .text.dac_concurrent_software_trigger_enable:0000000000000000 .LFB22
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:702    .text.dac_concurrent_software_trigger_enable:0000000000000012 .LFE22
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2553   .debug_str:00000000000003ca .LASF55
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:663    .text.dac_concurrent_disable:0000000000000000 .LFB21
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:680    .text.dac_concurrent_disable:0000000000000014 .LFE21
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2559   .debug_str:0000000000000434 .LASF56
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:639    .text.dac_concurrent_enable:0000000000000000 .LFB20
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 34
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2599   .debug_str:000000000000056b .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2481   .debug_str:0000000000000167 .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2509   .debug_str:000000000000026a .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2561   .debug_str:000000000000044a .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2609   .debug_str:00000000000005a9 .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2623   .debug_str:0000000000000642 .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2475   .debug_str:0000000000000137 .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2503   .debug_str:000000000000024a .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2567   .debug_str:000000000000046d .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2621   .debug_str:0000000000000634 .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2579   .debug_str:00000000000004df .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2457   .debug_str:00000000000000a3 .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2585   .debug_str:0000000000000503 .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2581   .debug_str:00000000000004ec .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2461   .debug_str:00000000000000bd .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2497   .debug_str:0000000000000227 .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2471   .debug_str:0000000000000106 .LASF31
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2583   .debug_str:00000000000004f8 .LASF32
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2529   .debug_str:000000000000030e .LASF33
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2521   .debug_str:00000000000002cc .LASF34
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2533   .debug_str:0000000000000330 .LASF35
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2575   .debug_str:00000000000004bd .LASF36
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2459   .debug_str:00000000000000b0 .LASF37
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2495   .debug_str:000000000000021a .LASF38
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2543   .debug_str:0000000000000368 .LASF39
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2545   .debug_str:0000000000000375 .LASF40
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2589   .debug_str:0000000000000529 .LASF41
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2451   .debug_str:0000000000000000 .LASF42
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2595   .debug_str:000000000000054a .LASF43
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2515   .debug_str:000000000000029f .LASF44
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2517   .debug_str:00000000000002ad .LASF45
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2487   .debug_str:00000000000001a7 .LASF49
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:779    .text.dac_concurrent_data_set:0000000000000000 .LFB26
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:837    .text.dac_concurrent_data_set:000000000000003a .LFE26
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2505   .debug_str:0000000000000256 .LASF46
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2601   .debug_str:0000000000000579 .LASF47
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2603   .debug_str:000000000000057f .LASF48
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2141   .debug_loc:0000000000000000 .LLST6
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2565   .debug_str:0000000000000468 .LASF51
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2177   .debug_loc:0000000000000053 .LLST7
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2473   .debug_str:0000000000000112 .LASF50
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:755    .text.dac_concurrent_output_buffer_disable:0000000000000000 .LFB25
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:772    .text.dac_concurrent_output_buffer_disable:0000000000000016 .LFE25
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2611   .debug_str:00000000000005b7 .LASF52
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:731    .text.dac_concurrent_output_buffer_enable:0000000000000000 .LFB24
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:748    .text.dac_concurrent_output_buffer_enable:0000000000000014 .LFE24
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2615   .debug_str:00000000000005eb .LASF53
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:709    .text.dac_concurrent_software_trigger_disable:0000000000000000 .LFB23
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:724    .text.dac_concurrent_software_trigger_disable:0000000000000010 .LFE23
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2485   .debug_str:0000000000000180 .LASF54
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:687    .text.dac_concurrent_software_trigger_enable:0000000000000000 .LFB22
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:702    .text.dac_concurrent_software_trigger_enable:0000000000000012 .LFE22
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2553   .debug_str:00000000000003ca .LASF55
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:663    .text.dac_concurrent_disable:0000000000000000 .LFB21
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:680    .text.dac_concurrent_disable:0000000000000014 .LFE21
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2559   .debug_str:0000000000000434 .LASF56
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:639    .text.dac_concurrent_enable:0000000000000000 .LFB20
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 34
 
 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:656    .text.dac_concurrent_enable:0000000000000014 .LFE20
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2587   .debug_str:000000000000050f .LASF59
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2491   .debug_str:00000000000001c9 .LASF57
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2507   .debug_str:0000000000000260 .LASF58
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2569   .debug_str:000000000000047b .LASF60
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2605   .debug_str:0000000000000585 .LASF61
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2551   .debug_str:00000000000003b0 .LASF62
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:568    .text.dac_wave_bit_width_config:0000000000000000 .LFB17
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:610    .text.dac_wave_bit_width_config:0000000000000036 .LFE17
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2489   .debug_str:00000000000001bf .LASF63
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2207   .debug_loc:00000000000000a0 .LLST5
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2577   .debug_str:00000000000004ca .LASF64
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:521    .text.dac_wave_mode_config:0000000000000000 .LFB16
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:561    .text.dac_wave_mode_config:0000000000000032 .LFE16
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2593   .debug_str:0000000000000540 .LASF65
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2232   .debug_loc:00000000000000da .LLST4
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2525   .debug_str:00000000000002e5 .LASF66
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:490    .text.dac_software_trigger_disable:0000000000000000 .LFB15
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:514    .text.dac_software_trigger_disable:0000000000000016 .LFE15
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2549   .debug_str:0000000000000394 .LASF67
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:459    .text.dac_software_trigger_enable:0000000000000000 .LFB14
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:483    .text.dac_software_trigger_enable:000000000000001a .LFE14
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2573   .debug_str:00000000000004a3 .LASF68
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:412    .text.dac_trigger_source_config:0000000000000000 .LFB13
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:452    .text.dac_trigger_source_config:0000000000000032 .LFE13
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2465   .debug_str:00000000000000d4 .LASF69
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2257   .debug_loc:0000000000000114 .LLST3
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2619   .debug_str:0000000000000620 .LASF70
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:379    .text.dac_trigger_disable:0000000000000000 .LFB12
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:405    .text.dac_trigger_disable:0000000000000028 .LFE12
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2519   .debug_str:00000000000002b9 .LASF71
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:347    .text.dac_trigger_enable:0000000000000000 .LFB11
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:372    .text.dac_trigger_enable:000000000000001c .LFE11
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2617   .debug_str:0000000000000613 .LASF72
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:274    .text.dac_data_set:0000000000000000 .LFB10
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:340    .text.dac_data_set:000000000000005c .LFE10
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2597   .debug_str:0000000000000556 .LASF86
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:237    .text.dac_output_value_get:0000000000000000 .LFB9
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:267    .text.dac_output_value_get:0000000000000016 .LFE9
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2282   .debug_loc:000000000000014e .LLST1
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2307   .debug_loc:0000000000000188 .LLST2
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2469   .debug_str:00000000000000ec .LASF73
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:205    .text.dac_output_buffer_disable:0000000000000000 .LFB8
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:230    .text.dac_output_buffer_disable:000000000000001c .LFE8
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2511   .debug_str:0000000000000278 .LASF74
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:172    .text.dac_output_buffer_enable:0000000000000000 .LFB7
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:198    .text.dac_output_buffer_enable:0000000000000026 .LFE7
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2613   .debug_str:00000000000005db .LASF75
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:144    .text.dac_dma_disable:0000000000000000 .LFB6
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:165    .text.dac_dma_disable:000000000000001a .LFE6
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2523   .debug_str:00000000000002d6 .LASF76
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:117    .text.dac_dma_enable:0000000000000000 .LFB5
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:137    .text.dac_dma_enable:0000000000000018 .LFE5
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2537   .debug_str:0000000000000346 .LASF77
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:84     .text.dac_disable:0000000000000000 .LFB4
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:110    .text.dac_disable:0000000000000026 .LFE4
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2591   .debug_str:0000000000000535 .LASF78
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s 			page 35
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:656    .text.dac_concurrent_enable:0000000000000014 .LFE20
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2587   .debug_str:000000000000050f .LASF59
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2491   .debug_str:00000000000001c9 .LASF57
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2507   .debug_str:0000000000000260 .LASF58
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2569   .debug_str:000000000000047b .LASF60
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2605   .debug_str:0000000000000585 .LASF61
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2551   .debug_str:00000000000003b0 .LASF62
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:568    .text.dac_wave_bit_width_config:0000000000000000 .LFB17
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:610    .text.dac_wave_bit_width_config:0000000000000036 .LFE17
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2489   .debug_str:00000000000001bf .LASF63
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2207   .debug_loc:00000000000000a0 .LLST5
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2577   .debug_str:00000000000004ca .LASF64
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:521    .text.dac_wave_mode_config:0000000000000000 .LFB16
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:561    .text.dac_wave_mode_config:0000000000000032 .LFE16
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2593   .debug_str:0000000000000540 .LASF65
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2232   .debug_loc:00000000000000da .LLST4
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2525   .debug_str:00000000000002e5 .LASF66
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:490    .text.dac_software_trigger_disable:0000000000000000 .LFB15
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:514    .text.dac_software_trigger_disable:0000000000000016 .LFE15
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2549   .debug_str:0000000000000394 .LASF67
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:459    .text.dac_software_trigger_enable:0000000000000000 .LFB14
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:483    .text.dac_software_trigger_enable:000000000000001a .LFE14
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2573   .debug_str:00000000000004a3 .LASF68
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:412    .text.dac_trigger_source_config:0000000000000000 .LFB13
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:452    .text.dac_trigger_source_config:0000000000000032 .LFE13
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2465   .debug_str:00000000000000d4 .LASF69
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2257   .debug_loc:0000000000000114 .LLST3
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2619   .debug_str:0000000000000620 .LASF70
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:379    .text.dac_trigger_disable:0000000000000000 .LFB12
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:405    .text.dac_trigger_disable:0000000000000028 .LFE12
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2519   .debug_str:00000000000002b9 .LASF71
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:347    .text.dac_trigger_enable:0000000000000000 .LFB11
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:372    .text.dac_trigger_enable:000000000000001c .LFE11
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2617   .debug_str:0000000000000613 .LASF72
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:274    .text.dac_data_set:0000000000000000 .LFB10
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:340    .text.dac_data_set:000000000000005c .LFE10
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2597   .debug_str:0000000000000556 .LASF86
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:237    .text.dac_output_value_get:0000000000000000 .LFB9
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:267    .text.dac_output_value_get:0000000000000016 .LFE9
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2282   .debug_loc:000000000000014e .LLST1
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2307   .debug_loc:0000000000000188 .LLST2
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2469   .debug_str:00000000000000ec .LASF73
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:205    .text.dac_output_buffer_disable:0000000000000000 .LFB8
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:230    .text.dac_output_buffer_disable:000000000000001c .LFE8
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2511   .debug_str:0000000000000278 .LASF74
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:172    .text.dac_output_buffer_enable:0000000000000000 .LFB7
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:198    .text.dac_output_buffer_enable:0000000000000026 .LFE7
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2613   .debug_str:00000000000005db .LASF75
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:144    .text.dac_dma_disable:0000000000000000 .LFB6
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:165    .text.dac_dma_disable:000000000000001a .LFE6
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2523   .debug_str:00000000000002d6 .LASF76
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:117    .text.dac_dma_enable:0000000000000000 .LFB5
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:137    .text.dac_dma_enable:0000000000000018 .LFE5
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2537   .debug_str:0000000000000346 .LASF77
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:84     .text.dac_disable:0000000000000000 .LFB4
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:110    .text.dac_disable:0000000000000026 .LFE4
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2591   .debug_str:0000000000000535 .LASF78
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s 			page 35
 
 
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:52     .text.dac_enable:0000000000000000 .LFB3
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:77     .text.dac_enable:000000000000001a .LFE3
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2479   .debug_str:000000000000015c .LASF79
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:14     .text.dac_deinit:0000000000000000 .LFB2
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:45     .text.dac_deinit:0000000000000020 .LFE2
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2324   .debug_loc:00000000000001b3 .LLST0
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:30     .text.dac_deinit:0000000000000010 .LVL0
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:43     .text.dac_deinit:0000000000000020 .LVL1
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2607   .debug_str:0000000000000591 .LASF80
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:2477   .debug_str:0000000000000143 .LASF81
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:782    .text.dac_concurrent_data_set:0000000000000000 .LVL36
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:795    .text.dac_concurrent_data_set:0000000000000012 .LVL37
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:805    .text.dac_concurrent_data_set:000000000000001e .LVL39
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:810    .text.dac_concurrent_data_set:0000000000000020 .LVL40
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:820    .text.dac_concurrent_data_set:000000000000002c .LVL42
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:825    .text.dac_concurrent_data_set:000000000000002e .LVL43
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:798    .text.dac_concurrent_data_set:0000000000000014 .LVL38
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:813    .text.dac_concurrent_data_set:0000000000000022 .LVL41
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:828    .text.dac_concurrent_data_set:0000000000000030 .LVL44
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:571    .text.dac_wave_bit_width_config:0000000000000000 .LVL26
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:587    .text.dac_wave_bit_width_config:000000000000001a .LVL27
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:594    .text.dac_wave_bit_width_config:0000000000000022 .LVL28
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:607    .text.dac_wave_bit_width_config:0000000000000034 .LVL29
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:524    .text.dac_wave_mode_config:0000000000000000 .LVL22
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:538    .text.dac_wave_mode_config:0000000000000016 .LVL23
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:545    .text.dac_wave_mode_config:000000000000001e .LVL24
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:558    .text.dac_wave_mode_config:0000000000000030 .LVL25
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:415    .text.dac_trigger_source_config:0000000000000000 .LVL16
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:429    .text.dac_trigger_source_config:0000000000000016 .LVL17
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:436    .text.dac_trigger_source_config:000000000000001e .LVL18
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:449    .text.dac_trigger_source_config:0000000000000030 .LVL19
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:240    .text.dac_output_value_get:0000000000000000 .LVL8
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:250    .text.dac_output_value_get:000000000000000a .LVL9
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:259    .text.dac_output_value_get:0000000000000010 .LVL11
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:264    .text.dac_output_value_get:0000000000000014 .LVL12
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:255    .text.dac_output_value_get:000000000000000e .LVL10
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:21     .text.dac_deinit:0000000000000002 .LCFI0
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:39     .text.dac_deinit:0000000000000018 .LCFI1
-C:\Users\kasie\AppData\Local\Temp\cc7PKnZa.s:846    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:52     .text.dac_enable:0000000000000000 .LFB3
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:77     .text.dac_enable:000000000000001a .LFE3
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2479   .debug_str:000000000000015c .LASF79
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:14     .text.dac_deinit:0000000000000000 .LFB2
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:45     .text.dac_deinit:0000000000000020 .LFE2
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2324   .debug_loc:00000000000001b3 .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:30     .text.dac_deinit:0000000000000010 .LVL0
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:43     .text.dac_deinit:0000000000000020 .LVL1
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2607   .debug_str:0000000000000591 .LASF80
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:2477   .debug_str:0000000000000143 .LASF81
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:782    .text.dac_concurrent_data_set:0000000000000000 .LVL36
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:795    .text.dac_concurrent_data_set:0000000000000012 .LVL37
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:805    .text.dac_concurrent_data_set:000000000000001e .LVL39
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:810    .text.dac_concurrent_data_set:0000000000000020 .LVL40
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:820    .text.dac_concurrent_data_set:000000000000002c .LVL42
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:825    .text.dac_concurrent_data_set:000000000000002e .LVL43
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:798    .text.dac_concurrent_data_set:0000000000000014 .LVL38
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:813    .text.dac_concurrent_data_set:0000000000000022 .LVL41
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:828    .text.dac_concurrent_data_set:0000000000000030 .LVL44
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:571    .text.dac_wave_bit_width_config:0000000000000000 .LVL26
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:587    .text.dac_wave_bit_width_config:000000000000001a .LVL27
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:594    .text.dac_wave_bit_width_config:0000000000000022 .LVL28
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:607    .text.dac_wave_bit_width_config:0000000000000034 .LVL29
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:524    .text.dac_wave_mode_config:0000000000000000 .LVL22
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:538    .text.dac_wave_mode_config:0000000000000016 .LVL23
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:545    .text.dac_wave_mode_config:000000000000001e .LVL24
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:558    .text.dac_wave_mode_config:0000000000000030 .LVL25
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:415    .text.dac_trigger_source_config:0000000000000000 .LVL16
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:429    .text.dac_trigger_source_config:0000000000000016 .LVL17
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:436    .text.dac_trigger_source_config:000000000000001e .LVL18
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:449    .text.dac_trigger_source_config:0000000000000030 .LVL19
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:240    .text.dac_output_value_get:0000000000000000 .LVL8
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:250    .text.dac_output_value_get:000000000000000a .LVL9
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:259    .text.dac_output_value_get:0000000000000010 .LVL11
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:264    .text.dac_output_value_get:0000000000000014 .LVL12
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:255    .text.dac_output_value_get:000000000000000e .LVL10
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:21     .text.dac_deinit:0000000000000002 .LCFI0
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:39     .text.dac_deinit:0000000000000018 .LCFI1
+C:\Users\kasie\AppData\Local\Temp\ccaqfBQA.s:846    .debug_info:0000000000000000 .Ldebug_info0
 
 UNDEFINED SYMBOLS
 rcu_periph_reset_enable

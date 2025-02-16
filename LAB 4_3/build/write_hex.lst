@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s 			page 1
 
 
    1              		.file	"write_hex.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s 			page 1
   43              		.cfi_offset 9, -12
   44              		.cfi_offset 18, -16
   45              		.cfi_offset 20, -24
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s 			page 2
 
 
   46              		.cfi_offset 21, -28
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s 			page 1
   86              		.loc 1 16 5 discriminator 2
   87 004a 0546     		li	a2,1
   88 004c 9305F100 		addi	a1,sp,15
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s 			page 3
 
 
   89 0050 4A85     		mv	a0,s2
@@ -178,138 +178,138 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s 			page 1
  138 0000 307800   		.string	"0x"
  139              		.text
  140              	.Letext0:
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s 			page 4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s 			page 4
 
 
  141              		.file 2 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
  142              		.file 3 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
  143              		.file 4 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s 			page 5
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s 			page 5
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 write_hex.c
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:13     .text.write_hex:0000000000000000 write_hex
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:17     .text.write_hex:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:19     .text.write_hex:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:20     .text.write_hex:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:21     .text.write_hex:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:22     .text.write_hex:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:23     .text.write_hex:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:24     .text.write_hex:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:26     .text.write_hex:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:28     .text.write_hex:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:31     .text.write_hex:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:36     .text.write_hex:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:42     .text.write_hex:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:43     .text.write_hex:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:44     .text.write_hex:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:45     .text.write_hex:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:46     .text.write_hex:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:47     .text.write_hex:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:49     .text.write_hex:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:51     .text.write_hex:000000000000001e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:56     .text.write_hex:0000000000000028 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:57     .text.write_hex:0000000000000028 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:59     .text.write_hex:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:62     .text.write_hex:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:67     .text.write_hex:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:68     .text.write_hex:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:69     .text.write_hex:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:71     .text.write_hex:0000000000000032 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:73     .text.write_hex:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:75     .text.write_hex:000000000000003a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:78     .text.write_hex:000000000000003e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:79     .text.write_hex:000000000000003e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:81     .text.write_hex:0000000000000042 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:85     .text.write_hex:0000000000000046 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:87     .text.write_hex:000000000000004a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:93     .text.write_hex:0000000000000054 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:95     .text.write_hex:0000000000000058 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:99     .text.write_hex:0000000000000060 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:101    .text.write_hex:0000000000000064 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:102    .text.write_hex:0000000000000066 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:103    .text.write_hex:0000000000000066 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:105    .text.write_hex:0000000000000068 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:107    .text.write_hex:000000000000006a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:109    .text.write_hex:000000000000006c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:112    .text.write_hex:000000000000006e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:115    .text.write_hex:0000000000000070 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:117    .text.write_hex:0000000000000072 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:120    .text.write_hex:0000000000000074 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:125    .text.write_hex:0000000000000076 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:128    .text.write_hex:0000000000000076 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:132    .text.write_hex:000000000000007c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:135    .text.write_hex:000000000000007c .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:13     .text.write_hex:0000000000000000 write_hex
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:17     .text.write_hex:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:19     .text.write_hex:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:20     .text.write_hex:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:21     .text.write_hex:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:22     .text.write_hex:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:23     .text.write_hex:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:24     .text.write_hex:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:26     .text.write_hex:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:28     .text.write_hex:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:31     .text.write_hex:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:36     .text.write_hex:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:42     .text.write_hex:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:43     .text.write_hex:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:44     .text.write_hex:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:45     .text.write_hex:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:46     .text.write_hex:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:47     .text.write_hex:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:49     .text.write_hex:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:51     .text.write_hex:000000000000001e .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:56     .text.write_hex:0000000000000028 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:57     .text.write_hex:0000000000000028 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:59     .text.write_hex:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:62     .text.write_hex:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:67     .text.write_hex:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:68     .text.write_hex:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:69     .text.write_hex:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:71     .text.write_hex:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:73     .text.write_hex:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:75     .text.write_hex:000000000000003a .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:78     .text.write_hex:000000000000003e .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:79     .text.write_hex:000000000000003e .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:81     .text.write_hex:0000000000000042 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:85     .text.write_hex:0000000000000046 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:87     .text.write_hex:000000000000004a .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:93     .text.write_hex:0000000000000054 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:95     .text.write_hex:0000000000000058 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:99     .text.write_hex:0000000000000060 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:101    .text.write_hex:0000000000000064 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:102    .text.write_hex:0000000000000066 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:103    .text.write_hex:0000000000000066 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:105    .text.write_hex:0000000000000068 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:107    .text.write_hex:000000000000006a .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:109    .text.write_hex:000000000000006c .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:112    .text.write_hex:000000000000006e .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:115    .text.write_hex:0000000000000070 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:117    .text.write_hex:0000000000000072 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:120    .text.write_hex:0000000000000074 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:125    .text.write_hex:0000000000000076 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:128    .text.write_hex:0000000000000076 .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:132    .text.write_hex:000000000000007c .L0 
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:135    .text.write_hex:000000000000007c .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:137    .rodata.write_hex.str1.4:0000000000000000 .LC0
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:123    .text.write_hex:0000000000000076 .L2
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s 			page 6
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:137    .rodata.write_hex.str1.4:0000000000000000 .LC0
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:123    .text.write_hex:0000000000000076 .L2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s 			page 6
 
 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:64     .text.write_hex:000000000000002e .L4
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:83     .text.write_hex:0000000000000046 .L7
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:385    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:817    .debug_str:000000000000013f .LASF21
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:791    .debug_str:00000000000000a2 .LASF22
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:773    .debug_str:0000000000000000 .LASF23
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:757    .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:771    .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:823    .debug_str:00000000000001dc .LASF0
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:775    .debug_str:0000000000000045 .LASF9
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:783    .debug_str:0000000000000068 .LASF1
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:813    .debug_str:000000000000012d .LASF2
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:789    .debug_str:000000000000008f .LASF3
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:819    .debug_str:00000000000001c7 .LASF4
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:787    .debug_str:000000000000007d .LASF5
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:809    .debug_str:000000000000011a .LASF6
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:803    .debug_str:00000000000000f4 .LASF7
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:797    .debug_str:00000000000000da .LASF8
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:805    .debug_str:000000000000010b .LASF10
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:811    .debug_str:0000000000000128 .LASF11
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:821    .debug_str:00000000000001d0 .LASF12
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:815    .debug_str:0000000000000137 .LASF13
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:799    .debug_str:00000000000000e7 .LASF14
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:785    .debug_str:0000000000000076 .LASF15
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:779    .debug_str:0000000000000057 .LASF16
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:807    .debug_str:0000000000000113 .LASF17
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:793    .debug_str:00000000000000cb .LASF18
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:781    .debug_str:000000000000005e .LASF24
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:14     .text.write_hex:0000000000000000 .LFB0
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:133    .text.write_hex:000000000000007c .LFE0
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:631    .debug_loc:0000000000000000 .LLST0
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:654    .debug_loc:0000000000000038 .LLST1
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:676    .debug_loc:000000000000006f .LLST2
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:698    .debug_loc:00000000000000a6 .LLST3
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:777    .debug_str:000000000000004f .LASF19
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:801    .debug_str:00000000000000ee .LASF20
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:706    .debug_loc:00000000000000ba .LLST4
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:96     .text.write_hex:0000000000000060 .LVL7
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:53     .text.write_hex:0000000000000028 .LVL2
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:795    .debug_str:00000000000000d4 .LASF25
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:25     .text.write_hex:0000000000000002 .LCFI0
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:119    .text.write_hex:0000000000000074 .LCFI1
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:124    .text.write_hex:0000000000000076 .LCFI2
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:18     .text.write_hex:0000000000000000 .LVL0
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:110    .text.write_hex:000000000000006c .LVL8
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:122    .text.write_hex:0000000000000076 .LVL10
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:32     .text.write_hex:000000000000000a .LVL1
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:113    .text.write_hex:000000000000006e .LVL9
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:63     .text.write_hex:000000000000002e .LVL3
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:76     .text.write_hex:000000000000003e .LVL4
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:82     .text.write_hex:0000000000000046 .LVL5
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:91     .text.write_hex:0000000000000054 .LVL6
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:129    .text.write_hex:000000000000007a .LVL11
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:145    .debug_info:0000000000000000 .Ldebug_info0
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:55     .text.write_hex:0000000000000028 .LBB2
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:60     .text.write_hex:000000000000002c .LBE2
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:65     .text.write_hex:000000000000002e .LBB3
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s 			page 7
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:64     .text.write_hex:000000000000002e .L4
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:83     .text.write_hex:0000000000000046 .L7
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:385    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:817    .debug_str:000000000000013f .LASF21
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:791    .debug_str:00000000000000a2 .LASF22
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:773    .debug_str:0000000000000000 .LASF23
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:757    .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:771    .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:823    .debug_str:00000000000001dc .LASF0
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:775    .debug_str:0000000000000045 .LASF9
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:783    .debug_str:0000000000000068 .LASF1
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:813    .debug_str:000000000000012d .LASF2
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:789    .debug_str:000000000000008f .LASF3
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:819    .debug_str:00000000000001c7 .LASF4
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:787    .debug_str:000000000000007d .LASF5
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:809    .debug_str:000000000000011a .LASF6
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:803    .debug_str:00000000000000f4 .LASF7
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:797    .debug_str:00000000000000da .LASF8
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:805    .debug_str:000000000000010b .LASF10
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:811    .debug_str:0000000000000128 .LASF11
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:821    .debug_str:00000000000001d0 .LASF12
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:815    .debug_str:0000000000000137 .LASF13
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:799    .debug_str:00000000000000e7 .LASF14
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:785    .debug_str:0000000000000076 .LASF15
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:779    .debug_str:0000000000000057 .LASF16
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:807    .debug_str:0000000000000113 .LASF17
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:793    .debug_str:00000000000000cb .LASF18
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:781    .debug_str:000000000000005e .LASF24
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:14     .text.write_hex:0000000000000000 .LFB0
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:133    .text.write_hex:000000000000007c .LFE0
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:631    .debug_loc:0000000000000000 .LLST0
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:654    .debug_loc:0000000000000038 .LLST1
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:676    .debug_loc:000000000000006f .LLST2
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:698    .debug_loc:00000000000000a6 .LLST3
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:777    .debug_str:000000000000004f .LASF19
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:801    .debug_str:00000000000000ee .LASF20
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:706    .debug_loc:00000000000000ba .LLST4
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:96     .text.write_hex:0000000000000060 .LVL7
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:53     .text.write_hex:0000000000000028 .LVL2
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:795    .debug_str:00000000000000d4 .LASF25
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:25     .text.write_hex:0000000000000002 .LCFI0
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:119    .text.write_hex:0000000000000074 .LCFI1
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:124    .text.write_hex:0000000000000076 .LCFI2
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:18     .text.write_hex:0000000000000000 .LVL0
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:110    .text.write_hex:000000000000006c .LVL8
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:122    .text.write_hex:0000000000000076 .LVL10
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:32     .text.write_hex:000000000000000a .LVL1
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:113    .text.write_hex:000000000000006e .LVL9
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:63     .text.write_hex:000000000000002e .LVL3
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:76     .text.write_hex:000000000000003e .LVL4
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:82     .text.write_hex:0000000000000046 .LVL5
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:91     .text.write_hex:0000000000000054 .LVL6
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:129    .text.write_hex:000000000000007a .LVL11
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:145    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:55     .text.write_hex:0000000000000028 .LBB2
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:60     .text.write_hex:000000000000002c .LBE2
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:65     .text.write_hex:000000000000002e .LBB3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s 			page 7
 
 
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:97     .text.write_hex:0000000000000060 .LBE3
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:126    .text.write_hex:0000000000000076 .LBB4
-C:\Users\kasie\AppData\Local\Temp\cc6K50q5.s:131    .text.write_hex:000000000000007c .LBE4
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:97     .text.write_hex:0000000000000060 .LBE3
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:126    .text.write_hex:0000000000000076 .LBB4
+C:\Users\kasie\AppData\Local\Temp\cceZDDFi.s:131    .text.write_hex:000000000000007c .LBE4
 
 UNDEFINED SYMBOLS
 write
