@@ -33,28 +33,26 @@ int main(void)
       l88row(colset()); // ...8*8LED and Keyboard
       ms++;             // ...One second heart beat
 
-      yPosition = (potentiometerValue * 80) / 4096;
+      yPosition = (potentiometerValue * 79) / 4096;
 
-      if (ms == speed)
+      if (ms >= speed)
       {
-        array[1] = yPosition; // Insert new data point before shifting
+        array[1] = yPosition; // Insert new y value
 
-        // Process each pixel column from right to left
         int currentX = 159;
         while (currentX >= 0)
         {
           int previousX = currentX - 1;
 
-          // Shift pixel data and update display
-          array[currentX] = array[previousX];                    // Maintains original array underflow when currentX=0
+          array[currentX] = array[previousX];                    // Shift pixel to the right
           LCD_DrawPoint_big(currentX, array[currentX], WHITE);   // Draw new position
           LCD_DrawPoint_big(previousX, array[previousX], BLACK); // Clear old position
 
           currentX--;
         }
 
-        xPosition++; // Maintain original counter (though unused in display)
-        ms = 0;      // Reset timing counter
+        xPosition++;
+        ms = 0;
       }
 
       if ((key = keyscan()) >= 0)
