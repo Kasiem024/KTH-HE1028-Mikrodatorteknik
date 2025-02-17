@@ -1748,116 +1748,116 @@ END GROUP
                 0x00000000080002ac        0x8 build/handlers.o
                                           0x6 (size before relaxing)
  .rodata.asc2_1608
-                0x00000000080002b4      0x650 build/lcd.o
+                0x00000000080002b4      0x630 build/lcd.o
                 0x00000000080002b4                asc2_1608
- *fill*         0x0000000008000904        0x4 
+ *fill*         0x00000000080008e4        0x4 
  .rodata.lcd_delay_1ms.cst8
-                0x0000000008000908        0x8 build/lcd.o
- .rodata.main   0x0000000008000910       0x24 build/main.o
- .rodata        0x0000000008000934       0x3c c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(divdf3.o)
- .rodata        0x0000000008000970       0x3c c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(muldf3.o)
- .rodata        0x00000000080009ac      0x100 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
-                0x00000000080009ac                __clz_tab
+                0x00000000080008e8        0x8 build/lcd.o
+ .rodata.main   0x00000000080008f0       0x24 build/main.o
+ .rodata        0x0000000008000914       0x3c c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(divdf3.o)
+ .rodata        0x0000000008000950       0x3c c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(muldf3.o)
+ .rodata        0x000000000800098c      0x100 c:/hukas/code/repositories/toolchain-gd32v-v202-win/compiler/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32imac/ilp32\libgcc.a(_clz.o)
+                0x000000000800098c                __clz_tab
  *(.text.unlikely .text.unlikely.*)
  *(.text.startup .text.startup.*)
  .text.startup.main
-                0x0000000008000aac       0xd0 build/main.o
-                0x0000000008000aac                main
+                0x0000000008000a8c       0xd0 build/main.o
+                0x0000000008000a8c                main
  *(.text .text.*)
  .text.gpio_init
-                0x0000000008000b7c       0xa4 build/gd32vf103_gpio.o
-                0x0000000008000b7c                gpio_init
+                0x0000000008000b5c       0xa4 build/gd32vf103_gpio.o
+                0x0000000008000b5c                gpio_init
  .text.gpio_bit_set
-                0x0000000008000c20        0x4 build/gd32vf103_gpio.o
-                0x0000000008000c20                gpio_bit_set
+                0x0000000008000c00        0x4 build/gd32vf103_gpio.o
+                0x0000000008000c00                gpio_bit_set
  .text.gpio_bit_reset
-                0x0000000008000c24        0x4 build/gd32vf103_gpio.o
-                0x0000000008000c24                gpio_bit_reset
+                0x0000000008000c04        0x4 build/gd32vf103_gpio.o
+                0x0000000008000c04                gpio_bit_reset
  .text.rcu_periph_clock_enable
-                0x0000000008000c28       0x18 build/gd32vf103_rcu.o
-                0x0000000008000c28                rcu_periph_clock_enable
+                0x0000000008000c08       0x18 build/gd32vf103_rcu.o
+                0x0000000008000c08                rcu_periph_clock_enable
  .text.spi_struct_para_init
-                0x0000000008000c40       0x1a build/gd32vf103_spi.o
-                0x0000000008000c40                spi_struct_para_init
+                0x0000000008000c20       0x1a build/gd32vf103_spi.o
+                0x0000000008000c20                spi_struct_para_init
  .text.spi_init
-                0x0000000008000c5a       0x36 build/gd32vf103_spi.o
-                0x0000000008000c5a                spi_init
+                0x0000000008000c3a       0x36 build/gd32vf103_spi.o
+                0x0000000008000c3a                spi_init
  .text.spi_enable
-                0x0000000008000c90        0xa build/gd32vf103_spi.o
-                0x0000000008000c90                spi_enable
+                0x0000000008000c70        0xa build/gd32vf103_spi.o
+                0x0000000008000c70                spi_enable
  .text.spi_i2s_data_transmit
-                0x0000000008000c9a        0x4 build/gd32vf103_spi.o
-                0x0000000008000c9a                spi_i2s_data_transmit
+                0x0000000008000c7a        0x4 build/gd32vf103_spi.o
+                0x0000000008000c7a                spi_i2s_data_transmit
  .text.spi_crc_polynomial_set
-                0x0000000008000c9e        0xc build/gd32vf103_spi.o
-                0x0000000008000c9e                spi_crc_polynomial_set
+                0x0000000008000c7e        0xc build/gd32vf103_spi.o
+                0x0000000008000c7e                spi_crc_polynomial_set
  .text.spi_i2s_flag_get
-                0x0000000008000caa        0xa build/gd32vf103_spi.o
-                0x0000000008000caa                spi_i2s_flag_get
+                0x0000000008000c8a        0xa build/gd32vf103_spi.o
+                0x0000000008000c8a                spi_i2s_flag_get
  .text.SystemInit
-                0x0000000008000cb4      0x11c build/system_gd32vf103.o
-                0x0000000008000cb4                SystemInit
- .text._exit    0x0000000008000dd0       0x4c build/_exit.o
-                0x0000000008000dd0                _exit
+                0x0000000008000c94      0x11c build/system_gd32vf103.o
+                0x0000000008000c94                SystemInit
+ .text._exit    0x0000000008000db0       0x4c build/_exit.o
+                0x0000000008000db0                _exit
  .text.write_hex
-                0x0000000008000e1c       0x7c build/write_hex.o
-                0x0000000008000e1c                write_hex
+                0x0000000008000dfc       0x7c build/write_hex.o
+                0x0000000008000dfc                write_hex
  .text.get_timer_value
-                0x0000000008000e98       0x10 build/n200_func.o
-                0x0000000008000e98                get_timer_value
+                0x0000000008000e78       0x10 build/n200_func.o
+                0x0000000008000e78                get_timer_value
  .text.eclic_init
-                0x0000000008000ea8       0x22 build/n200_func.o
-                0x0000000008000ea8                eclic_init
+                0x0000000008000e88       0x22 build/n200_func.o
+                0x0000000008000e88                eclic_init
  .text.eclic_mode_enable
-                0x0000000008000eca       0x12 build/n200_func.o
-                0x0000000008000eca                eclic_mode_enable
+                0x0000000008000eaa       0x12 build/n200_func.o
+                0x0000000008000eaa                eclic_mode_enable
  .text.handle_nmi
-                0x0000000008000edc       0x22 build/handlers.o
-                0x0000000008000edc                handle_nmi
+                0x0000000008000ebc       0x22 build/handlers.o
+                0x0000000008000ebc                handle_nmi
  .text.handle_trap
-                0x0000000008000efe       0x38 build/handlers.o
-                0x0000000008000efe                handle_trap
- .text._init    0x0000000008000f36       0x2c build/init.o
-                0x0000000008000f36                _init
- .text._fini    0x0000000008000f62        0x2 build/init.o
-                0x0000000008000f62                _fini
+                0x0000000008000ede       0x38 build/handlers.o
+                0x0000000008000ede                handle_trap
+ .text._init    0x0000000008000f16       0x2c build/init.o
+                0x0000000008000f16                _init
+ .text._fini    0x0000000008000f42        0x2 build/init.o
+                0x0000000008000f42                _fini
  .text.lcd_delay_1ms
-                0x0000000008000f64       0xce build/lcd.o
-                0x0000000008000f64                lcd_delay_1ms
+                0x0000000008000f44       0xce build/lcd.o
+                0x0000000008000f44                lcd_delay_1ms
  .text.LCD_WR_Queue
-                0x0000000008001032       0xc2 build/lcd.o
-                0x0000000008001032                LCD_WR_Queue
+                0x0000000008001012       0xc2 build/lcd.o
+                0x0000000008001012                LCD_WR_Queue
  .text.LCD_Wait_On_Queue
-                0x00000000080010f4       0x30 build/lcd.o
-                0x00000000080010f4                LCD_Wait_On_Queue
+                0x00000000080010d4       0x30 build/lcd.o
+                0x00000000080010d4                LCD_Wait_On_Queue
  .text.LCD_Write_Bus
-                0x0000000008001124       0x58 build/lcd.o
-                0x0000000008001124                LCD_Write_Bus
+                0x0000000008001104       0x58 build/lcd.o
+                0x0000000008001104                LCD_Write_Bus
  .text.LCD_WR_DATA
-                0x000000000800117c       0x2c build/lcd.o
-                0x000000000800117c                LCD_WR_DATA
+                0x000000000800115c       0x2c build/lcd.o
+                0x000000000800115c                LCD_WR_DATA
  .text.LCD_Address_Set
-                0x00000000080011a8       0x82 build/lcd.o
-                0x00000000080011a8                LCD_Address_Set
+                0x0000000008001188       0x82 build/lcd.o
+                0x0000000008001188                LCD_Address_Set
  .text.spi_config
-                0x000000000800122a       0x6c build/lcd.o
-                0x000000000800122a                spi_config
+                0x000000000800120a       0x6c build/lcd.o
+                0x000000000800120a                spi_config
  .text.Lcd_SetType
-                0x0000000008001296       0x26 build/lcd.o
-                0x0000000008001296                Lcd_SetType
+                0x0000000008001276       0x26 build/lcd.o
+                0x0000000008001276                Lcd_SetType
  .text.Lcd_Init
-                0x00000000080012bc      0x464 build/lcd.o
-                0x00000000080012bc                Lcd_Init
+                0x000000000800129c      0x464 build/lcd.o
+                0x000000000800129c                Lcd_Init
  .text.LCD_Clear
-                0x0000000008001720       0x46 build/lcd.o
-                0x0000000008001720                LCD_Clear
+                0x0000000008001700       0x46 build/lcd.o
+                0x0000000008001700                LCD_Clear
  .text.LCD_DrawPoint
-                0x0000000008001766       0x24 build/lcd.o
-                0x0000000008001766                LCD_DrawPoint
+                0x0000000008001746       0x24 build/lcd.o
+                0x0000000008001746                LCD_DrawPoint
  .text.LCD_ShowChar
-                0x000000000800178a       0xde build/lcd.o
-                0x000000000800178a                LCD_ShowChar
- *fill*         0x0000000008001868       0x18 
+                0x000000000800176a       0xde build/lcd.o
+                0x000000000800176a                LCD_ShowChar
+ *fill*         0x0000000008001848       0x38 
  .text.trap     0x0000000008001880       0x82 build/entry.o
                 0x0000000008001880                trap_entry
  *fill*         0x0000000008001902        0x2 

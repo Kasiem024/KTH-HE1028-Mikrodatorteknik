@@ -1,0 +1,586 @@
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s 			page 1
+
+
+   1              		.file	"main.c"
+   2              		.option nopic
+   3              		.attribute arch, "rv32i2p0_m2p0_a2p0_c2p0"
+   4              		.attribute unaligned_access, 0
+   5              		.attribute stack_align, 16
+   6              		.text
+   7              	.Ltext0:
+   8              		.cfi_sections	.debug_frame
+   9              		.section	.text.startup.main,"ax",@progbits
+  10              		.align	1
+  11              		.globl	main
+  13              	main:
+  14              	.LFB2:
+  15              		.file 1 "main.c"
+   1:main.c        **** #include "gd32vf103.h"
+   2:main.c        **** #include "drivers.h"
+   3:main.c        **** #include "lcd.h"
+   4:main.c        **** 
+   5:main.c        **** int main(void)
+   6:main.c        **** {
+  16              		.loc 1 6 1
+  17              		.cfi_startproc
+   7:main.c        ****   int key;
+  18              		.loc 1 7 3
+   8:main.c        ****   int lookUpTbl[16] = {1, 4, 7, 14, 2, 5, 8, 0, 3, 6, 9, 15, 10, 11, 12, 13};
+  19              		.loc 1 8 3
+   9:main.c        ****   char ch[] = {126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142,
+  20              		.loc 1 9 3
+  21              	.LVL0:
+  10:main.c        **** 
+  11:main.c        ****   t5omsi();                // Initialize timer5 1kHz
+  22              		.loc 1 11 3
+   6:main.c        ****   int key;
+  23              		.loc 1 6 1 is_stmt 0
+  24 0000 4111     		addi	sp,sp,-16
+  25              	.LCFI0:
+  26              		.cfi_def_cfa_offset 16
+  27 0002 06C6     		sw	ra,12(sp)
+  28 0004 22C4     		sw	s0,8(sp)
+  29              		.cfi_offset 1, -4
+  30              		.cfi_offset 8, -8
+  31              		.loc 1 11 3
+  32 0006 97000000 		call	t5omsi
+  32      E7800000 
+  33              	.LVL1:
+  12:main.c        ****   colinit();               // Initialize column toolbox
+  34              		.loc 1 12 3 is_stmt 1
+  35 000e 97000000 		call	colinit
+  35      E7800000 
+  36              	.LVL2:
+  13:main.c        ****   l88init();               // Initialize 8*8 led toolbox
+  37              		.loc 1 13 3
+  38 0016 97000000 		call	l88init
+  38      E7800000 
+  39              	.LVL3:
+  14:main.c        ****   keyinit();               // Initialize keyboard toolbox
+  40              		.loc 1 14 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s 			page 2
+
+
+  41 001e 97000000 		call	keyinit
+  41      E7800000 
+  42              	.LVL4:
+  15:main.c        ****   Lcd_SetType(LCD_NORMAL); // INVERTED);                // or use LCD_INVERTED!
+  43              		.loc 1 15 3
+  44 0026 0145     		li	a0,0
+  16:main.c        ****   Lcd_Init();
+  17:main.c        ****   LCD_Clear(WHITE);
+  45              		.loc 1 17 3 is_stmt 0
+  46 0028 4164     		li	s0,65536
+  15:main.c        ****   Lcd_SetType(LCD_NORMAL); // INVERTED);                // or use LCD_INVERTED!
+  47              		.loc 1 15 3
+  48 002a 97000000 		call	Lcd_SetType
+  48      E7800000 
+  49              	.LVL5:
+  16:main.c        ****   Lcd_Init();
+  50              		.loc 1 16 3 is_stmt 1
+  51 0032 97000000 		call	Lcd_Init
+  51      E7800000 
+  52              	.LVL6:
+  53              		.loc 1 17 3
+  54 003a 1305F4FF 		addi	a0,s0,-1
+  55 003e 97000000 		call	LCD_Clear
+  55      E7800000 
+  56              	.LVL7:
+  18:main.c        **** 
+  19:main.c        ****   LCD_ShowChar(8, 0, ch[0], TRANSPARENT, BLACK);
+  57              		.loc 1 19 3
+  58 0046 0147     		li	a4,0
+  59 0048 8546     		li	a3,1
+  60 004a 1306E007 		li	a2,126
+  61 004e 8145     		li	a1,0
+  62 0050 2145     		li	a0,8
+  63 0052 97000000 		call	LCD_ShowChar
+  63      E7800000 
+  64              	.LVL8:
+  20:main.c        ****   LCD_ShowChar(16, 0, ch[1], TRANSPARENT, BLACK);
+  65              		.loc 1 20 3
+  66 005a 0147     		li	a4,0
+  67 005c 8546     		li	a3,1
+  68 005e 1306F007 		li	a2,127
+  69 0062 8145     		li	a1,0
+  70 0064 4145     		li	a0,16
+  71 0066 97000000 		call	LCD_ShowChar
+  71      E7800000 
+  72              	.LVL9:
+  21:main.c        ****   LCD_ShowChar(24, 0, ch[2], TRANSPARENT, BLACK);
+  73              		.loc 1 21 3
+  74 006e 0147     		li	a4,0
+  75 0070 8546     		li	a3,1
+  76 0072 13060008 		li	a2,128
+  77 0076 8145     		li	a1,0
+  78 0078 6145     		li	a0,24
+  79 007a 97000000 		call	LCD_ShowChar
+  79      E7800000 
+  80              	.LVL10:
+  22:main.c        ****   LCD_ShowChar(32, 0, ch[3], TRANSPARENT, BLACK);
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s 			page 3
+
+
+  81              		.loc 1 22 3
+  82 0082 0147     		li	a4,0
+  83 0084 8546     		li	a3,1
+  84 0086 13061008 		li	a2,129
+  85 008a 8145     		li	a1,0
+  86 008c 13050002 		li	a0,32
+  87 0090 97000000 		call	LCD_ShowChar
+  87      E7800000 
+  88              	.LVL11:
+  23:main.c        ****   LCD_ShowChar(40, 0, ch[4], TRANSPARENT, BLACK);
+  89              		.loc 1 23 3
+  90 0098 0147     		li	a4,0
+  91 009a 8546     		li	a3,1
+  92 009c 13062008 		li	a2,130
+  93 00a0 8145     		li	a1,0
+  94 00a2 13058002 		li	a0,40
+  95 00a6 97000000 		call	LCD_ShowChar
+  95      E7800000 
+  96              	.LVL12:
+  24:main.c        **** 
+  25:main.c        ****   LCD_ShowChar(40, 0, ch[5], TRANSPARENT, YELLOW);
+  97              		.loc 1 25 3
+  98 00ae 130704FE 		addi	a4,s0,-32
+  99 00b2 8546     		li	a3,1
+ 100 00b4 13063008 		li	a2,131
+ 101 00b8 8145     		li	a1,0
+ 102 00ba 13058002 		li	a0,40
+ 103 00be 97000000 		call	LCD_ShowChar
+ 103      E7800000 
+ 104              	.LVL13:
+  26:main.c        ****   LCD_ShowChar(16, 0, ch[6], TRANSPARENT, YELLOW);
+ 105              		.loc 1 26 3
+ 106 00c6 130704FE 		addi	a4,s0,-32
+ 107 00ca 8546     		li	a3,1
+ 108 00cc 13064008 		li	a2,132
+ 109 00d0 8145     		li	a1,0
+ 110 00d2 4145     		li	a0,16
+ 111 00d4 97000000 		call	LCD_ShowChar
+ 111      E7800000 
+ 112              	.LVL14:
+  27:main.c        ****   LCD_ShowChar(24, 0, ch[7], TRANSPARENT, YELLOW);
+ 113              		.loc 1 27 3
+ 114 00dc 130704FE 		addi	a4,s0,-32
+ 115 00e0 8546     		li	a3,1
+ 116 00e2 13065008 		li	a2,133
+ 117 00e6 8145     		li	a1,0
+ 118 00e8 6145     		li	a0,24
+ 119 00ea 97000000 		call	LCD_ShowChar
+ 119      E7800000 
+ 120              	.LVL15:
+  28:main.c        ****   LCD_ShowChar(32, 0, ch[8], TRANSPARENT, YELLOW);
+ 121              		.loc 1 28 3
+ 122 00f2 130704FE 		addi	a4,s0,-32
+ 123 00f6 8546     		li	a3,1
+ 124 00f8 13066008 		li	a2,134
+ 125 00fc 8145     		li	a1,0
+ 126 00fe 13050002 		li	a0,32
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s 			page 4
+
+
+ 127 0102 97000000 		call	LCD_ShowChar
+ 127      E7800000 
+ 128              	.LVL16:
+  29:main.c        ****   LCD_ShowChar(8, 0, ch[9], TRANSPARENT, YELLOW);
+ 129              		.loc 1 29 3
+ 130 010a 130704FE 		addi	a4,s0,-32
+ 131 010e 8546     		li	a3,1
+ 132 0110 13067008 		li	a2,135
+ 133 0114 8145     		li	a1,0
+ 134 0116 2145     		li	a0,8
+ 135 0118 97000000 		call	LCD_ShowChar
+ 135      E7800000 
+ 136              	.LVL17:
+  30:main.c        **** 
+  31:main.c        ****   LCD_ShowChar(16, 0, ch[10], TRANSPARENT, RED);
+ 137              		.loc 1 31 3
+ 138 0120 13070480 		addi	a4,s0,-2048
+ 139 0124 8546     		li	a3,1
+ 140 0126 13068008 		li	a2,136
+ 141 012a 8145     		li	a1,0
+ 142 012c 4145     		li	a0,16
+ 143 012e 97000000 		call	LCD_ShowChar
+ 143      E7800000 
+ 144              	.LVL18:
+  32:main.c        ****   LCD_ShowChar(24, 0, ch[11], TRANSPARENT, RED);
+ 145              		.loc 1 32 3
+ 146 0136 13070480 		addi	a4,s0,-2048
+ 147 013a 8546     		li	a3,1
+ 148 013c 13069008 		li	a2,137
+ 149 0140 8145     		li	a1,0
+ 150 0142 6145     		li	a0,24
+ 151 0144 97000000 		call	LCD_ShowChar
+ 151      E7800000 
+ 152              	.LVL19:
+  33:main.c        ****   LCD_ShowChar(32, 0, ch[12], TRANSPARENT, RED);
+ 153              		.loc 1 33 3
+ 154 014c 13070480 		addi	a4,s0,-2048
+ 155 0150 8546     		li	a3,1
+ 156 0152 1306A008 		li	a2,138
+ 157 0156 8145     		li	a1,0
+ 158 0158 13050002 		li	a0,32
+ 159 015c 97000000 		call	LCD_ShowChar
+ 159      E7800000 
+ 160              	.LVL20:
+  34:main.c        **** 
+  35:main.c        ****   LCD_ShowChar(8, 16, ch[13], TRANSPARENT, BLACK);
+ 161              		.loc 1 35 3
+ 162 0164 0147     		li	a4,0
+ 163 0166 8546     		li	a3,1
+ 164 0168 1306B008 		li	a2,139
+ 165 016c C145     		li	a1,16
+ 166 016e 2145     		li	a0,8
+ 167 0170 97000000 		call	LCD_ShowChar
+ 167      E7800000 
+ 168              	.LVL21:
+  36:main.c        ****   LCD_ShowChar(16, 16, ch[14], TRANSPARENT, BLACK);
+ 169              		.loc 1 36 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s 			page 5
+
+
+ 170 0178 0147     		li	a4,0
+ 171 017a 8546     		li	a3,1
+ 172 017c 1306C008 		li	a2,140
+ 173 0180 C145     		li	a1,16
+ 174 0182 4145     		li	a0,16
+ 175 0184 97000000 		call	LCD_ShowChar
+ 175      E7800000 
+ 176              	.LVL22:
+  37:main.c        ****   LCD_ShowChar(24, 16, ch[15], TRANSPARENT, BLACK);
+ 177              		.loc 1 37 3
+ 178 018c 0147     		li	a4,0
+ 179 018e 8546     		li	a3,1
+ 180 0190 1306D008 		li	a2,141
+ 181 0194 C145     		li	a1,16
+ 182 0196 6145     		li	a0,24
+ 183 0198 97000000 		call	LCD_ShowChar
+ 183      E7800000 
+ 184              	.LVL23:
+  38:main.c        ****   LCD_ShowChar(32, 16, ch[16], TRANSPARENT, BLACK);
+ 185              		.loc 1 38 3
+ 186 01a0 0147     		li	a4,0
+ 187 01a2 8546     		li	a3,1
+ 188 01a4 1306E008 		li	a2,142
+ 189 01a8 C145     		li	a1,16
+ 190 01aa 13050002 		li	a0,32
+ 191 01ae 97000000 		call	LCD_ShowChar
+ 191      E7800000 
+ 192              	.LVL24:
+  39:main.c        ****   LCD_ShowChar(40, 16, ch[17], TRANSPARENT, BLACK);
+ 193              		.loc 1 39 3
+ 194 01b6 0147     		li	a4,0
+ 195 01b8 8546     		li	a3,1
+ 196 01ba 1306F008 		li	a2,143
+ 197 01be C145     		li	a1,16
+ 198 01c0 13058002 		li	a0,40
+ 199 01c4 97000000 		call	LCD_ShowChar
+ 199      E7800000 
+ 200              	.LVL25:
+ 201              	.L2:
+  40:main.c        **** 
+  41:main.c        ****   while (1)
+ 202              		.loc 1 41 3
+  42:main.c        ****   {
+  43:main.c        ****     LCD_WR_Queue(); // Manage LCD com queue!
+ 203              		.loc 1 43 5
+ 204 01cc 97000000 		call	LCD_WR_Queue
+ 204      E7800000 
+ 205              	.LVL26:
+  44:main.c        **** 
+  45:main.c        ****     if (t5expq())
+ 206              		.loc 1 45 5
+ 207              		.loc 1 45 9 is_stmt 0
+ 208 01d4 97000000 		call	t5expq
+ 208      E7800000 
+ 209              	.LVL27:
+ 210              		.loc 1 45 8
+ 211 01dc 65D9     		beq	a0,zero,.L2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s 			page 6
+
+
+  46:main.c        ****     {                   // Manage periodic tasks
+  47:main.c        ****       l88row(colset()); // ...8*8LED and Keyboard
+ 212              		.loc 1 47 7 is_stmt 1
+ 213 01de 97000000 		call	colset
+ 213      E7800000 
+ 214              	.LVL28:
+ 215 01e6 97000000 		call	l88row
+ 215      E7800000 
+ 216              	.LVL29:
+ 217 01ee F9BF     		j	.L2
+ 218              		.cfi_endproc
+ 219              	.LFE2:
+ 221              		.text
+ 222              	.Letext0:
+ 223              		.file 2 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
+ 224              		.file 3 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
+ 225              		.file 4 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\lib\\gcc\\riscv64-unkn
+ 226              		.file 5 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
+ 227              		.file 6 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
+ 228              		.file 7 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
+ 229              		.file 8 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
+ 230              		.file 9 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
+ 231              		.file 10 "lcd.h"
+ 232              		.file 11 "drivers.h"
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s 			page 7
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 main.c
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:13     .text.startup.main:0000000000000000 main
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:17     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:18     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:19     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:20     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:22     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:23     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:24     .text.startup.main:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:26     .text.startup.main:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:29     .text.startup.main:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:30     .text.startup.main:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:32     .text.startup.main:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:35     .text.startup.main:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:38     .text.startup.main:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:41     .text.startup.main:000000000000001e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:44     .text.startup.main:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:46     .text.startup.main:0000000000000028 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:48     .text.startup.main:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:51     .text.startup.main:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:54     .text.startup.main:000000000000003a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:58     .text.startup.main:0000000000000046 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:66     .text.startup.main:000000000000005a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:74     .text.startup.main:000000000000006e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:82     .text.startup.main:0000000000000082 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:90     .text.startup.main:0000000000000098 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:98     .text.startup.main:00000000000000ae .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:106    .text.startup.main:00000000000000c6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:114    .text.startup.main:00000000000000dc .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:122    .text.startup.main:00000000000000f2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:130    .text.startup.main:000000000000010a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:138    .text.startup.main:0000000000000120 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:146    .text.startup.main:0000000000000136 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:154    .text.startup.main:000000000000014c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:162    .text.startup.main:0000000000000164 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:170    .text.startup.main:0000000000000178 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:178    .text.startup.main:000000000000018c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:186    .text.startup.main:00000000000001a0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:194    .text.startup.main:00000000000001b6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:203    .text.startup.main:00000000000001cc .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:204    .text.startup.main:00000000000001cc .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:207    .text.startup.main:00000000000001d4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:208    .text.startup.main:00000000000001d4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:211    .text.startup.main:00000000000001dc .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:213    .text.startup.main:00000000000001de .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:218    .text.startup.main:00000000000001f0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:221    .text.startup.main:00000000000001f0 .L0 
+                     .debug_frame:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:201    .text.startup.main:00000000000001cc .L2
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:2518   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3331   .debug_str:000000000000048a .LASF138
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3219   .debug_str:000000000000024b .LASF139
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3253   .debug_str:00000000000002e4 .LASF140
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3091   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3097   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3323   .debug_str:0000000000000463 .LASF0
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s 			page 8
+
+
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3137   .debug_str:00000000000000d4 .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3261   .debug_str:0000000000000355 .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3101   .debug_str:000000000000000c .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3335   .debug_str:000000000000051b .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3111   .debug_str:000000000000003a .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3177   .debug_str:000000000000018b .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3201   .debug_str:00000000000001f4 .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3165   .debug_str:0000000000000149 .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3119   .debug_str:000000000000006e .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3347   .debug_str:0000000000000562 .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3195   .debug_str:00000000000001d4 .LASF120
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3313   .debug_str:000000000000043c .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3249   .debug_str:00000000000002d3 .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3133   .debug_str:00000000000000c6 .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3311   .debug_str:0000000000000434 .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3355   .debug_str:0000000000000583 .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3217   .debug_str:0000000000000245 .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3193   .debug_str:00000000000001cd .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3303   .debug_str:0000000000000414 .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3305   .debug_str:000000000000041c .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3279   .debug_str:00000000000003a2 .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3341   .debug_str:000000000000053a .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3257   .debug_str:000000000000033b .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3267   .debug_str:0000000000000372 .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3185   .debug_str:00000000000001b0 .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3327   .debug_str:0000000000000477 .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3297   .debug_str:00000000000003ff .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3179   .debug_str:0000000000000196 .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3351   .debug_str:0000000000000578 .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3191   .debug_str:00000000000001c8 .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3129   .debug_str:00000000000000b6 .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3369   .debug_str:00000000000005c8 .LASF31
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3145   .debug_str:00000000000000f4 .LASF32
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3383   .debug_str:0000000000000601 .LASF33
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3237   .debug_str:0000000000000291 .LASF34
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3229   .debug_str:000000000000026a .LASF35
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3309   .debug_str:000000000000042a .LASF36
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3269   .debug_str:000000000000037b .LASF37
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3365   .debug_str:00000000000005ae .LASF38
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3149   .debug_str:0000000000000103 .LASF39
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3103   .debug_str:0000000000000016 .LASF40
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3099   .debug_str:0000000000000000 .LASF41
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3333   .debug_str:0000000000000512 .LASF42
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3161   .debug_str:000000000000013a .LASF43
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3239   .debug_str:000000000000029a .LASF44
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3289   .debug_str:00000000000003cf .LASF45
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3175   .debug_str:0000000000000186 .LASF46
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3271   .debug_str:0000000000000385 .LASF47
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3143   .debug_str:00000000000000ee .LASF48
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3321   .debug_str:000000000000045d .LASF49
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3281   .debug_str:00000000000003ad .LASF50
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3159   .debug_str:0000000000000133 .LASF51
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3203   .debug_str:0000000000000206 .LASF52
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3121   .debug_str:0000000000000085 .LASF53
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3153   .debug_str:0000000000000119 .LASF54
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3187   .debug_str:00000000000001b8 .LASF55
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3227   .debug_str:0000000000000263 .LASF56
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s 			page 9
+
+
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3307   .debug_str:0000000000000424 .LASF57
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3135   .debug_str:00000000000000cd .LASF58
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3139   .debug_str:00000000000000e0 .LASF59
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3361   .debug_str:00000000000005a0 .LASF60
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3319   .debug_str:0000000000000454 .LASF61
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3169   .debug_str:000000000000015f .LASF62
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3205   .debug_str:000000000000020c .LASF63
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3223   .debug_str:0000000000000257 .LASF64
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3283   .debug_str:00000000000003b5 .LASF65
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3273   .debug_str:000000000000038c .LASF66
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3299   .debug_str:0000000000000407 .LASF67
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3315   .debug_str:0000000000000448 .LASF68
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3163   .debug_str:0000000000000142 .LASF69
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3197   .debug_str:00000000000001e4 .LASF70
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3183   .debug_str:00000000000001a8 .LASF71
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3287   .debug_str:00000000000003ca .LASF72
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3107   .debug_str:0000000000000026 .LASF73
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3295   .debug_str:00000000000003e6 .LASF74
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3291   .debug_str:00000000000003d4 .LASF75
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3245   .debug_str:00000000000002b9 .LASF76
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3293   .debug_str:00000000000003dc .LASF77
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3215   .debug_str:000000000000023d .LASF78
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3189   .debug_str:00000000000001be .LASF79
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3379   .debug_str:00000000000005f7 .LASF80
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3251   .debug_str:00000000000002da .LASF81
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3199   .debug_str:00000000000001ec .LASF82
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3167   .debug_str:0000000000000157 .LASF83
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3221   .debug_str:0000000000000252 .LASF84
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3109   .debug_str:0000000000000031 .LASF85
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3359   .debug_str:0000000000000596 .LASF86
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3155   .debug_str:0000000000000121 .LASF87
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3147   .debug_str:00000000000000fe .LASF88
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3317   .debug_str:000000000000044f .LASF89
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3277   .debug_str:000000000000039b .LASF90
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3353   .debug_str:000000000000057d .LASF91
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3207   .debug_str:0000000000000212 .LASF92
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3263   .debug_str:0000000000000363 .LASF93
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3105   .debug_str:000000000000001e .LASF94
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3301   .debug_str:000000000000040e .LASF95
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3225   .debug_str:000000000000025d .LASF96
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3337   .debug_str:000000000000052e .LASF97
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3349   .debug_str:000000000000056b .LASF98
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3329   .debug_str:000000000000047d .LASF99
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3213   .debug_str:0000000000000230 .LASF100
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3367   .debug_str:00000000000005b9 .LASF101
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3247   .debug_str:00000000000002c4 .LASF102
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3209   .debug_str:0000000000000219 .LASF103
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3371   .debug_str:00000000000005d1 .LASF104
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3243   .debug_str:00000000000002ac .LASF105
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3377   .debug_str:00000000000005e9 .LASF106
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3127   .debug_str:00000000000000a8 .LASF107
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3357   .debug_str:000000000000058c .LASF108
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3211   .debug_str:0000000000000224 .LASF109
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3343   .debug_str:0000000000000542 .LASF110
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3173   .debug_str:0000000000000178 .LASF111
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3125   .debug_str:0000000000000099 .LASF112
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3171   .debug_str:0000000000000167 .LASF113
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s 			page 10
+
+
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3113   .debug_str:0000000000000043 .LASF114
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3115   .debug_str:0000000000000052 .LASF115
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3265   .debug_str:0000000000000369 .LASF116
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3235   .debug_str:000000000000028a .LASF117
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3233   .debug_str:0000000000000281 .LASF118
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3363   .debug_str:00000000000005a6 .LASF119
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3123   .debug_str:000000000000008e .LASF141
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3181   .debug_str:000000000000019c .LASF121
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3345   .debug_str:000000000000054f .LASF122
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3241   .debug_str:00000000000002a2 .LASF123
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3117   .debug_str:0000000000000063 .LASF124
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3381   .debug_str:00000000000005fc .LASF142
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:14     .text.startup.main:0000000000000000 .LFB2
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:219    .text.startup.main:00000000000001f0 .LFE2
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3065   .debug_loc:0000000000000000 .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3373   .debug_str:00000000000005d6 .LASF125
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:33     .text.startup.main:000000000000000e .LVL1
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:36     .text.startup.main:0000000000000016 .LVL2
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:39     .text.startup.main:000000000000001e .LVL3
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:42     .text.startup.main:0000000000000026 .LVL4
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:49     .text.startup.main:0000000000000032 .LVL5
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:52     .text.startup.main:000000000000003a .LVL6
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:56     .text.startup.main:0000000000000046 .LVL7
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:64     .text.startup.main:000000000000005a .LVL8
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:72     .text.startup.main:000000000000006e .LVL9
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:80     .text.startup.main:0000000000000082 .LVL10
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:88     .text.startup.main:0000000000000098 .LVL11
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:96     .text.startup.main:00000000000000ae .LVL12
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:104    .text.startup.main:00000000000000c6 .LVL13
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:112    .text.startup.main:00000000000000dc .LVL14
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:120    .text.startup.main:00000000000000f2 .LVL15
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:128    .text.startup.main:000000000000010a .LVL16
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:136    .text.startup.main:0000000000000120 .LVL17
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:144    .text.startup.main:0000000000000136 .LVL18
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:152    .text.startup.main:000000000000014c .LVL19
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:160    .text.startup.main:0000000000000164 .LVL20
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:168    .text.startup.main:0000000000000178 .LVL21
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:176    .text.startup.main:000000000000018c .LVL22
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:184    .text.startup.main:00000000000001a0 .LVL23
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:192    .text.startup.main:00000000000001b6 .LVL24
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:200    .text.startup.main:00000000000001cc .LVL25
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:205    .text.startup.main:00000000000001d4 .LVL26
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:209    .text.startup.main:00000000000001dc .LVL27
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:214    .text.startup.main:00000000000001e6 .LVL28
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:216    .text.startup.main:00000000000001ee .LVL29
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3339   .debug_str:0000000000000533 .LASF126
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3151   .debug_str:0000000000000111 .LASF127
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3259   .debug_str:000000000000034d .LASF128
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3141   .debug_str:00000000000000e6 .LASF129
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3285   .debug_str:00000000000003be .LASF130
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3375   .debug_str:00000000000005e0 .LASF131
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3157   .debug_str:0000000000000129 .LASF132
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3231   .debug_str:0000000000000274 .LASF133
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3255   .debug_str:000000000000032e .LASF134
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3275   .debug_str:0000000000000394 .LASF135
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3131   .debug_str:00000000000000bf .LASF136
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:3325   .debug_str:0000000000000470 .LASF137
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s 			page 11
+
+
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:25     .text.startup.main:0000000000000002 .LCFI0
+C:\Users\kasie\AppData\Local\Temp\ccEJ91Hd.s:234    .debug_info:0000000000000000 .Ldebug_info0
+
+UNDEFINED SYMBOLS
+t5omsi
+colinit
+l88init
+keyinit
+Lcd_SetType
+Lcd_Init
+LCD_Clear
+LCD_ShowChar
+LCD_WR_Queue
+t5expq
+colset
+l88row

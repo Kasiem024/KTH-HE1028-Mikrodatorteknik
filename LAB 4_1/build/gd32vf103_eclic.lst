@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s 			page 1
 
 
    1              		.file	"gd32vf103_eclic.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 1
   41:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c **** 
   42:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c **** /*!
   43:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c ****     \brief      enable the global interrupt
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s 			page 2
 
 
   44:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c ****     \param[in]  none
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 1
   64              	}
   51              		csrrc a5, mstatus, 8
   52              	# 0 "" 2
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s 			page 3
 
 
   53              	.LVL1:
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 1
   91:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c **** {
   83              		.loc 1 91 1
   84              		.cfi_startproc
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s 			page 4
 
 
   85              	.LVL4:
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 1
  129              		.align	1
  130              		.globl	eclic_irq_disable
  132              	eclic_irq_disable:
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 5
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s 			page 5
 
 
  133              	.LFB6:
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 1
  166              		.section	.text.eclic_send_event,"ax",@progbits
  167              		.align	1
  168              		.globl	eclic_send_event
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 6
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s 			page 6
 
 
  170              	eclic_send_event:
@@ -340,170 +340,170 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 1
  195              		.file 3 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
  196              		.file 4 "./../../firmware/RISCV/drivers/n200_func.h"
  197              		.file 5 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 7
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gd32vf103_eclic.c
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:13     .text.eclic_global_interrupt_enable:0000000000000000 eclic_global_interrupt_enable
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:17     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:18     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:20     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:21     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:22     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:13     .text.eclic_global_interrupt_enable:0000000000000000 eclic_global_interrupt_enable
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:17     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:18     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:20     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:21     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:22     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
 ./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c:51     .text.eclic_global_interrupt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:31     .text.eclic_global_interrupt_enable:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:32     .text.eclic_global_interrupt_enable:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:33     .text.eclic_global_interrupt_enable:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:40     .text.eclic_global_interrupt_disable:0000000000000000 eclic_global_interrupt_disable
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:43     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:44     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:46     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:47     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:48     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:31     .text.eclic_global_interrupt_enable:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:32     .text.eclic_global_interrupt_enable:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:33     .text.eclic_global_interrupt_enable:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:40     .text.eclic_global_interrupt_disable:0000000000000000 eclic_global_interrupt_disable
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:43     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:44     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:46     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:47     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:48     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
 ./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c:63     .text.eclic_global_interrupt_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:57     .text.eclic_global_interrupt_disable:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:58     .text.eclic_global_interrupt_disable:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:59     .text.eclic_global_interrupt_disable:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:66     .text.eclic_priority_group_set:0000000000000000 eclic_priority_group_set
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:69     .text.eclic_priority_group_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:71     .text.eclic_priority_group_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:72     .text.eclic_priority_group_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:74     .text.eclic_priority_group_set:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:81     .text.eclic_irq_enable:0000000000000000 eclic_irq_enable
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:84     .text.eclic_irq_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:86     .text.eclic_irq_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:87     .text.eclic_irq_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:88     .text.eclic_irq_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:90     .text.eclic_irq_enable:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:93     .text.eclic_irq_enable:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:94     .text.eclic_irq_enable:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:96     .text.eclic_irq_enable:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:100    .text.eclic_irq_enable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:103    .text.eclic_irq_enable:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:108    .text.eclic_irq_enable:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:111    .text.eclic_irq_enable:0000000000000024 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:112    .text.eclic_irq_enable:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:115    .text.eclic_irq_enable:0000000000000028 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:117    .text.eclic_irq_enable:0000000000000028 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:119    .text.eclic_irq_enable:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:121    .text.eclic_irq_enable:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:123    .text.eclic_irq_enable:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:125    .text.eclic_irq_enable:0000000000000034 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:132    .text.eclic_irq_disable:0000000000000000 eclic_irq_disable
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:135    .text.eclic_irq_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:137    .text.eclic_irq_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:138    .text.eclic_irq_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:140    .text.eclic_irq_disable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:147    .text.eclic_system_reset:0000000000000000 eclic_system_reset
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:150    .text.eclic_system_reset:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:151    .text.eclic_system_reset:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:152    .text.eclic_system_reset:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:153    .text.eclic_system_reset:0000000000000000 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 8
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:57     .text.eclic_global_interrupt_disable:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:58     .text.eclic_global_interrupt_disable:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:59     .text.eclic_global_interrupt_disable:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:66     .text.eclic_priority_group_set:0000000000000000 eclic_priority_group_set
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:69     .text.eclic_priority_group_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:71     .text.eclic_priority_group_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:72     .text.eclic_priority_group_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:74     .text.eclic_priority_group_set:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:81     .text.eclic_irq_enable:0000000000000000 eclic_irq_enable
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:84     .text.eclic_irq_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:86     .text.eclic_irq_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:87     .text.eclic_irq_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:88     .text.eclic_irq_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:90     .text.eclic_irq_enable:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:93     .text.eclic_irq_enable:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:94     .text.eclic_irq_enable:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:96     .text.eclic_irq_enable:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:100    .text.eclic_irq_enable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:103    .text.eclic_irq_enable:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:108    .text.eclic_irq_enable:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:111    .text.eclic_irq_enable:0000000000000024 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:112    .text.eclic_irq_enable:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:115    .text.eclic_irq_enable:0000000000000028 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:117    .text.eclic_irq_enable:0000000000000028 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:119    .text.eclic_irq_enable:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:121    .text.eclic_irq_enable:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:123    .text.eclic_irq_enable:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:125    .text.eclic_irq_enable:0000000000000034 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:132    .text.eclic_irq_disable:0000000000000000 eclic_irq_disable
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:135    .text.eclic_irq_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:137    .text.eclic_irq_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:138    .text.eclic_irq_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:140    .text.eclic_irq_disable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:147    .text.eclic_system_reset:0000000000000000 eclic_system_reset
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:150    .text.eclic_system_reset:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:151    .text.eclic_system_reset:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:152    .text.eclic_system_reset:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:153    .text.eclic_system_reset:0000000000000000 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s 			page 8
 
 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:158    .text.eclic_system_reset:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:159    .text.eclic_system_reset:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:162    .text.eclic_system_reset:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:163    .text.eclic_system_reset:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:170    .text.eclic_send_event:0000000000000000 eclic_send_event
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:173    .text.eclic_send_event:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:174    .text.eclic_send_event:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:176    .text.eclic_send_event:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:177    .text.eclic_send_event:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:178    .text.eclic_send_event:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:158    .text.eclic_system_reset:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:159    .text.eclic_system_reset:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:162    .text.eclic_system_reset:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:163    .text.eclic_system_reset:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:170    .text.eclic_send_event:0000000000000000 eclic_send_event
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:173    .text.eclic_send_event:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:174    .text.eclic_send_event:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:176    .text.eclic_send_event:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:177    .text.eclic_send_event:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:178    .text.eclic_send_event:0000000000000000 .L0 
 ./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_eclic.c:128    .text.eclic_send_event:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:187    .text.eclic_send_event:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:188    .text.eclic_send_event:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:189    .text.eclic_send_event:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:36     .text.eclic_global_interrupt_enable:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:62     .text.eclic_global_interrupt_disable:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:77     .text.eclic_priority_group_set:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:128    .text.eclic_irq_enable:0000000000000034 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:143    .text.eclic_irq_disable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:166    .text.eclic_system_reset:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:192    .text.eclic_send_event:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:187    .text.eclic_send_event:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:188    .text.eclic_send_event:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:189    .text.eclic_send_event:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:36     .text.eclic_global_interrupt_enable:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:62     .text.eclic_global_interrupt_disable:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:77     .text.eclic_priority_group_set:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:128    .text.eclic_irq_enable:0000000000000034 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:143    .text.eclic_irq_disable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:166    .text.eclic_system_reset:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:192    .text.eclic_send_event:0000000000000006 .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:563    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1020   .debug_str:00000000000001f3 .LASF30
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1026   .debug_str:000000000000028d .LASF31
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:984    .debug_str:00000000000000a8 .LASF32
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:946    .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:964    .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:998    .debug_str:000000000000013d .LASF0
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1030   .debug_str:00000000000002e1 .LASF1
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:970    .debug_str:000000000000002c .LASF6
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:982    .debug_str:000000000000009a .LASF2
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1014   .debug_str:00000000000001c1 .LASF3
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:988    .debug_str:00000000000000ff .LASF4
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1024   .debug_str:0000000000000284 .LASF5
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:996    .debug_str:0000000000000132 .LASF7
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:986    .debug_str:00000000000000ed .LASF8
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:966    .debug_str:0000000000000000 .LASF9
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1002   .debug_str:0000000000000162 .LASF10
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1004   .debug_str:0000000000000179 .LASF11
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1022   .debug_str:000000000000027b .LASF12
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1010   .debug_str:0000000000000198 .LASF33
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1028   .debug_str:00000000000002d5 .LASF13
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1006   .debug_str:0000000000000181 .LASF14
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:171    .text.eclic_send_event:0000000000000000 .LFB8
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:190    .text.eclic_send_event:0000000000000006 .LFE8
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:175    .text.eclic_send_event:0000000000000000 .LBB4
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:186    .text.eclic_send_event:0000000000000004 .LBE4
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:994    .debug_str:000000000000012c .LASF23
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:972    .debug_str:0000000000000036 .LASF34
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:148    .text.eclic_system_reset:0000000000000000 .LFB7
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:164    .text.eclic_system_reset:0000000000000014 .LFE7
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:978    .debug_str:000000000000007f .LASF15
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:133    .text.eclic_irq_disable:0000000000000000 .LFB6
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:141    .text.eclic_irq_disable:0000000000000008 .LFE6
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1032   .debug_str:00000000000002ed .LASF17
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:825    .debug_loc:0000000000000000 .LLST5
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s 			page 9
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:563    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1020   .debug_str:00000000000001f3 .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1026   .debug_str:000000000000028d .LASF31
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:984    .debug_str:00000000000000a8 .LASF32
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:946    .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:964    .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:998    .debug_str:000000000000013d .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1030   .debug_str:00000000000002e1 .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:970    .debug_str:000000000000002c .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:982    .debug_str:000000000000009a .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1014   .debug_str:00000000000001c1 .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:988    .debug_str:00000000000000ff .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1024   .debug_str:0000000000000284 .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:996    .debug_str:0000000000000132 .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:986    .debug_str:00000000000000ed .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:966    .debug_str:0000000000000000 .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1002   .debug_str:0000000000000162 .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1004   .debug_str:0000000000000179 .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1022   .debug_str:000000000000027b .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1010   .debug_str:0000000000000198 .LASF33
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1028   .debug_str:00000000000002d5 .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1006   .debug_str:0000000000000181 .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:171    .text.eclic_send_event:0000000000000000 .LFB8
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:190    .text.eclic_send_event:0000000000000006 .LFE8
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:175    .text.eclic_send_event:0000000000000000 .LBB4
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:186    .text.eclic_send_event:0000000000000004 .LBE4
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:994    .debug_str:000000000000012c .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:972    .debug_str:0000000000000036 .LASF34
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:148    .text.eclic_system_reset:0000000000000000 .LFB7
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:164    .text.eclic_system_reset:0000000000000014 .LFE7
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:978    .debug_str:000000000000007f .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:133    .text.eclic_irq_disable:0000000000000000 .LFB6
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:141    .text.eclic_irq_disable:0000000000000008 .LFE6
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1032   .debug_str:00000000000002ed .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:825    .debug_loc:0000000000000000 .LLST5
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s 			page 9
 
 
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:139    .text.eclic_irq_disable:0000000000000008 .LVL10
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:992    .debug_str:000000000000011b .LASF16
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:82     .text.eclic_irq_enable:0000000000000000 .LFB5
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:126    .text.eclic_irq_enable:0000000000000034 .LFE5
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:839    .debug_loc:0000000000000021 .LLST1
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:857    .debug_loc:000000000000004d .LLST2
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1008   .debug_str:0000000000000192 .LASF18
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:879    .debug_loc:0000000000000084 .LLST3
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:990    .debug_str:0000000000000112 .LASF19
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:893    .debug_loc:00000000000000a5 .LLST4
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:101    .text.eclic_irq_enable:0000000000000014 .LVL5
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:106    .text.eclic_irq_enable:0000000000000020 .LVL6
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:124    .text.eclic_irq_enable:0000000000000034 .LVL8
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1012   .debug_str:00000000000001a8 .LASF20
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:67     .text.eclic_priority_group_set:0000000000000000 .LFB4
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:75     .text.eclic_priority_group_set:0000000000000008 .LFE4
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:980    .debug_str:0000000000000091 .LASF21
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:907    .debug_loc:00000000000000c6 .LLST0
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:73     .text.eclic_priority_group_set:0000000000000008 .LVL3
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:976    .debug_str:0000000000000060 .LASF22
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:41     .text.eclic_global_interrupt_disable:0000000000000000 .LFB3
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:60     .text.eclic_global_interrupt_disable:0000000000000006 .LFE3
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:45     .text.eclic_global_interrupt_disable:0000000000000000 .LBB3
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:56     .text.eclic_global_interrupt_disable:0000000000000004 .LBE3
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:968    .debug_str:000000000000000e .LASF24
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:14     .text.eclic_global_interrupt_enable:0000000000000000 .LFB2
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:34     .text.eclic_global_interrupt_enable:0000000000000006 .LFE2
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:19     .text.eclic_global_interrupt_enable:0000000000000000 .LBB2
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:30     .text.eclic_global_interrupt_enable:0000000000000004 .LBE2
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1000   .debug_str:000000000000014a .LASF25
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:974    .debug_str:0000000000000049 .LASF26
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1034   .debug_str:00000000000002f4 .LASF27
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1016   .debug_str:00000000000001cb .LASF28
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:1018   .debug_str:00000000000001e2 .LASF29
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:136    .text.eclic_irq_disable:0000000000000000 .LVL9
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:89     .text.eclic_irq_enable:0000000000000002 .LCFI0
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:120    .text.eclic_irq_enable:000000000000002c .LCFI1
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:85     .text.eclic_irq_enable:0000000000000000 .LVL4
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:113    .text.eclic_irq_enable:0000000000000026 .LVL7
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:70     .text.eclic_priority_group_set:0000000000000000 .LVL2
-C:\Users\kasie\AppData\Local\Temp\cc5B4iNt.s:199    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:139    .text.eclic_irq_disable:0000000000000008 .LVL10
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:992    .debug_str:000000000000011b .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:82     .text.eclic_irq_enable:0000000000000000 .LFB5
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:126    .text.eclic_irq_enable:0000000000000034 .LFE5
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:839    .debug_loc:0000000000000021 .LLST1
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:857    .debug_loc:000000000000004d .LLST2
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1008   .debug_str:0000000000000192 .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:879    .debug_loc:0000000000000084 .LLST3
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:990    .debug_str:0000000000000112 .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:893    .debug_loc:00000000000000a5 .LLST4
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:101    .text.eclic_irq_enable:0000000000000014 .LVL5
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:106    .text.eclic_irq_enable:0000000000000020 .LVL6
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:124    .text.eclic_irq_enable:0000000000000034 .LVL8
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1012   .debug_str:00000000000001a8 .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:67     .text.eclic_priority_group_set:0000000000000000 .LFB4
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:75     .text.eclic_priority_group_set:0000000000000008 .LFE4
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:980    .debug_str:0000000000000091 .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:907    .debug_loc:00000000000000c6 .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:73     .text.eclic_priority_group_set:0000000000000008 .LVL3
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:976    .debug_str:0000000000000060 .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:41     .text.eclic_global_interrupt_disable:0000000000000000 .LFB3
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:60     .text.eclic_global_interrupt_disable:0000000000000006 .LFE3
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:45     .text.eclic_global_interrupt_disable:0000000000000000 .LBB3
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:56     .text.eclic_global_interrupt_disable:0000000000000004 .LBE3
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:968    .debug_str:000000000000000e .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:14     .text.eclic_global_interrupt_enable:0000000000000000 .LFB2
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:34     .text.eclic_global_interrupt_enable:0000000000000006 .LFE2
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:19     .text.eclic_global_interrupt_enable:0000000000000000 .LBB2
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:30     .text.eclic_global_interrupt_enable:0000000000000004 .LBE2
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1000   .debug_str:000000000000014a .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:974    .debug_str:0000000000000049 .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1034   .debug_str:00000000000002f4 .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1016   .debug_str:00000000000001cb .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:1018   .debug_str:00000000000001e2 .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:136    .text.eclic_irq_disable:0000000000000000 .LVL9
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:89     .text.eclic_irq_enable:0000000000000002 .LCFI0
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:120    .text.eclic_irq_enable:000000000000002c .LCFI1
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:85     .text.eclic_irq_enable:0000000000000000 .LVL4
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:113    .text.eclic_irq_enable:0000000000000026 .LVL7
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:70     .text.eclic_priority_group_set:0000000000000000 .LVL2
+C:\Users\kasie\AppData\Local\Temp\ccoWXvGo.s:199    .debug_info:0000000000000000 .Ldebug_info0
 
 UNDEFINED SYMBOLS
 eclic_set_nlbits
