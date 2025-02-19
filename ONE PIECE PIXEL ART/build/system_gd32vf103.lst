@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 1
 
 
    1              		.file	"system_gd32vf103.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
   41:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** /* system frequency define */
   42:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** #define __IRC8M           (IRC8M_VALUE)            /* internal 8 MHz RC oscillator frequency */
   43:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** #define __HXTAL           (HXTAL_VALUE)            /* high speed crystal oscillator frequency */
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 2
 
 
   44:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** #define __SYS_OSC_CLK     (__IRC8M)                /* main oscillator frequency */
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
   98:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** uint32_t SystemCoreClock = __SYSTEM_CLOCK_96M_PLL_HXTAL;
   99:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** static void system_clock_96m_hxtal(void);
  100:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** #elif defined (__SYSTEM_CLOCK_108M_PLL_HXTAL)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 3
 
 
  101:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** uint32_t SystemCoreClock = __SYSTEM_CLOCK_108M_PLL_HXTAL;
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  153:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     /* enable IRC8M */
  154:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     RCU_CTL |= RCU_CTL_IRC8MEN;
   18              		.loc 1 154 5
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 4
 
 
   19              		.loc 1 154 13 is_stmt 0
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
   56 003c 23A60702 		sw	zero,44(a5)
  171:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 
  172:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     /* Reset HXTALEN, CKMEN, PLLEN, PLL1EN and PLL2EN bits */
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 5
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 5
 
 
  173:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     RCU_CTL &= ~(RCU_CTL_PLLEN | RCU_CTL_PLL1EN | RCU_CTL_PLL2EN | RCU_CTL_CKMEN | RCU_CTL_HXTALEN)
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  210:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****             pllsel = (RCU_CFG0 & RCU_CFG0_PLLSEL);
  211:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 
  212:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 6
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 6
 
 
  213:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****             if(RCU_PLLSRC_IRC8M_DIV2 == pllsel){
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  267:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     \param[in]  none
  268:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     \param[out] none
  269:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     \retval     none
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 7
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 7
 
 
  270:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** */
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  324:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****         timeout++;
  325:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****         stab_flag = (RCU_CTL & RCU_CTL_HXTALSTB);
  326:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     }while((0U == stab_flag) && (HXTAL_STARTUP_TIMEOUT != timeout));
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 8
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 8
 
 
  327:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 
@@ -478,7 +478,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  381:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     \param[in]  none
  382:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     \param[out] none
  383:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     \retval     none
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 9
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 9
 
 
  384:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** */
@@ -538,7 +538,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  438:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     }
  439:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 
  440:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     /* select PLL as system clock */
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 10
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 10
 
 
  441:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     RCU_CFG0 &= ~RCU_CFG0_SCS;
@@ -598,7 +598,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  495:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****         RCU_CTL |= RCU_CTL_PLL1EN;
  496:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****         /* wait till PLL1 is ready */
  497:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****         while((RCU_CTL & RCU_CTL_PLL1STB) == 0){
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 11
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 11
 
 
  498:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****         }
@@ -658,7 +658,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  552:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     RCU_CFG0 |= RCU_AHB_CKSYS_DIV1;
  553:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     /* APB2 = AHB/1 */
  554:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     RCU_CFG0 |= RCU_APB2_CKAHB_DIV1;
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 12
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 12
 
 
  555:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     /* APB1 = AHB/2 */
@@ -718,7 +718,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  609:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 
  610:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     /* wait until HXTAL is stable or the startup time is longer than HXTAL_STARTUP_TIMEOUT */
  611:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     do{
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 13
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 13
 
 
  612:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****         timeout++;
@@ -778,7 +778,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  666:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** }
  667:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 
  668:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** #elif defined (__SYSTEM_CLOCK_96M_PLL_HXTAL)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 14
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 14
 
 
  669:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** /*!
@@ -838,7 +838,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  723:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 		RCU_CFG1 &= ~(RCU_CFG1_PREDV0SEL | RCU_CFG1_PREDV1 | RCU_CFG1_PLL1MF | RCU_CFG1_PREDV0);
  724:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 		RCU_CFG1 |= (RCU_PREDV0SRC_HXTAL | RCU_PREDV0_DIV2 );
  725:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     }
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 15
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 15
 
 
  726:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 
@@ -898,7 +898,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
   88              		.loc 1 761 9
   89              		.loc 1 762 9
   90              		.loc 1 762 22 is_stmt 0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 16
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 16
 
 
   91 0062 1443     		lw	a3,0(a4)
@@ -958,7 +958,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  124              		.loc 1 775 14 is_stmt 0
  125 008a D843     		lw	a4,4(a5)
  126 008c D8C3     		sw	a4,4(a5)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 17
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 17
 
 
  777:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 
@@ -1018,7 +1018,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  802:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 
  803:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 		/* enable PLL1 */
  804:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 		RCU_CTL |= RCU_CTL_PLL1EN;
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 18
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 18
 
 
  158              		.loc 1 804 3 is_stmt 1
@@ -1078,7 +1078,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  195 00f2 98C3     		sw	a4,0(a5)
  818:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 
  819:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     /* wait until PLL is stable */
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 19
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 19
 
 
  820:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****     while(0U == (RCU_CTL & RCU_CTL_PLLSTB)){
@@ -1138,7 +1138,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  235              		.section	.text.SystemCoreClockUpdate,"ax",@progbits
  236              		.align	1
  237              		.globl	SystemCoreClockUpdate
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 20
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 20
 
 
  239              	SystemCoreClockUpdate:
@@ -1198,7 +1198,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  210:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 
  278              		.loc 1 210 23 is_stmt 0
  279 002c 5C43     		lw	a5,4(a4)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 21
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 21
 
 
  280              	.LVL9:
@@ -1258,7 +1258,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  316              		.loc 1 226 23 is_stmt 0
  317 0056 C547     		li	a5,17
  318 0058 6313F700 		bne	a4,a5,.L25
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 22
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 22
 
 
  227:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****                     }
@@ -1318,7 +1318,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  236:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c **** 
  358              		.loc 1 236 19
  359 008a 3D8B     		andi	a4,a4,15
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 23
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 23
 
 
  360              	.LVL21:
@@ -1378,7 +1378,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  242:./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.c ****                 pllmf += 1U;
  400              		.loc 1 242 15 is_stmt 0
  401 00b2 BD46     		li	a3,15
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 24
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 24
 
 
  402 00b4 E300D7FE 		beq	a4,a3,.L27
@@ -1423,300 +1423,300 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 1
  435              		.file 2 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
  436              		.file 3 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
  437              		.file 4 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 25
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 system_gd32vf103.c
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:13     .text.SystemInit:0000000000000000 SystemInit
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:17     .text.SystemInit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:18     .text.SystemInit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:19     .text.SystemInit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:20     .text.SystemInit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:23     .text.SystemInit:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:26     .text.SystemInit:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:29     .text.SystemInit:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:30     .text.SystemInit:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:34     .text.SystemInit:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:35     .text.SystemInit:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:41     .text.SystemInit:0000000000000024 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:42     .text.SystemInit:0000000000000024 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:48     .text.SystemInit:0000000000000030 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:49     .text.SystemInit:0000000000000030 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:55     .text.SystemInit:000000000000003c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:56     .text.SystemInit:000000000000003c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:58     .text.SystemInit:0000000000000040 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:59     .text.SystemInit:0000000000000040 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:65     .text.SystemInit:000000000000004c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:66     .text.SystemInit:000000000000004c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:69     .text.SystemInit:0000000000000052 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:73     .text.SystemInit:0000000000000052 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:75     .text.SystemInit:0000000000000052 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:76     .text.SystemInit:0000000000000052 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:77     .text.SystemInit:0000000000000052 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:78     .text.SystemInit:0000000000000052 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:84     .text.SystemInit:000000000000005e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:88     .text.SystemInit:0000000000000062 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:89     .text.SystemInit:0000000000000062 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:90     .text.SystemInit:0000000000000062 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:91     .text.SystemInit:0000000000000062 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:94     .text.SystemInit:0000000000000064 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:99     .text.SystemInit:000000000000006e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:103    .text.SystemInit:0000000000000070 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:104    .text.SystemInit:0000000000000070 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:107    .text.SystemInit:0000000000000076 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:112    .text.SystemInit:000000000000007e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:113    .text.SystemInit:000000000000007e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:116    .text.SystemInit:0000000000000080 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:117    .text.SystemInit:0000000000000080 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:119    .text.SystemInit:0000000000000082 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:122    .text.SystemInit:0000000000000088 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:124    .text.SystemInit:000000000000008a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:125    .text.SystemInit:000000000000008a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:128    .text.SystemInit:000000000000008e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:129    .text.SystemInit:000000000000008e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:133    .text.SystemInit:0000000000000096 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:134    .text.SystemInit:0000000000000096 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:138    .text.SystemInit:000000000000009c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:139    .text.SystemInit:000000000000009c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:144    .text.SystemInit:00000000000000a6 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:145    .text.SystemInit:00000000000000a6 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:146    .text.SystemInit:00000000000000a6 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:147    .text.SystemInit:00000000000000a6 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 26
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:13     .text.SystemInit:0000000000000000 SystemInit
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:17     .text.SystemInit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:18     .text.SystemInit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:19     .text.SystemInit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:20     .text.SystemInit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:23     .text.SystemInit:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:26     .text.SystemInit:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:29     .text.SystemInit:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:30     .text.SystemInit:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:34     .text.SystemInit:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:35     .text.SystemInit:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:41     .text.SystemInit:0000000000000024 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:42     .text.SystemInit:0000000000000024 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:48     .text.SystemInit:0000000000000030 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:49     .text.SystemInit:0000000000000030 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:55     .text.SystemInit:000000000000003c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:56     .text.SystemInit:000000000000003c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:58     .text.SystemInit:0000000000000040 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:59     .text.SystemInit:0000000000000040 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:65     .text.SystemInit:000000000000004c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:66     .text.SystemInit:000000000000004c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:69     .text.SystemInit:0000000000000052 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:73     .text.SystemInit:0000000000000052 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:75     .text.SystemInit:0000000000000052 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:76     .text.SystemInit:0000000000000052 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:77     .text.SystemInit:0000000000000052 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:78     .text.SystemInit:0000000000000052 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:84     .text.SystemInit:000000000000005e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:88     .text.SystemInit:0000000000000062 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:89     .text.SystemInit:0000000000000062 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:90     .text.SystemInit:0000000000000062 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:91     .text.SystemInit:0000000000000062 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:94     .text.SystemInit:0000000000000064 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:99     .text.SystemInit:000000000000006e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:103    .text.SystemInit:0000000000000070 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:104    .text.SystemInit:0000000000000070 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:107    .text.SystemInit:0000000000000076 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:112    .text.SystemInit:000000000000007e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:113    .text.SystemInit:000000000000007e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:116    .text.SystemInit:0000000000000080 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:117    .text.SystemInit:0000000000000080 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:119    .text.SystemInit:0000000000000082 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:122    .text.SystemInit:0000000000000088 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:124    .text.SystemInit:000000000000008a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:125    .text.SystemInit:000000000000008a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:128    .text.SystemInit:000000000000008e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:129    .text.SystemInit:000000000000008e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:133    .text.SystemInit:0000000000000096 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:134    .text.SystemInit:0000000000000096 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:138    .text.SystemInit:000000000000009c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:139    .text.SystemInit:000000000000009c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:144    .text.SystemInit:00000000000000a6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:145    .text.SystemInit:00000000000000a6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:146    .text.SystemInit:00000000000000a6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:147    .text.SystemInit:00000000000000a6 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 26
 
 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:152    .text.SystemInit:00000000000000ae .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:153    .text.SystemInit:00000000000000ae .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:159    .text.SystemInit:00000000000000ba .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:160    .text.SystemInit:00000000000000ba .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:165    .text.SystemInit:00000000000000c4 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:166    .text.SystemInit:00000000000000c4 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:169    .text.SystemInit:00000000000000c8 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:170    .text.SystemInit:00000000000000c8 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:172    .text.SystemInit:00000000000000ca .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:175    .text.SystemInit:00000000000000d2 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:176    .text.SystemInit:00000000000000d2 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:181    .text.SystemInit:00000000000000dc .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:182    .text.SystemInit:00000000000000dc .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:185    .text.SystemInit:00000000000000e0 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:186    .text.SystemInit:00000000000000e0 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:188    .text.SystemInit:00000000000000e2 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:191    .text.SystemInit:00000000000000ea .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:192    .text.SystemInit:00000000000000ea .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:197    .text.SystemInit:00000000000000f4 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:198    .text.SystemInit:00000000000000f4 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:201    .text.SystemInit:00000000000000f8 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:202    .text.SystemInit:00000000000000f8 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:204    .text.SystemInit:00000000000000fa .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:207    .text.SystemInit:0000000000000102 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:208    .text.SystemInit:0000000000000102 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:212    .text.SystemInit:0000000000000108 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:213    .text.SystemInit:0000000000000108 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:217    .text.SystemInit:0000000000000110 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:218    .text.SystemInit:0000000000000110 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:221    .text.SystemInit:0000000000000114 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:222    .text.SystemInit:0000000000000114 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:224    .text.SystemInit:0000000000000116 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:226    .text.SystemInit:0000000000000118 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:231    .text.SystemInit:000000000000011a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:232    .text.SystemInit:000000000000011c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:239    .text.SystemCoreClockUpdate:0000000000000000 SystemCoreClockUpdate
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:242    .text.SystemCoreClockUpdate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:243    .text.SystemCoreClockUpdate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:244    .text.SystemCoreClockUpdate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:245    .text.SystemCoreClockUpdate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:246    .text.SystemCoreClockUpdate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:247    .text.SystemCoreClockUpdate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:248    .text.SystemCoreClockUpdate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:252    .text.SystemCoreClockUpdate:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:254    .text.SystemCoreClockUpdate:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:256    .text.SystemCoreClockUpdate:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:259    .text.SystemCoreClockUpdate:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:266    .text.SystemCoreClockUpdate:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:267    .text.SystemCoreClockUpdate:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:272    .text.SystemCoreClockUpdate:0000000000000028 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:274    .text.SystemCoreClockUpdate:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:278    .text.SystemCoreClockUpdate:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:279    .text.SystemCoreClockUpdate:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:282    .text.SystemCoreClockUpdate:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:283    .text.SystemCoreClockUpdate:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:287    .text.SystemCoreClockUpdate:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:288    .text.SystemCoreClockUpdate:0000000000000036 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 27
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:152    .text.SystemInit:00000000000000ae .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:153    .text.SystemInit:00000000000000ae .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:159    .text.SystemInit:00000000000000ba .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:160    .text.SystemInit:00000000000000ba .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:165    .text.SystemInit:00000000000000c4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:166    .text.SystemInit:00000000000000c4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:169    .text.SystemInit:00000000000000c8 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:170    .text.SystemInit:00000000000000c8 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:172    .text.SystemInit:00000000000000ca .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:175    .text.SystemInit:00000000000000d2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:176    .text.SystemInit:00000000000000d2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:181    .text.SystemInit:00000000000000dc .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:182    .text.SystemInit:00000000000000dc .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:185    .text.SystemInit:00000000000000e0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:186    .text.SystemInit:00000000000000e0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:188    .text.SystemInit:00000000000000e2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:191    .text.SystemInit:00000000000000ea .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:192    .text.SystemInit:00000000000000ea .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:197    .text.SystemInit:00000000000000f4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:198    .text.SystemInit:00000000000000f4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:201    .text.SystemInit:00000000000000f8 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:202    .text.SystemInit:00000000000000f8 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:204    .text.SystemInit:00000000000000fa .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:207    .text.SystemInit:0000000000000102 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:208    .text.SystemInit:0000000000000102 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:212    .text.SystemInit:0000000000000108 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:213    .text.SystemInit:0000000000000108 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:217    .text.SystemInit:0000000000000110 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:218    .text.SystemInit:0000000000000110 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:221    .text.SystemInit:0000000000000114 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:222    .text.SystemInit:0000000000000114 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:224    .text.SystemInit:0000000000000116 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:226    .text.SystemInit:0000000000000118 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:231    .text.SystemInit:000000000000011a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:232    .text.SystemInit:000000000000011c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:239    .text.SystemCoreClockUpdate:0000000000000000 SystemCoreClockUpdate
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:242    .text.SystemCoreClockUpdate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:243    .text.SystemCoreClockUpdate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:244    .text.SystemCoreClockUpdate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:245    .text.SystemCoreClockUpdate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:246    .text.SystemCoreClockUpdate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:247    .text.SystemCoreClockUpdate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:248    .text.SystemCoreClockUpdate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:252    .text.SystemCoreClockUpdate:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:254    .text.SystemCoreClockUpdate:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:256    .text.SystemCoreClockUpdate:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:259    .text.SystemCoreClockUpdate:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:266    .text.SystemCoreClockUpdate:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:267    .text.SystemCoreClockUpdate:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:272    .text.SystemCoreClockUpdate:0000000000000028 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:274    .text.SystemCoreClockUpdate:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:278    .text.SystemCoreClockUpdate:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:279    .text.SystemCoreClockUpdate:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:282    .text.SystemCoreClockUpdate:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:283    .text.SystemCoreClockUpdate:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:287    .text.SystemCoreClockUpdate:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:288    .text.SystemCoreClockUpdate:0000000000000036 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 27
 
 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:289    .text.SystemCoreClockUpdate:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:292    .text.SystemCoreClockUpdate:0000000000000038 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:293    .text.SystemCoreClockUpdate:0000000000000038 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:296    .text.SystemCoreClockUpdate:0000000000000040 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:297    .text.SystemCoreClockUpdate:0000000000000040 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:300    .text.SystemCoreClockUpdate:0000000000000042 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:302    .text.SystemCoreClockUpdate:0000000000000044 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:305    .text.SystemCoreClockUpdate:0000000000000048 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:307    .text.SystemCoreClockUpdate:000000000000004a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:310    .text.SystemCoreClockUpdate:000000000000004e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:311    .text.SystemCoreClockUpdate:000000000000004e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:313    .text.SystemCoreClockUpdate:0000000000000052 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:316    .text.SystemCoreClockUpdate:0000000000000056 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:317    .text.SystemCoreClockUpdate:0000000000000056 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:320    .text.SystemCoreClockUpdate:000000000000005c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:324    .text.SystemCoreClockUpdate:000000000000005e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:325    .text.SystemCoreClockUpdate:000000000000005e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:329    .text.SystemCoreClockUpdate:000000000000006a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:333    .text.SystemCoreClockUpdate:000000000000006e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:334    .text.SystemCoreClockUpdate:000000000000006e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:338    .text.SystemCoreClockUpdate:0000000000000074 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:339    .text.SystemCoreClockUpdate:0000000000000074 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:342    .text.SystemCoreClockUpdate:0000000000000076 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:345    .text.SystemCoreClockUpdate:0000000000000078 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:349    .text.SystemCoreClockUpdate:000000000000007c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:350    .text.SystemCoreClockUpdate:000000000000007c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:353    .text.SystemCoreClockUpdate:0000000000000082 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:355    .text.SystemCoreClockUpdate:0000000000000084 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:357    .text.SystemCoreClockUpdate:0000000000000086 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:359    .text.SystemCoreClockUpdate:000000000000008a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:362    .text.SystemCoreClockUpdate:000000000000008c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:363    .text.SystemCoreClockUpdate:000000000000008c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:365    .text.SystemCoreClockUpdate:0000000000000090 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:366    .text.SystemCoreClockUpdate:0000000000000090 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:370    .text.SystemCoreClockUpdate:0000000000000094 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:371    .text.SystemCoreClockUpdate:0000000000000094 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:372    .text.SystemCoreClockUpdate:0000000000000094 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:375    .text.SystemCoreClockUpdate:0000000000000096 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:377    .text.SystemCoreClockUpdate:0000000000000096 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:378    .text.SystemCoreClockUpdate:0000000000000096 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:381    .text.SystemCoreClockUpdate:000000000000009a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:386    .text.SystemCoreClockUpdate:000000000000009e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:393    .text.SystemCoreClockUpdate:00000000000000a8 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:400    .text.SystemCoreClockUpdate:00000000000000b2 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:401    .text.SystemCoreClockUpdate:00000000000000b2 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:404    .text.SystemCoreClockUpdate:00000000000000b8 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:405    .text.SystemCoreClockUpdate:00000000000000b8 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:408    .text.SystemCoreClockUpdate:00000000000000ba .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:409    .text.SystemCoreClockUpdate:00000000000000ba .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:410    .text.SystemCoreClockUpdate:00000000000000ba .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:412    .text.SystemCoreClockUpdate:00000000000000be .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:413    .text.SystemCoreClockUpdate:00000000000000be .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:417    .text.SystemCoreClockUpdate:00000000000000c4 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:420    .text.SystemCoreClockUpdate:00000000000000c6 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:422    .text.SystemCoreClockUpdate:00000000000000ca .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:431    .sdata.SystemCoreClock:0000000000000000 SystemCoreClock
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:428    .sdata.SystemCoreClock:0000000000000000 .LANCHOR0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 28
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:289    .text.SystemCoreClockUpdate:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:292    .text.SystemCoreClockUpdate:0000000000000038 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:293    .text.SystemCoreClockUpdate:0000000000000038 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:296    .text.SystemCoreClockUpdate:0000000000000040 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:297    .text.SystemCoreClockUpdate:0000000000000040 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:300    .text.SystemCoreClockUpdate:0000000000000042 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:302    .text.SystemCoreClockUpdate:0000000000000044 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:305    .text.SystemCoreClockUpdate:0000000000000048 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:307    .text.SystemCoreClockUpdate:000000000000004a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:310    .text.SystemCoreClockUpdate:000000000000004e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:311    .text.SystemCoreClockUpdate:000000000000004e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:313    .text.SystemCoreClockUpdate:0000000000000052 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:316    .text.SystemCoreClockUpdate:0000000000000056 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:317    .text.SystemCoreClockUpdate:0000000000000056 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:320    .text.SystemCoreClockUpdate:000000000000005c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:324    .text.SystemCoreClockUpdate:000000000000005e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:325    .text.SystemCoreClockUpdate:000000000000005e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:329    .text.SystemCoreClockUpdate:000000000000006a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:333    .text.SystemCoreClockUpdate:000000000000006e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:334    .text.SystemCoreClockUpdate:000000000000006e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:338    .text.SystemCoreClockUpdate:0000000000000074 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:339    .text.SystemCoreClockUpdate:0000000000000074 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:342    .text.SystemCoreClockUpdate:0000000000000076 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:345    .text.SystemCoreClockUpdate:0000000000000078 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:349    .text.SystemCoreClockUpdate:000000000000007c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:350    .text.SystemCoreClockUpdate:000000000000007c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:353    .text.SystemCoreClockUpdate:0000000000000082 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:355    .text.SystemCoreClockUpdate:0000000000000084 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:357    .text.SystemCoreClockUpdate:0000000000000086 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:359    .text.SystemCoreClockUpdate:000000000000008a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:362    .text.SystemCoreClockUpdate:000000000000008c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:363    .text.SystemCoreClockUpdate:000000000000008c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:365    .text.SystemCoreClockUpdate:0000000000000090 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:366    .text.SystemCoreClockUpdate:0000000000000090 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:370    .text.SystemCoreClockUpdate:0000000000000094 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:371    .text.SystemCoreClockUpdate:0000000000000094 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:372    .text.SystemCoreClockUpdate:0000000000000094 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:375    .text.SystemCoreClockUpdate:0000000000000096 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:377    .text.SystemCoreClockUpdate:0000000000000096 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:378    .text.SystemCoreClockUpdate:0000000000000096 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:381    .text.SystemCoreClockUpdate:000000000000009a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:386    .text.SystemCoreClockUpdate:000000000000009e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:393    .text.SystemCoreClockUpdate:00000000000000a8 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:400    .text.SystemCoreClockUpdate:00000000000000b2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:401    .text.SystemCoreClockUpdate:00000000000000b2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:404    .text.SystemCoreClockUpdate:00000000000000b8 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:405    .text.SystemCoreClockUpdate:00000000000000b8 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:408    .text.SystemCoreClockUpdate:00000000000000ba .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:409    .text.SystemCoreClockUpdate:00000000000000ba .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:410    .text.SystemCoreClockUpdate:00000000000000ba .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:412    .text.SystemCoreClockUpdate:00000000000000be .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:413    .text.SystemCoreClockUpdate:00000000000000be .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:417    .text.SystemCoreClockUpdate:00000000000000c4 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:420    .text.SystemCoreClockUpdate:00000000000000c6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:422    .text.SystemCoreClockUpdate:00000000000000ca .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:431    .sdata.SystemCoreClock:0000000000000000 SystemCoreClock
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:428    .sdata.SystemCoreClock:0000000000000000 .LANCHOR0
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 28
 
 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:235    .text.SystemInit:000000000000011c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:426    .text.SystemCoreClockUpdate:00000000000000ca .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:235    .text.SystemInit:000000000000011c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:426    .text.SystemCoreClockUpdate:00000000000000ca .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:101    .text.SystemInit:0000000000000070 .L2
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:86     .text.SystemInit:0000000000000062 .L3
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:114    .text.SystemInit:0000000000000080 .L4
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:110    .text.SystemInit:000000000000007e .L5
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:167    .text.SystemInit:00000000000000c8 .L6
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:183    .text.SystemInit:00000000000000e0 .L7
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:199    .text.SystemInit:00000000000000f8 .L8
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:219    .text.SystemInit:0000000000000114 .L9
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:264    .text.SystemCoreClockUpdate:0000000000000020 .L20
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:276    .text.SystemCoreClockUpdate:000000000000002c .L21
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:391    .text.SystemCoreClockUpdate:00000000000000a8 .L31
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:384    .text.SystemCoreClockUpdate:000000000000009e .L32
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:322    .text.SystemCoreClockUpdate:000000000000005e .L25
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:398    .text.SystemCoreClockUpdate:00000000000000b2 .L26
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:331    .text.SystemCoreClockUpdate:000000000000006e .L24
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:347    .text.SystemCoreClockUpdate:000000000000007c .L23
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:369    .text.SystemCoreClockUpdate:0000000000000094 .L27
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:376    .text.SystemCoreClockUpdate:0000000000000096 .L29
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:270    .text.SystemCoreClockUpdate:0000000000000028 .L36
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:691    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1165   .debug_str:00000000000001cd .LASF28
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1123   .debug_str:000000000000004b .LASF29
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1137   .debug_str:00000000000000dd .LASF30
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1099   .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1107   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1139   .debug_str:0000000000000127 .LASF0
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1175   .debug_str:0000000000000279 .LASF1
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1109   .debug_str:0000000000000000 .LASF4
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1131   .debug_str:00000000000000bd .LASF2
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1157   .debug_str:000000000000019f .LASF3
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1133   .debug_str:00000000000000cb .LASF5
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1127   .debug_str:000000000000009f .LASF6
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1169   .debug_str:000000000000025e .LASF7
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1129   .debug_str:00000000000000b2 .LASF8
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1125   .debug_str:000000000000008d .LASF9
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1149   .debug_str:0000000000000163 .LASF10
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1141   .debug_str:0000000000000134 .LASF11
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1143   .debug_str:000000000000014b .LASF12
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1161   .debug_str:00000000000001b0 .LASF13
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1167   .debug_str:0000000000000255 .LASF14
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1153   .debug_str:0000000000000179 .LASF31
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1173   .debug_str:000000000000026d .LASF15
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1121   .debug_str:0000000000000033 .LASF32
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1151   .debug_str:0000000000000171 .LASF16
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1119   .debug_str:0000000000000029 .LASF17
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1155   .debug_str:0000000000000189 .LASF26
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:240    .text.SystemCoreClockUpdate:0000000000000000 .LFB4
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:423    .text.SystemCoreClockUpdate:00000000000000ca .LFE4
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1145   .debug_str:0000000000000153 .LASF18
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:917    .debug_loc:0000000000000000 .LLST2
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1159   .debug_str:00000000000001a9 .LASF19
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:928    .debug_loc:000000000000001e .LLST3
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1111   .debug_str:000000000000000a .LASF20
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:951    .debug_loc:0000000000000048 .LLST4
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s 			page 29
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:101    .text.SystemInit:0000000000000070 .L2
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:86     .text.SystemInit:0000000000000062 .L3
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:114    .text.SystemInit:0000000000000080 .L4
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:110    .text.SystemInit:000000000000007e .L5
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:167    .text.SystemInit:00000000000000c8 .L6
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:183    .text.SystemInit:00000000000000e0 .L7
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:199    .text.SystemInit:00000000000000f8 .L8
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:219    .text.SystemInit:0000000000000114 .L9
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:264    .text.SystemCoreClockUpdate:0000000000000020 .L20
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:276    .text.SystemCoreClockUpdate:000000000000002c .L21
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:391    .text.SystemCoreClockUpdate:00000000000000a8 .L31
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:384    .text.SystemCoreClockUpdate:000000000000009e .L32
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:322    .text.SystemCoreClockUpdate:000000000000005e .L25
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:398    .text.SystemCoreClockUpdate:00000000000000b2 .L26
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:331    .text.SystemCoreClockUpdate:000000000000006e .L24
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:347    .text.SystemCoreClockUpdate:000000000000007c .L23
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:369    .text.SystemCoreClockUpdate:0000000000000094 .L27
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:376    .text.SystemCoreClockUpdate:0000000000000096 .L29
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:270    .text.SystemCoreClockUpdate:0000000000000028 .L36
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:691    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1165   .debug_str:00000000000001d4 .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1125   .debug_str:000000000000009c .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1111   .debug_str:000000000000000a .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1099   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1107   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1139   .debug_str:000000000000012e .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1175   .debug_str:0000000000000280 .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1109   .debug_str:0000000000000000 .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1133   .debug_str:000000000000010e .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1157   .debug_str:00000000000001a6 .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1135   .debug_str:000000000000011c .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1129   .debug_str:00000000000000f0 .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1169   .debug_str:0000000000000265 .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1131   .debug_str:0000000000000103 .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1127   .debug_str:00000000000000de .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1149   .debug_str:000000000000016a .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1141   .debug_str:000000000000013b .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1143   .debug_str:0000000000000152 .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1161   .debug_str:00000000000001b7 .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1167   .debug_str:000000000000025c .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1153   .debug_str:0000000000000180 .LASF31
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1173   .debug_str:0000000000000274 .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1123   .debug_str:0000000000000084 .LASF32
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1151   .debug_str:0000000000000178 .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1121   .debug_str:000000000000007a .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1155   .debug_str:0000000000000190 .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:240    .text.SystemCoreClockUpdate:0000000000000000 .LFB4
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:423    .text.SystemCoreClockUpdate:00000000000000ca .LFE4
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1145   .debug_str:000000000000015a .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:917    .debug_loc:0000000000000000 .LLST2
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1159   .debug_str:00000000000001b0 .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:928    .debug_loc:000000000000001e .LLST3
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1113   .debug_str:000000000000005b .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:951    .debug_loc:0000000000000048 .LLST4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s 			page 29
 
 
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1171   .debug_str:0000000000000267 .LASF21
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:974    .debug_loc:0000000000000072 .LLST5
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1135   .debug_str:00000000000000d6 .LASF22
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:985    .debug_loc:0000000000000090 .LLST6
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1113   .debug_str:0000000000000014 .LASF23
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1008   .debug_loc:00000000000000ce .LLST7
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1115   .debug_str:000000000000001b .LASF24
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1025   .debug_loc:00000000000000f2 .LLST8
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1117   .debug_str:0000000000000022 .LASF25
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1032   .debug_loc:0000000000000105 .LLST9
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1147   .debug_str:0000000000000158 .LASF27
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:14     .text.SystemInit:0000000000000000 .LFB3
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:233    .text.SystemInit:000000000000011c .LFE3
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:70     .text.SystemInit:0000000000000052 .LBB8
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:229    .text.SystemInit:000000000000011a .LBE8
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:71     .text.SystemInit:0000000000000052 .LBB9
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:228    .text.SystemInit:000000000000011a .LBE9
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:72     .text.SystemInit:0000000000000052 .LBB10
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:227    .text.SystemInit:000000000000011a .LBE10
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1039   .debug_loc:0000000000000118 .LLST0
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1066   .debug_loc:000000000000014e .LLST1
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:1163   .debug_str:00000000000001b9 .LASF33
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:257    .text.SystemCoreClockUpdate:0000000000000010 .LVL6
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:268    .text.SystemCoreClockUpdate:0000000000000024 .LVL7
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:275    .text.SystemCoreClockUpdate:000000000000002c .LVL8
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:280    .text.SystemCoreClockUpdate:000000000000002e .LVL9
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:290    .text.SystemCoreClockUpdate:0000000000000038 .LVL11
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:390    .text.SystemCoreClockUpdate:00000000000000a8 .LVL27
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:394    .text.SystemCoreClockUpdate:00000000000000ac .LVL28
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:298    .text.SystemCoreClockUpdate:0000000000000042 .LVL12
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:383    .text.SystemCoreClockUpdate:000000000000009e .LVL25
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:387    .text.SystemCoreClockUpdate:00000000000000a2 .LVL26
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:360    .text.SystemCoreClockUpdate:000000000000008c .LVL21
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:379    .text.SystemCoreClockUpdate:000000000000009a .LVL24
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:397    .text.SystemCoreClockUpdate:00000000000000b2 .LVL29
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:414    .text.SystemCoreClockUpdate:00000000000000c0 .LVL31
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:286    .text.SystemCoreClockUpdate:0000000000000036 .LVL10
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:330    .text.SystemCoreClockUpdate:000000000000006e .LVL16
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:418    .text.SystemCoreClockUpdate:00000000000000c6 .LVL32
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:336    .text.SystemCoreClockUpdate:0000000000000074 .LVL17
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:340    .text.SystemCoreClockUpdate:0000000000000076 .LVL18
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:343    .text.SystemCoreClockUpdate:0000000000000078 .LVL19
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:346    .text.SystemCoreClockUpdate:000000000000007c .LVL20
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:308    .text.SystemCoreClockUpdate:000000000000004e .LVL13
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:314    .text.SystemCoreClockUpdate:0000000000000056 .LVL14
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:74     .text.SystemInit:0000000000000052 .LVL0
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:85     .text.SystemInit:0000000000000062 .LVL1
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:97     .text.SystemInit:000000000000006e .LVL3
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:100    .text.SystemInit:0000000000000070 .LVL4
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:92     .text.SystemInit:0000000000000064 .LVL2
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:108    .text.SystemInit:000000000000007a .LVL5
-C:\Users\kasie\AppData\Local\Temp\ccadGpmu.s:439    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1171   .debug_str:000000000000026e .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:974    .debug_loc:0000000000000072 .LLST5
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1137   .debug_str:0000000000000127 .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:985    .debug_loc:0000000000000090 .LLST6
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1115   .debug_str:0000000000000065 .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1008   .debug_loc:00000000000000ce .LLST7
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1117   .debug_str:000000000000006c .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1025   .debug_loc:00000000000000f2 .LLST8
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1119   .debug_str:0000000000000073 .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1032   .debug_loc:0000000000000105 .LLST9
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1147   .debug_str:000000000000015f .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:14     .text.SystemInit:0000000000000000 .LFB3
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:233    .text.SystemInit:000000000000011c .LFE3
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:70     .text.SystemInit:0000000000000052 .LBB8
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:229    .text.SystemInit:000000000000011a .LBE8
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:71     .text.SystemInit:0000000000000052 .LBB9
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:228    .text.SystemInit:000000000000011a .LBE9
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:72     .text.SystemInit:0000000000000052 .LBB10
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:227    .text.SystemInit:000000000000011a .LBE10
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1039   .debug_loc:0000000000000118 .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1066   .debug_loc:000000000000014e .LLST1
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:1163   .debug_str:00000000000001c0 .LASF33
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:257    .text.SystemCoreClockUpdate:0000000000000010 .LVL6
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:268    .text.SystemCoreClockUpdate:0000000000000024 .LVL7
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:275    .text.SystemCoreClockUpdate:000000000000002c .LVL8
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:280    .text.SystemCoreClockUpdate:000000000000002e .LVL9
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:290    .text.SystemCoreClockUpdate:0000000000000038 .LVL11
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:390    .text.SystemCoreClockUpdate:00000000000000a8 .LVL27
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:394    .text.SystemCoreClockUpdate:00000000000000ac .LVL28
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:298    .text.SystemCoreClockUpdate:0000000000000042 .LVL12
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:383    .text.SystemCoreClockUpdate:000000000000009e .LVL25
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:387    .text.SystemCoreClockUpdate:00000000000000a2 .LVL26
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:360    .text.SystemCoreClockUpdate:000000000000008c .LVL21
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:379    .text.SystemCoreClockUpdate:000000000000009a .LVL24
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:397    .text.SystemCoreClockUpdate:00000000000000b2 .LVL29
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:414    .text.SystemCoreClockUpdate:00000000000000c0 .LVL31
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:286    .text.SystemCoreClockUpdate:0000000000000036 .LVL10
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:330    .text.SystemCoreClockUpdate:000000000000006e .LVL16
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:418    .text.SystemCoreClockUpdate:00000000000000c6 .LVL32
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:336    .text.SystemCoreClockUpdate:0000000000000074 .LVL17
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:340    .text.SystemCoreClockUpdate:0000000000000076 .LVL18
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:343    .text.SystemCoreClockUpdate:0000000000000078 .LVL19
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:346    .text.SystemCoreClockUpdate:000000000000007c .LVL20
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:308    .text.SystemCoreClockUpdate:000000000000004e .LVL13
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:314    .text.SystemCoreClockUpdate:0000000000000056 .LVL14
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:74     .text.SystemInit:0000000000000052 .LVL0
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:85     .text.SystemInit:0000000000000062 .LVL1
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:97     .text.SystemInit:000000000000006e .LVL3
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:100    .text.SystemInit:0000000000000070 .LVL4
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:92     .text.SystemInit:0000000000000064 .LVL2
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:108    .text.SystemInit:000000000000007a .LVL5
+C:\Users\kasie\AppData\Local\Temp\ccRaZTIB.s:439    .debug_info:0000000000000000 .Ldebug_info0
 
 NO UNDEFINED SYMBOLS
