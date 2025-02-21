@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s 			page 1
 
 
    1              		.file	"read.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s 			page 1
   30              	.Letext0:
   31              		.file 3 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\lib\\gcc\\riscv64-unkn
   32              		.file 4 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s 			page 2
 
 
   33              		.file 5 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
@@ -66,169 +66,169 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s 			page 1
   35              		.file 7 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
   36              		.file 8 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
   37              		.file 9 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s 			page 3
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 read.c
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:13     .text._read:0000000000000000 _read
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:17     .text._read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:19     .text._read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:21     .text._read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:22     .text._read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:23     .text._read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:26     .text._read:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:29     .text._read:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:13     .text._read:0000000000000000 _read
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:17     .text._read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:19     .text._read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:21     .text._read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:22     .text._read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:23     .text._read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:26     .text._read:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:29     .text._read:0000000000000004 .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:1569   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2338   .debug_str:0000000000000477 .LASF130
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2142   .debug_str:000000000000009a .LASF131
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2266   .debug_str:00000000000002f0 .LASF132
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2106   .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2112   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2150   .debug_str:00000000000000e3 .LASF0
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2270   .debug_str:000000000000034c .LASF1
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2276   .debug_str:0000000000000368 .LASF2
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2220   .debug_str:000000000000021f .LASF3
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2166   .debug_str:0000000000000128 .LASF4
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2214   .debug_str:0000000000000200 .LASF5
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2148   .debug_str:00000000000000d5 .LASF6
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2132   .debug_str:000000000000005a .LASF7
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2206   .debug_str:00000000000001dc .LASF8
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2118   .debug_str:0000000000000012 .LASF10
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2250   .debug_str:00000000000002a9 .LASF9
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2234   .debug_str:000000000000026a .LASF11
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2262   .debug_str:00000000000002df .LASF12
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2322   .debug_str:000000000000043a .LASF13
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2358   .debug_str:0000000000000557 .LASF14
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2230   .debug_str:000000000000025c .LASF15
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2208   .debug_str:00000000000001e9 .LASF16
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2314   .debug_str:0000000000000418 .LASF17
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2316   .debug_str:0000000000000420 .LASF18
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2286   .debug_str:0000000000000390 .LASF19
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2344   .debug_str:000000000000050d .LASF20
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2268   .debug_str:000000000000033a .LASF21
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2192   .debug_str:000000000000019f .LASF22
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2196   .debug_str:00000000000001b0 .LASF27
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2334   .debug_str:0000000000000464 .LASF23
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2308   .debug_str:0000000000000403 .LASF24
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2190   .debug_str:0000000000000199 .LASF25
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2352   .debug_str:0000000000000542 .LASF26
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2204   .debug_str:00000000000001d7 .LASF28
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2146   .debug_str:00000000000000cc .LASF29
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2328   .debug_str:000000000000044e .LASF30
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2156   .debug_str:00000000000000fb .LASF31
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2382   .debug_str:00000000000005c2 .LASF32
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2256   .debug_str:00000000000002c3 .LASF33
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2244   .debug_str:000000000000028f .LASF34
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2354   .debug_str:0000000000000547 .LASF35
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2278   .debug_str:0000000000000372 .LASF36
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2368   .debug_str:0000000000000582 .LASF37
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2160   .debug_str:000000000000010a .LASF38
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2186   .debug_str:000000000000018c .LASF39
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s 			page 4
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:1569   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2338   .debug_str:0000000000000432 .LASF130
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2144   .debug_str:000000000000009f .LASF131
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2380   .debug_str:0000000000000578 .LASF132
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2106   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2112   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2152   .debug_str:00000000000000e8 .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2270   .debug_str:0000000000000307 .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2276   .debug_str:0000000000000323 .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2222   .debug_str:0000000000000224 .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2168   .debug_str:000000000000012d .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2216   .debug_str:0000000000000205 .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2150   .debug_str:00000000000000da .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2132   .debug_str:000000000000005a .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2208   .debug_str:00000000000001e1 .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2118   .debug_str:0000000000000012 .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2252   .debug_str:00000000000002ae .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2236   .debug_str:000000000000026f .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2264   .debug_str:00000000000002e4 .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2322   .debug_str:00000000000003f5 .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2358   .debug_str:0000000000000512 .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2232   .debug_str:0000000000000261 .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2210   .debug_str:00000000000001ee .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2314   .debug_str:00000000000003d3 .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2316   .debug_str:00000000000003db .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2286   .debug_str:000000000000034b .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2344   .debug_str:00000000000004c8 .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2268   .debug_str:00000000000002f5 .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2194   .debug_str:00000000000001a4 .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2198   .debug_str:00000000000001b5 .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2334   .debug_str:000000000000041f .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2308   .debug_str:00000000000003be .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2192   .debug_str:000000000000019e .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2352   .debug_str:00000000000004fd .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2206   .debug_str:00000000000001dc .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2148   .debug_str:00000000000000d1 .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2328   .debug_str:0000000000000409 .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2158   .debug_str:0000000000000100 .LASF31
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2382   .debug_str:00000000000005c9 .LASF32
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2258   .debug_str:00000000000002c8 .LASF33
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2246   .debug_str:0000000000000294 .LASF34
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2354   .debug_str:0000000000000502 .LASF35
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2278   .debug_str:000000000000032d .LASF36
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2368   .debug_str:000000000000053d .LASF37
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2162   .debug_str:000000000000010f .LASF38
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2188   .debug_str:0000000000000191 .LASF39
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s 			page 4
 
 
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2114   .debug_str:0000000000000000 .LASF40
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2340   .debug_str:00000000000004ff .LASF41
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2170   .debug_str:0000000000000138 .LASF42
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2258   .debug_str:00000000000002cc .LASF43
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2300   .debug_str:00000000000003d3 .LASF44
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2188   .debug_str:0000000000000194 .LASF45
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2280   .debug_str:000000000000037c .LASF46
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2154   .debug_str:00000000000000f5 .LASF47
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2116   .debug_str:000000000000000c .LASF48
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2288   .debug_str:000000000000039b .LASF49
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2168   .debug_str:0000000000000131 .LASF50
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2216   .debug_str:0000000000000212 .LASF51
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2134   .debug_str:0000000000000071 .LASF52
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2162   .debug_str:0000000000000118 .LASF53
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2200   .debug_str:00000000000001c7 .LASF54
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2242   .debug_str:0000000000000288 .LASF55
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2318   .debug_str:0000000000000428 .LASF56
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2372   .debug_str:000000000000059c .LASF57
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2152   .debug_str:00000000000000ef .LASF58
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2364   .debug_str:0000000000000574 .LASF59
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2174   .debug_str:0000000000000147 .LASF60
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2180   .debug_str:0000000000000165 .LASF61
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2126   .debug_str:0000000000000034 .LASF62
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2236   .debug_str:0000000000000271 .LASF63
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2292   .debug_str:00000000000003ad .LASF64
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2238   .debug_str:0000000000000277 .LASF65
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2310   .debug_str:000000000000040b .LASF66
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2324   .debug_str:0000000000000442 .LASF67
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2172   .debug_str:0000000000000140 .LASF68
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2210   .debug_str:00000000000001f0 .LASF69
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2194   .debug_str:00000000000001a8 .LASF70
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2298   .debug_str:00000000000003ce .LASF71
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2122   .debug_str:0000000000000021 .LASF72
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2306   .debug_str:00000000000003ea .LASF73
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2302   .debug_str:00000000000003d8 .LASF74
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2260   .debug_str:00000000000002d4 .LASF75
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2304   .debug_str:00000000000003e0 .LASF76
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2228   .debug_str:0000000000000254 .LASF77
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2202   .debug_str:00000000000001cd .LASF78
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2380   .debug_str:00000000000005bd .LASF79
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2264   .debug_str:00000000000002e6 .LASF80
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2212   .debug_str:00000000000001f8 .LASF81
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2178   .debug_str:000000000000015d .LASF82
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2272   .debug_str:000000000000035a .LASF83
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2222   .debug_str:0000000000000232 .LASF84
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2362   .debug_str:000000000000056a .LASF85
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2164   .debug_str:0000000000000120 .LASF86
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2158   .debug_str:0000000000000105 .LASF87
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2326   .debug_str:0000000000000449 .LASF88
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2284   .debug_str:0000000000000389 .LASF89
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2356   .debug_str:0000000000000551 .LASF90
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2218   .debug_str:0000000000000218 .LASF91
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2282   .debug_str:0000000000000383 .LASF92
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2120   .debug_str:0000000000000019 .LASF93
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2312   .debug_str:0000000000000412 .LASF94
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2332   .debug_str:000000000000045e .LASF95
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2342   .debug_str:0000000000000508 .LASF96
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s 			page 5
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2114   .debug_str:0000000000000000 .LASF40
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2340   .debug_str:00000000000004ba .LASF41
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2172   .debug_str:000000000000013d .LASF42
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2260   .debug_str:00000000000002d1 .LASF43
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2300   .debug_str:000000000000038e .LASF44
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2190   .debug_str:0000000000000199 .LASF45
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2280   .debug_str:0000000000000337 .LASF46
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2156   .debug_str:00000000000000fa .LASF47
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2116   .debug_str:000000000000000c .LASF48
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2288   .debug_str:0000000000000356 .LASF49
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2170   .debug_str:0000000000000136 .LASF50
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2218   .debug_str:0000000000000217 .LASF51
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2134   .debug_str:0000000000000071 .LASF52
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2164   .debug_str:000000000000011d .LASF53
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2202   .debug_str:00000000000001cc .LASF54
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2244   .debug_str:000000000000028d .LASF55
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2318   .debug_str:00000000000003e3 .LASF56
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2372   .debug_str:0000000000000557 .LASF57
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2154   .debug_str:00000000000000f4 .LASF58
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2364   .debug_str:000000000000052f .LASF59
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2176   .debug_str:000000000000014c .LASF60
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2182   .debug_str:000000000000016a .LASF61
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2126   .debug_str:0000000000000034 .LASF62
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2238   .debug_str:0000000000000276 .LASF63
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2292   .debug_str:0000000000000368 .LASF64
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2240   .debug_str:000000000000027c .LASF65
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2310   .debug_str:00000000000003c6 .LASF66
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2324   .debug_str:00000000000003fd .LASF67
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2174   .debug_str:0000000000000145 .LASF68
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2212   .debug_str:00000000000001f5 .LASF69
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2196   .debug_str:00000000000001ad .LASF70
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2298   .debug_str:0000000000000389 .LASF71
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2122   .debug_str:0000000000000021 .LASF72
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2306   .debug_str:00000000000003a5 .LASF73
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2302   .debug_str:0000000000000393 .LASF74
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2262   .debug_str:00000000000002d9 .LASF75
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2304   .debug_str:000000000000039b .LASF76
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2230   .debug_str:0000000000000259 .LASF77
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2204   .debug_str:00000000000001d2 .LASF78
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2136   .debug_str:000000000000007a .LASF79
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2266   .debug_str:00000000000002eb .LASF80
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2214   .debug_str:00000000000001fd .LASF81
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2180   .debug_str:0000000000000162 .LASF82
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2272   .debug_str:0000000000000315 .LASF83
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2224   .debug_str:0000000000000237 .LASF84
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2362   .debug_str:0000000000000525 .LASF85
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2166   .debug_str:0000000000000125 .LASF86
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2160   .debug_str:000000000000010a .LASF87
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2326   .debug_str:0000000000000404 .LASF88
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2284   .debug_str:0000000000000344 .LASF89
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2356   .debug_str:000000000000050c .LASF90
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2220   .debug_str:000000000000021d .LASF91
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2282   .debug_str:000000000000033e .LASF92
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2120   .debug_str:0000000000000019 .LASF93
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2312   .debug_str:00000000000003cd .LASF94
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2332   .debug_str:0000000000000419 .LASF95
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2342   .debug_str:00000000000004c3 .LASF96
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s 			page 5
 
 
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2350   .debug_str:0000000000000535 .LASF97
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2336   .debug_str:000000000000046a .LASF98
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2226   .debug_str:0000000000000247 .LASF99
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2370   .debug_str:000000000000058d .LASF100
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2198   .debug_str:00000000000001b8 .LASF101
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2294   .debug_str:00000000000003b6 .LASF102
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2374   .debug_str:00000000000005a3 .LASF103
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2296   .debug_str:00000000000003c1 .LASF104
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2378   .debug_str:00000000000005af .LASF105
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2144   .debug_str:00000000000000be .LASF106
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2360   .debug_str:0000000000000560 .LASF107
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2224   .debug_str:000000000000023b .LASF108
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2346   .debug_str:0000000000000515 .LASF109
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2184   .debug_str:000000000000017e .LASF110
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2140   .debug_str:000000000000008b .LASF111
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2182   .debug_str:000000000000016d .LASF112
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2128   .debug_str:000000000000003a .LASF113
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2130   .debug_str:0000000000000049 .LASF114
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2274   .debug_str:000000000000035f .LASF115
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2254   .debug_str:00000000000002bc .LASF116
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2246   .debug_str:0000000000000299 .LASF117
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2366   .debug_str:000000000000057a .LASF118
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2136   .debug_str:000000000000007a .LASF133
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2320   .debug_str:000000000000042e .LASF119
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2348   .debug_str:0000000000000522 .LASF120
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2176   .debug_str:0000000000000150 .LASF121
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2290   .debug_str:00000000000003a3 .LASF122
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2124   .debug_str:000000000000002c .LASF123
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2232   .debug_str:0000000000000262 .LASF124
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2248   .debug_str:00000000000002a2 .LASF125
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2252   .debug_str:00000000000002b5 .LASF126
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2330   .debug_str:0000000000000457 .LASF127
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2376   .debug_str:00000000000005a8 .LASF128
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2240   .debug_str:000000000000027f .LASF129
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:14     .text._read:0000000000000000 .LFB1
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:27     .text._read:0000000000000004 .LFE1
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2079   .debug_loc:0000000000000000 .LLST0
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:2138   .debug_str:0000000000000085 .LASF134
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:18     .text._read:0000000000000000 .LVL0
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:24     .text._read:0000000000000002 .LVL1
-C:\Users\kasie\AppData\Local\Temp\ccB85MBf.s:39     .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2350   .debug_str:00000000000004f0 .LASF97
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2336   .debug_str:0000000000000425 .LASF98
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2228   .debug_str:000000000000024c .LASF99
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2370   .debug_str:0000000000000548 .LASF100
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2200   .debug_str:00000000000001bd .LASF101
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2294   .debug_str:0000000000000371 .LASF102
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2374   .debug_str:000000000000055e .LASF103
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2296   .debug_str:000000000000037c .LASF104
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2378   .debug_str:000000000000056a .LASF105
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2146   .debug_str:00000000000000c3 .LASF106
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2360   .debug_str:000000000000051b .LASF107
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2226   .debug_str:0000000000000240 .LASF108
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2346   .debug_str:00000000000004d0 .LASF109
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2186   .debug_str:0000000000000183 .LASF110
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2142   .debug_str:0000000000000090 .LASF111
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2184   .debug_str:0000000000000172 .LASF112
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2128   .debug_str:000000000000003a .LASF113
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2130   .debug_str:0000000000000049 .LASF114
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2274   .debug_str:000000000000031a .LASF115
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2256   .debug_str:00000000000002c1 .LASF116
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2248   .debug_str:000000000000029e .LASF117
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2366   .debug_str:0000000000000535 .LASF118
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2138   .debug_str:000000000000007f .LASF133
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2320   .debug_str:00000000000003e9 .LASF119
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2348   .debug_str:00000000000004dd .LASF120
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2178   .debug_str:0000000000000155 .LASF121
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2290   .debug_str:000000000000035e .LASF122
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2124   .debug_str:000000000000002c .LASF123
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2234   .debug_str:0000000000000267 .LASF124
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2250   .debug_str:00000000000002a7 .LASF125
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2254   .debug_str:00000000000002ba .LASF126
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2330   .debug_str:0000000000000412 .LASF127
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2376   .debug_str:0000000000000563 .LASF128
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2242   .debug_str:0000000000000284 .LASF129
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:14     .text._read:0000000000000000 .LFB1
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:27     .text._read:0000000000000004 .LFE1
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2079   .debug_loc:0000000000000000 .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:2140   .debug_str:000000000000008a .LASF134
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:18     .text._read:0000000000000000 .LVL0
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:24     .text._read:0000000000000002 .LVL1
+C:\Users\kasie\AppData\Local\Temp\ccQFfjgm.s:39     .debug_info:0000000000000000 .Ldebug_info0
 
 NO UNDEFINED SYMBOLS
