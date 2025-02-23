@@ -2,6 +2,8 @@
     "C_Cpp.default.compilerPath": "",
     "files.associations": {
         "oledfont.h": "c",
-        "drivers.h": "c"
+        "drivers.h": "c",
+        "lcd.h": "c",
+        "adc.h": "c"
     }
 }

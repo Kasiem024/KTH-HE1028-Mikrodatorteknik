@@ -194,9 +194,9 @@ colset: addi sp, sp, -4     // Make room on the stack...
 /////////////////////////////////////////////////////////////////////////////////////
 .section .data
 l88mmat: .word l88mmap
-l88mmap: .word 0x55AA55AA
-         .word 0x55AA55AA
-         .byte 0xAA
+l88mmap: .word 0x00
+         .word 0x00
+         .byte 0x00
 .section .text
 // l88init Initialize the 8*8LED matrix row hw driver ////////////////// 1.0 / AC ///
 // (The 8*8LED matrix column part is managed through the Column hw driver package)
