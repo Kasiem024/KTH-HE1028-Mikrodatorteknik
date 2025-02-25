@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 1
 
 
    1              		.file	"gd32vf103_spi.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
   41:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** 
   42:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** /* I2S clock source selection, multiplication and division mask */
   43:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** #define I2S1_CLOCK_SEL                  ((uint32_t)0x00020000U)  /* I2S1 clock source selection */
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 2
 
 
   44:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** #define I2S2_CLOCK_SEL                  ((uint32_t)0x00040000U)  /* I2S2 clock source selection */
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
   70:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         rcu_periph_reset_disable(RCU_SPI1RST);
   41              		.loc 1 70 9
   42 002c 1305E040 		li	a0,1038
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 3
 
 
   43 0030 09A8     		j	.L8
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
   79              		.cfi_restore 1
   80 0062 4101     		addi	sp,sp,16
   81              	.LCFI3:
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 4
 
 
   82              		.cfi_def_cfa_offset 0
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  123              	spi_init:
  124              	.LFB4:
   98:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 5
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 5
 
 
   99:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** /*!
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  141              	.LVL13:
  123:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     /* select SPI transfer mode */
  142              		.loc 1 123 5 is_stmt 1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 6
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 6
 
 
  125:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     /* select SPI frame size */
@@ -358,7 +358,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  142:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** 
  143:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** /*!
  144:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     \brief      enable SPI
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 7
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 7
 
 
  145:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     \param[in]  spi_periph: SPIx(x=0,1,2)
@@ -418,7 +418,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  165:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** /*!
  166:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     \brief      initialize I2S parameter 
  167:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     \param[in]  spi_periph: SPIx(x=1,2)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 8
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 8
 
 
  168:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     \param[in]  mode: I2S operation mode
@@ -478,7 +478,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  200:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     /* select I2S polarity */
  201:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     reg |= (uint32_t)ckpl;
  247              		.loc 1 201 5 is_stmt 1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 9
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 9
 
 
  248              		.loc 1 201 9 is_stmt 0
@@ -538,7 +538,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  270              	.LVL26:
  236:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     uint32_t i2sdiv = 2U, i2sof = 0U;
  271              		.loc 1 236 5
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 10
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 10
 
 
  237:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     uint32_t clks = 0U;
@@ -598,7 +598,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  306              		.loc 1 252 15 is_stmt 0
  307 0024 37170240 		li	a4,1073876992
  308 0028 5C57     		lw	a5,44(a4)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 11
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 11
 
 
  309              		.loc 1 252 24
@@ -658,7 +658,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  343 004a 3D89     		andi	a0,a0,15
  267:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         /* calculate I2S clock based on PLL2 and PREDV1 */
  344              		.loc 1 267 18
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 12
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 12
 
 
  345 004c 13071500 		addi	a4,a0,1
@@ -718,7 +718,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  373              		.loc 1 287 5 is_stmt 1
  287:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     i2sof  = (clks & 0x00000001U);
  374              		.loc 1 287 10 is_stmt 0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 13
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 13
 
 
  375 007a 2944     		li	s0,10
@@ -778,7 +778,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  299:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** 
  300:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     /* clear SPI_I2SCTL_DTLEN and SPI_I2SCTL_CHLEN bits */
  301:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     SPI_I2SCTL(spi_periph) &= (uint32_t)(~(SPI_I2SCTL_DTLEN | SPI_I2SCTL_CHLEN));
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 14
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 14
 
 
  415              		.loc 1 301 5 is_stmt 1
@@ -838,7 +838,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  272:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     }
  459              		.loc 1 272 9 is_stmt 1
  272:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     }
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 15
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 15
 
 
  460              		.loc 1 272 20 is_stmt 0
@@ -898,7 +898,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  499 0002 93E70740 		ori	a5,a5,1024
  500 0006 5CCD     		sw	a5,28(a0)
  315:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 16
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 16
 
 
  501              		.loc 1 315 1
@@ -958,7 +958,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  538 0006 5CC1     		sw	a5,4(a0)
  337:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
  539              		.loc 1 337 1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 17
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 17
 
 
  540 0008 8280     		ret
@@ -1018,7 +1018,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  359:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
  577              		.loc 1 359 1
  578 0008 8280     		ret
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 18
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 18
 
 
  579              		.cfi_endproc
@@ -1078,7 +1078,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  611              		.loc 1 385 30 is_stmt 0
  612 0000 5C41     		lw	a5,4(a0)
  384:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     if(SPI_DMA_TRANSMIT == dma){
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 19
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 19
 
 
  613              		.loc 1 384 7
@@ -1138,7 +1138,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  647 0004 F59B     		andi	a5,a5,-3
  648              	.L42:
  405:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     }else{
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 20
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 20
 
 
  406:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         SPI_CTL1(spi_periph) &= (uint32_t)(~SPI_CTL1_DMAREN);
@@ -1198,7 +1198,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  426:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
  683              		.loc 1 426 1
  684 0012 8280     		ret
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 21
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 21
 
 
  685              		.cfi_endproc
@@ -1258,7 +1258,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  720 0004 4181     		srli	a0,a0,16
  721 0006 8280     		ret
  722              		.cfi_endproc
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 22
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 22
 
 
  723              	.LFE19:
@@ -1318,7 +1318,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  756              	.LFE20:
  758              		.section	.text.spi_crc_polynomial_set,"ax",@progbits
  759              		.align	1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 23
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 23
 
 
  760              		.globl	spi_crc_polynomial_set
@@ -1378,7 +1378,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  791              		.loc 1 496 23 is_stmt 0
  792 0000 0849     		lw	a0,16(a0)
  793              	.LVL74:
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 24
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 24
 
 
  497:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
@@ -1438,7 +1438,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  830              		.loc 1 518 5
  831              		.loc 1 518 26 is_stmt 0
  832 0000 1C41     		lw	a5,0(a0)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 25
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 25
 
 
  833 0002 7977     		li	a4,-8192
@@ -1498,7 +1498,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  542:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** uint16_t spi_crc_get(uint32_t spi_periph,uint8_t crc)
  543:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** {
  868              		.loc 1 543 1 is_stmt 1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 26
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 26
 
 
  869              		.cfi_startproc
@@ -1558,7 +1558,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  907 0006 5CC1     		sw	a5,4(a0)
  560:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
  908              		.loc 1 560 1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 27
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 27
 
 
  909 0008 8280     		ret
@@ -1618,7 +1618,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  582:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** }
  946              		.loc 1 582 1
  947 0008 8280     		ret
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 28
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 28
 
 
  948              		.cfi_endproc
@@ -1678,7 +1678,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  610:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     switch(interrupt){
  979              		.loc 1 610 5
  980 0000 8547     		li	a5,1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 29
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 29
 
 
  981 0002 638CF500 		beq	a1,a5,.L64
@@ -1738,7 +1738,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  1017              	.LFB32:
  627:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** 
  628:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c **** /*!
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 30
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 30
 
 
  629:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     \brief      disable SPI and I2S interrupt 
@@ -1798,7 +1798,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  649:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         break;
  1041              		.loc 1 649 30 is_stmt 0
  1042 001a 5C41     		lw	a5,4(a0)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 31
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 31
 
 
  1043 001c 93F7F7FB 		andi	a5,a5,-65
@@ -1858,7 +1858,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  1075 000e 93860600 		addi	a3,a3,%lo(.L78)
  1076 0012 8A05     		slli	a1,a1,2
  1077              	.LVL91:
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 32
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 32
 
 
  1078 0014 B695     		add	a1,a1,a3
@@ -1918,7 +1918,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  709:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         reg2 = reg2 & SPI_CTL1_ERRIE;
  710:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         break;
  711:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     /* SPI/I2S format error interrupt */
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 33
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 33
 
 
  712:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     case SPI_I2S_INT_FLAG_FERR:
@@ -1978,7 +1978,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  714:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****         break;
  1135              		.loc 1 714 14 is_stmt 0
  1136 0036 13770702 		andi	a4,a4,32
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 34
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 34
 
 
  1137              	.LVL100:
@@ -2038,7 +2038,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  731:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****                 one or more parameters can be selected which are shown as below:
  732:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****       \arg        SPI_FLAG_TBE: transmit buffer empty flag
  733:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****       \arg        SPI_FLAG_RBNE: receive buffer not empty flag
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 35
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 35
 
 
  734:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****       \arg        SPI_FLAG_TRANS: transmit on-going flag
@@ -2098,7 +2098,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  766:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_spi.c ****     SPI_STAT(spi_periph) &= (uint32_t)(~SPI_FLAG_CRCERR);
  1200              		.loc 1 766 5
  1201              		.loc 1 766 26 is_stmt 0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 36
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 36
 
 
  1202 0000 1C45     		lw	a5,8(a0)
@@ -2117,879 +2117,879 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 1
  1215              		.file 5 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_rcu.h"
  1216              		.file 6 "./../../firmware/GD32VF103_standard_peripheral/Include/gd32vf103_spi.h"
  1217              		.file 7 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 37
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 37
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gd32vf103_spi.c
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:13     .text.spi_i2s_deinit:0000000000000000 spi_i2s_deinit
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:17     .text.spi_i2s_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:19     .text.spi_i2s_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:20     .text.spi_i2s_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:21     .text.spi_i2s_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:23     .text.spi_i2s_deinit:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:25     .text.spi_i2s_deinit:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:27     .text.spi_i2s_deinit:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:28     .text.spi_i2s_deinit:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:30     .text.spi_i2s_deinit:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:37     .text.spi_i2s_deinit:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:42     .text.spi_i2s_deinit:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:47     .text.spi_i2s_deinit:0000000000000032 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:52     .text.spi_i2s_deinit:000000000000003e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:55     .text.spi_i2s_deinit:0000000000000042 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:56     .text.spi_i2s_deinit:0000000000000044 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:57     .text.spi_i2s_deinit:0000000000000044 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:60     .text.spi_i2s_deinit:0000000000000046 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:62     .text.spi_i2s_deinit:0000000000000046 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:66     .text.spi_i2s_deinit:000000000000004e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:68     .text.spi_i2s_deinit:000000000000004e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:73     .text.spi_i2s_deinit:000000000000005a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:78     .text.spi_i2s_deinit:0000000000000060 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:79     .text.spi_i2s_deinit:0000000000000062 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:82     .text.spi_i2s_deinit:0000000000000064 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:84     .text.spi_i2s_deinit:0000000000000066 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:91     .text.spi_struct_para_init:0000000000000000 spi_struct_para_init
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:94     .text.spi_struct_para_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:96     .text.spi_struct_para_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:97     .text.spi_struct_para_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:98     .text.spi_struct_para_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:100    .text.spi_struct_para_init:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:101    .text.spi_struct_para_init:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:103    .text.spi_struct_para_init:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:104    .text.spi_struct_para_init:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:106    .text.spi_struct_para_init:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:107    .text.spi_struct_para_init:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:109    .text.spi_struct_para_init:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:110    .text.spi_struct_para_init:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:112    .text.spi_struct_para_init:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:113    .text.spi_struct_para_init:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:115    .text.spi_struct_para_init:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:116    .text.spi_struct_para_init:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:123    .text.spi_init:0000000000000000 spi_init
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:126    .text.spi_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:128    .text.spi_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:129    .text.spi_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:130    .text.spi_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:131    .text.spi_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:134    .text.spi_init:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:135    .text.spi_init:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:138    .text.spi_init:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:140    .text.spi_init:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:143    .text.spi_init:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:144    .text.spi_init:000000000000000c .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 38
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:13     .text.spi_i2s_deinit:0000000000000000 spi_i2s_deinit
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:17     .text.spi_i2s_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:19     .text.spi_i2s_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:20     .text.spi_i2s_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:21     .text.spi_i2s_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:23     .text.spi_i2s_deinit:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:25     .text.spi_i2s_deinit:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:27     .text.spi_i2s_deinit:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:28     .text.spi_i2s_deinit:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:30     .text.spi_i2s_deinit:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:37     .text.spi_i2s_deinit:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:42     .text.spi_i2s_deinit:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:47     .text.spi_i2s_deinit:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:52     .text.spi_i2s_deinit:000000000000003e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:55     .text.spi_i2s_deinit:0000000000000042 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:56     .text.spi_i2s_deinit:0000000000000044 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:57     .text.spi_i2s_deinit:0000000000000044 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:60     .text.spi_i2s_deinit:0000000000000046 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:62     .text.spi_i2s_deinit:0000000000000046 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:66     .text.spi_i2s_deinit:000000000000004e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:68     .text.spi_i2s_deinit:000000000000004e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:73     .text.spi_i2s_deinit:000000000000005a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:78     .text.spi_i2s_deinit:0000000000000060 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:79     .text.spi_i2s_deinit:0000000000000062 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:82     .text.spi_i2s_deinit:0000000000000064 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:84     .text.spi_i2s_deinit:0000000000000066 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:91     .text.spi_struct_para_init:0000000000000000 spi_struct_para_init
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:94     .text.spi_struct_para_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:96     .text.spi_struct_para_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:97     .text.spi_struct_para_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:98     .text.spi_struct_para_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:100    .text.spi_struct_para_init:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:101    .text.spi_struct_para_init:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:103    .text.spi_struct_para_init:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:104    .text.spi_struct_para_init:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:106    .text.spi_struct_para_init:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:107    .text.spi_struct_para_init:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:109    .text.spi_struct_para_init:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:110    .text.spi_struct_para_init:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:112    .text.spi_struct_para_init:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:113    .text.spi_struct_para_init:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:115    .text.spi_struct_para_init:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:116    .text.spi_struct_para_init:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:123    .text.spi_init:0000000000000000 spi_init
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:126    .text.spi_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:128    .text.spi_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:129    .text.spi_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:130    .text.spi_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:131    .text.spi_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:134    .text.spi_init:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:135    .text.spi_init:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:138    .text.spi_init:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:140    .text.spi_init:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:143    .text.spi_init:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:144    .text.spi_init:000000000000000c .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 38
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:145    .text.spi_init:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:146    .text.spi_init:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:147    .text.spi_init:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:148    .text.spi_init:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:149    .text.spi_init:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:150    .text.spi_init:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:166    .text.spi_init:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:167    .text.spi_init:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:169    .text.spi_init:0000000000000028 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:170    .text.spi_init:0000000000000028 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:178    .text.spi_init:0000000000000034 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:179    .text.spi_init:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:186    .text.spi_enable:0000000000000000 spi_enable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:189    .text.spi_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:191    .text.spi_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:192    .text.spi_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:193    .text.spi_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:197    .text.spi_enable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:198    .text.spi_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:205    .text.spi_disable:0000000000000000 spi_disable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:208    .text.spi_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:210    .text.spi_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:211    .text.spi_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:212    .text.spi_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:216    .text.spi_disable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:217    .text.spi_disable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:224    .text.i2s_init:0000000000000000 i2s_init
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:227    .text.i2s_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:229    .text.i2s_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:230    .text.i2s_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:231    .text.i2s_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:232    .text.i2s_init:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:235    .text.i2s_init:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:236    .text.i2s_init:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:237    .text.i2s_init:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:238    .text.i2s_init:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:239    .text.i2s_init:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:248    .text.i2s_init:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:249    .text.i2s_init:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:255    .text.i2s_init:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:256    .text.i2s_init:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:258    .text.i2s_init:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:259    .text.i2s_init:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:266    .text.i2s_psc_config:0000000000000000 i2s_psc_config
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:269    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:271    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:272    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:273    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:274    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:275    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:276    .text.i2s_psc_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:278    .text.i2s_psc_config:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:282    .text.i2s_psc_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:283    .text.i2s_psc_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:284    .text.i2s_psc_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:286    .text.i2s_psc_config:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:288    .text.i2s_psc_config:000000000000000a .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 39
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:145    .text.spi_init:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:146    .text.spi_init:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:147    .text.spi_init:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:148    .text.spi_init:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:149    .text.spi_init:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:150    .text.spi_init:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:166    .text.spi_init:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:167    .text.spi_init:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:169    .text.spi_init:0000000000000028 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:170    .text.spi_init:0000000000000028 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:178    .text.spi_init:0000000000000034 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:179    .text.spi_init:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:186    .text.spi_enable:0000000000000000 spi_enable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:189    .text.spi_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:191    .text.spi_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:192    .text.spi_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:193    .text.spi_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:197    .text.spi_enable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:198    .text.spi_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:205    .text.spi_disable:0000000000000000 spi_disable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:208    .text.spi_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:210    .text.spi_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:211    .text.spi_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:212    .text.spi_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:216    .text.spi_disable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:217    .text.spi_disable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:224    .text.i2s_init:0000000000000000 i2s_init
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:227    .text.i2s_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:229    .text.i2s_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:230    .text.i2s_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:231    .text.i2s_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:232    .text.i2s_init:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:235    .text.i2s_init:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:236    .text.i2s_init:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:237    .text.i2s_init:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:238    .text.i2s_init:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:239    .text.i2s_init:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:248    .text.i2s_init:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:249    .text.i2s_init:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:255    .text.i2s_init:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:256    .text.i2s_init:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:258    .text.i2s_init:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:259    .text.i2s_init:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:266    .text.i2s_psc_config:0000000000000000 i2s_psc_config
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:269    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:271    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:272    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:273    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:274    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:275    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:276    .text.i2s_psc_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:278    .text.i2s_psc_config:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:282    .text.i2s_psc_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:283    .text.i2s_psc_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:284    .text.i2s_psc_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:286    .text.i2s_psc_config:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:288    .text.i2s_psc_config:000000000000000a .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 39
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:290    .text.i2s_psc_config:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:292    .text.i2s_psc_config:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:293    .text.i2s_psc_config:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:295    .text.i2s_psc_config:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:298    .text.i2s_psc_config:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:301    .text.i2s_psc_config:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:306    .text.i2s_psc_config:0000000000000024 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:307    .text.i2s_psc_config:0000000000000024 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:310    .text.i2s_psc_config:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:312    .text.i2s_psc_config:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:314    .text.i2s_psc_config:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:315    .text.i2s_psc_config:000000000000002e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:318    .text.i2s_psc_config:0000000000000030 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:320    .text.i2s_psc_config:0000000000000032 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:322    .text.i2s_psc_config:0000000000000034 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:325    .text.i2s_psc_config:0000000000000038 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:326    .text.i2s_psc_config:0000000000000038 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:328    .text.i2s_psc_config:000000000000003c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:330    .text.i2s_psc_config:0000000000000040 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:331    .text.i2s_psc_config:0000000000000040 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:335    .text.i2s_psc_config:0000000000000042 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:336    .text.i2s_psc_config:0000000000000042 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:340    .text.i2s_psc_config:0000000000000048 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:341    .text.i2s_psc_config:0000000000000048 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:345    .text.i2s_psc_config:000000000000004c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:348    .text.i2s_psc_config:0000000000000050 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:353    .text.i2s_psc_config:0000000000000060 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:357    .text.i2s_psc_config:0000000000000062 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:358    .text.i2s_psc_config:0000000000000062 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:361    .text.i2s_psc_config:000000000000006a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:362    .text.i2s_psc_config:000000000000006a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:366    .text.i2s_psc_config:000000000000006c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:369    .text.i2s_psc_config:0000000000000072 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:371    .text.i2s_psc_config:0000000000000076 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:374    .text.i2s_psc_config:000000000000007a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:375    .text.i2s_psc_config:000000000000007a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:378    .text.i2s_psc_config:000000000000007c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:381    .text.i2s_psc_config:000000000000007e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:384    .text.i2s_psc_config:0000000000000082 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:385    .text.i2s_psc_config:0000000000000082 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:386    .text.i2s_psc_config:0000000000000082 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:389    .text.i2s_psc_config:0000000000000086 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:392    .text.i2s_psc_config:0000000000000088 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:393    .text.i2s_psc_config:0000000000000088 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:394    .text.i2s_psc_config:0000000000000088 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:396    .text.i2s_psc_config:000000000000008c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:399    .text.i2s_psc_config:000000000000008e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:401    .text.i2s_psc_config:0000000000000092 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:404    .text.i2s_psc_config:0000000000000094 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:408    .text.i2s_psc_config:0000000000000096 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:409    .text.i2s_psc_config:0000000000000096 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:412    .text.i2s_psc_config:0000000000000098 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:414    .text.i2s_psc_config:000000000000009a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:416    .text.i2s_psc_config:000000000000009c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:417    .text.i2s_psc_config:000000000000009c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:420    .text.i2s_psc_config:000000000000009e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:421    .text.i2s_psc_config:00000000000000a0 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 40
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:290    .text.i2s_psc_config:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:292    .text.i2s_psc_config:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:293    .text.i2s_psc_config:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:295    .text.i2s_psc_config:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:298    .text.i2s_psc_config:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:301    .text.i2s_psc_config:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:306    .text.i2s_psc_config:0000000000000024 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:307    .text.i2s_psc_config:0000000000000024 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:310    .text.i2s_psc_config:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:312    .text.i2s_psc_config:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:314    .text.i2s_psc_config:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:315    .text.i2s_psc_config:000000000000002e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:318    .text.i2s_psc_config:0000000000000030 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:320    .text.i2s_psc_config:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:322    .text.i2s_psc_config:0000000000000034 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:325    .text.i2s_psc_config:0000000000000038 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:326    .text.i2s_psc_config:0000000000000038 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:328    .text.i2s_psc_config:000000000000003c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:330    .text.i2s_psc_config:0000000000000040 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:331    .text.i2s_psc_config:0000000000000040 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:335    .text.i2s_psc_config:0000000000000042 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:336    .text.i2s_psc_config:0000000000000042 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:340    .text.i2s_psc_config:0000000000000048 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:341    .text.i2s_psc_config:0000000000000048 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:345    .text.i2s_psc_config:000000000000004c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:348    .text.i2s_psc_config:0000000000000050 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:353    .text.i2s_psc_config:0000000000000060 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:357    .text.i2s_psc_config:0000000000000062 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:358    .text.i2s_psc_config:0000000000000062 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:361    .text.i2s_psc_config:000000000000006a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:362    .text.i2s_psc_config:000000000000006a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:366    .text.i2s_psc_config:000000000000006c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:369    .text.i2s_psc_config:0000000000000072 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:371    .text.i2s_psc_config:0000000000000076 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:374    .text.i2s_psc_config:000000000000007a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:375    .text.i2s_psc_config:000000000000007a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:378    .text.i2s_psc_config:000000000000007c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:381    .text.i2s_psc_config:000000000000007e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:384    .text.i2s_psc_config:0000000000000082 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:385    .text.i2s_psc_config:0000000000000082 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:386    .text.i2s_psc_config:0000000000000082 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:389    .text.i2s_psc_config:0000000000000086 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:392    .text.i2s_psc_config:0000000000000088 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:393    .text.i2s_psc_config:0000000000000088 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:394    .text.i2s_psc_config:0000000000000088 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:396    .text.i2s_psc_config:000000000000008c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:399    .text.i2s_psc_config:000000000000008e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:401    .text.i2s_psc_config:0000000000000092 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:404    .text.i2s_psc_config:0000000000000094 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:408    .text.i2s_psc_config:0000000000000096 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:409    .text.i2s_psc_config:0000000000000096 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:412    .text.i2s_psc_config:0000000000000098 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:414    .text.i2s_psc_config:000000000000009a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:416    .text.i2s_psc_config:000000000000009c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:417    .text.i2s_psc_config:000000000000009c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:420    .text.i2s_psc_config:000000000000009e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:421    .text.i2s_psc_config:00000000000000a0 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 40
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:422    .text.i2s_psc_config:00000000000000a0 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:424    .text.i2s_psc_config:00000000000000a2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:426    .text.i2s_psc_config:00000000000000a2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:429    .text.i2s_psc_config:00000000000000a6 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:430    .text.i2s_psc_config:00000000000000a6 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:434    .text.i2s_psc_config:00000000000000ac .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:435    .text.i2s_psc_config:00000000000000ae .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:439    .text.i2s_psc_config:00000000000000b0 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:444    .text.i2s_psc_config:00000000000000b2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:446    .text.i2s_psc_config:00000000000000b2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:447    .text.i2s_psc_config:00000000000000b2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:450    .text.i2s_psc_config:00000000000000b8 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:456    .text.i2s_psc_config:00000000000000bc .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:460    .text.i2s_psc_config:00000000000000c2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:461    .text.i2s_psc_config:00000000000000c2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:470    .text.i2s_psc_config:00000000000000d0 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:471    .text.i2s_psc_config:00000000000000d0 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:473    .text.i2s_psc_config:00000000000000d2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:474    .text.i2s_psc_config:00000000000000d2 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:480    .text.i2s_psc_config:00000000000000d6 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:481    .text.i2s_psc_config:00000000000000d6 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:484    .text.i2s_psc_config:00000000000000da .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:491    .text.i2s_enable:0000000000000000 i2s_enable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:494    .text.i2s_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:496    .text.i2s_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:497    .text.i2s_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:498    .text.i2s_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:502    .text.i2s_enable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:503    .text.i2s_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:510    .text.i2s_disable:0000000000000000 i2s_disable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:513    .text.i2s_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:515    .text.i2s_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:516    .text.i2s_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:517    .text.i2s_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:521    .text.i2s_disable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:522    .text.i2s_disable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:529    .text.spi_nss_output_enable:0000000000000000 spi_nss_output_enable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:532    .text.spi_nss_output_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:534    .text.spi_nss_output_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:535    .text.spi_nss_output_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:536    .text.spi_nss_output_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:540    .text.spi_nss_output_enable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:541    .text.spi_nss_output_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:548    .text.spi_nss_output_disable:0000000000000000 spi_nss_output_disable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:551    .text.spi_nss_output_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:553    .text.spi_nss_output_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:554    .text.spi_nss_output_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:555    .text.spi_nss_output_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:559    .text.spi_nss_output_disable:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:560    .text.spi_nss_output_disable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:567    .text.spi_nss_internal_high:0000000000000000 spi_nss_internal_high
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:570    .text.spi_nss_internal_high:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:572    .text.spi_nss_internal_high:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:573    .text.spi_nss_internal_high:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:574    .text.spi_nss_internal_high:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:578    .text.spi_nss_internal_high:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:579    .text.spi_nss_internal_high:000000000000000a .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 41
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:422    .text.i2s_psc_config:00000000000000a0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:424    .text.i2s_psc_config:00000000000000a2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:426    .text.i2s_psc_config:00000000000000a2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:429    .text.i2s_psc_config:00000000000000a6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:430    .text.i2s_psc_config:00000000000000a6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:434    .text.i2s_psc_config:00000000000000ac .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:435    .text.i2s_psc_config:00000000000000ae .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:439    .text.i2s_psc_config:00000000000000b0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:444    .text.i2s_psc_config:00000000000000b2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:446    .text.i2s_psc_config:00000000000000b2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:447    .text.i2s_psc_config:00000000000000b2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:450    .text.i2s_psc_config:00000000000000b8 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:456    .text.i2s_psc_config:00000000000000bc .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:460    .text.i2s_psc_config:00000000000000c2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:461    .text.i2s_psc_config:00000000000000c2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:470    .text.i2s_psc_config:00000000000000d0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:471    .text.i2s_psc_config:00000000000000d0 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:473    .text.i2s_psc_config:00000000000000d2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:474    .text.i2s_psc_config:00000000000000d2 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:480    .text.i2s_psc_config:00000000000000d6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:481    .text.i2s_psc_config:00000000000000d6 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:484    .text.i2s_psc_config:00000000000000da .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:491    .text.i2s_enable:0000000000000000 i2s_enable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:494    .text.i2s_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:496    .text.i2s_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:497    .text.i2s_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:498    .text.i2s_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:502    .text.i2s_enable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:503    .text.i2s_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:510    .text.i2s_disable:0000000000000000 i2s_disable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:513    .text.i2s_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:515    .text.i2s_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:516    .text.i2s_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:517    .text.i2s_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:521    .text.i2s_disable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:522    .text.i2s_disable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:529    .text.spi_nss_output_enable:0000000000000000 spi_nss_output_enable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:532    .text.spi_nss_output_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:534    .text.spi_nss_output_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:535    .text.spi_nss_output_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:536    .text.spi_nss_output_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:540    .text.spi_nss_output_enable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:541    .text.spi_nss_output_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:548    .text.spi_nss_output_disable:0000000000000000 spi_nss_output_disable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:551    .text.spi_nss_output_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:553    .text.spi_nss_output_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:554    .text.spi_nss_output_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:555    .text.spi_nss_output_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:559    .text.spi_nss_output_disable:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:560    .text.spi_nss_output_disable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:567    .text.spi_nss_internal_high:0000000000000000 spi_nss_internal_high
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:570    .text.spi_nss_internal_high:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:572    .text.spi_nss_internal_high:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:573    .text.spi_nss_internal_high:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:574    .text.spi_nss_internal_high:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:578    .text.spi_nss_internal_high:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:579    .text.spi_nss_internal_high:000000000000000a .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 41
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:586    .text.spi_nss_internal_low:0000000000000000 spi_nss_internal_low
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:589    .text.spi_nss_internal_low:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:591    .text.spi_nss_internal_low:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:592    .text.spi_nss_internal_low:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:593    .text.spi_nss_internal_low:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:597    .text.spi_nss_internal_low:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:598    .text.spi_nss_internal_low:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:605    .text.spi_dma_enable:0000000000000000 spi_dma_enable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:608    .text.spi_dma_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:610    .text.spi_dma_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:611    .text.spi_dma_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:612    .text.spi_dma_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:614    .text.spi_dma_enable:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:616    .text.spi_dma_enable:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:617    .text.spi_dma_enable:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:620    .text.spi_dma_enable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:622    .text.spi_dma_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:625    .text.spi_dma_enable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:626    .text.spi_dma_enable:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:628    .text.spi_dma_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:635    .text.spi_dma_disable:0000000000000000 spi_dma_disable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:638    .text.spi_dma_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:640    .text.spi_dma_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:641    .text.spi_dma_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:642    .text.spi_dma_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:644    .text.spi_dma_disable:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:646    .text.spi_dma_disable:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:647    .text.spi_dma_disable:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:650    .text.spi_dma_disable:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:652    .text.spi_dma_disable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:655    .text.spi_dma_disable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:656    .text.spi_dma_disable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:658    .text.spi_dma_disable:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:665    .text.spi_i2s_data_frame_format_config:0000000000000000 spi_i2s_data_frame_format_config
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:668    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:670    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:671    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:672    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:678    .text.spi_i2s_data_frame_format_config:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:679    .text.spi_i2s_data_frame_format_config:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:684    .text.spi_i2s_data_frame_format_config:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:685    .text.spi_i2s_data_frame_format_config:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:692    .text.spi_i2s_data_transmit:0000000000000000 spi_i2s_data_transmit
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:695    .text.spi_i2s_data_transmit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:697    .text.spi_i2s_data_transmit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:698    .text.spi_i2s_data_transmit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:699    .text.spi_i2s_data_transmit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:701    .text.spi_i2s_data_transmit:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:702    .text.spi_i2s_data_transmit:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:709    .text.spi_i2s_data_receive:0000000000000000 spi_i2s_data_receive
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:712    .text.spi_i2s_data_receive:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:714    .text.spi_i2s_data_receive:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:715    .text.spi_i2s_data_receive:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:716    .text.spi_i2s_data_receive:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:719    .text.spi_i2s_data_receive:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:722    .text.spi_i2s_data_receive:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:729    .text.spi_bidirectional_transfer_config:0000000000000000 spi_bidirectional_transfer_config
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 42
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:586    .text.spi_nss_internal_low:0000000000000000 spi_nss_internal_low
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:589    .text.spi_nss_internal_low:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:591    .text.spi_nss_internal_low:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:592    .text.spi_nss_internal_low:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:593    .text.spi_nss_internal_low:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:597    .text.spi_nss_internal_low:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:598    .text.spi_nss_internal_low:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:605    .text.spi_dma_enable:0000000000000000 spi_dma_enable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:608    .text.spi_dma_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:610    .text.spi_dma_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:611    .text.spi_dma_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:612    .text.spi_dma_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:614    .text.spi_dma_enable:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:616    .text.spi_dma_enable:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:617    .text.spi_dma_enable:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:620    .text.spi_dma_enable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:622    .text.spi_dma_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:625    .text.spi_dma_enable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:626    .text.spi_dma_enable:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:628    .text.spi_dma_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:635    .text.spi_dma_disable:0000000000000000 spi_dma_disable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:638    .text.spi_dma_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:640    .text.spi_dma_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:641    .text.spi_dma_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:642    .text.spi_dma_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:644    .text.spi_dma_disable:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:646    .text.spi_dma_disable:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:647    .text.spi_dma_disable:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:650    .text.spi_dma_disable:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:652    .text.spi_dma_disable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:655    .text.spi_dma_disable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:656    .text.spi_dma_disable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:658    .text.spi_dma_disable:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:665    .text.spi_i2s_data_frame_format_config:0000000000000000 spi_i2s_data_frame_format_config
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:668    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:670    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:671    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:672    .text.spi_i2s_data_frame_format_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:678    .text.spi_i2s_data_frame_format_config:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:679    .text.spi_i2s_data_frame_format_config:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:684    .text.spi_i2s_data_frame_format_config:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:685    .text.spi_i2s_data_frame_format_config:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:692    .text.spi_i2s_data_transmit:0000000000000000 spi_i2s_data_transmit
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:695    .text.spi_i2s_data_transmit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:697    .text.spi_i2s_data_transmit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:698    .text.spi_i2s_data_transmit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:699    .text.spi_i2s_data_transmit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:701    .text.spi_i2s_data_transmit:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:702    .text.spi_i2s_data_transmit:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:709    .text.spi_i2s_data_receive:0000000000000000 spi_i2s_data_receive
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:712    .text.spi_i2s_data_receive:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:714    .text.spi_i2s_data_receive:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:715    .text.spi_i2s_data_receive:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:716    .text.spi_i2s_data_receive:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:719    .text.spi_i2s_data_receive:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:722    .text.spi_i2s_data_receive:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:729    .text.spi_bidirectional_transfer_config:0000000000000000 spi_bidirectional_transfer_config
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 42
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:732    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:734    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:735    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:736    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:739    .text.spi_bidirectional_transfer_config:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:740    .text.spi_bidirectional_transfer_config:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:744    .text.spi_bidirectional_transfer_config:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:746    .text.spi_bidirectional_transfer_config:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:749    .text.spi_bidirectional_transfer_config:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:750    .text.spi_bidirectional_transfer_config:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:755    .text.spi_bidirectional_transfer_config:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:762    .text.spi_crc_polynomial_set:0000000000000000 spi_crc_polynomial_set
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:765    .text.spi_crc_polynomial_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:767    .text.spi_crc_polynomial_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:768    .text.spi_crc_polynomial_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:769    .text.spi_crc_polynomial_set:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:774    .text.spi_crc_polynomial_set:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:775    .text.spi_crc_polynomial_set:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:777    .text.spi_crc_polynomial_set:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:778    .text.spi_crc_polynomial_set:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:785    .text.spi_crc_polynomial_get:0000000000000000 spi_crc_polynomial_get
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:788    .text.spi_crc_polynomial_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:790    .text.spi_crc_polynomial_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:791    .text.spi_crc_polynomial_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:792    .text.spi_crc_polynomial_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:795    .text.spi_crc_polynomial_get:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:798    .text.spi_crc_polynomial_get:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:805    .text.spi_crc_on:0000000000000000 spi_crc_on
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:808    .text.spi_crc_on:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:810    .text.spi_crc_on:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:811    .text.spi_crc_on:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:812    .text.spi_crc_on:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:817    .text.spi_crc_on:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:818    .text.spi_crc_on:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:825    .text.spi_crc_off:0000000000000000 spi_crc_off
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:828    .text.spi_crc_off:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:830    .text.spi_crc_off:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:831    .text.spi_crc_off:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:832    .text.spi_crc_off:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:838    .text.spi_crc_off:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:839    .text.spi_crc_off:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:846    .text.spi_crc_next:0000000000000000 spi_crc_next
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:849    .text.spi_crc_next:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:851    .text.spi_crc_next:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:852    .text.spi_crc_next:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:853    .text.spi_crc_next:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:858    .text.spi_crc_next:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:859    .text.spi_crc_next:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:866    .text.spi_crc_get:0000000000000000 spi_crc_get
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:869    .text.spi_crc_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:871    .text.spi_crc_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:872    .text.spi_crc_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:873    .text.spi_crc_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:875    .text.spi_crc_get:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:876    .text.spi_crc_get:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:880    .text.spi_crc_get:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:883    .text.spi_crc_get:0000000000000008 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 43
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:732    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:734    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:735    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:736    .text.spi_bidirectional_transfer_config:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:739    .text.spi_bidirectional_transfer_config:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:740    .text.spi_bidirectional_transfer_config:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:744    .text.spi_bidirectional_transfer_config:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:746    .text.spi_bidirectional_transfer_config:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:749    .text.spi_bidirectional_transfer_config:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:750    .text.spi_bidirectional_transfer_config:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:755    .text.spi_bidirectional_transfer_config:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:762    .text.spi_crc_polynomial_set:0000000000000000 spi_crc_polynomial_set
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:765    .text.spi_crc_polynomial_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:767    .text.spi_crc_polynomial_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:768    .text.spi_crc_polynomial_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:769    .text.spi_crc_polynomial_set:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:774    .text.spi_crc_polynomial_set:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:775    .text.spi_crc_polynomial_set:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:777    .text.spi_crc_polynomial_set:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:778    .text.spi_crc_polynomial_set:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:785    .text.spi_crc_polynomial_get:0000000000000000 spi_crc_polynomial_get
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:788    .text.spi_crc_polynomial_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:790    .text.spi_crc_polynomial_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:791    .text.spi_crc_polynomial_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:792    .text.spi_crc_polynomial_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:795    .text.spi_crc_polynomial_get:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:798    .text.spi_crc_polynomial_get:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:805    .text.spi_crc_on:0000000000000000 spi_crc_on
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:808    .text.spi_crc_on:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:810    .text.spi_crc_on:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:811    .text.spi_crc_on:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:812    .text.spi_crc_on:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:817    .text.spi_crc_on:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:818    .text.spi_crc_on:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:825    .text.spi_crc_off:0000000000000000 spi_crc_off
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:828    .text.spi_crc_off:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:830    .text.spi_crc_off:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:831    .text.spi_crc_off:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:832    .text.spi_crc_off:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:838    .text.spi_crc_off:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:839    .text.spi_crc_off:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:846    .text.spi_crc_next:0000000000000000 spi_crc_next
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:849    .text.spi_crc_next:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:851    .text.spi_crc_next:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:852    .text.spi_crc_next:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:853    .text.spi_crc_next:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:858    .text.spi_crc_next:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:859    .text.spi_crc_next:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:866    .text.spi_crc_get:0000000000000000 spi_crc_get
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:869    .text.spi_crc_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:871    .text.spi_crc_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:872    .text.spi_crc_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:873    .text.spi_crc_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:875    .text.spi_crc_get:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:876    .text.spi_crc_get:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:880    .text.spi_crc_get:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:883    .text.spi_crc_get:0000000000000008 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 43
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:887    .text.spi_crc_get:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:888    .text.spi_crc_get:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:891    .text.spi_crc_get:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:898    .text.spi_ti_mode_enable:0000000000000000 spi_ti_mode_enable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:901    .text.spi_ti_mode_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:903    .text.spi_ti_mode_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:904    .text.spi_ti_mode_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:905    .text.spi_ti_mode_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:909    .text.spi_ti_mode_enable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:910    .text.spi_ti_mode_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:917    .text.spi_ti_mode_disable:0000000000000000 spi_ti_mode_disable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:920    .text.spi_ti_mode_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:922    .text.spi_ti_mode_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:923    .text.spi_ti_mode_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:924    .text.spi_ti_mode_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:928    .text.spi_ti_mode_disable:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:929    .text.spi_ti_mode_disable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:936    .text.spi_nssp_mode_enable:0000000000000000 spi_nssp_mode_enable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:939    .text.spi_nssp_mode_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:941    .text.spi_nssp_mode_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:942    .text.spi_nssp_mode_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:943    .text.spi_nssp_mode_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:947    .text.spi_nssp_mode_enable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:948    .text.spi_nssp_mode_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:955    .text.spi_nssp_mode_disable:0000000000000000 spi_nssp_mode_disable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:958    .text.spi_nssp_mode_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:960    .text.spi_nssp_mode_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:961    .text.spi_nssp_mode_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:962    .text.spi_nssp_mode_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:966    .text.spi_nssp_mode_disable:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:967    .text.spi_nssp_mode_disable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:974    .text.spi_i2s_interrupt_enable:0000000000000000 spi_i2s_interrupt_enable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:977    .text.spi_i2s_interrupt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:979    .text.spi_i2s_interrupt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:980    .text.spi_i2s_interrupt_enable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:988    .text.spi_i2s_interrupt_enable:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:989    .text.spi_i2s_interrupt_enable:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:993    .text.spi_i2s_interrupt_enable:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:995    .text.spi_i2s_interrupt_enable:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:996    .text.spi_i2s_interrupt_enable:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:999    .text.spi_i2s_interrupt_enable:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1000   .text.spi_i2s_interrupt_enable:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1005   .text.spi_i2s_interrupt_enable:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1006   .text.spi_i2s_interrupt_enable:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1009   .text.spi_i2s_interrupt_enable:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1016   .text.spi_i2s_interrupt_disable:0000000000000000 spi_i2s_interrupt_disable
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1019   .text.spi_i2s_interrupt_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1021   .text.spi_i2s_interrupt_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1022   .text.spi_i2s_interrupt_disable:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1030   .text.spi_i2s_interrupt_disable:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1031   .text.spi_i2s_interrupt_disable:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1035   .text.spi_i2s_interrupt_disable:0000000000000016 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1037   .text.spi_i2s_interrupt_disable:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1038   .text.spi_i2s_interrupt_disable:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1041   .text.spi_i2s_interrupt_disable:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1042   .text.spi_i2s_interrupt_disable:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1047   .text.spi_i2s_interrupt_disable:0000000000000022 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 44
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:887    .text.spi_crc_get:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:888    .text.spi_crc_get:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:891    .text.spi_crc_get:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:898    .text.spi_ti_mode_enable:0000000000000000 spi_ti_mode_enable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:901    .text.spi_ti_mode_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:903    .text.spi_ti_mode_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:904    .text.spi_ti_mode_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:905    .text.spi_ti_mode_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:909    .text.spi_ti_mode_enable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:910    .text.spi_ti_mode_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:917    .text.spi_ti_mode_disable:0000000000000000 spi_ti_mode_disable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:920    .text.spi_ti_mode_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:922    .text.spi_ti_mode_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:923    .text.spi_ti_mode_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:924    .text.spi_ti_mode_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:928    .text.spi_ti_mode_disable:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:929    .text.spi_ti_mode_disable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:936    .text.spi_nssp_mode_enable:0000000000000000 spi_nssp_mode_enable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:939    .text.spi_nssp_mode_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:941    .text.spi_nssp_mode_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:942    .text.spi_nssp_mode_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:943    .text.spi_nssp_mode_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:947    .text.spi_nssp_mode_enable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:948    .text.spi_nssp_mode_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:955    .text.spi_nssp_mode_disable:0000000000000000 spi_nssp_mode_disable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:958    .text.spi_nssp_mode_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:960    .text.spi_nssp_mode_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:961    .text.spi_nssp_mode_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:962    .text.spi_nssp_mode_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:966    .text.spi_nssp_mode_disable:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:967    .text.spi_nssp_mode_disable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:974    .text.spi_i2s_interrupt_enable:0000000000000000 spi_i2s_interrupt_enable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:977    .text.spi_i2s_interrupt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:979    .text.spi_i2s_interrupt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:980    .text.spi_i2s_interrupt_enable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:988    .text.spi_i2s_interrupt_enable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:989    .text.spi_i2s_interrupt_enable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:993    .text.spi_i2s_interrupt_enable:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:995    .text.spi_i2s_interrupt_enable:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:996    .text.spi_i2s_interrupt_enable:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:999    .text.spi_i2s_interrupt_enable:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1000   .text.spi_i2s_interrupt_enable:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1005   .text.spi_i2s_interrupt_enable:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1006   .text.spi_i2s_interrupt_enable:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1009   .text.spi_i2s_interrupt_enable:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1016   .text.spi_i2s_interrupt_disable:0000000000000000 spi_i2s_interrupt_disable
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1019   .text.spi_i2s_interrupt_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1021   .text.spi_i2s_interrupt_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1022   .text.spi_i2s_interrupt_disable:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1030   .text.spi_i2s_interrupt_disable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1031   .text.spi_i2s_interrupt_disable:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1035   .text.spi_i2s_interrupt_disable:0000000000000016 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1037   .text.spi_i2s_interrupt_disable:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1038   .text.spi_i2s_interrupt_disable:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1041   .text.spi_i2s_interrupt_disable:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1042   .text.spi_i2s_interrupt_disable:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1047   .text.spi_i2s_interrupt_disable:0000000000000022 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 44
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1048   .text.spi_i2s_interrupt_disable:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1051   .text.spi_i2s_interrupt_disable:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1058   .text.spi_i2s_interrupt_flag_get:0000000000000000 spi_i2s_interrupt_flag_get
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1061   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1063   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1064   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1065   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1068   .text.spi_i2s_interrupt_flag_get:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1069   .text.spi_i2s_interrupt_flag_get:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1072   .text.spi_i2s_interrupt_flag_get:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1095   .text.spi_i2s_interrupt_flag_get:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1096   .text.spi_i2s_interrupt_flag_get:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1099   .text.spi_i2s_interrupt_flag_get:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1100   .text.spi_i2s_interrupt_flag_get:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1104   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1105   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1106   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1108   .text.spi_i2s_interrupt_flag_get:0000000000000022 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1112   .text.spi_i2s_interrupt_flag_get:0000000000000026 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1118   .text.spi_i2s_interrupt_flag_get:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1119   .text.spi_i2s_interrupt_flag_get:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1122   .text.spi_i2s_interrupt_flag_get:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1123   .text.spi_i2s_interrupt_flag_get:000000000000002c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1126   .text.spi_i2s_interrupt_flag_get:0000000000000030 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1129   .text.spi_i2s_interrupt_flag_get:0000000000000032 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1130   .text.spi_i2s_interrupt_flag_get:0000000000000032 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1134   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1135   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1136   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1139   .text.spi_i2s_interrupt_flag_get:000000000000003a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1142   .text.spi_i2s_interrupt_flag_get:000000000000003c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1143   .text.spi_i2s_interrupt_flag_get:000000000000003c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1146   .text.spi_i2s_interrupt_flag_get:0000000000000040 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1149   .text.spi_i2s_interrupt_flag_get:0000000000000042 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1150   .text.spi_i2s_interrupt_flag_get:0000000000000042 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1153   .text.spi_i2s_interrupt_flag_get:0000000000000044 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1156   .text.spi_i2s_interrupt_flag_get:0000000000000046 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1157   .text.spi_i2s_interrupt_flag_get:0000000000000046 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1160   .text.spi_i2s_interrupt_flag_get:0000000000000048 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1163   .text.spi_i2s_interrupt_flag_get:000000000000004a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1164   .text.spi_i2s_interrupt_flag_get:000000000000004a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1167   .text.spi_i2s_interrupt_flag_get:0000000000000050 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1174   .text.spi_i2s_flag_get:0000000000000000 spi_i2s_flag_get
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1177   .text.spi_i2s_flag_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1179   .text.spi_i2s_flag_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1180   .text.spi_i2s_flag_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1181   .text.spi_i2s_flag_get:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1184   .text.spi_i2s_flag_get:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1186   .text.spi_i2s_flag_get:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1188   .text.spi_i2s_flag_get:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1195   .text.spi_crc_error_clear:0000000000000000 spi_crc_error_clear
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1198   .text.spi_crc_error_clear:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1200   .text.spi_crc_error_clear:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1201   .text.spi_crc_error_clear:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1202   .text.spi_crc_error_clear:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1206   .text.spi_crc_error_clear:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1207   .text.spi_crc_error_clear:0000000000000008 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 45
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1048   .text.spi_i2s_interrupt_disable:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1051   .text.spi_i2s_interrupt_disable:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1058   .text.spi_i2s_interrupt_flag_get:0000000000000000 spi_i2s_interrupt_flag_get
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1061   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1063   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1064   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1065   .text.spi_i2s_interrupt_flag_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1068   .text.spi_i2s_interrupt_flag_get:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1069   .text.spi_i2s_interrupt_flag_get:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1072   .text.spi_i2s_interrupt_flag_get:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1095   .text.spi_i2s_interrupt_flag_get:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1096   .text.spi_i2s_interrupt_flag_get:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1099   .text.spi_i2s_interrupt_flag_get:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1100   .text.spi_i2s_interrupt_flag_get:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1104   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1105   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1106   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1108   .text.spi_i2s_interrupt_flag_get:0000000000000022 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1112   .text.spi_i2s_interrupt_flag_get:0000000000000026 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1118   .text.spi_i2s_interrupt_flag_get:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1119   .text.spi_i2s_interrupt_flag_get:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1122   .text.spi_i2s_interrupt_flag_get:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1123   .text.spi_i2s_interrupt_flag_get:000000000000002c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1126   .text.spi_i2s_interrupt_flag_get:0000000000000030 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1129   .text.spi_i2s_interrupt_flag_get:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1130   .text.spi_i2s_interrupt_flag_get:0000000000000032 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1134   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1135   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1136   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1139   .text.spi_i2s_interrupt_flag_get:000000000000003a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1142   .text.spi_i2s_interrupt_flag_get:000000000000003c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1143   .text.spi_i2s_interrupt_flag_get:000000000000003c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1146   .text.spi_i2s_interrupt_flag_get:0000000000000040 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1149   .text.spi_i2s_interrupt_flag_get:0000000000000042 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1150   .text.spi_i2s_interrupt_flag_get:0000000000000042 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1153   .text.spi_i2s_interrupt_flag_get:0000000000000044 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1156   .text.spi_i2s_interrupt_flag_get:0000000000000046 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1157   .text.spi_i2s_interrupt_flag_get:0000000000000046 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1160   .text.spi_i2s_interrupt_flag_get:0000000000000048 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1163   .text.spi_i2s_interrupt_flag_get:000000000000004a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1164   .text.spi_i2s_interrupt_flag_get:000000000000004a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1167   .text.spi_i2s_interrupt_flag_get:0000000000000050 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1174   .text.spi_i2s_flag_get:0000000000000000 spi_i2s_flag_get
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1177   .text.spi_i2s_flag_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1179   .text.spi_i2s_flag_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1180   .text.spi_i2s_flag_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1181   .text.spi_i2s_flag_get:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1184   .text.spi_i2s_flag_get:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1186   .text.spi_i2s_flag_get:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1188   .text.spi_i2s_flag_get:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1195   .text.spi_crc_error_clear:0000000000000000 spi_crc_error_clear
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1198   .text.spi_crc_error_clear:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1200   .text.spi_crc_error_clear:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1201   .text.spi_crc_error_clear:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1202   .text.spi_crc_error_clear:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1206   .text.spi_crc_error_clear:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1207   .text.spi_crc_error_clear:0000000000000008 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 45
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:87     .text.spi_i2s_deinit:0000000000000066 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:119    .text.spi_struct_para_init:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:182    .text.spi_init:0000000000000036 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:201    .text.spi_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:220    .text.spi_disable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:262    .text.i2s_init:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:487    .text.i2s_psc_config:00000000000000da .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:506    .text.i2s_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:525    .text.i2s_disable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:544    .text.spi_nss_output_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:563    .text.spi_nss_output_disable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:582    .text.spi_nss_internal_high:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:601    .text.spi_nss_internal_low:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:631    .text.spi_dma_enable:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:661    .text.spi_dma_disable:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:688    .text.spi_i2s_data_frame_format_config:0000000000000014 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:705    .text.spi_i2s_data_transmit:0000000000000004 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:725    .text.spi_i2s_data_receive:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:758    .text.spi_bidirectional_transfer_config:0000000000000018 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:781    .text.spi_crc_polynomial_set:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:801    .text.spi_crc_polynomial_get:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:821    .text.spi_crc_on:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:842    .text.spi_crc_off:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:862    .text.spi_crc_next:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:894    .text.spi_crc_get:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:913    .text.spi_ti_mode_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:932    .text.spi_ti_mode_disable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:951    .text.spi_nssp_mode_enable:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:970    .text.spi_nssp_mode_disable:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1012   .text.spi_i2s_interrupt_enable:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1054   .text.spi_i2s_interrupt_disable:000000000000002a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1170   .text.spi_i2s_interrupt_flag_get:0000000000000050 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1191   .text.spi_i2s_flag_get:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1210   .text.spi_crc_error_clear:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:87     .text.spi_i2s_deinit:0000000000000066 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:119    .text.spi_struct_para_init:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:182    .text.spi_init:0000000000000036 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:201    .text.spi_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:220    .text.spi_disable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:262    .text.i2s_init:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:487    .text.i2s_psc_config:00000000000000da .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:506    .text.i2s_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:525    .text.i2s_disable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:544    .text.spi_nss_output_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:563    .text.spi_nss_output_disable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:582    .text.spi_nss_internal_high:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:601    .text.spi_nss_internal_low:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:631    .text.spi_dma_enable:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:661    .text.spi_dma_disable:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:688    .text.spi_i2s_data_frame_format_config:0000000000000014 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:705    .text.spi_i2s_data_transmit:0000000000000004 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:725    .text.spi_i2s_data_receive:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:758    .text.spi_bidirectional_transfer_config:0000000000000018 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:781    .text.spi_crc_polynomial_set:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:801    .text.spi_crc_polynomial_get:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:821    .text.spi_crc_on:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:842    .text.spi_crc_off:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:862    .text.spi_crc_next:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:894    .text.spi_crc_get:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:913    .text.spi_ti_mode_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:932    .text.spi_ti_mode_disable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:951    .text.spi_nssp_mode_enable:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:970    .text.spi_nssp_mode_disable:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1012   .text.spi_i2s_interrupt_enable:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1054   .text.spi_i2s_interrupt_disable:000000000000002a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1170   .text.spi_i2s_interrupt_flag_get:0000000000000050 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1191   .text.spi_i2s_flag_get:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1210   .text.spi_crc_error_clear:0000000000000008 .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:64     .text.spi_i2s_deinit:000000000000004e .L2
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:45     .text.spi_i2s_deinit:0000000000000032 .L3
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:76     .text.spi_i2s_deinit:0000000000000060 .L6
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:53     .text.spi_i2s_deinit:0000000000000042 .L8
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:303    .text.i2s_psc_config:0000000000000024 .L15
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:454    .text.i2s_psc_config:00000000000000bc .L16
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:442    .text.i2s_psc_config:00000000000000b2 .L17
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:468    .text.i2s_psc_config:00000000000000d0 .L20
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:406    .text.i2s_psc_config:0000000000000096 .L23
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:333    .text.i2s_psc_config:0000000000000042 .L18
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:355    .text.i2s_psc_config:0000000000000062 .L19
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:478    .text.i2s_psc_config:00000000000000d6 .L22
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:364    .text.i2s_psc_config:000000000000006c .L28
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:623    .text.spi_dma_enable:000000000000000c .L36
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:618    .text.spi_dma_enable:0000000000000008 .L38
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:653    .text.spi_dma_disable:000000000000000a .L40
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:648    .text.spi_dma_disable:0000000000000006 .L42
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:747    .text.spi_bidirectional_transfer_config:000000000000000e .L47
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:742    .text.spi_bidirectional_transfer_config:000000000000000a .L49
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:885    .text.spi_crc_get:000000000000000a .L56
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:878    .text.spi_crc_get:0000000000000004 .L58
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:997    .text.spi_i2s_interrupt_enable:000000000000001a .L64
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 46
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:64     .text.spi_i2s_deinit:000000000000004e .L2
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:45     .text.spi_i2s_deinit:0000000000000032 .L3
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:76     .text.spi_i2s_deinit:0000000000000060 .L6
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:53     .text.spi_i2s_deinit:0000000000000042 .L8
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:303    .text.i2s_psc_config:0000000000000024 .L15
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:454    .text.i2s_psc_config:00000000000000bc .L16
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:442    .text.i2s_psc_config:00000000000000b2 .L17
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:468    .text.i2s_psc_config:00000000000000d0 .L20
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:406    .text.i2s_psc_config:0000000000000096 .L23
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:333    .text.i2s_psc_config:0000000000000042 .L18
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:355    .text.i2s_psc_config:0000000000000062 .L19
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:478    .text.i2s_psc_config:00000000000000d6 .L22
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:364    .text.i2s_psc_config:000000000000006c .L28
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:623    .text.spi_dma_enable:000000000000000c .L36
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:618    .text.spi_dma_enable:0000000000000008 .L38
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:653    .text.spi_dma_disable:000000000000000a .L40
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:648    .text.spi_dma_disable:0000000000000006 .L42
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:747    .text.spi_bidirectional_transfer_config:000000000000000e .L47
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:742    .text.spi_bidirectional_transfer_config:000000000000000a .L49
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:885    .text.spi_crc_get:000000000000000a .L56
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:878    .text.spi_crc_get:0000000000000004 .L58
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:997    .text.spi_i2s_interrupt_enable:000000000000001a .L64
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 46
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:986    .text.spi_i2s_interrupt_enable:0000000000000010 .L65
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1003   .text.spi_i2s_interrupt_enable:0000000000000022 .L66
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:991    .text.spi_i2s_interrupt_enable:0000000000000016 .L68
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1039   .text.spi_i2s_interrupt_disable:000000000000001a .L70
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1028   .text.spi_i2s_interrupt_disable:0000000000000010 .L71
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1045   .text.spi_i2s_interrupt_disable:0000000000000022 .L72
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1033   .text.spi_i2s_interrupt_disable:0000000000000016 .L74
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1084   .rodata.spi_i2s_interrupt_flag_get:0000000000000000 .L78
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1103   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L76
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1110   .text.spi_i2s_interrupt_flag_get:0000000000000026 .L75
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1133   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L89
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1093   .text.spi_i2s_interrupt_flag_get:000000000000001a .L84
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1116   .text.spi_i2s_interrupt_flag_get:000000000000002a .L83
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1127   .text.spi_i2s_interrupt_flag_get:0000000000000032 .L82
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1140   .text.spi_i2s_interrupt_flag_get:000000000000003c .L81
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1147   .text.spi_i2s_interrupt_flag_get:0000000000000042 .L80
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1154   .text.spi_i2s_interrupt_flag_get:0000000000000046 .L79
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1161   .text.spi_i2s_interrupt_flag_get:000000000000004a .L77
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:2588   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4024   .debug_str:00000000000004c9 .LASF118
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4010   .debug_str:0000000000000438 .LASF119
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3954   .debug_str:0000000000000278 .LASF120
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3790   .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3862   .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3880   .debug_str:000000000000006f .LASF0
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4098   .debug_str:0000000000000731 .LASF1
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4062   .debug_str:0000000000000628 .LASF4
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4080   .debug_str:00000000000006a5 .LASF2
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4032   .debug_str:0000000000000569 .LASF3
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3930   .debug_str:00000000000001cf .LASF5
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4100   .debug_str:000000000000073d .LASF6
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4038   .debug_str:0000000000000592 .LASF7
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4082   .debug_str:00000000000006b3 .LASF8
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4076   .debug_str:000000000000067e .LASF9
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3988   .debug_str:000000000000039e .LASF10
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3924   .debug_str:000000000000019b .LASF11
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3974   .debug_str:000000000000034d .LASF12
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4020   .debug_str:00000000000004b2 .LASF13
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3908   .debug_str:000000000000011f .LASF14
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3866   .debug_str:0000000000000009 .LASF121
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4050   .debug_str:00000000000005e7 .LASF15
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3896   .debug_str:00000000000000c8 .LASF16
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3976   .debug_str:0000000000000355 .LASF17
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3948   .debug_str:0000000000000252 .LASF18
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4096   .debug_str:0000000000000723 .LASF19
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3982   .debug_str:000000000000037b .LASF20
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3872   .debug_str:000000000000003c .LASF21
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4022   .debug_str:00000000000004bb .LASF22
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3918   .debug_str:0000000000000168 .LASF23
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4090   .debug_str:00000000000006f3 .LASF24
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3886   .debug_str:000000000000008c .LASF25
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4030   .debug_str:000000000000055d .LASF26
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4072   .debug_str:0000000000000666 .LASF27
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3958   .debug_str:00000000000002c6 .LASF28
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4068   .debug_str:000000000000064c .LASF29
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3950   .debug_str:0000000000000260 .LASF30
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4086   .debug_str:00000000000006d3 .LASF31
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 47
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:986    .text.spi_i2s_interrupt_enable:0000000000000010 .L65
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1003   .text.spi_i2s_interrupt_enable:0000000000000022 .L66
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:991    .text.spi_i2s_interrupt_enable:0000000000000016 .L68
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1039   .text.spi_i2s_interrupt_disable:000000000000001a .L70
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1028   .text.spi_i2s_interrupt_disable:0000000000000010 .L71
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1045   .text.spi_i2s_interrupt_disable:0000000000000022 .L72
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1033   .text.spi_i2s_interrupt_disable:0000000000000016 .L74
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1084   .rodata.spi_i2s_interrupt_flag_get:0000000000000000 .L78
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1103   .text.spi_i2s_interrupt_flag_get:0000000000000020 .L76
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1110   .text.spi_i2s_interrupt_flag_get:0000000000000026 .L75
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1133   .text.spi_i2s_interrupt_flag_get:0000000000000036 .L89
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1093   .text.spi_i2s_interrupt_flag_get:000000000000001a .L84
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1116   .text.spi_i2s_interrupt_flag_get:000000000000002a .L83
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1127   .text.spi_i2s_interrupt_flag_get:0000000000000032 .L82
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1140   .text.spi_i2s_interrupt_flag_get:000000000000003c .L81
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1147   .text.spi_i2s_interrupt_flag_get:0000000000000042 .L80
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1154   .text.spi_i2s_interrupt_flag_get:0000000000000046 .L79
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1161   .text.spi_i2s_interrupt_flag_get:000000000000004a .L77
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:2588   .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4024   .debug_str:00000000000004c9 .LASF118
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4010   .debug_str:0000000000000438 .LASF119
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3954   .debug_str:0000000000000278 .LASF120
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3790   .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3862   .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3880   .debug_str:000000000000006f .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4098   .debug_str:0000000000000731 .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4062   .debug_str:0000000000000628 .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4080   .debug_str:00000000000006a5 .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4032   .debug_str:0000000000000569 .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3930   .debug_str:00000000000001cf .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4100   .debug_str:000000000000073d .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4038   .debug_str:0000000000000592 .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4082   .debug_str:00000000000006b3 .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4076   .debug_str:000000000000067e .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3988   .debug_str:000000000000039e .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3924   .debug_str:000000000000019b .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3974   .debug_str:000000000000034d .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4020   .debug_str:00000000000004b2 .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3908   .debug_str:000000000000011f .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3866   .debug_str:0000000000000009 .LASF121
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4050   .debug_str:00000000000005e7 .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3896   .debug_str:00000000000000c8 .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3976   .debug_str:0000000000000355 .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3948   .debug_str:0000000000000252 .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4096   .debug_str:0000000000000723 .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3982   .debug_str:000000000000037b .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3872   .debug_str:000000000000003c .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4022   .debug_str:00000000000004bb .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3918   .debug_str:0000000000000168 .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4090   .debug_str:00000000000006f3 .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3886   .debug_str:000000000000008c .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4030   .debug_str:000000000000055d .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4072   .debug_str:0000000000000666 .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3958   .debug_str:00000000000002c6 .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4068   .debug_str:000000000000064c .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3950   .debug_str:0000000000000260 .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4086   .debug_str:00000000000006d3 .LASF31
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 47
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3968   .debug_str:0000000000000329 .LASF32
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4040   .debug_str:000000000000059b .LASF33
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3932   .debug_str:00000000000001da .LASF34
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4102   .debug_str:0000000000000750 .LASF35
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3992   .debug_str:00000000000003c1 .LASF36
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3874   .debug_str:000000000000004a .LASF37
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4034   .debug_str:0000000000000573 .LASF38
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3978   .debug_str:0000000000000362 .LASF39
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3868   .debug_str:0000000000000019 .LASF40
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4016   .debug_str:0000000000000499 .LASF41
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3906   .debug_str:0000000000000112 .LASF42
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4070   .debug_str:0000000000000659 .LASF43
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3946   .debug_str:0000000000000246 .LASF44
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4092   .debug_str:0000000000000700 .LASF45
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4064   .debug_str:0000000000000632 .LASF46
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3996   .debug_str:00000000000003db .LASF47
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3910   .debug_str:0000000000000128 .LASF48
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4006   .debug_str:000000000000042c .LASF49
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3942   .debug_str:0000000000000233 .LASF50
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4054   .debug_str:00000000000005f2 .LASF51
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4056   .debug_str:00000000000005fa .LASF52
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4018   .debug_str:00000000000004a6 .LASF53
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3922   .debug_str:000000000000018f .LASF54
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3878   .debug_str:0000000000000064 .LASF55
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3952   .debug_str:000000000000026d .LASF56
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3884   .debug_str:0000000000000085 .LASF57
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4084   .debug_str:00000000000006be .LASF58
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3986   .debug_str:0000000000000395 .LASF59
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3966   .debug_str:0000000000000314 .LASF60
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4088   .debug_str:00000000000006df .LASF68
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1196   .text.spi_crc_error_clear:0000000000000000 .LFB35
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1208   .text.spi_crc_error_clear:0000000000000008 .LFE35
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3914   .debug_str:000000000000013c .LASF61
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3928   .debug_str:00000000000001be .LASF63
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1175   .text.spi_i2s_flag_get:0000000000000000 .LFB34
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1189   .text.spi_i2s_flag_get:000000000000000a .LFE34
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3114   .debug_loc:0000000000000000 .LLST22
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4052   .debug_str:00000000000005ed .LASF62
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3888   .debug_str:0000000000000098 .LASF64
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1059   .text.spi_i2s_interrupt_flag_get:0000000000000000 .LFB33
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1168   .text.spi_i2s_interrupt_flag_get:0000000000000050 .LFE33
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3128   .debug_loc:0000000000000021 .LLST19
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4074   .debug_str:0000000000000674 .LASF65
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3146   .debug_loc:000000000000004d .LLST20
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3890   .debug_str:00000000000000b3 .LASF66
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3160   .debug_loc:000000000000006e .LLST21
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3892   .debug_str:00000000000000b8 .LASF67
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3960   .debug_str:00000000000002d4 .LASF69
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1017   .text.spi_i2s_interrupt_disable:0000000000000000 .LFB32
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1052   .text.spi_i2s_interrupt_disable:000000000000002a .LFE32
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3920   .debug_str:0000000000000176 .LASF70
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:975    .text.spi_i2s_interrupt_enable:0000000000000000 .LFB31
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1010   .text.spi_i2s_interrupt_enable:000000000000002a .LFE31
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3870   .debug_str:0000000000000026 .LASF71
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:956    .text.spi_nssp_mode_disable:0000000000000000 .LFB30
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:968    .text.spi_nssp_mode_disable:0000000000000008 .LFE30
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4036   .debug_str:000000000000057d .LASF72
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 48
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3968   .debug_str:0000000000000329 .LASF32
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4040   .debug_str:000000000000059b .LASF33
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3932   .debug_str:00000000000001da .LASF34
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4102   .debug_str:0000000000000750 .LASF35
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3992   .debug_str:00000000000003c1 .LASF36
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3874   .debug_str:000000000000004a .LASF37
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4034   .debug_str:0000000000000573 .LASF38
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3978   .debug_str:0000000000000362 .LASF39
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3868   .debug_str:0000000000000019 .LASF40
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4016   .debug_str:0000000000000499 .LASF41
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3906   .debug_str:0000000000000112 .LASF42
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4070   .debug_str:0000000000000659 .LASF43
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3946   .debug_str:0000000000000246 .LASF44
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4092   .debug_str:0000000000000700 .LASF45
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4064   .debug_str:0000000000000632 .LASF46
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3996   .debug_str:00000000000003db .LASF47
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3910   .debug_str:0000000000000128 .LASF48
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4006   .debug_str:000000000000042c .LASF49
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3942   .debug_str:0000000000000233 .LASF50
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4054   .debug_str:00000000000005f2 .LASF51
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4056   .debug_str:00000000000005fa .LASF52
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4018   .debug_str:00000000000004a6 .LASF53
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3922   .debug_str:000000000000018f .LASF54
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3878   .debug_str:0000000000000064 .LASF55
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3952   .debug_str:000000000000026d .LASF56
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3884   .debug_str:0000000000000085 .LASF57
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4084   .debug_str:00000000000006be .LASF58
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3986   .debug_str:0000000000000395 .LASF59
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3966   .debug_str:0000000000000314 .LASF60
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4088   .debug_str:00000000000006df .LASF68
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1196   .text.spi_crc_error_clear:0000000000000000 .LFB35
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1208   .text.spi_crc_error_clear:0000000000000008 .LFE35
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3914   .debug_str:000000000000013c .LASF61
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3928   .debug_str:00000000000001be .LASF63
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1175   .text.spi_i2s_flag_get:0000000000000000 .LFB34
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1189   .text.spi_i2s_flag_get:000000000000000a .LFE34
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3114   .debug_loc:0000000000000000 .LLST22
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4052   .debug_str:00000000000005ed .LASF62
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3888   .debug_str:0000000000000098 .LASF64
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1059   .text.spi_i2s_interrupt_flag_get:0000000000000000 .LFB33
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1168   .text.spi_i2s_interrupt_flag_get:0000000000000050 .LFE33
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3128   .debug_loc:0000000000000021 .LLST19
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4074   .debug_str:0000000000000674 .LASF65
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3146   .debug_loc:000000000000004d .LLST20
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3890   .debug_str:00000000000000b3 .LASF66
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3160   .debug_loc:000000000000006e .LLST21
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3892   .debug_str:00000000000000b8 .LASF67
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3960   .debug_str:00000000000002d4 .LASF69
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1017   .text.spi_i2s_interrupt_disable:0000000000000000 .LFB32
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1052   .text.spi_i2s_interrupt_disable:000000000000002a .LFE32
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3920   .debug_str:0000000000000176 .LASF70
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:975    .text.spi_i2s_interrupt_enable:0000000000000000 .LFB31
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1010   .text.spi_i2s_interrupt_enable:000000000000002a .LFE31
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3870   .debug_str:0000000000000026 .LASF71
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:956    .text.spi_nssp_mode_disable:0000000000000000 .LFB30
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:968    .text.spi_nssp_mode_disable:0000000000000008 .LFE30
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4036   .debug_str:000000000000057d .LASF72
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 48
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:937    .text.spi_nssp_mode_enable:0000000000000000 .LFB29
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:949    .text.spi_nssp_mode_enable:000000000000000a .LFE29
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3934   .debug_str:00000000000001e6 .LASF73
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:918    .text.spi_ti_mode_disable:0000000000000000 .LFB28
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:930    .text.spi_ti_mode_disable:0000000000000008 .LFE28
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3998   .debug_str:00000000000003e7 .LASF74
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:899    .text.spi_ti_mode_enable:0000000000000000 .LFB27
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:911    .text.spi_ti_mode_enable:000000000000000a .LFE27
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3926   .debug_str:00000000000001b2 .LASF75
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:867    .text.spi_crc_get:0000000000000000 .LFB26
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:892    .text.spi_crc_get:000000000000000e .LFE26
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3171   .debug_loc:000000000000008c .LLST18
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3902   .debug_str:00000000000000ef .LASF76
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:847    .text.spi_crc_next:0000000000000000 .LFB25
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:860    .text.spi_crc_next:000000000000000a .LFE25
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3980   .debug_str:000000000000036f .LASF77
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:826    .text.spi_crc_off:0000000000000000 .LFB24
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:840    .text.spi_crc_off:000000000000000c .LFE24
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3894   .debug_str:00000000000000bd .LASF78
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:806    .text.spi_crc_on:0000000000000000 .LFB23
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:819    .text.spi_crc_on:000000000000000a .LFE23
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3964   .debug_str:00000000000002fd .LASF79
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:786    .text.spi_crc_polynomial_get:0000000000000000 .LFB22
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:799    .text.spi_crc_polynomial_get:0000000000000008 .LFE22
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3196   .debug_loc:00000000000000c6 .LLST17
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3900   .debug_str:00000000000000d8 .LASF80
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:763    .text.spi_crc_polynomial_set:0000000000000000 .LFB21
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:779    .text.spi_crc_polynomial_set:000000000000000c .LFE21
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4044   .debug_str:00000000000005bd .LASF81
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4004   .debug_str:000000000000040a .LASF82
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:730    .text.spi_bidirectional_transfer_config:0000000000000000 .LFB20
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:756    .text.spi_bidirectional_transfer_config:0000000000000018 .LFE20
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4104   .debug_str:000000000000075c .LASF83
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4078   .debug_str:0000000000000690 .LASF84
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:710    .text.spi_i2s_data_receive:0000000000000000 .LFB19
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:723    .text.spi_i2s_data_receive:0000000000000008 .LFE19
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3210   .debug_loc:00000000000000e7 .LLST16
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3904   .debug_str:00000000000000fc .LASF85
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:693    .text.spi_i2s_data_transmit:0000000000000000 .LFB18
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:703    .text.spi_i2s_data_transmit:0000000000000004 .LFE18
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3970   .debug_str:0000000000000335 .LASF86
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3916   .debug_str:0000000000000147 .LASF87
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:666    .text.spi_i2s_data_frame_format_config:0000000000000000 .LFB17
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:686    .text.spi_i2s_data_frame_format_config:0000000000000014 .LFE17
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4058   .debug_str:0000000000000602 .LASF88
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3224   .debug_loc:0000000000000108 .LLST15
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4014   .debug_str:0000000000000489 .LASF89
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:636    .text.spi_dma_disable:0000000000000000 .LFB16
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:659    .text.spi_dma_disable:000000000000000e .LFE16
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3876   .debug_str:0000000000000055 .LASF90
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:606    .text.spi_dma_enable:0000000000000000 .LFB15
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:629    .text.spi_dma_enable:0000000000000012 .LFE15
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3990   .debug_str:00000000000003ac .LASF91
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:587    .text.spi_nss_internal_low:0000000000000000 .LFB14
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:599    .text.spi_nss_internal_low:000000000000000a .LFE14
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4048   .debug_str:00000000000005d1 .LASF92
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:568    .text.spi_nss_internal_high:0000000000000000 .LFB13
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 49
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:937    .text.spi_nssp_mode_enable:0000000000000000 .LFB29
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:949    .text.spi_nssp_mode_enable:000000000000000a .LFE29
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3934   .debug_str:00000000000001e6 .LASF73
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:918    .text.spi_ti_mode_disable:0000000000000000 .LFB28
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:930    .text.spi_ti_mode_disable:0000000000000008 .LFE28
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3998   .debug_str:00000000000003e7 .LASF74
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:899    .text.spi_ti_mode_enable:0000000000000000 .LFB27
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:911    .text.spi_ti_mode_enable:000000000000000a .LFE27
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3926   .debug_str:00000000000001b2 .LASF75
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:867    .text.spi_crc_get:0000000000000000 .LFB26
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:892    .text.spi_crc_get:000000000000000e .LFE26
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3171   .debug_loc:000000000000008c .LLST18
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3902   .debug_str:00000000000000ef .LASF76
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:847    .text.spi_crc_next:0000000000000000 .LFB25
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:860    .text.spi_crc_next:000000000000000a .LFE25
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3980   .debug_str:000000000000036f .LASF77
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:826    .text.spi_crc_off:0000000000000000 .LFB24
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:840    .text.spi_crc_off:000000000000000c .LFE24
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3894   .debug_str:00000000000000bd .LASF78
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:806    .text.spi_crc_on:0000000000000000 .LFB23
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:819    .text.spi_crc_on:000000000000000a .LFE23
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3964   .debug_str:00000000000002fd .LASF79
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:786    .text.spi_crc_polynomial_get:0000000000000000 .LFB22
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:799    .text.spi_crc_polynomial_get:0000000000000008 .LFE22
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3196   .debug_loc:00000000000000c6 .LLST17
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3900   .debug_str:00000000000000d8 .LASF80
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:763    .text.spi_crc_polynomial_set:0000000000000000 .LFB21
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:779    .text.spi_crc_polynomial_set:000000000000000c .LFE21
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4044   .debug_str:00000000000005bd .LASF81
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4004   .debug_str:000000000000040a .LASF82
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:730    .text.spi_bidirectional_transfer_config:0000000000000000 .LFB20
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:756    .text.spi_bidirectional_transfer_config:0000000000000018 .LFE20
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4104   .debug_str:000000000000075c .LASF83
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4078   .debug_str:0000000000000690 .LASF84
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:710    .text.spi_i2s_data_receive:0000000000000000 .LFB19
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:723    .text.spi_i2s_data_receive:0000000000000008 .LFE19
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3210   .debug_loc:00000000000000e7 .LLST16
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3904   .debug_str:00000000000000fc .LASF85
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:693    .text.spi_i2s_data_transmit:0000000000000000 .LFB18
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:703    .text.spi_i2s_data_transmit:0000000000000004 .LFE18
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3970   .debug_str:0000000000000335 .LASF86
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3916   .debug_str:0000000000000147 .LASF87
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:666    .text.spi_i2s_data_frame_format_config:0000000000000000 .LFB17
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:686    .text.spi_i2s_data_frame_format_config:0000000000000014 .LFE17
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4058   .debug_str:0000000000000602 .LASF88
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3224   .debug_loc:0000000000000108 .LLST15
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4014   .debug_str:0000000000000489 .LASF89
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:636    .text.spi_dma_disable:0000000000000000 .LFB16
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:659    .text.spi_dma_disable:000000000000000e .LFE16
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3876   .debug_str:0000000000000055 .LASF90
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:606    .text.spi_dma_enable:0000000000000000 .LFB15
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:629    .text.spi_dma_enable:0000000000000012 .LFE15
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3990   .debug_str:00000000000003ac .LASF91
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:587    .text.spi_nss_internal_low:0000000000000000 .LFB14
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:599    .text.spi_nss_internal_low:000000000000000a .LFE14
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4048   .debug_str:00000000000005d1 .LASF92
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:568    .text.spi_nss_internal_high:0000000000000000 .LFB13
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 49
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:580    .text.spi_nss_internal_high:000000000000000a .LFE13
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4094   .debug_str:000000000000070c .LASF93
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:549    .text.spi_nss_output_disable:0000000000000000 .LFB12
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:561    .text.spi_nss_output_disable:0000000000000008 .LFE12
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4042   .debug_str:00000000000005a7 .LASF94
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:530    .text.spi_nss_output_enable:0000000000000000 .LFB11
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:542    .text.spi_nss_output_enable:000000000000000a .LFE11
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3938   .debug_str:0000000000000212 .LASF95
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:511    .text.i2s_disable:0000000000000000 .LFB10
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:523    .text.i2s_disable:000000000000000a .LFE10
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4106   .debug_str:000000000000076f .LASF96
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:492    .text.i2s_enable:0000000000000000 .LFB9
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:504    .text.i2s_enable:000000000000000a .LFE9
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3962   .debug_str:00000000000002ee .LASF97
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:267    .text.i2s_psc_config:0000000000000000 .LFB8
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:485    .text.i2s_psc_config:00000000000000da .LFE8
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3238   .debug_loc:0000000000000129 .LLST6
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3261   .debug_loc:0000000000000161 .LLST7
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4066   .debug_str:0000000000000640 .LASF98
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3283   .debug_loc:0000000000000198 .LLST8
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3984   .debug_str:0000000000000389 .LASF99
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3305   .debug_loc:00000000000001cf .LLST9
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4002   .debug_str:0000000000000403 .LASF100
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3335   .debug_loc:0000000000000215 .LLST10
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4026   .debug_str:0000000000000551 .LASF101
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3365   .debug_loc:000000000000025b .LLST11
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3912   .debug_str:0000000000000136 .LASF102
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3382   .debug_loc:0000000000000286 .LLST12
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4028   .debug_str:0000000000000558 .LASF103
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3423   .debug_loc:00000000000002e5 .LLST13
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4000   .debug_str:00000000000003fa .LASF104
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3467   .debug_loc:0000000000000355 .LLST14
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:462    .text.i2s_psc_config:00000000000000ca .LVL52
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3882   .debug_str:000000000000007c .LASF105
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:225    .text.i2s_init:0000000000000000 .LFB7
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:260    .text.i2s_init:000000000000001c .LFE7
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3898   .debug_str:00000000000000d3 .LASF106
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3508   .debug_loc:00000000000003b4 .LLST3
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3864   .debug_str:0000000000000000 .LASF107
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4008   .debug_str:0000000000000433 .LASF108
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3522   .debug_loc:00000000000003d5 .LLST4
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3536   .debug_loc:00000000000003f6 .LLST5
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3944   .debug_str:000000000000023a .LASF109
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:206    .text.spi_disable:0000000000000000 .LFB6
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:218    .text.spi_disable:000000000000000a .LFE6
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4012   .debug_str:000000000000047e .LASF110
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:187    .text.spi_enable:0000000000000000 .LFB5
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:199    .text.spi_enable:000000000000000a .LFE5
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3956   .debug_str:00000000000002bd .LASF111
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:124    .text.spi_init:0000000000000000 .LFB4
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:180    .text.spi_init:0000000000000036 .LFE4
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4046   .debug_str:00000000000005c6 .LASF112
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3563   .debug_loc:000000000000042d .LLST2
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3940   .debug_str:000000000000021e .LASF113
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:92     .text.spi_struct_para_init:0000000000000000 .LFB3
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:117    .text.spi_struct_para_init:000000000000001a .LFE3
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3994   .debug_str:00000000000003cc .LASF114
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 50
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:580    .text.spi_nss_internal_high:000000000000000a .LFE13
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4094   .debug_str:000000000000070c .LASF93
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:549    .text.spi_nss_output_disable:0000000000000000 .LFB12
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:561    .text.spi_nss_output_disable:0000000000000008 .LFE12
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4042   .debug_str:00000000000005a7 .LASF94
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:530    .text.spi_nss_output_enable:0000000000000000 .LFB11
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:542    .text.spi_nss_output_enable:000000000000000a .LFE11
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3938   .debug_str:0000000000000212 .LASF95
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:511    .text.i2s_disable:0000000000000000 .LFB10
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:523    .text.i2s_disable:000000000000000a .LFE10
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4106   .debug_str:000000000000076f .LASF96
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:492    .text.i2s_enable:0000000000000000 .LFB9
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:504    .text.i2s_enable:000000000000000a .LFE9
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3962   .debug_str:00000000000002ee .LASF97
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:267    .text.i2s_psc_config:0000000000000000 .LFB8
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:485    .text.i2s_psc_config:00000000000000da .LFE8
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3238   .debug_loc:0000000000000129 .LLST6
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3261   .debug_loc:0000000000000161 .LLST7
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4066   .debug_str:0000000000000640 .LASF98
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3283   .debug_loc:0000000000000198 .LLST8
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3984   .debug_str:0000000000000389 .LASF99
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3305   .debug_loc:00000000000001cf .LLST9
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4002   .debug_str:0000000000000403 .LASF100
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3335   .debug_loc:0000000000000215 .LLST10
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4026   .debug_str:0000000000000551 .LASF101
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3365   .debug_loc:000000000000025b .LLST11
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3912   .debug_str:0000000000000136 .LASF102
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3382   .debug_loc:0000000000000286 .LLST12
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4028   .debug_str:0000000000000558 .LASF103
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3423   .debug_loc:00000000000002e5 .LLST13
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4000   .debug_str:00000000000003fa .LASF104
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3467   .debug_loc:0000000000000355 .LLST14
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:462    .text.i2s_psc_config:00000000000000ca .LVL52
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3882   .debug_str:000000000000007c .LASF105
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:225    .text.i2s_init:0000000000000000 .LFB7
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:260    .text.i2s_init:000000000000001c .LFE7
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3898   .debug_str:00000000000000d3 .LASF106
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3508   .debug_loc:00000000000003b4 .LLST3
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3864   .debug_str:0000000000000000 .LASF107
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4008   .debug_str:0000000000000433 .LASF108
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3522   .debug_loc:00000000000003d5 .LLST4
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3536   .debug_loc:00000000000003f6 .LLST5
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3944   .debug_str:000000000000023a .LASF109
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:206    .text.spi_disable:0000000000000000 .LFB6
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:218    .text.spi_disable:000000000000000a .LFE6
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4012   .debug_str:000000000000047e .LASF110
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:187    .text.spi_enable:0000000000000000 .LFB5
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:199    .text.spi_enable:000000000000000a .LFE5
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3956   .debug_str:00000000000002bd .LASF111
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:124    .text.spi_init:0000000000000000 .LFB4
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:180    .text.spi_init:0000000000000036 .LFE4
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4046   .debug_str:00000000000005c6 .LASF112
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3563   .debug_loc:000000000000042d .LLST2
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3940   .debug_str:000000000000021e .LASF113
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:92     .text.spi_struct_para_init:0000000000000000 .LFB3
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:117    .text.spi_struct_para_init:000000000000001a .LFE3
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3994   .debug_str:00000000000003cc .LASF114
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 50
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:14     .text.spi_i2s_deinit:0000000000000000 .LFB2
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:85     .text.spi_i2s_deinit:0000000000000066 .LFE2
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3643   .debug_loc:00000000000004ac .LLST0
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3671   .debug_loc:00000000000004f0 .LLST1
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:40     .text.spi_i2s_deinit:000000000000002c .LVL2
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:50     .text.spi_i2s_deinit:000000000000003e .LVL5
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:63     .text.spi_i2s_deinit:000000000000004e .LVL6
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:71     .text.spi_i2s_deinit:000000000000005a .LVL8
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3972   .debug_str:000000000000033a .LASF115
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:3936   .debug_str:00000000000001fa .LASF116
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:4060   .debug_str:000000000000060f .LASF117
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1178   .text.spi_i2s_flag_get:0000000000000000 .LVL105
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1182   .text.spi_i2s_flag_get:0000000000000002 .LVL106
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1062   .text.spi_i2s_interrupt_flag_get:0000000000000000 .LVL88
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1113   .text.spi_i2s_interrupt_flag_get:0000000000000028 .LVL95
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1115   .text.spi_i2s_interrupt_flag_get:000000000000002a .LVL96
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1077   .text.spi_i2s_interrupt_flag_get:0000000000000014 .LVL91
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1066   .text.spi_i2s_interrupt_flag_get:0000000000000002 .LVL89
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1109   .text.spi_i2s_interrupt_flag_get:0000000000000026 .LVL94
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1165   .text.spi_i2s_interrupt_flag_get:000000000000004e .LVL104
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:870    .text.spi_crc_get:0000000000000000 .LVL78
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:877    .text.spi_crc_get:0000000000000004 .LVL79
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:884    .text.spi_crc_get:000000000000000a .LVL80
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:889    .text.spi_crc_get:000000000000000c .LVL81
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:789    .text.spi_crc_polynomial_get:0000000000000000 .LVL73
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:793    .text.spi_crc_polynomial_get:0000000000000002 .LVL74
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:713    .text.spi_i2s_data_receive:0000000000000000 .LVL69
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:717    .text.spi_i2s_data_receive:0000000000000002 .LVL70
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:669    .text.spi_i2s_data_frame_format_config:0000000000000000 .LVL66
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:681    .text.spi_i2s_data_frame_format_config:0000000000000010 .LVL67
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:277    .text.i2s_psc_config:0000000000000002 .LCFI4
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:438    .text.i2s_psc_config:00000000000000b0 .LCFI5
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:443    .text.i2s_psc_config:00000000000000b2 .LCFI6
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:270    .text.i2s_psc_config:0000000000000000 .LVL26
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:316    .text.i2s_psc_config:0000000000000030 .LVL29
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:436    .text.i2s_psc_config:00000000000000ae .LVL48
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:441    .text.i2s_psc_config:00000000000000b2 .LVL49
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:299    .text.i2s_psc_config:000000000000001c .LVL27
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:376    .text.i2s_psc_config:000000000000007c .LVL38
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:354    .text.i2s_psc_config:0000000000000062 .LVL35
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:467    .text.i2s_psc_config:00000000000000d0 .LVL54
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:390    .text.i2s_psc_config:0000000000000088 .LVL42
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:410    .text.i2s_psc_config:0000000000000098 .LVL46
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:382    .text.i2s_psc_config:0000000000000082 .LVL40
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:387    .text.i2s_psc_config:0000000000000086 .LVL41
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:397    .text.i2s_psc_config:000000000000008e .LVL43
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:402    .text.i2s_psc_config:0000000000000094 .LVL44
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:405    .text.i2s_psc_config:0000000000000096 .LVL45
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:418    .text.i2s_psc_config:000000000000009e .LVL47
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:304    .text.i2s_psc_config:0000000000000024 .LVL28
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:323    .text.i2s_psc_config:0000000000000038 .LVL30
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:372    .text.i2s_psc_config:000000000000007a .LVL37
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:379    .text.i2s_psc_config:000000000000007e .LVL39
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:451    .text.i2s_psc_config:00000000000000ba .LVL50
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:453    .text.i2s_psc_config:00000000000000bc .LVL51
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:338    .text.i2s_psc_config:0000000000000048 .LVL32
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:342    .text.i2s_psc_config:000000000000004a .LVL33
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s 			page 51
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:14     .text.spi_i2s_deinit:0000000000000000 .LFB2
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:85     .text.spi_i2s_deinit:0000000000000066 .LFE2
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3643   .debug_loc:00000000000004ac .LLST0
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3671   .debug_loc:00000000000004f0 .LLST1
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:40     .text.spi_i2s_deinit:000000000000002c .LVL2
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:50     .text.spi_i2s_deinit:000000000000003e .LVL5
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:63     .text.spi_i2s_deinit:000000000000004e .LVL6
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:71     .text.spi_i2s_deinit:000000000000005a .LVL8
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3972   .debug_str:000000000000033a .LASF115
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:3936   .debug_str:00000000000001fa .LASF116
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:4060   .debug_str:000000000000060f .LASF117
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1178   .text.spi_i2s_flag_get:0000000000000000 .LVL105
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1182   .text.spi_i2s_flag_get:0000000000000002 .LVL106
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1062   .text.spi_i2s_interrupt_flag_get:0000000000000000 .LVL88
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1113   .text.spi_i2s_interrupt_flag_get:0000000000000028 .LVL95
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1115   .text.spi_i2s_interrupt_flag_get:000000000000002a .LVL96
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1077   .text.spi_i2s_interrupt_flag_get:0000000000000014 .LVL91
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1066   .text.spi_i2s_interrupt_flag_get:0000000000000002 .LVL89
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1109   .text.spi_i2s_interrupt_flag_get:0000000000000026 .LVL94
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1165   .text.spi_i2s_interrupt_flag_get:000000000000004e .LVL104
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:870    .text.spi_crc_get:0000000000000000 .LVL78
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:877    .text.spi_crc_get:0000000000000004 .LVL79
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:884    .text.spi_crc_get:000000000000000a .LVL80
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:889    .text.spi_crc_get:000000000000000c .LVL81
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:789    .text.spi_crc_polynomial_get:0000000000000000 .LVL73
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:793    .text.spi_crc_polynomial_get:0000000000000002 .LVL74
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:713    .text.spi_i2s_data_receive:0000000000000000 .LVL69
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:717    .text.spi_i2s_data_receive:0000000000000002 .LVL70
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:669    .text.spi_i2s_data_frame_format_config:0000000000000000 .LVL66
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:681    .text.spi_i2s_data_frame_format_config:0000000000000010 .LVL67
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:277    .text.i2s_psc_config:0000000000000002 .LCFI4
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:438    .text.i2s_psc_config:00000000000000b0 .LCFI5
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:443    .text.i2s_psc_config:00000000000000b2 .LCFI6
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:270    .text.i2s_psc_config:0000000000000000 .LVL26
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:316    .text.i2s_psc_config:0000000000000030 .LVL29
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:436    .text.i2s_psc_config:00000000000000ae .LVL48
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:441    .text.i2s_psc_config:00000000000000b2 .LVL49
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:299    .text.i2s_psc_config:000000000000001c .LVL27
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:376    .text.i2s_psc_config:000000000000007c .LVL38
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:354    .text.i2s_psc_config:0000000000000062 .LVL35
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:467    .text.i2s_psc_config:00000000000000d0 .LVL54
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:390    .text.i2s_psc_config:0000000000000088 .LVL42
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:410    .text.i2s_psc_config:0000000000000098 .LVL46
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:382    .text.i2s_psc_config:0000000000000082 .LVL40
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:387    .text.i2s_psc_config:0000000000000086 .LVL41
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:397    .text.i2s_psc_config:000000000000008e .LVL43
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:402    .text.i2s_psc_config:0000000000000094 .LVL44
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:405    .text.i2s_psc_config:0000000000000096 .LVL45
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:418    .text.i2s_psc_config:000000000000009e .LVL47
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:304    .text.i2s_psc_config:0000000000000024 .LVL28
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:323    .text.i2s_psc_config:0000000000000038 .LVL30
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:372    .text.i2s_psc_config:000000000000007a .LVL37
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:379    .text.i2s_psc_config:000000000000007e .LVL39
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:451    .text.i2s_psc_config:00000000000000ba .LVL50
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:453    .text.i2s_psc_config:00000000000000bc .LVL51
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:338    .text.i2s_psc_config:0000000000000048 .LVL32
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:342    .text.i2s_psc_config:000000000000004a .LVL33
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s 			page 51
 
 
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:346    .text.i2s_psc_config:0000000000000050 .LVL34
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:363    .text.i2s_psc_config:000000000000006c .LVL36
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:465    .text.i2s_psc_config:00000000000000ce .LVL53
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:475    .text.i2s_psc_config:00000000000000d4 .LVL55
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:477    .text.i2s_psc_config:00000000000000d6 .LVL56
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:482    .text.i2s_psc_config:00000000000000d8 .LVL57
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:228    .text.i2s_init:0000000000000000 .LVL20
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:250    .text.i2s_init:0000000000000012 .LVL24
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:244    .text.i2s_init:000000000000000c .LVL23
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:233    .text.i2s_init:0000000000000002 .LVL21
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:242    .text.i2s_init:000000000000000a .LVL22
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:253    .text.i2s_init:0000000000000018 .LVL25
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:127    .text.spi_init:0000000000000000 .LVL11
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:132    .text.spi_init:0000000000000002 .LVL12
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:141    .text.spi_init:000000000000000c .LVL13
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:153    .text.spi_init:0000000000000012 .LVL14
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:164    .text.spi_init:0000000000000026 .LVL15
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:171    .text.spi_init:000000000000002a .LVL16
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:176    .text.spi_init:0000000000000034 .LVL17
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:22     .text.spi_i2s_deinit:0000000000000002 .LCFI0
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:59     .text.spi_i2s_deinit:0000000000000046 .LCFI1
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:65     .text.spi_i2s_deinit:000000000000004e .LCFI2
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:81     .text.spi_i2s_deinit:0000000000000064 .LCFI3
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:18     .text.spi_i2s_deinit:0000000000000000 .LVL0
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:38     .text.spi_i2s_deinit:0000000000000024 .LVL1
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:44     .text.spi_i2s_deinit:0000000000000032 .LVL3
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:48     .text.spi_i2s_deinit:0000000000000036 .LVL4
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:69     .text.spi_i2s_deinit:0000000000000052 .LVL7
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:75     .text.spi_i2s_deinit:0000000000000060 .LVL9
-C:\Users\kasie\AppData\Local\Temp\cc8EPXGU.s:1219   .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:346    .text.i2s_psc_config:0000000000000050 .LVL34
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:363    .text.i2s_psc_config:000000000000006c .LVL36
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:465    .text.i2s_psc_config:00000000000000ce .LVL53
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:475    .text.i2s_psc_config:00000000000000d4 .LVL55
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:477    .text.i2s_psc_config:00000000000000d6 .LVL56
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:482    .text.i2s_psc_config:00000000000000d8 .LVL57
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:228    .text.i2s_init:0000000000000000 .LVL20
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:250    .text.i2s_init:0000000000000012 .LVL24
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:244    .text.i2s_init:000000000000000c .LVL23
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:233    .text.i2s_init:0000000000000002 .LVL21
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:242    .text.i2s_init:000000000000000a .LVL22
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:253    .text.i2s_init:0000000000000018 .LVL25
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:127    .text.spi_init:0000000000000000 .LVL11
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:132    .text.spi_init:0000000000000002 .LVL12
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:141    .text.spi_init:000000000000000c .LVL13
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:153    .text.spi_init:0000000000000012 .LVL14
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:164    .text.spi_init:0000000000000026 .LVL15
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:171    .text.spi_init:000000000000002a .LVL16
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:176    .text.spi_init:0000000000000034 .LVL17
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:22     .text.spi_i2s_deinit:0000000000000002 .LCFI0
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:59     .text.spi_i2s_deinit:0000000000000046 .LCFI1
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:65     .text.spi_i2s_deinit:000000000000004e .LCFI2
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:81     .text.spi_i2s_deinit:0000000000000064 .LCFI3
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:18     .text.spi_i2s_deinit:0000000000000000 .LVL0
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:38     .text.spi_i2s_deinit:0000000000000024 .LVL1
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:44     .text.spi_i2s_deinit:0000000000000032 .LVL3
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:48     .text.spi_i2s_deinit:0000000000000036 .LVL4
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:69     .text.spi_i2s_deinit:0000000000000052 .LVL7
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:75     .text.spi_i2s_deinit:0000000000000060 .LVL9
+C:\Users\kasie\AppData\Local\Temp\ccplpoFj.s:1219   .debug_info:0000000000000000 .Ldebug_info0
 
 UNDEFINED SYMBOLS
 rcu_periph_reset_enable

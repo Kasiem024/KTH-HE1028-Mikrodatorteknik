@@ -3,14 +3,16 @@
 #include "adc.h"
 #include "lcd.h"
 #include "usart.h"
-#define EI 1
-#define DI 0
+
+#include <string.h>
+
+#define TRUE 1
+#define FALSE 0
 
 int main(void)
 {
-  int key, currentReceiveIndex = 0, currentSendIndex = 0, sendDataNow = 0, amountCharSent = 0, currentLine = 0;
+  int key, currentSendIndex = 0, transmitDataNow = FALSE, currentLine = 0, receivedDataArray[7], currentReceiveIndex = 0;
   char transmitData[7];
-  int lookUpTbl[16] = {1, 4, 7, 14, 2, 5, 8, 0, 3, 6, 9, 15, 10, 11, 12, 13};
 
   t5omsi();                // Initialize timer5 1kHz
   colinit();               // Initialize column toolbox
@@ -20,10 +22,10 @@ int main(void)
   Lcd_SetType(LCD_NORMAL); // or use LCD_INVERTED!
   Lcd_Init();
   LCD_Clear(BLACK);
-  u0init(EI);                      // Initialize USART0 toolbox
+  u0init(TRUE);                    // Initialize USART0 toolbox
   eclic_global_interrupt_enable(); // !!! INTERRUPT ENABLED !!!
 
-  while (1)
+  while (TRUE)
   {
     LCD_WR_Queue(); // Manage LCD com queue!
     u0_TX_Queue();  // Manage U(S)ART TX Queue!
@@ -32,17 +34,15 @@ int main(void)
     {
       l88row(colset()); // ...8*8LED and Keyboard
 
-      if (sendDataNow)
+      if (transmitDataNow == TRUE) // If there is data to transmit
       {
-        char currentChar = (int)transmitData[currentSendIndex];
-        usart_data_transmit(USART0, currentChar);
-        currentSendIndex++;
+        usart_data_transmit(USART0, transmitData[currentSendIndex]); // Transmit one char at a time
+        currentSendIndex++;                                          // Go to next char to transmit
 
-        if (currentSendIndex == amountCharSent) // If we have sent the whole word
+        if (currentSendIndex == sizeof(transmitData)) // If we have sent the whole word
         {
-          sendDataNow = 0;
-          currentSendIndex = 0;
-          amountCharSent = 0;
+          transmitDataNow = FALSE; // Reset
+          currentSendIndex = 0;    // Reset
         }
       }
 
@@ -55,88 +55,64 @@ int main(void)
           if (adc_flag_get(ADC0, ADC_FLAG_EOC) == SET)
           { // ...ADC done?
             if (adc_flag_get(ADC0, ADC_FLAG_EOIC) == SET)
-            { //...ch3 or ch16?
-              int tmpr = adc_inserted_data_read(ADC0, ADC_INSERTED_CHANNEL_0);
+            {
+              int tmpr = adc_inserted_data_read(ADC0, ADC_INSERTED_CHANNEL_0); // Get current temprature
 
               adc_flag_clear(ADC0, ADC_FLAG_EOC);
               adc_flag_clear(ADC0, ADC_FLAG_EOIC);
 
-              tmpr = ((0x680 - tmpr) / 5) + 25;
+              tmpr = ((0x680 - tmpr) / 5) + 25; // Convert tmpr to a normal value
 
-              int sign = '+'; // +
+              int sign = '+'; // Default
               if (tmpr < 0)
               {
-                sign = '-';   // -
-                tmpr = -tmpr; // Make tmpr positive for consistent handling
+                sign = '-';
+                tmpr = -tmpr; // Make tmpr positive if it's negative
               }
 
-              int hundredsDigit = '0';
+              int hundredsDigit = '0'; // Default
               if (tmpr >= 100)
               {
                 hundredsDigit = '1';
-                tmpr = tmpr % 100; // Extract the remaining two digits.
+                tmpr = tmpr % 100; // Extract the remaining two digits
               }
 
               char tensDigit, unitsDigit;
 
-              tensDigit = (tmpr / 10) + '0';
-              unitsDigit = (tmpr % 10) + '0';
+              tensDigit = (tmpr / 10) + '0';  // Seperate into their own char
+              unitsDigit = (tmpr % 10) + '0'; // Seperate into their own char
 
-              char newDataTransmit[7];
+              transmitData[0] = 'I';
+              transmitData[1] = 'D';
+              transmitData[2] = sign;
+              transmitData[3] = hundredsDigit;
+              transmitData[4] = tensDigit;
+              transmitData[5] = unitsDigit;
+              transmitData[6] = 10;
 
-              newDataTransmit[0] = 'I';
-              newDataTransmit[1] = 'D';
-              newDataTransmit[2] = sign;
-              newDataTransmit[3] = hundredsDigit;
-              newDataTransmit[4] = tensDigit;
-              newDataTransmit[5] = unitsDigit;
-              newDataTransmit[6] = 10;
-
-              amountCharSent = sizeof(newDataTransmit);
-
-              for (int i = 0; i < amountCharSent; i++)
-              {
-                transmitData[i] = newDataTransmit[i];
-              }
-
-              sendDataNow = 1;
+              transmitDataNow = TRUE; // Ready to transmit data
             }
           }
         }
         else if (key == 13) // B
         {
-          char newDataTransmit[7] = "ID-000\n";
-          amountCharSent = sizeof(newDataTransmit);
-
-          for (int i = 0; i < amountCharSent; i++)
-          {
-            transmitData[i] = newDataTransmit[i];
-          }
-
-          sendDataNow = 1;
+          strcpy(transmitData, "ID-000\n");
+          transmitDataNow = TRUE;
         }
         else if (key == 14) // C
         {
-          char newDataTransmit[7] = "ID*000\n";
-          amountCharSent = sizeof(newDataTransmit);
-
-          for (int i = 0; i < amountCharSent; i++)
-          {
-            transmitData[i] = newDataTransmit[i];
-          }
-
-          sendDataNow = 1;
+          strcpy(transmitData, "ID*000\n");
+          transmitDataNow = TRUE;
         }
       }
 
       if (usart_flag_get(USART0, USART_FLAG_RBNE))
       {
-        int receivedData = usart_data_receive(USART0);
-        int receivedDataArray[7];
+        int receivedData = usart_data_receive(USART0); // Receive one char at a time
 
-        receivedDataArray[currentReceiveIndex] = receivedData;
+        receivedDataArray[currentReceiveIndex] = receivedData; // Put each char of the word in the correct position
 
-        if (receivedData == 10)
+        if (receivedData == 10) // If whole word has been received, \n
         {
           if (receivedDataArray[0] == 'I' &&
               receivedDataArray[1] == 'D' &&
@@ -144,7 +120,7 @@ int main(void)
               isdigit(receivedDataArray[3]) && // Check if it's a digit '0' to '9'
               isdigit(receivedDataArray[4]) &&
               isdigit(receivedDataArray[5]))
-          {
+          { // If A or B has been pressed
             LCD_ShowStr(currentReceiveIndex * 10, currentLine * 15, " OK!", WHITE, TRANSPARENT);
           }
           else
@@ -152,13 +128,13 @@ int main(void)
             LCD_ShowStr(currentReceiveIndex * 10, currentLine * 15, " ERR", WHITE, TRANSPARENT);
           }
 
-          currentReceiveIndex = 0;
-          currentLine++;
+          currentReceiveIndex = 0; // Reset
+          currentLine++;           // Move down screen
         }
         else
         {
-          LCD_ShowChar(currentReceiveIndex * 10, currentLine * 15, receivedData, TRANSPARENT, WHITE);
-          currentReceiveIndex++;
+          LCD_ShowChar(currentReceiveIndex * 10, currentLine * 15, receivedData, TRANSPARENT, WHITE); // Print each char to screen
+          currentReceiveIndex++;                                                                      // Go to next char and move right on screen
         }
       }
     }

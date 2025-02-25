@@ -1,4 +1,4 @@
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 1
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s 			page 1
 
 
    1              		.file	"gd32vf103_crc.c"
@@ -58,7 +58,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 1
   41:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_crc.c **** /*!
   42:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_crc.c ****     \brief      deinit CRC calculation unit
   43:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_crc.c ****     \param[in]  none
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 2
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s 			page 2
 
 
   44:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_crc.c ****     \param[out] none
@@ -118,7 +118,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 1
   52              	.LFE3:
   54              		.section	.text.crc_data_register_read,"ax",@progbits
   55              		.align	1
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 3
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s 			page 3
 
 
   56              		.globl	crc_data_register_read
@@ -178,7 +178,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 1
   88              		.loc 1 88 5 is_stmt 1
   89:./../../firmware/GD32VF103_standard_peripheral/Source/gd32vf103_crc.c **** }
   89              		.loc 1 89 1 is_stmt 0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 4
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s 			page 4
 
 
   90 0006 1375F50F 		andi	a0,a0,0xff
@@ -238,7 +238,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 1
  126              		.loc 1 111 5 is_stmt 1
  127              		.loc 1 111 13 is_stmt 0
  128 0006 8843     		lw	a0,0(a5)
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 5
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s 			page 5
 
 
  129              	.LVL4:
@@ -298,7 +298,7 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 1
  165              		.loc 1 125 25 is_stmt 0 discriminator 3
  166 0012 13972700 		slli	a4,a5,2
  167 0016 2A97     		add	a4,a0,a4
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 6
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s 			page 6
 
 
  168 0018 1843     		lw	a4,0(a4)
@@ -317,154 +317,154 @@ GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 1
  180              		.file 2 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
  181              		.file 3 "c:\\hukas\\code\\repositories\\toolchain-gd32v-v202-win\\compiler\\riscv64-unknown-elf\\i
  182              		.file 4 "./../../firmware/GD32VF103_standard_peripheral/system_gd32vf103.h"
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 7
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 gd32vf103_crc.c
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:13     .text.crc_deinit:0000000000000000 crc_deinit
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:17     .text.crc_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:18     .text.crc_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:19     .text.crc_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:20     .text.crc_deinit:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:24     .text.crc_deinit:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:25     .text.crc_deinit:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:27     .text.crc_deinit:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:28     .text.crc_deinit:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:31     .text.crc_deinit:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:32     .text.crc_deinit:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:39     .text.crc_data_register_reset:0000000000000000 crc_data_register_reset
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:42     .text.crc_data_register_reset:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:43     .text.crc_data_register_reset:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:44     .text.crc_data_register_reset:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:45     .text.crc_data_register_reset:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:50     .text.crc_data_register_reset:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:51     .text.crc_data_register_reset:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:58     .text.crc_data_register_read:0000000000000000 crc_data_register_read
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:61     .text.crc_data_register_read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:62     .text.crc_data_register_read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:63     .text.crc_data_register_read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:64     .text.crc_data_register_read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:65     .text.crc_data_register_read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:69     .text.crc_data_register_read:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:70     .text.crc_data_register_read:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:71     .text.crc_data_register_read:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:78     .text.crc_free_data_register_read:0000000000000000 crc_free_data_register_read
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:81     .text.crc_free_data_register_read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:82     .text.crc_free_data_register_read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:83     .text.crc_free_data_register_read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:84     .text.crc_free_data_register_read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:85     .text.crc_free_data_register_read:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:89     .text.crc_free_data_register_read:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:90     .text.crc_free_data_register_read:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:92     .text.crc_free_data_register_read:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:99     .text.crc_free_data_register_write:0000000000000000 crc_free_data_register_write
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:102    .text.crc_free_data_register_write:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:104    .text.crc_free_data_register_write:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:105    .text.crc_free_data_register_write:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:106    .text.crc_free_data_register_write:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:109    .text.crc_free_data_register_write:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:110    .text.crc_free_data_register_write:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:117    .text.crc_single_data_calculate:0000000000000000 crc_single_data_calculate
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:120    .text.crc_single_data_calculate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:122    .text.crc_single_data_calculate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:123    .text.crc_single_data_calculate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:124    .text.crc_single_data_calculate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:127    .text.crc_single_data_calculate:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:128    .text.crc_single_data_calculate:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:131    .text.crc_single_data_calculate:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:132    .text.crc_single_data_calculate:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:139    .text.crc_block_data_calculate:0000000000000000 crc_block_data_calculate
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:142    .text.crc_block_data_calculate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:144    .text.crc_block_data_calculate:0000000000000000 .L0 
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 8
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:13     .text.crc_deinit:0000000000000000 crc_deinit
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:17     .text.crc_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:18     .text.crc_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:19     .text.crc_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:20     .text.crc_deinit:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:24     .text.crc_deinit:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:25     .text.crc_deinit:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:27     .text.crc_deinit:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:28     .text.crc_deinit:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:31     .text.crc_deinit:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:32     .text.crc_deinit:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:39     .text.crc_data_register_reset:0000000000000000 crc_data_register_reset
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:42     .text.crc_data_register_reset:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:43     .text.crc_data_register_reset:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:44     .text.crc_data_register_reset:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:45     .text.crc_data_register_reset:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:50     .text.crc_data_register_reset:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:51     .text.crc_data_register_reset:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:58     .text.crc_data_register_read:0000000000000000 crc_data_register_read
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:61     .text.crc_data_register_read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:62     .text.crc_data_register_read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:63     .text.crc_data_register_read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:64     .text.crc_data_register_read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:65     .text.crc_data_register_read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:69     .text.crc_data_register_read:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:70     .text.crc_data_register_read:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:71     .text.crc_data_register_read:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:78     .text.crc_free_data_register_read:0000000000000000 crc_free_data_register_read
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:81     .text.crc_free_data_register_read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:82     .text.crc_free_data_register_read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:83     .text.crc_free_data_register_read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:84     .text.crc_free_data_register_read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:85     .text.crc_free_data_register_read:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:89     .text.crc_free_data_register_read:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:90     .text.crc_free_data_register_read:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:92     .text.crc_free_data_register_read:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:99     .text.crc_free_data_register_write:0000000000000000 crc_free_data_register_write
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:102    .text.crc_free_data_register_write:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:104    .text.crc_free_data_register_write:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:105    .text.crc_free_data_register_write:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:106    .text.crc_free_data_register_write:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:109    .text.crc_free_data_register_write:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:110    .text.crc_free_data_register_write:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:117    .text.crc_single_data_calculate:0000000000000000 crc_single_data_calculate
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:120    .text.crc_single_data_calculate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:122    .text.crc_single_data_calculate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:123    .text.crc_single_data_calculate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:124    .text.crc_single_data_calculate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:127    .text.crc_single_data_calculate:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:128    .text.crc_single_data_calculate:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:131    .text.crc_single_data_calculate:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:132    .text.crc_single_data_calculate:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:139    .text.crc_block_data_calculate:0000000000000000 crc_block_data_calculate
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:142    .text.crc_block_data_calculate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:144    .text.crc_block_data_calculate:0000000000000000 .L0 
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s 			page 8
 
 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:145    .text.crc_block_data_calculate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:146    .text.crc_block_data_calculate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:147    .text.crc_block_data_calculate:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:149    .text.crc_block_data_calculate:0000000000000002 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:153    .text.crc_block_data_calculate:0000000000000006 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:155    .text.crc_block_data_calculate:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:156    .text.crc_block_data_calculate:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:161    .text.crc_block_data_calculate:0000000000000010 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:165    .text.crc_block_data_calculate:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:166    .text.crc_block_data_calculate:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:170    .text.crc_block_data_calculate:000000000000001a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:173    .text.crc_block_data_calculate:000000000000001c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:175    .text.crc_block_data_calculate:0000000000000020 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:35     .text.crc_deinit:0000000000000012 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:54     .text.crc_data_register_reset:000000000000000e .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:74     .text.crc_data_register_read:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:95     .text.crc_free_data_register_read:000000000000000c .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:113    .text.crc_free_data_register_write:0000000000000008 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:135    .text.crc_single_data_calculate:000000000000000a .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:178    .text.crc_block_data_calculate:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:145    .text.crc_block_data_calculate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:146    .text.crc_block_data_calculate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:147    .text.crc_block_data_calculate:0000000000000000 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:149    .text.crc_block_data_calculate:0000000000000002 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:153    .text.crc_block_data_calculate:0000000000000006 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:155    .text.crc_block_data_calculate:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:156    .text.crc_block_data_calculate:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:161    .text.crc_block_data_calculate:0000000000000010 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:165    .text.crc_block_data_calculate:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:166    .text.crc_block_data_calculate:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:170    .text.crc_block_data_calculate:000000000000001a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:173    .text.crc_block_data_calculate:000000000000001c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:175    .text.crc_block_data_calculate:0000000000000020 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:35     .text.crc_deinit:0000000000000012 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:54     .text.crc_data_register_reset:000000000000000e .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:74     .text.crc_data_register_read:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:95     .text.crc_free_data_register_read:000000000000000c .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:113    .text.crc_free_data_register_write:0000000000000008 .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:135    .text.crc_single_data_calculate:000000000000000a .L0 
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:178    .text.crc_block_data_calculate:0000000000000020 .L0 
                      .debug_frame:0000000000000000 .L0 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:163    .text.crc_block_data_calculate:0000000000000012 .L9
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:151    .text.crc_block_data_calculate:0000000000000006 .L8
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:437    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:817    .debug_str:00000000000001d1 .LASF27
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:805    .debug_str:0000000000000145 .LASF28
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:801    .debug_str:00000000000000e7 .LASF29
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:747    .debug_ranges:0000000000000000 .Ldebug_ranges0
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:765    .debug_line:0000000000000000 .Ldebug_line0
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:787    .debug_str:000000000000008e .LASF0
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:825    .debug_str:0000000000000277 .LASF1
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:767    .debug_str:0000000000000000 .LASF6
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:781    .debug_str:0000000000000059 .LASF2
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:815    .debug_str:00000000000001c7 .LASF3
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:777    .debug_str:0000000000000040 .LASF4
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:821    .debug_str:0000000000000262 .LASF5
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:785    .debug_str:0000000000000083 .LASF7
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:775    .debug_str:000000000000002e .LASF8
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:807    .debug_str:000000000000018b .LASF9
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:793    .debug_str:00000000000000ab .LASF10
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:795    .debug_str:00000000000000c2 .LASF11
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:819    .debug_str:0000000000000259 .LASF12
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:809    .debug_str:0000000000000199 .LASF30
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:823    .debug_str:000000000000026b .LASF13
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:803    .debug_str:000000000000012c .LASF16
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:140    .text.crc_block_data_calculate:0000000000000000 .LFB8
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:176    .text.crc_block_data_calculate:0000000000000020 .LFE8
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:779    .debug_str:0000000000000053 .LASF14
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:676    .debug_loc:0000000000000000 .LLST1
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:773    .debug_str:0000000000000029 .LASF15
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:811    .debug_str:00000000000001a9 .LASF21
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:694    .debug_loc:000000000000002c .LLST2
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:769    .debug_str:000000000000000a .LASF17
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:118    .text.crc_single_data_calculate:0000000000000000 .LFB7
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:133    .text.crc_single_data_calculate:000000000000000a .LFE7
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:797    .debug_str:00000000000000ca .LASF18
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:710    .debug_loc:0000000000000056 .LLST0
-GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccu01vid.s 			page 9
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:163    .text.crc_block_data_calculate:0000000000000012 .L9
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:151    .text.crc_block_data_calculate:0000000000000006 .L8
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:437    .debug_abbrev:0000000000000000 .Ldebug_abbrev0
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:817    .debug_str:00000000000001d1 .LASF27
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:805    .debug_str:0000000000000145 .LASF28
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:801    .debug_str:00000000000000e7 .LASF29
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:747    .debug_ranges:0000000000000000 .Ldebug_ranges0
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:765    .debug_line:0000000000000000 .Ldebug_line0
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:787    .debug_str:000000000000008e .LASF0
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:825    .debug_str:0000000000000277 .LASF1
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:767    .debug_str:0000000000000000 .LASF6
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:781    .debug_str:0000000000000059 .LASF2
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:815    .debug_str:00000000000001c7 .LASF3
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:777    .debug_str:0000000000000040 .LASF4
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:821    .debug_str:0000000000000262 .LASF5
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:785    .debug_str:0000000000000083 .LASF7
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:775    .debug_str:000000000000002e .LASF8
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:807    .debug_str:000000000000018b .LASF9
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:793    .debug_str:00000000000000ab .LASF10
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:795    .debug_str:00000000000000c2 .LASF11
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:819    .debug_str:0000000000000259 .LASF12
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:809    .debug_str:0000000000000199 .LASF30
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:823    .debug_str:000000000000026b .LASF13
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:803    .debug_str:000000000000012c .LASF16
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:140    .text.crc_block_data_calculate:0000000000000000 .LFB8
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:176    .text.crc_block_data_calculate:0000000000000020 .LFE8
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:779    .debug_str:0000000000000053 .LASF14
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:676    .debug_loc:0000000000000000 .LLST1
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:773    .debug_str:0000000000000029 .LASF15
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:811    .debug_str:00000000000001a9 .LASF21
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:694    .debug_loc:000000000000002c .LLST2
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:769    .debug_str:000000000000000a .LASF17
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:118    .text.crc_single_data_calculate:0000000000000000 .LFB7
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:133    .text.crc_single_data_calculate:000000000000000a .LFE7
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:797    .debug_str:00000000000000ca .LASF18
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:710    .debug_loc:0000000000000056 .LLST0
+GAS LISTING C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s 			page 9
 
 
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:829    .debug_str:000000000000028e .LASF31
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:100    .text.crc_free_data_register_write:0000000000000000 .LFB6
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:111    .text.crc_free_data_register_write:0000000000000008 .LFE6
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:789    .debug_str:000000000000009b .LASF19
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:783    .debug_str:0000000000000067 .LASF20
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:79     .text.crc_free_data_register_read:0000000000000000 .LFB5
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:93     .text.crc_free_data_register_read:000000000000000c .LFE5
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:791    .debug_str:00000000000000a5 .LASF22
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:799    .debug_str:00000000000000d0 .LASF23
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:59     .text.crc_data_register_read:0000000000000000 .LFB4
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:72     .text.crc_data_register_read:0000000000000008 .LFE4
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:771    .debug_str:0000000000000024 .LASF24
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:813    .debug_str:00000000000001af .LASF25
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:40     .text.crc_data_register_reset:0000000000000000 .LFB3
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:52     .text.crc_data_register_reset:000000000000000e .LFE3
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:827    .debug_str:0000000000000283 .LASF26
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:14     .text.crc_deinit:0000000000000000 .LFB2
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:33     .text.crc_deinit:0000000000000012 .LFE2
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:143    .text.crc_block_data_calculate:0000000000000000 .LVL5
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:159    .text.crc_block_data_calculate:0000000000000010 .LVL8
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:162    .text.crc_block_data_calculate:0000000000000012 .LVL9
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:150    .text.crc_block_data_calculate:0000000000000006 .LVL6
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:157    .text.crc_block_data_calculate:000000000000000e .LVL7
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:121    .text.crc_single_data_calculate:0000000000000000 .LVL3
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:129    .text.crc_single_data_calculate:0000000000000008 .LVL4
-C:\Users\kasie\AppData\Local\Temp\ccu01vid.s:184    .debug_info:0000000000000000 .Ldebug_info0
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:829    .debug_str:000000000000028e .LASF31
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:100    .text.crc_free_data_register_write:0000000000000000 .LFB6
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:111    .text.crc_free_data_register_write:0000000000000008 .LFE6
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:789    .debug_str:000000000000009b .LASF19
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:783    .debug_str:0000000000000067 .LASF20
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:79     .text.crc_free_data_register_read:0000000000000000 .LFB5
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:93     .text.crc_free_data_register_read:000000000000000c .LFE5
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:791    .debug_str:00000000000000a5 .LASF22
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:799    .debug_str:00000000000000d0 .LASF23
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:59     .text.crc_data_register_read:0000000000000000 .LFB4
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:72     .text.crc_data_register_read:0000000000000008 .LFE4
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:771    .debug_str:0000000000000024 .LASF24
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:813    .debug_str:00000000000001af .LASF25
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:40     .text.crc_data_register_reset:0000000000000000 .LFB3
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:52     .text.crc_data_register_reset:000000000000000e .LFE3
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:827    .debug_str:0000000000000283 .LASF26
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:14     .text.crc_deinit:0000000000000000 .LFB2
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:33     .text.crc_deinit:0000000000000012 .LFE2
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:143    .text.crc_block_data_calculate:0000000000000000 .LVL5
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:159    .text.crc_block_data_calculate:0000000000000010 .LVL8
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:162    .text.crc_block_data_calculate:0000000000000012 .LVL9
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:150    .text.crc_block_data_calculate:0000000000000006 .LVL6
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:157    .text.crc_block_data_calculate:000000000000000e .LVL7
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:121    .text.crc_single_data_calculate:0000000000000000 .LVL3
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:129    .text.crc_single_data_calculate:0000000000000008 .LVL4
+C:\Users\kasie\AppData\Local\Temp\ccBWm3Pl.s:184    .debug_info:0000000000000000 .Ldebug_info0
 
 NO UNDEFINED SYMBOLS
